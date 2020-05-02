@@ -1,0 +1,3151 @@
+code,month,UEP Rate,State,year,Month
+AL,Jan,6,Alabama,2015,2015-01
+AL,Feb,6,Alabama,2015,2015-02
+AL,Mar,6.1,Alabama,2015,2015-03
+AL,Apr,6.1,Alabama,2015,2015-04
+AL,May,6.2,Alabama,2015,2015-05
+AL,Jun,6.2,Alabama,2015,2015-06
+AL,Jul,6.2,Alabama,2015,2015-07
+AL,Aug,6.1,Alabama,2015,2015-08
+AL,Sep,6.1,Alabama,2015,2015-09
+AL,Oct,6,Alabama,2015,2015-10
+AL,Nov,6,Alabama,2015,2015-11
+AL,Dec,6,Alabama,2015,2015-12
+AL,Jan,6,Alabama,2016,2016-01
+AL,Feb,5.9,Alabama,2016,2016-02
+AL,Mar,5.9,Alabama,2016,2016-03
+AL,Apr,5.8,Alabama,2016,2016-04
+AL,May,5.8,Alabama,2016,2016-05
+AL,Jun,5.8,Alabama,2016,2016-06
+AL,Jul,5.8,Alabama,2016,2016-07
+AL,Aug,5.8,Alabama,2016,2016-08
+AL,Sep,5.9,Alabama,2016,2016-09
+AL,Oct,5.9,Alabama,2016,2016-10
+AL,Nov,5.8,Alabama,2016,2016-11
+AL,Dec,5.7,Alabama,2016,2016-12
+AL,Jan,5.4,Alabama,2017,2017-01
+AL,Feb,5.2,Alabama,2017,2017-02
+AL,Mar,4.9,Alabama,2017,2017-03
+AL,Apr,4.7,Alabama,2017,2017-04
+AL,May,4.5,Alabama,2017,2017-05
+AL,Jun,4.3,Alabama,2017,2017-06
+AL,Jul,4.2,Alabama,2017,2017-07
+AL,Aug,4.1,Alabama,2017,2017-08
+AL,Sep,4,Alabama,2017,2017-09
+AL,Oct,3.9,Alabama,2017,2017-10
+AL,Nov,3.9,Alabama,2017,2017-11
+AL,Dec,3.9,Alabama,2017,2017-12
+AL,Jan,3.9,Alabama,2018,2018-01
+AL,Feb,3.9,Alabama,2018,2018-02
+AL,Mar,4,Alabama,2018,2018-03
+AL,Apr,4,Alabama,2018,2018-04
+AL,May,4,Alabama,2018,2018-05
+AL,Jun,4,Alabama,2018,2018-06
+AL,Jul,4,Alabama,2018,2018-07
+AL,Aug,3.9,Alabama,2018,2018-08
+AL,Sep,3.8,Alabama,2018,2018-09
+AL,Oct,3.7,Alabama,2018,2018-10
+AL,Nov,3.7,Alabama,2018,2018-11
+AL,Dec,3.6,Alabama,2018,2018-12
+AL,Jan,3.6,Alabama,2019,2019-01
+AL,Feb,3.5,Alabama,2019,2019-02
+AL,Mar,3.3,Alabama,2019,2019-03
+AL,Apr,3.2,Alabama,2019,2019-04
+AL,May,3,Alabama,2019,2019-05
+AL,Jun,2.9,Alabama,2019,2019-06
+AL,Jul,2.8,Alabama,2019,2019-07
+AL,Aug,2.8,Alabama,2019,2019-08
+AL,Sep,2.7,Alabama,2019,2019-09
+AL,Oct,2.7,Alabama,2019,2019-10
+AL,Nov,2.7,Alabama,2019,2019-11
+AL,Dec,2.7,Alabama,2019,2019-12
+AL,Jan,2.7,Alabama,2020,2020-01
+AL,Feb,2.7,Alabama,2020,2020-02
+AL,Mar,3.5,Alabama,2020,2020-03
+AK,Jan,6.5,Alaska,2015,2015-01
+AK,Feb,6.5,Alaska,2015,2015-02
+AK,Mar,6.5,Alaska,2015,2015-03
+AK,Apr,6.5,Alaska,2015,2015-04
+AK,May,6.5,Alaska,2015,2015-05
+AK,Jun,6.5,Alaska,2015,2015-06
+AK,Jul,6.5,Alaska,2015,2015-07
+AK,Aug,6.5,Alaska,2015,2015-08
+AK,Sep,6.5,Alaska,2015,2015-09
+AK,Oct,6.6,Alaska,2015,2015-10
+AK,Nov,6.6,Alaska,2015,2015-11
+AK,Dec,6.7,Alaska,2015,2015-12
+AK,Jan,6.7,Alaska,2016,2016-01
+AK,Feb,6.8,Alaska,2016,2016-02
+AK,Mar,6.8,Alaska,2016,2016-03
+AK,Apr,6.8,Alaska,2016,2016-04
+AK,May,6.9,Alaska,2016,2016-05
+AK,Jun,6.9,Alaska,2016,2016-06
+AK,Jul,6.9,Alaska,2016,2016-07
+AK,Aug,6.9,Alaska,2016,2016-08
+AK,Sep,6.9,Alaska,2016,2016-09
+AK,Oct,6.9,Alaska,2016,2016-10
+AK,Nov,6.9,Alaska,2016,2016-11
+AK,Dec,6.9,Alaska,2016,2016-12
+AK,Jan,6.9,Alaska,2017,2017-01
+AK,Feb,6.9,Alaska,2017,2017-02
+AK,Mar,6.9,Alaska,2017,2017-03
+AK,Apr,6.9,Alaska,2017,2017-04
+AK,May,6.9,Alaska,2017,2017-05
+AK,Jun,6.9,Alaska,2017,2017-06
+AK,Jul,6.9,Alaska,2017,2017-07
+AK,Aug,6.9,Alaska,2017,2017-08
+AK,Sep,6.9,Alaska,2017,2017-09
+AK,Oct,6.9,Alaska,2017,2017-10
+AK,Nov,6.8,Alaska,2017,2017-11
+AK,Dec,6.8,Alaska,2017,2017-12
+AK,Jan,6.7,Alaska,2018,2018-01
+AK,Feb,6.7,Alaska,2018,2018-02
+AK,Mar,6.6,Alaska,2018,2018-03
+AK,Apr,6.6,Alaska,2018,2018-04
+AK,May,6.5,Alaska,2018,2018-05
+AK,Jun,6.5,Alaska,2018,2018-06
+AK,Jul,6.4,Alaska,2018,2018-07
+AK,Aug,6.4,Alaska,2018,2018-08
+AK,Sep,6.3,Alaska,2018,2018-09
+AK,Oct,6.3,Alaska,2018,2018-10
+AK,Nov,6.2,Alaska,2018,2018-11
+AK,Dec,6.2,Alaska,2018,2018-12
+AK,Jan,6.1,Alaska,2019,2019-01
+AK,Feb,6.1,Alaska,2019,2019-02
+AK,Mar,6.1,Alaska,2019,2019-03
+AK,Apr,6.1,Alaska,2019,2019-04
+AK,May,6.2,Alaska,2019,2019-05
+AK,Jun,6.2,Alaska,2019,2019-06
+AK,Jul,6.2,Alaska,2019,2019-07
+AK,Aug,6.2,Alaska,2019,2019-08
+AK,Sep,6.2,Alaska,2019,2019-09
+AK,Oct,6.1,Alaska,2019,2019-10
+AK,Nov,6.1,Alaska,2019,2019-11
+AK,Dec,6.1,Alaska,2019,2019-12
+AK,Jan,6,Alaska,2020,2020-01
+AK,Feb,5.8,Alaska,2020,2020-02
+AK,Mar,5.6,Alaska,2020,2020-03
+AZ,Jan,6.4,Arizona,2015,2015-01
+AZ,Feb,6.3,Arizona,2015,2015-02
+AZ,Mar,6.3,Arizona,2015,2015-03
+AZ,Apr,6.2,Arizona,2015,2015-04
+AZ,May,6.1,Arizona,2015,2015-05
+AZ,Jun,6.1,Arizona,2015,2015-06
+AZ,Jul,6,Arizona,2015,2015-07
+AZ,Aug,6,Arizona,2015,2015-08
+AZ,Sep,5.9,Arizona,2015,2015-09
+AZ,Oct,5.9,Arizona,2015,2015-10
+AZ,Nov,5.8,Arizona,2015,2015-11
+AZ,Dec,5.7,Arizona,2015,2015-12
+AZ,Jan,5.6,Arizona,2016,2016-01
+AZ,Feb,5.5,Arizona,2016,2016-02
+AZ,Mar,5.5,Arizona,2016,2016-03
+AZ,Apr,5.5,Arizona,2016,2016-04
+AZ,May,5.4,Arizona,2016,2016-05
+AZ,Jun,5.4,Arizona,2016,2016-06
+AZ,Jul,5.4,Arizona,2016,2016-07
+AZ,Aug,5.3,Arizona,2016,2016-08
+AZ,Sep,5.3,Arizona,2016,2016-09
+AZ,Oct,5.2,Arizona,2016,2016-10
+AZ,Nov,5.2,Arizona,2016,2016-11
+AZ,Dec,5.2,Arizona,2016,2016-12
+AZ,Jan,5.1,Arizona,2017,2017-01
+AZ,Feb,5.1,Arizona,2017,2017-02
+AZ,Mar,5,Arizona,2017,2017-03
+AZ,Apr,5,Arizona,2017,2017-04
+AZ,May,4.9,Arizona,2017,2017-05
+AZ,Jun,4.8,Arizona,2017,2017-06
+AZ,Jul,4.8,Arizona,2017,2017-07
+AZ,Aug,4.7,Arizona,2017,2017-08
+AZ,Sep,4.7,Arizona,2017,2017-09
+AZ,Oct,4.7,Arizona,2017,2017-10
+AZ,Nov,4.7,Arizona,2017,2017-11
+AZ,Dec,4.8,Arizona,2017,2017-12
+AZ,Jan,4.8,Arizona,2018,2018-01
+AZ,Feb,4.8,Arizona,2018,2018-02
+AZ,Mar,4.7,Arizona,2018,2018-03
+AZ,Apr,4.7,Arizona,2018,2018-04
+AZ,May,4.7,Arizona,2018,2018-05
+AZ,Jun,4.7,Arizona,2018,2018-06
+AZ,Jul,4.7,Arizona,2018,2018-07
+AZ,Aug,4.7,Arizona,2018,2018-08
+AZ,Sep,4.7,Arizona,2018,2018-09
+AZ,Oct,4.8,Arizona,2018,2018-10
+AZ,Nov,4.8,Arizona,2018,2018-11
+AZ,Dec,4.8,Arizona,2018,2018-12
+AZ,Jan,4.9,Arizona,2019,2019-01
+AZ,Feb,4.9,Arizona,2019,2019-02
+AZ,Mar,4.8,Arizona,2019,2019-03
+AZ,Apr,4.8,Arizona,2019,2019-04
+AZ,May,4.8,Arizona,2019,2019-05
+AZ,Jun,4.8,Arizona,2019,2019-06
+AZ,Jul,4.7,Arizona,2019,2019-07
+AZ,Aug,4.6,Arizona,2019,2019-08
+AZ,Sep,4.6,Arizona,2019,2019-09
+AZ,Oct,4.5,Arizona,2019,2019-10
+AZ,Nov,4.5,Arizona,2019,2019-11
+AZ,Dec,4.5,Arizona,2019,2019-12
+AZ,Jan,4.5,Arizona,2020,2020-01
+AZ,Feb,4.5,Arizona,2020,2020-02
+AZ,Mar,5.5,Arizona,2020,2020-03
+AR,Jan,5.6,Arkansas,2015,2015-01
+AR,Feb,5.5,Arkansas,2015,2015-02
+AR,Mar,5.5,Arkansas,2015,2015-03
+AR,Apr,5.4,Arkansas,2015,2015-04
+AR,May,5.3,Arkansas,2015,2015-05
+AR,Jun,5.1,Arkansas,2015,2015-06
+AR,Jul,5,Arkansas,2015,2015-07
+AR,Aug,4.8,Arkansas,2015,2015-08
+AR,Sep,4.7,Arkansas,2015,2015-09
+AR,Oct,4.5,Arkansas,2015,2015-10
+AR,Nov,4.4,Arkansas,2015,2015-11
+AR,Dec,4.3,Arkansas,2015,2015-12
+AR,Jan,4.2,Arkansas,2016,2016-01
+AR,Feb,4.2,Arkansas,2016,2016-02
+AR,Mar,4.1,Arkansas,2016,2016-03
+AR,Apr,4,Arkansas,2016,2016-04
+AR,May,4,Arkansas,2016,2016-05
+AR,Jun,4,Arkansas,2016,2016-06
+AR,Jul,4,Arkansas,2016,2016-07
+AR,Aug,3.9,Arkansas,2016,2016-08
+AR,Sep,3.9,Arkansas,2016,2016-09
+AR,Oct,3.8,Arkansas,2016,2016-10
+AR,Nov,3.8,Arkansas,2016,2016-11
+AR,Dec,3.7,Arkansas,2016,2016-12
+AR,Jan,3.7,Arkansas,2017,2017-01
+AR,Feb,3.7,Arkansas,2017,2017-02
+AR,Mar,3.6,Arkansas,2017,2017-03
+AR,Apr,3.6,Arkansas,2017,2017-04
+AR,May,3.7,Arkansas,2017,2017-05
+AR,Jun,3.7,Arkansas,2017,2017-06
+AR,Jul,3.7,Arkansas,2017,2017-07
+AR,Aug,3.7,Arkansas,2017,2017-08
+AR,Sep,3.7,Arkansas,2017,2017-09
+AR,Oct,3.7,Arkansas,2017,2017-10
+AR,Nov,3.7,Arkansas,2017,2017-11
+AR,Dec,3.7,Arkansas,2017,2017-12
+AR,Jan,3.7,Arkansas,2018,2018-01
+AR,Feb,3.7,Arkansas,2018,2018-02
+AR,Mar,3.7,Arkansas,2018,2018-03
+AR,Apr,3.7,Arkansas,2018,2018-04
+AR,May,3.7,Arkansas,2018,2018-05
+AR,Jun,3.6,Arkansas,2018,2018-06
+AR,Jul,3.6,Arkansas,2018,2018-07
+AR,Aug,3.6,Arkansas,2018,2018-08
+AR,Sep,3.6,Arkansas,2018,2018-09
+AR,Oct,3.6,Arkansas,2018,2018-10
+AR,Nov,3.6,Arkansas,2018,2018-11
+AR,Dec,3.6,Arkansas,2018,2018-12
+AR,Jan,3.6,Arkansas,2019,2019-01
+AR,Feb,3.6,Arkansas,2019,2019-02
+AR,Mar,3.5,Arkansas,2019,2019-03
+AR,Apr,3.5,Arkansas,2019,2019-04
+AR,May,3.5,Arkansas,2019,2019-05
+AR,Jun,3.6,Arkansas,2019,2019-06
+AR,Jul,3.6,Arkansas,2019,2019-07
+AR,Aug,3.6,Arkansas,2019,2019-08
+AR,Sep,3.6,Arkansas,2019,2019-09
+AR,Oct,3.5,Arkansas,2019,2019-10
+AR,Nov,3.5,Arkansas,2019,2019-11
+AR,Dec,3.5,Arkansas,2019,2019-12
+AR,Jan,3.5,Arkansas,2020,2020-01
+AR,Feb,3.5,Arkansas,2020,2020-02
+AR,Mar,4.8,Arkansas,2020,2020-03
+CA,Jan,6.8,California,2015,2015-01
+CA,Feb,6.7,California,2015,2015-02
+CA,Mar,6.6,California,2015,2015-03
+CA,Apr,6.5,California,2015,2015-04
+CA,May,6.4,California,2015,2015-05
+CA,Jun,6.2,California,2015,2015-06
+CA,Jul,6.1,California,2015,2015-07
+CA,Aug,6,California,2015,2015-08
+CA,Sep,5.9,California,2015,2015-09
+CA,Oct,5.8,California,2015,2015-10
+CA,Nov,5.8,California,2015,2015-11
+CA,Dec,5.7,California,2015,2015-12
+CA,Jan,5.7,California,2016,2016-01
+CA,Feb,5.6,California,2016,2016-02
+CA,Mar,5.6,California,2016,2016-03
+CA,Apr,5.5,California,2016,2016-04
+CA,May,5.5,California,2016,2016-05
+CA,Jun,5.5,California,2016,2016-06
+CA,Jul,5.5,California,2016,2016-07
+CA,Aug,5.5,California,2016,2016-08
+CA,Sep,5.4,California,2016,2016-09
+CA,Oct,5.4,California,2016,2016-10
+CA,Nov,5.4,California,2016,2016-11
+CA,Dec,5.3,California,2016,2016-12
+CA,Jan,5.2,California,2017,2017-01
+CA,Feb,5.1,California,2017,2017-02
+CA,Mar,5,California,2017,2017-03
+CA,Apr,4.9,California,2017,2017-04
+CA,May,4.9,California,2017,2017-05
+CA,Jun,4.8,California,2017,2017-06
+CA,Jul,4.8,California,2017,2017-07
+CA,Aug,4.7,California,2017,2017-08
+CA,Sep,4.6,California,2017,2017-09
+CA,Oct,4.6,California,2017,2017-10
+CA,Nov,4.5,California,2017,2017-11
+CA,Dec,4.4,California,2017,2017-12
+CA,Jan,4.4,California,2018,2018-01
+CA,Feb,4.3,California,2018,2018-02
+CA,Mar,4.3,California,2018,2018-03
+CA,Apr,4.3,California,2018,2018-04
+CA,May,4.3,California,2018,2018-05
+CA,Jun,4.2,California,2018,2018-06
+CA,Jul,4.2,California,2018,2018-07
+CA,Aug,4.2,California,2018,2018-08
+CA,Sep,4.2,California,2018,2018-09
+CA,Oct,4.2,California,2018,2018-10
+CA,Nov,4.2,California,2018,2018-11
+CA,Dec,4.3,California,2018,2018-12
+CA,Jan,4.3,California,2019,2019-01
+CA,Feb,4.3,California,2019,2019-02
+CA,Mar,4.2,California,2019,2019-03
+CA,Apr,4.2,California,2019,2019-04
+CA,May,4.1,California,2019,2019-05
+CA,Jun,4,California,2019,2019-06
+CA,Jul,4,California,2019,2019-07
+CA,Aug,3.9,California,2019,2019-08
+CA,Sep,3.9,California,2019,2019-09
+CA,Oct,3.9,California,2019,2019-10
+CA,Nov,3.9,California,2019,2019-11
+CA,Dec,3.9,California,2019,2019-12
+CA,Jan,3.9,California,2020,2020-01
+CA,Feb,3.9,California,2020,2020-02
+CA,Mar,5.3,California,2020,2020-03
+CO,Jan,4.3,Colorado,2015,2015-01
+CO,Feb,4.2,Colorado,2015,2015-02
+CO,Mar,4.2,Colorado,2015,2015-03
+CO,Apr,4.1,Colorado,2015,2015-04
+CO,May,4.1,Colorado,2015,2015-05
+CO,Jun,4,Colorado,2015,2015-06
+CO,Jul,3.8,Colorado,2015,2015-07
+CO,Aug,3.7,Colorado,2015,2015-08
+CO,Sep,3.6,Colorado,2015,2015-09
+CO,Oct,3.6,Colorado,2015,2015-10
+CO,Nov,3.5,Colorado,2015,2015-11
+CO,Dec,3.5,Colorado,2015,2015-12
+CO,Jan,3.5,Colorado,2016,2016-01
+CO,Feb,3.5,Colorado,2016,2016-02
+CO,Mar,3.5,Colorado,2016,2016-03
+CO,Apr,3.5,Colorado,2016,2016-04
+CO,May,3.4,Colorado,2016,2016-05
+CO,Jun,3.4,Colorado,2016,2016-06
+CO,Jul,3.3,Colorado,2016,2016-07
+CO,Aug,3.3,Colorado,2016,2016-08
+CO,Sep,3.2,Colorado,2016,2016-09
+CO,Oct,3.1,Colorado,2016,2016-10
+CO,Nov,3,Colorado,2016,2016-11
+CO,Dec,2.9,Colorado,2016,2016-12
+CO,Jan,2.8,Colorado,2017,2017-01
+CO,Feb,2.7,Colorado,2017,2017-02
+CO,Mar,2.7,Colorado,2017,2017-03
+CO,Apr,2.7,Colorado,2017,2017-04
+CO,May,2.7,Colorado,2017,2017-05
+CO,Jun,2.7,Colorado,2017,2017-06
+CO,Jul,2.8,Colorado,2017,2017-07
+CO,Aug,2.8,Colorado,2017,2017-08
+CO,Sep,2.9,Colorado,2017,2017-09
+CO,Oct,2.9,Colorado,2017,2017-10
+CO,Nov,2.9,Colorado,2017,2017-11
+CO,Dec,2.9,Colorado,2017,2017-12
+CO,Jan,3,Colorado,2018,2018-01
+CO,Feb,3,Colorado,2018,2018-02
+CO,Mar,3,Colorado,2018,2018-03
+CO,Apr,3.1,Colorado,2018,2018-04
+CO,May,3.1,Colorado,2018,2018-05
+CO,Jun,3.2,Colorado,2018,2018-06
+CO,Jul,3.2,Colorado,2018,2018-07
+CO,Aug,3.2,Colorado,2018,2018-08
+CO,Sep,3.3,Colorado,2018,2018-09
+CO,Oct,3.3,Colorado,2018,2018-10
+CO,Nov,3.3,Colorado,2018,2018-11
+CO,Dec,3.2,Colorado,2018,2018-12
+CO,Jan,3.2,Colorado,2019,2019-01
+CO,Feb,3.1,Colorado,2019,2019-02
+CO,Mar,3,Colorado,2019,2019-03
+CO,Apr,2.9,Colorado,2019,2019-04
+CO,May,2.8,Colorado,2019,2019-05
+CO,Jun,2.7,Colorado,2019,2019-06
+CO,Jul,2.7,Colorado,2019,2019-07
+CO,Aug,2.6,Colorado,2019,2019-08
+CO,Sep,2.6,Colorado,2019,2019-09
+CO,Oct,2.5,Colorado,2019,2019-10
+CO,Nov,2.5,Colorado,2019,2019-11
+CO,Dec,2.5,Colorado,2019,2019-12
+CO,Jan,2.5,Colorado,2020,2020-01
+CO,Feb,2.5,Colorado,2020,2020-02
+CO,Mar,4.5,Colorado,2020,2020-03
+CT,Jan,6.1,Connecticut,2015,2015-01
+CT,Feb,6,Connecticut,2015,2015-02
+CT,Mar,5.9,Connecticut,2015,2015-03
+CT,Apr,5.8,Connecticut,2015,2015-04
+CT,May,5.7,Connecticut,2015,2015-05
+CT,Jun,5.7,Connecticut,2015,2015-06
+CT,Jul,5.6,Connecticut,2015,2015-07
+CT,Aug,5.6,Connecticut,2015,2015-08
+CT,Sep,5.6,Connecticut,2015,2015-09
+CT,Oct,5.6,Connecticut,2015,2015-10
+CT,Nov,5.6,Connecticut,2015,2015-11
+CT,Dec,5.5,Connecticut,2015,2015-12
+CT,Jan,5.5,Connecticut,2016,2016-01
+CT,Feb,5.4,Connecticut,2016,2016-02
+CT,Mar,5.4,Connecticut,2016,2016-03
+CT,Apr,5.3,Connecticut,2016,2016-04
+CT,May,5.3,Connecticut,2016,2016-05
+CT,Jun,5.2,Connecticut,2016,2016-06
+CT,Jul,5.2,Connecticut,2016,2016-07
+CT,Aug,5.1,Connecticut,2016,2016-08
+CT,Sep,5,Connecticut,2016,2016-09
+CT,Oct,4.9,Connecticut,2016,2016-10
+CT,Nov,4.9,Connecticut,2016,2016-11
+CT,Dec,4.8,Connecticut,2016,2016-12
+CT,Jan,4.8,Connecticut,2017,2017-01
+CT,Feb,4.8,Connecticut,2017,2017-02
+CT,Mar,4.8,Connecticut,2017,2017-03
+CT,Apr,4.8,Connecticut,2017,2017-04
+CT,May,4.8,Connecticut,2017,2017-05
+CT,Jun,4.7,Connecticut,2017,2017-06
+CT,Jul,4.7,Connecticut,2017,2017-07
+CT,Aug,4.6,Connecticut,2017,2017-08
+CT,Sep,4.6,Connecticut,2017,2017-09
+CT,Oct,4.6,Connecticut,2017,2017-10
+CT,Nov,4.6,Connecticut,2017,2017-11
+CT,Dec,4.6,Connecticut,2017,2017-12
+CT,Jan,4.5,Connecticut,2018,2018-01
+CT,Feb,4.5,Connecticut,2018,2018-02
+CT,Mar,4.4,Connecticut,2018,2018-03
+CT,Apr,4.3,Connecticut,2018,2018-04
+CT,May,4.2,Connecticut,2018,2018-05
+CT,Jun,4.2,Connecticut,2018,2018-06
+CT,Jul,4.1,Connecticut,2018,2018-07
+CT,Aug,4,Connecticut,2018,2018-08
+CT,Sep,4,Connecticut,2018,2018-09
+CT,Oct,3.9,Connecticut,2018,2018-10
+CT,Nov,3.9,Connecticut,2018,2018-11
+CT,Dec,3.9,Connecticut,2018,2018-12
+CT,Jan,3.8,Connecticut,2019,2019-01
+CT,Feb,3.8,Connecticut,2019,2019-02
+CT,Mar,3.7,Connecticut,2019,2019-03
+CT,Apr,3.7,Connecticut,2019,2019-04
+CT,May,3.7,Connecticut,2019,2019-05
+CT,Jun,3.7,Connecticut,2019,2019-06
+CT,Jul,3.7,Connecticut,2019,2019-07
+CT,Aug,3.7,Connecticut,2019,2019-08
+CT,Sep,3.7,Connecticut,2019,2019-09
+CT,Oct,3.8,Connecticut,2019,2019-10
+CT,Nov,3.8,Connecticut,2019,2019-11
+CT,Dec,3.8,Connecticut,2019,2019-12
+CT,Jan,3.7,Connecticut,2020,2020-01
+CT,Feb,3.8,Connecticut,2020,2020-02
+CT,Mar,3.7,Connecticut,2020,2020-03
+DE,Jan,5.1,Delaware,2015,2015-01
+DE,Feb,5,Delaware,2015,2015-02
+DE,Mar,5,Delaware,2015,2015-03
+DE,Apr,4.9,Delaware,2015,2015-04
+DE,May,4.9,Delaware,2015,2015-05
+DE,Jun,4.9,Delaware,2015,2015-06
+DE,Jul,4.8,Delaware,2015,2015-07
+DE,Aug,4.8,Delaware,2015,2015-08
+DE,Sep,4.8,Delaware,2015,2015-09
+DE,Oct,4.7,Delaware,2015,2015-10
+DE,Nov,4.7,Delaware,2015,2015-11
+DE,Dec,4.7,Delaware,2015,2015-12
+DE,Jan,4.6,Delaware,2016,2016-01
+DE,Feb,4.6,Delaware,2016,2016-02
+DE,Mar,4.5,Delaware,2016,2016-03
+DE,Apr,4.5,Delaware,2016,2016-04
+DE,May,4.5,Delaware,2016,2016-05
+DE,Jun,4.5,Delaware,2016,2016-06
+DE,Jul,4.5,Delaware,2016,2016-07
+DE,Aug,4.5,Delaware,2016,2016-08
+DE,Sep,4.5,Delaware,2016,2016-09
+DE,Oct,4.5,Delaware,2016,2016-10
+DE,Nov,4.5,Delaware,2016,2016-11
+DE,Dec,4.6,Delaware,2016,2016-12
+DE,Jan,4.6,Delaware,2017,2017-01
+DE,Feb,4.6,Delaware,2017,2017-02
+DE,Mar,4.6,Delaware,2017,2017-03
+DE,Apr,4.6,Delaware,2017,2017-04
+DE,May,4.6,Delaware,2017,2017-05
+DE,Jun,4.5,Delaware,2017,2017-06
+DE,Jul,4.5,Delaware,2017,2017-07
+DE,Aug,4.4,Delaware,2017,2017-08
+DE,Sep,4.4,Delaware,2017,2017-09
+DE,Oct,4.3,Delaware,2017,2017-10
+DE,Nov,4.3,Delaware,2017,2017-11
+DE,Dec,4.2,Delaware,2017,2017-12
+DE,Jan,4.1,Delaware,2018,2018-01
+DE,Feb,4.1,Delaware,2018,2018-02
+DE,Mar,4,Delaware,2018,2018-03
+DE,Apr,3.9,Delaware,2018,2018-04
+DE,May,3.9,Delaware,2018,2018-05
+DE,Jun,3.8,Delaware,2018,2018-06
+DE,Jul,3.7,Delaware,2018,2018-07
+DE,Aug,3.7,Delaware,2018,2018-08
+DE,Sep,3.6,Delaware,2018,2018-09
+DE,Oct,3.6,Delaware,2018,2018-10
+DE,Nov,3.5,Delaware,2018,2018-11
+DE,Dec,3.5,Delaware,2018,2018-12
+DE,Jan,3.5,Delaware,2019,2019-01
+DE,Feb,3.5,Delaware,2019,2019-02
+DE,Mar,3.6,Delaware,2019,2019-03
+DE,Apr,3.6,Delaware,2019,2019-04
+DE,May,3.7,Delaware,2019,2019-05
+DE,Jun,3.7,Delaware,2019,2019-06
+DE,Jul,3.8,Delaware,2019,2019-07
+DE,Aug,3.9,Delaware,2019,2019-08
+DE,Sep,3.9,Delaware,2019,2019-09
+DE,Oct,4,Delaware,2019,2019-10
+DE,Nov,4,Delaware,2019,2019-11
+DE,Dec,4,Delaware,2019,2019-12
+DE,Jan,4,Delaware,2020,2020-01
+DE,Feb,3.9,Delaware,2020,2020-02
+DE,Mar,5.1,Delaware,2020,2020-03
+FL,Jan,5.8,Florida,2015,2015-01
+FL,Feb,5.7,Florida,2015,2015-02
+FL,Mar,5.7,Florida,2015,2015-03
+FL,Apr,5.6,Florida,2015,2015-04
+FL,May,5.6,Florida,2015,2015-05
+FL,Jun,5.5,Florida,2015,2015-06
+FL,Jul,5.4,Florida,2015,2015-07
+FL,Aug,5.4,Florida,2015,2015-08
+FL,Sep,5.3,Florida,2015,2015-09
+FL,Oct,5.2,Florida,2015,2015-10
+FL,Nov,5.1,Florida,2015,2015-11
+FL,Dec,5.1,Florida,2015,2015-12
+FL,Jan,5,Florida,2016,2016-01
+FL,Feb,4.9,Florida,2016,2016-02
+FL,Mar,4.9,Florida,2016,2016-03
+FL,Apr,4.8,Florida,2016,2016-04
+FL,May,4.8,Florida,2016,2016-05
+FL,Jun,4.8,Florida,2016,2016-06
+FL,Jul,4.8,Florida,2016,2016-07
+FL,Aug,4.8,Florida,2016,2016-08
+FL,Sep,4.8,Florida,2016,2016-09
+FL,Oct,4.8,Florida,2016,2016-10
+FL,Nov,4.7,Florida,2016,2016-11
+FL,Dec,4.7,Florida,2016,2016-12
+FL,Jan,4.6,Florida,2017,2017-01
+FL,Feb,4.5,Florida,2017,2017-02
+FL,Mar,4.4,Florida,2017,2017-03
+FL,Apr,4.3,Florida,2017,2017-04
+FL,May,4.3,Florida,2017,2017-05
+FL,Jun,4.2,Florida,2017,2017-06
+FL,Jul,4.2,Florida,2017,2017-07
+FL,Aug,4.1,Florida,2017,2017-08
+FL,Sep,4.1,Florida,2017,2017-09
+FL,Oct,4,Florida,2017,2017-10
+FL,Nov,4,Florida,2017,2017-11
+FL,Dec,4,Florida,2017,2017-12
+FL,Jan,3.9,Florida,2018,2018-01
+FL,Feb,3.9,Florida,2018,2018-02
+FL,Mar,3.8,Florida,2018,2018-03
+FL,Apr,3.7,Florida,2018,2018-04
+FL,May,3.7,Florida,2018,2018-05
+FL,Jun,3.6,Florida,2018,2018-06
+FL,Jul,3.5,Florida,2018,2018-07
+FL,Aug,3.4,Florida,2018,2018-08
+FL,Sep,3.4,Florida,2018,2018-09
+FL,Oct,3.4,Florida,2018,2018-10
+FL,Nov,3.4,Florida,2018,2018-11
+FL,Dec,3.4,Florida,2018,2018-12
+FL,Jan,3.4,Florida,2019,2019-01
+FL,Feb,3.4,Florida,2019,2019-02
+FL,Mar,3.4,Florida,2019,2019-03
+FL,Apr,3.3,Florida,2019,2019-04
+FL,May,3.2,Florida,2019,2019-05
+FL,Jun,3.2,Florida,2019,2019-06
+FL,Jul,3.1,Florida,2019,2019-07
+FL,Aug,3,Florida,2019,2019-08
+FL,Sep,2.9,Florida,2019,2019-09
+FL,Oct,2.9,Florida,2019,2019-10
+FL,Nov,2.8,Florida,2019,2019-11
+FL,Dec,2.9,Florida,2019,2019-12
+FL,Jan,2.8,Florida,2020,2020-01
+FL,Feb,2.8,Florida,2020,2020-02
+FL,Mar,4.3,Florida,2020,2020-03
+GA,Jan,6.4,Georgia,2015,2015-01
+GA,Feb,6.3,Georgia,2015,2015-02
+GA,Mar,6.3,Georgia,2015,2015-03
+GA,Apr,6.2,Georgia,2015,2015-04
+GA,May,6.1,Georgia,2015,2015-05
+GA,Jun,6,Georgia,2015,2015-06
+GA,Jul,5.9,Georgia,2015,2015-07
+GA,Aug,5.9,Georgia,2015,2015-08
+GA,Sep,5.8,Georgia,2015,2015-09
+GA,Oct,5.7,Georgia,2015,2015-10
+GA,Nov,5.6,Georgia,2015,2015-11
+GA,Dec,5.6,Georgia,2015,2015-12
+GA,Jan,5.5,Georgia,2016,2016-01
+GA,Feb,5.5,Georgia,2016,2016-02
+GA,Mar,5.4,Georgia,2016,2016-03
+GA,Apr,5.4,Georgia,2016,2016-04
+GA,May,5.3,Georgia,2016,2016-05
+GA,Jun,5.3,Georgia,2016,2016-06
+GA,Jul,5.3,Georgia,2016,2016-07
+GA,Aug,5.4,Georgia,2016,2016-08
+GA,Sep,5.4,Georgia,2016,2016-09
+GA,Oct,5.4,Georgia,2016,2016-10
+GA,Nov,5.4,Georgia,2016,2016-11
+GA,Dec,5.3,Georgia,2016,2016-12
+GA,Jan,5.2,Georgia,2017,2017-01
+GA,Feb,5.1,Georgia,2017,2017-02
+GA,Mar,5,Georgia,2017,2017-03
+GA,Apr,4.9,Georgia,2017,2017-04
+GA,May,4.8,Georgia,2017,2017-05
+GA,Jun,4.7,Georgia,2017,2017-06
+GA,Jul,4.6,Georgia,2017,2017-07
+GA,Aug,4.5,Georgia,2017,2017-08
+GA,Sep,4.5,Georgia,2017,2017-09
+GA,Oct,4.4,Georgia,2017,2017-10
+GA,Nov,4.3,Georgia,2017,2017-11
+GA,Dec,4.3,Georgia,2017,2017-12
+GA,Jan,4.2,Georgia,2018,2018-01
+GA,Feb,4.2,Georgia,2018,2018-02
+GA,Mar,4.1,Georgia,2018,2018-03
+GA,Apr,4.1,Georgia,2018,2018-04
+GA,May,4,Georgia,2018,2018-05
+GA,Jun,3.9,Georgia,2018,2018-06
+GA,Jul,3.9,Georgia,2018,2018-07
+GA,Aug,3.8,Georgia,2018,2018-08
+GA,Sep,3.8,Georgia,2018,2018-09
+GA,Oct,3.8,Georgia,2018,2018-10
+GA,Nov,3.8,Georgia,2018,2018-11
+GA,Dec,3.8,Georgia,2018,2018-12
+GA,Jan,3.8,Georgia,2019,2019-01
+GA,Feb,3.7,Georgia,2019,2019-02
+GA,Mar,3.7,Georgia,2019,2019-03
+GA,Apr,3.6,Georgia,2019,2019-04
+GA,May,3.6,Georgia,2019,2019-05
+GA,Jun,3.5,Georgia,2019,2019-06
+GA,Jul,3.4,Georgia,2019,2019-07
+GA,Aug,3.3,Georgia,2019,2019-08
+GA,Sep,3.2,Georgia,2019,2019-09
+GA,Oct,3.2,Georgia,2019,2019-10
+GA,Nov,3.1,Georgia,2019,2019-11
+GA,Dec,3.1,Georgia,2019,2019-12
+GA,Jan,3.1,Georgia,2020,2020-01
+GA,Feb,3.1,Georgia,2020,2020-02
+GA,Mar,4.2,Georgia,2020,2020-03
+HI,Jan,4,Hawaii,2015,2015-01
+HI,Feb,3.9,Hawaii,2015,2015-02
+HI,Mar,3.9,Hawaii,2015,2015-03
+HI,Apr,3.8,Hawaii,2015,2015-04
+HI,May,3.7,Hawaii,2015,2015-05
+HI,Jun,3.6,Hawaii,2015,2015-06
+HI,Jul,3.5,Hawaii,2015,2015-07
+HI,Aug,3.4,Hawaii,2015,2015-08
+HI,Sep,3.4,Hawaii,2015,2015-09
+HI,Oct,3.3,Hawaii,2015,2015-10
+HI,Nov,3.2,Hawaii,2015,2015-11
+HI,Dec,3.1,Hawaii,2015,2015-12
+HI,Jan,3.1,Hawaii,2016,2016-01
+HI,Feb,3,Hawaii,2016,2016-02
+HI,Mar,3,Hawaii,2016,2016-03
+HI,Apr,3,Hawaii,2016,2016-04
+HI,May,3,Hawaii,2016,2016-05
+HI,Jun,3,Hawaii,2016,2016-06
+HI,Jul,3,Hawaii,2016,2016-07
+HI,Aug,2.9,Hawaii,2016,2016-08
+HI,Sep,2.9,Hawaii,2016,2016-09
+HI,Oct,2.9,Hawaii,2016,2016-10
+HI,Nov,2.8,Hawaii,2016,2016-11
+HI,Dec,2.8,Hawaii,2016,2016-12
+HI,Jan,2.7,Hawaii,2017,2017-01
+HI,Feb,2.7,Hawaii,2017,2017-02
+HI,Mar,2.6,Hawaii,2017,2017-03
+HI,Apr,2.6,Hawaii,2017,2017-04
+HI,May,2.5,Hawaii,2017,2017-05
+HI,Jun,2.4,Hawaii,2017,2017-06
+HI,Jul,2.4,Hawaii,2017,2017-07
+HI,Aug,2.3,Hawaii,2017,2017-08
+HI,Sep,2.3,Hawaii,2017,2017-09
+HI,Oct,2.2,Hawaii,2017,2017-10
+HI,Nov,2.2,Hawaii,2017,2017-11
+HI,Dec,2.3,Hawaii,2017,2017-12
+HI,Jan,2.3,Hawaii,2018,2018-01
+HI,Feb,2.3,Hawaii,2018,2018-02
+HI,Mar,2.3,Hawaii,2018,2018-03
+HI,Apr,2.3,Hawaii,2018,2018-04
+HI,May,2.4,Hawaii,2018,2018-05
+HI,Jun,2.5,Hawaii,2018,2018-06
+HI,Jul,2.5,Hawaii,2018,2018-07
+HI,Aug,2.6,Hawaii,2018,2018-08
+HI,Sep,2.7,Hawaii,2018,2018-09
+HI,Oct,2.7,Hawaii,2018,2018-10
+HI,Nov,2.8,Hawaii,2018,2018-11
+HI,Dec,2.8,Hawaii,2018,2018-12
+HI,Jan,2.8,Hawaii,2019,2019-01
+HI,Feb,2.8,Hawaii,2019,2019-02
+HI,Mar,2.8,Hawaii,2019,2019-03
+HI,Apr,2.7,Hawaii,2019,2019-04
+HI,May,2.7,Hawaii,2019,2019-05
+HI,Jun,2.7,Hawaii,2019,2019-06
+HI,Jul,2.7,Hawaii,2019,2019-07
+HI,Aug,2.7,Hawaii,2019,2019-08
+HI,Sep,2.7,Hawaii,2019,2019-09
+HI,Oct,2.7,Hawaii,2019,2019-10
+HI,Nov,2.6,Hawaii,2019,2019-11
+HI,Dec,2.7,Hawaii,2019,2019-12
+HI,Jan,2.7,Hawaii,2020,2020-01
+HI,Feb,2.7,Hawaii,2020,2020-02
+HI,Mar,2.6,Hawaii,2020,2020-03
+ID,Jan,4.2,Idaho,2015,2015-01
+ID,Feb,4.2,Idaho,2015,2015-02
+ID,Mar,4.1,Idaho,2015,2015-03
+ID,Apr,4.1,Idaho,2015,2015-04
+ID,May,4.1,Idaho,2015,2015-05
+ID,Jun,4.1,Idaho,2015,2015-06
+ID,Jul,4.1,Idaho,2015,2015-07
+ID,Aug,4.1,Idaho,2015,2015-08
+ID,Sep,4.1,Idaho,2015,2015-09
+ID,Oct,4.1,Idaho,2015,2015-10
+ID,Nov,4,Idaho,2015,2015-11
+ID,Dec,4,Idaho,2015,2015-12
+ID,Jan,4,Idaho,2016,2016-01
+ID,Feb,3.9,Idaho,2016,2016-02
+ID,Mar,3.9,Idaho,2016,2016-03
+ID,Apr,3.9,Idaho,2016,2016-04
+ID,May,3.8,Idaho,2016,2016-05
+ID,Jun,3.8,Idaho,2016,2016-06
+ID,Jul,3.8,Idaho,2016,2016-07
+ID,Aug,3.8,Idaho,2016,2016-08
+ID,Sep,3.7,Idaho,2016,2016-09
+ID,Oct,3.7,Idaho,2016,2016-10
+ID,Nov,3.6,Idaho,2016,2016-11
+ID,Dec,3.5,Idaho,2016,2016-12
+ID,Jan,3.5,Idaho,2017,2017-01
+ID,Feb,3.4,Idaho,2017,2017-02
+ID,Mar,3.3,Idaho,2017,2017-03
+ID,Apr,3.3,Idaho,2017,2017-04
+ID,May,3.2,Idaho,2017,2017-05
+ID,Jun,3.2,Idaho,2017,2017-06
+ID,Jul,3.2,Idaho,2017,2017-07
+ID,Aug,3.1,Idaho,2017,2017-08
+ID,Sep,3.1,Idaho,2017,2017-09
+ID,Oct,3.1,Idaho,2017,2017-10
+ID,Nov,3.1,Idaho,2017,2017-11
+ID,Dec,3,Idaho,2017,2017-12
+ID,Jan,3,Idaho,2018,2018-01
+ID,Feb,3,Idaho,2018,2018-02
+ID,Mar,3,Idaho,2018,2018-03
+ID,Apr,2.9,Idaho,2018,2018-04
+ID,May,2.9,Idaho,2018,2018-05
+ID,Jun,2.9,Idaho,2018,2018-06
+ID,Jul,2.9,Idaho,2018,2018-07
+ID,Aug,2.8,Idaho,2018,2018-08
+ID,Sep,2.8,Idaho,2018,2018-09
+ID,Oct,2.9,Idaho,2018,2018-10
+ID,Nov,2.9,Idaho,2018,2018-11
+ID,Dec,2.9,Idaho,2018,2018-12
+ID,Jan,2.9,Idaho,2019,2019-01
+ID,Feb,2.9,Idaho,2019,2019-02
+ID,Mar,2.9,Idaho,2019,2019-03
+ID,Apr,2.9,Idaho,2019,2019-04
+ID,May,2.9,Idaho,2019,2019-05
+ID,Jun,2.9,Idaho,2019,2019-06
+ID,Jul,2.9,Idaho,2019,2019-07
+ID,Aug,2.9,Idaho,2019,2019-08
+ID,Sep,2.9,Idaho,2019,2019-09
+ID,Oct,2.9,Idaho,2019,2019-10
+ID,Nov,2.9,Idaho,2019,2019-11
+ID,Dec,2.9,Idaho,2019,2019-12
+ID,Jan,2.8,Idaho,2020,2020-01
+ID,Feb,2.7,Idaho,2020,2020-02
+ID,Mar,2.6,Idaho,2020,2020-03
+IL,Jan,6,Illinois,2015,2015-01
+IL,Feb,6,Illinois,2015,2015-02
+IL,Mar,6,Illinois,2015,2015-03
+IL,Apr,6,Illinois,2015,2015-04
+IL,May,6,Illinois,2015,2015-05
+IL,Jun,5.9,Illinois,2015,2015-06
+IL,Jul,5.9,Illinois,2015,2015-07
+IL,Aug,5.9,Illinois,2015,2015-08
+IL,Sep,5.9,Illinois,2015,2015-09
+IL,Oct,5.9,Illinois,2015,2015-10
+IL,Nov,6,Illinois,2015,2015-11
+IL,Dec,6,Illinois,2015,2015-12
+IL,Jan,6.1,Illinois,2016,2016-01
+IL,Feb,6.1,Illinois,2016,2016-02
+IL,Mar,6.1,Illinois,2016,2016-03
+IL,Apr,6,Illinois,2016,2016-04
+IL,May,5.9,Illinois,2016,2016-05
+IL,Jun,5.9,Illinois,2016,2016-06
+IL,Jul,5.8,Illinois,2016,2016-07
+IL,Aug,5.7,Illinois,2016,2016-08
+IL,Sep,5.7,Illinois,2016,2016-09
+IL,Oct,5.6,Illinois,2016,2016-10
+IL,Nov,5.5,Illinois,2016,2016-11
+IL,Dec,5.4,Illinois,2016,2016-12
+IL,Jan,5.3,Illinois,2017,2017-01
+IL,Feb,5.1,Illinois,2017,2017-02
+IL,Mar,5,Illinois,2017,2017-03
+IL,Apr,5,Illinois,2017,2017-04
+IL,May,4.9,Illinois,2017,2017-05
+IL,Jun,4.9,Illinois,2017,2017-06
+IL,Jul,5,Illinois,2017,2017-07
+IL,Aug,4.9,Illinois,2017,2017-08
+IL,Sep,4.9,Illinois,2017,2017-09
+IL,Oct,4.8,Illinois,2017,2017-10
+IL,Nov,4.7,Illinois,2017,2017-11
+IL,Dec,4.6,Illinois,2017,2017-12
+IL,Jan,4.5,Illinois,2018,2018-01
+IL,Feb,4.4,Illinois,2018,2018-02
+IL,Mar,4.4,Illinois,2018,2018-03
+IL,Apr,4.3,Illinois,2018,2018-04
+IL,May,4.3,Illinois,2018,2018-05
+IL,Jun,4.3,Illinois,2018,2018-06
+IL,Jul,4.3,Illinois,2018,2018-07
+IL,Aug,4.3,Illinois,2018,2018-08
+IL,Sep,4.2,Illinois,2018,2018-09
+IL,Oct,4.3,Illinois,2018,2018-10
+IL,Nov,4.3,Illinois,2018,2018-11
+IL,Dec,4.4,Illinois,2018,2018-12
+IL,Jan,4.4,Illinois,2019,2019-01
+IL,Feb,4.3,Illinois,2019,2019-02
+IL,Mar,4.3,Illinois,2019,2019-03
+IL,Apr,4.2,Illinois,2019,2019-04
+IL,May,4.1,Illinois,2019,2019-05
+IL,Jun,4,Illinois,2019,2019-06
+IL,Jul,3.9,Illinois,2019,2019-07
+IL,Aug,3.8,Illinois,2019,2019-08
+IL,Sep,3.7,Illinois,2019,2019-09
+IL,Oct,3.7,Illinois,2019,2019-10
+IL,Nov,3.7,Illinois,2019,2019-11
+IL,Dec,3.7,Illinois,2019,2019-12
+IL,Jan,3.5,Illinois,2020,2020-01
+IL,Feb,3.4,Illinois,2020,2020-02
+IL,Mar,4.6,Illinois,2020,2020-03
+IN,Jan,5.4,Indiana,2015,2015-01
+IN,Feb,5.3,Indiana,2015,2015-02
+IN,Mar,5.1,Indiana,2015,2015-03
+IN,Apr,5,Indiana,2015,2015-04
+IN,May,4.9,Indiana,2015,2015-05
+IN,Jun,4.8,Indiana,2015,2015-06
+IN,Jul,4.7,Indiana,2015,2015-07
+IN,Aug,4.6,Indiana,2015,2015-08
+IN,Sep,4.5,Indiana,2015,2015-09
+IN,Oct,4.5,Indiana,2015,2015-10
+IN,Nov,4.6,Indiana,2015,2015-11
+IN,Dec,4.6,Indiana,2015,2015-12
+IN,Jan,4.7,Indiana,2016,2016-01
+IN,Feb,4.7,Indiana,2016,2016-02
+IN,Mar,4.7,Indiana,2016,2016-03
+IN,Apr,4.7,Indiana,2016,2016-04
+IN,May,4.6,Indiana,2016,2016-05
+IN,Jun,4.5,Indiana,2016,2016-06
+IN,Jul,4.4,Indiana,2016,2016-07
+IN,Aug,4.3,Indiana,2016,2016-08
+IN,Sep,4.3,Indiana,2016,2016-09
+IN,Oct,4.2,Indiana,2016,2016-10
+IN,Nov,4.1,Indiana,2016,2016-11
+IN,Dec,4,Indiana,2016,2016-12
+IN,Jan,3.9,Indiana,2017,2017-01
+IN,Feb,3.7,Indiana,2017,2017-02
+IN,Mar,3.6,Indiana,2017,2017-03
+IN,Apr,3.5,Indiana,2017,2017-04
+IN,May,3.5,Indiana,2017,2017-05
+IN,Jun,3.5,Indiana,2017,2017-06
+IN,Jul,3.6,Indiana,2017,2017-07
+IN,Aug,3.6,Indiana,2017,2017-08
+IN,Sep,3.6,Indiana,2017,2017-09
+IN,Oct,3.5,Indiana,2017,2017-10
+IN,Nov,3.4,Indiana,2017,2017-11
+IN,Dec,3.3,Indiana,2017,2017-12
+IN,Jan,3.3,Indiana,2018,2018-01
+IN,Feb,3.3,Indiana,2018,2018-02
+IN,Mar,3.4,Indiana,2018,2018-03
+IN,Apr,3.5,Indiana,2018,2018-04
+IN,May,3.5,Indiana,2018,2018-05
+IN,Jun,3.5,Indiana,2018,2018-06
+IN,Jul,3.5,Indiana,2018,2018-07
+IN,Aug,3.5,Indiana,2018,2018-08
+IN,Sep,3.5,Indiana,2018,2018-09
+IN,Oct,3.5,Indiana,2018,2018-10
+IN,Nov,3.6,Indiana,2018,2018-11
+IN,Dec,3.6,Indiana,2018,2018-12
+IN,Jan,3.6,Indiana,2019,2019-01
+IN,Feb,3.5,Indiana,2019,2019-02
+IN,Mar,3.5,Indiana,2019,2019-03
+IN,Apr,3.4,Indiana,2019,2019-04
+IN,May,3.3,Indiana,2019,2019-05
+IN,Jun,3.3,Indiana,2019,2019-06
+IN,Jul,3.2,Indiana,2019,2019-07
+IN,Aug,3.2,Indiana,2019,2019-08
+IN,Sep,3.2,Indiana,2019,2019-09
+IN,Oct,3.2,Indiana,2019,2019-10
+IN,Nov,3.2,Indiana,2019,2019-11
+IN,Dec,3.2,Indiana,2019,2019-12
+IN,Jan,3.1,Indiana,2020,2020-01
+IN,Feb,3.1,Indiana,2020,2020-02
+IN,Mar,3.2,Indiana,2020,2020-03
+IA,Jan,3.9,Iowa,2015,2015-01
+IA,Feb,3.9,Iowa,2015,2015-02
+IA,Mar,3.8,Iowa,2015,2015-03
+IA,Apr,3.8,Iowa,2015,2015-04
+IA,May,3.8,Iowa,2015,2015-05
+IA,Jun,3.7,Iowa,2015,2015-06
+IA,Jul,3.7,Iowa,2015,2015-07
+IA,Aug,3.7,Iowa,2015,2015-08
+IA,Sep,3.7,Iowa,2015,2015-09
+IA,Oct,3.7,Iowa,2015,2015-10
+IA,Nov,3.7,Iowa,2015,2015-11
+IA,Dec,3.7,Iowa,2015,2015-12
+IA,Jan,3.7,Iowa,2016,2016-01
+IA,Feb,3.6,Iowa,2016,2016-02
+IA,Mar,3.6,Iowa,2016,2016-03
+IA,Apr,3.6,Iowa,2016,2016-04
+IA,May,3.7,Iowa,2016,2016-05
+IA,Jun,3.7,Iowa,2016,2016-06
+IA,Jul,3.7,Iowa,2016,2016-07
+IA,Aug,3.7,Iowa,2016,2016-08
+IA,Sep,3.6,Iowa,2016,2016-09
+IA,Oct,3.6,Iowa,2016,2016-10
+IA,Nov,3.5,Iowa,2016,2016-11
+IA,Dec,3.5,Iowa,2016,2016-12
+IA,Jan,3.4,Iowa,2017,2017-01
+IA,Feb,3.3,Iowa,2017,2017-02
+IA,Mar,3.3,Iowa,2017,2017-03
+IA,Apr,3.2,Iowa,2017,2017-04
+IA,May,3.2,Iowa,2017,2017-05
+IA,Jun,3.2,Iowa,2017,2017-06
+IA,Jul,3.1,Iowa,2017,2017-07
+IA,Aug,3.1,Iowa,2017,2017-08
+IA,Sep,3,Iowa,2017,2017-09
+IA,Oct,2.9,Iowa,2017,2017-10
+IA,Nov,2.9,Iowa,2017,2017-11
+IA,Dec,2.8,Iowa,2017,2017-12
+IA,Jan,2.8,Iowa,2018,2018-01
+IA,Feb,2.8,Iowa,2018,2018-02
+IA,Mar,2.7,Iowa,2018,2018-03
+IA,Apr,2.7,Iowa,2018,2018-04
+IA,May,2.6,Iowa,2018,2018-05
+IA,Jun,2.6,Iowa,2018,2018-06
+IA,Jul,2.5,Iowa,2018,2018-07
+IA,Aug,2.5,Iowa,2018,2018-08
+IA,Sep,2.5,Iowa,2018,2018-09
+IA,Oct,2.5,Iowa,2018,2018-10
+IA,Nov,2.6,Iowa,2018,2018-11
+IA,Dec,2.6,Iowa,2018,2018-12
+IA,Jan,2.7,Iowa,2019,2019-01
+IA,Feb,2.7,Iowa,2019,2019-02
+IA,Mar,2.7,Iowa,2019,2019-03
+IA,Apr,2.7,Iowa,2019,2019-04
+IA,May,2.7,Iowa,2019,2019-05
+IA,Jun,2.7,Iowa,2019,2019-06
+IA,Jul,2.7,Iowa,2019,2019-07
+IA,Aug,2.8,Iowa,2019,2019-08
+IA,Sep,2.8,Iowa,2019,2019-09
+IA,Oct,2.8,Iowa,2019,2019-10
+IA,Nov,2.8,Iowa,2019,2019-11
+IA,Dec,2.8,Iowa,2019,2019-12
+IA,Jan,2.8,Iowa,2020,2020-01
+IA,Feb,2.8,Iowa,2020,2020-02
+IA,Mar,3.7,Iowa,2020,2020-03
+KS,Jan,4.3,Kansas,2015,2015-01
+KS,Feb,4.4,Kansas,2015,2015-02
+KS,Mar,4.4,Kansas,2015,2015-03
+KS,Apr,4.4,Kansas,2015,2015-04
+KS,May,4.3,Kansas,2015,2015-05
+KS,Jun,4.2,Kansas,2015,2015-06
+KS,Jul,4.1,Kansas,2015,2015-07
+KS,Aug,4.1,Kansas,2015,2015-08
+KS,Sep,4,Kansas,2015,2015-09
+KS,Oct,4,Kansas,2015,2015-10
+KS,Nov,4,Kansas,2015,2015-11
+KS,Dec,4,Kansas,2015,2015-12
+KS,Jan,3.9,Kansas,2016,2016-01
+KS,Feb,3.9,Kansas,2016,2016-02
+KS,Mar,4,Kansas,2016,2016-03
+KS,Apr,4,Kansas,2016,2016-04
+KS,May,4,Kansas,2016,2016-05
+KS,Jun,4.1,Kansas,2016,2016-06
+KS,Jul,4.1,Kansas,2016,2016-07
+KS,Aug,4.1,Kansas,2016,2016-08
+KS,Sep,4.1,Kansas,2016,2016-09
+KS,Oct,4.1,Kansas,2016,2016-10
+KS,Nov,4,Kansas,2016,2016-11
+KS,Dec,4,Kansas,2016,2016-12
+KS,Jan,3.9,Kansas,2017,2017-01
+KS,Feb,3.8,Kansas,2017,2017-02
+KS,Mar,3.7,Kansas,2017,2017-03
+KS,Apr,3.7,Kansas,2017,2017-04
+KS,May,3.7,Kansas,2017,2017-05
+KS,Jun,3.7,Kansas,2017,2017-06
+KS,Jul,3.6,Kansas,2017,2017-07
+KS,Aug,3.6,Kansas,2017,2017-08
+KS,Sep,3.6,Kansas,2017,2017-09
+KS,Oct,3.5,Kansas,2017,2017-10
+KS,Nov,3.5,Kansas,2017,2017-11
+KS,Dec,3.5,Kansas,2017,2017-12
+KS,Jan,3.4,Kansas,2018,2018-01
+KS,Feb,3.4,Kansas,2018,2018-02
+KS,Mar,3.4,Kansas,2018,2018-03
+KS,Apr,3.3,Kansas,2018,2018-04
+KS,May,3.3,Kansas,2018,2018-05
+KS,Jun,3.3,Kansas,2018,2018-06
+KS,Jul,3.2,Kansas,2018,2018-07
+KS,Aug,3.2,Kansas,2018,2018-08
+KS,Sep,3.2,Kansas,2018,2018-09
+KS,Oct,3.2,Kansas,2018,2018-10
+KS,Nov,3.3,Kansas,2018,2018-11
+KS,Dec,3.3,Kansas,2018,2018-12
+KS,Jan,3.3,Kansas,2019,2019-01
+KS,Feb,3.3,Kansas,2019,2019-02
+KS,Mar,3.2,Kansas,2019,2019-03
+KS,Apr,3.2,Kansas,2019,2019-04
+KS,May,3.1,Kansas,2019,2019-05
+KS,Jun,3.1,Kansas,2019,2019-06
+KS,Jul,3.1,Kansas,2019,2019-07
+KS,Aug,3.1,Kansas,2019,2019-08
+KS,Sep,3.1,Kansas,2019,2019-09
+KS,Oct,3.1,Kansas,2019,2019-10
+KS,Nov,3.1,Kansas,2019,2019-11
+KS,Dec,3.1,Kansas,2019,2019-12
+KS,Jan,3.1,Kansas,2020,2020-01
+KS,Feb,3.1,Kansas,2020,2020-02
+KS,Mar,3.1,Kansas,2020,2020-03
+KY,Jan,5.4,Kentucky,2015,2015-01
+KY,Feb,5.4,Kentucky,2015,2015-02
+KY,Mar,5.3,Kentucky,2015,2015-03
+KY,Apr,5.3,Kentucky,2015,2015-04
+KY,May,5.3,Kentucky,2015,2015-05
+KY,Jun,5.2,Kentucky,2015,2015-06
+KY,Jul,5.2,Kentucky,2015,2015-07
+KY,Aug,5.2,Kentucky,2015,2015-08
+KY,Sep,5.2,Kentucky,2015,2015-09
+KY,Oct,5.2,Kentucky,2015,2015-10
+KY,Nov,5.3,Kentucky,2015,2015-11
+KY,Dec,5.3,Kentucky,2015,2015-12
+KY,Jan,5.3,Kentucky,2016,2016-01
+KY,Feb,5.2,Kentucky,2016,2016-02
+KY,Mar,5.2,Kentucky,2016,2016-03
+KY,Apr,5.1,Kentucky,2016,2016-04
+KY,May,5,Kentucky,2016,2016-05
+KY,Jun,5,Kentucky,2016,2016-06
+KY,Jul,5,Kentucky,2016,2016-07
+KY,Aug,5.1,Kentucky,2016,2016-08
+KY,Sep,5.1,Kentucky,2016,2016-09
+KY,Oct,5.1,Kentucky,2016,2016-10
+KY,Nov,5.2,Kentucky,2016,2016-11
+KY,Dec,5.2,Kentucky,2016,2016-12
+KY,Jan,5.2,Kentucky,2017,2017-01
+KY,Feb,5.2,Kentucky,2017,2017-02
+KY,Mar,5.2,Kentucky,2017,2017-03
+KY,Apr,5.1,Kentucky,2017,2017-04
+KY,May,5.1,Kentucky,2017,2017-05
+KY,Jun,5,Kentucky,2017,2017-06
+KY,Jul,4.9,Kentucky,2017,2017-07
+KY,Aug,4.8,Kentucky,2017,2017-08
+KY,Sep,4.7,Kentucky,2017,2017-09
+KY,Oct,4.6,Kentucky,2017,2017-10
+KY,Nov,4.5,Kentucky,2017,2017-11
+KY,Dec,4.4,Kentucky,2017,2017-12
+KY,Jan,4.3,Kentucky,2018,2018-01
+KY,Feb,4.3,Kentucky,2018,2018-02
+KY,Mar,4.3,Kentucky,2018,2018-03
+KY,Apr,4.3,Kentucky,2018,2018-04
+KY,May,4.4,Kentucky,2018,2018-05
+KY,Jun,4.4,Kentucky,2018,2018-06
+KY,Jul,4.4,Kentucky,2018,2018-07
+KY,Aug,4.4,Kentucky,2018,2018-08
+KY,Sep,4.3,Kentucky,2018,2018-09
+KY,Oct,4.3,Kentucky,2018,2018-10
+KY,Nov,4.3,Kentucky,2018,2018-11
+KY,Dec,4.3,Kentucky,2018,2018-12
+KY,Jan,4.2,Kentucky,2019,2019-01
+KY,Feb,4.2,Kentucky,2019,2019-02
+KY,Mar,4.2,Kentucky,2019,2019-03
+KY,Apr,4.3,Kentucky,2019,2019-04
+KY,May,4.3,Kentucky,2019,2019-05
+KY,Jun,4.3,Kentucky,2019,2019-06
+KY,Jul,4.3,Kentucky,2019,2019-07
+KY,Aug,4.3,Kentucky,2019,2019-08
+KY,Sep,4.3,Kentucky,2019,2019-09
+KY,Oct,4.3,Kentucky,2019,2019-10
+KY,Nov,4.3,Kentucky,2019,2019-11
+KY,Dec,4.3,Kentucky,2019,2019-12
+KY,Jan,4.3,Kentucky,2020,2020-01
+KY,Feb,4.2,Kentucky,2020,2020-02
+KY,Mar,5.8,Kentucky,2020,2020-03
+LA,Jan,6.9,Louisiana,2015,2015-01
+LA,Feb,6.8,Louisiana,2015,2015-02
+LA,Mar,6.7,Louisiana,2015,2015-03
+LA,Apr,6.5,Louisiana,2015,2015-04
+LA,May,6.4,Louisiana,2015,2015-05
+LA,Jun,6.2,Louisiana,2015,2015-06
+LA,Jul,6.1,Louisiana,2015,2015-07
+LA,Aug,6.1,Louisiana,2015,2015-08
+LA,Sep,6,Louisiana,2015,2015-09
+LA,Oct,6,Louisiana,2015,2015-10
+LA,Nov,6.1,Louisiana,2015,2015-11
+LA,Dec,6.1,Louisiana,2015,2015-12
+LA,Jan,6.1,Louisiana,2016,2016-01
+LA,Feb,6.1,Louisiana,2016,2016-02
+LA,Mar,6.1,Louisiana,2016,2016-03
+LA,Apr,6.1,Louisiana,2016,2016-04
+LA,May,6.1,Louisiana,2016,2016-05
+LA,Jun,6.1,Louisiana,2016,2016-06
+LA,Jul,6.1,Louisiana,2016,2016-07
+LA,Aug,6.1,Louisiana,2016,2016-08
+LA,Sep,6.1,Louisiana,2016,2016-09
+LA,Oct,6,Louisiana,2016,2016-10
+LA,Nov,6,Louisiana,2016,2016-11
+LA,Dec,5.9,Louisiana,2016,2016-12
+LA,Jan,5.8,Louisiana,2017,2017-01
+LA,Feb,5.7,Louisiana,2017,2017-02
+LA,Mar,5.5,Louisiana,2017,2017-03
+LA,Apr,5.4,Louisiana,2017,2017-04
+LA,May,5.3,Louisiana,2017,2017-05
+LA,Jun,5.1,Louisiana,2017,2017-06
+LA,Jul,5,Louisiana,2017,2017-07
+LA,Aug,4.9,Louisiana,2017,2017-08
+LA,Sep,4.8,Louisiana,2017,2017-09
+LA,Oct,4.7,Louisiana,2017,2017-10
+LA,Nov,4.6,Louisiana,2017,2017-11
+LA,Dec,4.6,Louisiana,2017,2017-12
+LA,Jan,4.7,Louisiana,2018,2018-01
+LA,Feb,4.8,Louisiana,2018,2018-02
+LA,Mar,4.9,Louisiana,2018,2018-03
+LA,Apr,5,Louisiana,2018,2018-04
+LA,May,5,Louisiana,2018,2018-05
+LA,Jun,5,Louisiana,2018,2018-06
+LA,Jul,5,Louisiana,2018,2018-07
+LA,Aug,4.9,Louisiana,2018,2018-08
+LA,Sep,4.9,Louisiana,2018,2018-09
+LA,Oct,4.8,Louisiana,2018,2018-10
+LA,Nov,4.8,Louisiana,2018,2018-11
+LA,Dec,4.7,Louisiana,2018,2018-12
+LA,Jan,4.7,Louisiana,2019,2019-01
+LA,Feb,4.6,Louisiana,2019,2019-02
+LA,Mar,4.5,Louisiana,2019,2019-03
+LA,Apr,4.5,Louisiana,2019,2019-04
+LA,May,4.5,Louisiana,2019,2019-05
+LA,Jun,4.6,Louisiana,2019,2019-06
+LA,Jul,4.7,Louisiana,2019,2019-07
+LA,Aug,4.9,Louisiana,2019,2019-08
+LA,Sep,5.1,Louisiana,2019,2019-09
+LA,Oct,5.2,Louisiana,2019,2019-10
+LA,Nov,5.2,Louisiana,2019,2019-11
+LA,Dec,5.2,Louisiana,2019,2019-12
+LA,Jan,5.3,Louisiana,2020,2020-01
+LA,Feb,5.2,Louisiana,2020,2020-02
+LA,Mar,6.9,Louisiana,2020,2020-03
+ME,Jan,5,Maine,2015,2015-01
+ME,Feb,4.8,Maine,2015,2015-02
+ME,Mar,4.7,Maine,2015,2015-03
+ME,Apr,4.6,Maine,2015,2015-04
+ME,May,4.5,Maine,2015,2015-05
+ME,Jun,4.4,Maine,2015,2015-06
+ME,Jul,4.3,Maine,2015,2015-07
+ME,Aug,4.2,Maine,2015,2015-08
+ME,Sep,4.1,Maine,2015,2015-09
+ME,Oct,4,Maine,2015,2015-10
+ME,Nov,4,Maine,2015,2015-11
+ME,Dec,4,Maine,2015,2015-12
+ME,Jan,3.9,Maine,2016,2016-01
+ME,Feb,3.9,Maine,2016,2016-02
+ME,Mar,3.9,Maine,2016,2016-03
+ME,Apr,3.8,Maine,2016,2016-04
+ME,May,3.8,Maine,2016,2016-05
+ME,Jun,3.8,Maine,2016,2016-06
+ME,Jul,3.8,Maine,2016,2016-07
+ME,Aug,3.7,Maine,2016,2016-08
+ME,Sep,3.7,Maine,2016,2016-09
+ME,Oct,3.7,Maine,2016,2016-10
+ME,Nov,3.6,Maine,2016,2016-11
+ME,Dec,3.6,Maine,2016,2016-12
+ME,Jan,3.6,Maine,2017,2017-01
+ME,Feb,3.5,Maine,2017,2017-02
+ME,Mar,3.5,Maine,2017,2017-03
+ME,Apr,3.5,Maine,2017,2017-04
+ME,May,3.5,Maine,2017,2017-05
+ME,Jun,3.4,Maine,2017,2017-06
+ME,Jul,3.4,Maine,2017,2017-07
+ME,Aug,3.3,Maine,2017,2017-08
+ME,Sep,3.3,Maine,2017,2017-09
+ME,Oct,3.2,Maine,2017,2017-10
+ME,Nov,3.2,Maine,2017,2017-11
+ME,Dec,3.1,Maine,2017,2017-12
+ME,Jan,3.1,Maine,2018,2018-01
+ME,Feb,3.1,Maine,2018,2018-02
+ME,Mar,3.2,Maine,2018,2018-03
+ME,Apr,3.2,Maine,2018,2018-04
+ME,May,3.2,Maine,2018,2018-05
+ME,Jun,3.3,Maine,2018,2018-06
+ME,Jul,3.3,Maine,2018,2018-07
+ME,Aug,3.3,Maine,2018,2018-08
+ME,Sep,3.3,Maine,2018,2018-09
+ME,Oct,3.3,Maine,2018,2018-10
+ME,Nov,3.3,Maine,2018,2018-11
+ME,Dec,3.3,Maine,2018,2018-12
+ME,Jan,3.2,Maine,2019,2019-01
+ME,Feb,3.2,Maine,2019,2019-02
+ME,Mar,3.1,Maine,2019,2019-03
+ME,Apr,3.1,Maine,2019,2019-04
+ME,May,3,Maine,2019,2019-05
+ME,Jun,2.9,Maine,2019,2019-06
+ME,Jul,2.9,Maine,2019,2019-07
+ME,Aug,2.9,Maine,2019,2019-08
+ME,Sep,2.9,Maine,2019,2019-09
+ME,Oct,3,Maine,2019,2019-10
+ME,Nov,3,Maine,2019,2019-11
+ME,Dec,3,Maine,2019,2019-12
+ME,Jan,3.1,Maine,2020,2020-01
+ME,Feb,3.2,Maine,2020,2020-02
+ME,Mar,3.2,Maine,2020,2020-03
+MD,Jan,5.4,Maryland,2015,2015-01
+MD,Feb,5.4,Maryland,2015,2015-02
+MD,Mar,5.3,Maryland,2015,2015-03
+MD,Apr,5.3,Maryland,2015,2015-04
+MD,May,5.2,Maryland,2015,2015-05
+MD,Jun,5.1,Maryland,2015,2015-06
+MD,Jul,5,Maryland,2015,2015-07
+MD,Aug,5,Maryland,2015,2015-08
+MD,Sep,4.9,Maryland,2015,2015-09
+MD,Oct,4.8,Maryland,2015,2015-10
+MD,Nov,4.7,Maryland,2015,2015-11
+MD,Dec,4.7,Maryland,2015,2015-12
+MD,Jan,4.6,Maryland,2016,2016-01
+MD,Feb,4.5,Maryland,2016,2016-02
+MD,Mar,4.5,Maryland,2016,2016-03
+MD,Apr,4.5,Maryland,2016,2016-04
+MD,May,4.4,Maryland,2016,2016-05
+MD,Jun,4.4,Maryland,2016,2016-06
+MD,Jul,4.4,Maryland,2016,2016-07
+MD,Aug,4.4,Maryland,2016,2016-08
+MD,Sep,4.4,Maryland,2016,2016-09
+MD,Oct,4.4,Maryland,2016,2016-10
+MD,Nov,4.4,Maryland,2016,2016-11
+MD,Dec,4.4,Maryland,2016,2016-12
+MD,Jan,4.3,Maryland,2017,2017-01
+MD,Feb,4.3,Maryland,2017,2017-02
+MD,Mar,4.3,Maryland,2017,2017-03
+MD,Apr,4.3,Maryland,2017,2017-04
+MD,May,4.2,Maryland,2017,2017-05
+MD,Jun,4.2,Maryland,2017,2017-06
+MD,Jul,4.2,Maryland,2017,2017-07
+MD,Aug,4.2,Maryland,2017,2017-08
+MD,Sep,4.2,Maryland,2017,2017-09
+MD,Oct,4.2,Maryland,2017,2017-10
+MD,Nov,4.2,Maryland,2017,2017-11
+MD,Dec,4.2,Maryland,2017,2017-12
+MD,Jan,4.2,Maryland,2018,2018-01
+MD,Feb,4.1,Maryland,2018,2018-02
+MD,Mar,4.1,Maryland,2018,2018-03
+MD,Apr,4.1,Maryland,2018,2018-04
+MD,May,4,Maryland,2018,2018-05
+MD,Jun,4,Maryland,2018,2018-06
+MD,Jul,3.9,Maryland,2018,2018-07
+MD,Aug,3.9,Maryland,2018,2018-08
+MD,Sep,3.8,Maryland,2018,2018-09
+MD,Oct,3.8,Maryland,2018,2018-10
+MD,Nov,3.8,Maryland,2018,2018-11
+MD,Dec,3.8,Maryland,2018,2018-12
+MD,Jan,3.8,Maryland,2019,2019-01
+MD,Feb,3.7,Maryland,2019,2019-02
+MD,Mar,3.7,Maryland,2019,2019-03
+MD,Apr,3.7,Maryland,2019,2019-04
+MD,May,3.7,Maryland,2019,2019-05
+MD,Jun,3.6,Maryland,2019,2019-06
+MD,Jul,3.6,Maryland,2019,2019-07
+MD,Aug,3.6,Maryland,2019,2019-08
+MD,Sep,3.5,Maryland,2019,2019-09
+MD,Oct,3.4,Maryland,2019,2019-10
+MD,Nov,3.4,Maryland,2019,2019-11
+MD,Dec,3.4,Maryland,2019,2019-12
+MD,Jan,3.3,Maryland,2020,2020-01
+MD,Feb,3.3,Maryland,2020,2020-02
+MD,Mar,3.3,Maryland,2020,2020-03
+MA,Jan,5.1,Massachusetts,2015,2015-01
+MA,Feb,5.1,Massachusetts,2015,2015-02
+MA,Mar,5,Massachusetts,2015,2015-03
+MA,Apr,4.9,Massachusetts,2015,2015-04
+MA,May,4.9,Massachusetts,2015,2015-05
+MA,Jun,4.8,Massachusetts,2015,2015-06
+MA,Jul,4.8,Massachusetts,2015,2015-07
+MA,Aug,4.7,Massachusetts,2015,2015-08
+MA,Sep,4.7,Massachusetts,2015,2015-09
+MA,Oct,4.6,Massachusetts,2015,2015-10
+MA,Nov,4.5,Massachusetts,2015,2015-11
+MA,Dec,4.4,Massachusetts,2015,2015-12
+MA,Jan,4.3,Massachusetts,2016,2016-01
+MA,Feb,4.2,Massachusetts,2016,2016-02
+MA,Mar,4.1,Massachusetts,2016,2016-03
+MA,Apr,4,Massachusetts,2016,2016-04
+MA,May,3.9,Massachusetts,2016,2016-05
+MA,Jun,3.8,Massachusetts,2016,2016-06
+MA,Jul,3.7,Massachusetts,2016,2016-07
+MA,Aug,3.7,Massachusetts,2016,2016-08
+MA,Sep,3.7,Massachusetts,2016,2016-09
+MA,Oct,3.7,Massachusetts,2016,2016-10
+MA,Nov,3.7,Massachusetts,2016,2016-11
+MA,Dec,3.8,Massachusetts,2016,2016-12
+MA,Jan,3.8,Massachusetts,2017,2017-01
+MA,Feb,3.8,Massachusetts,2017,2017-02
+MA,Mar,3.8,Massachusetts,2017,2017-03
+MA,Apr,3.8,Massachusetts,2017,2017-04
+MA,May,3.8,Massachusetts,2017,2017-05
+MA,Jun,3.8,Massachusetts,2017,2017-06
+MA,Jul,3.8,Massachusetts,2017,2017-07
+MA,Aug,3.7,Massachusetts,2017,2017-08
+MA,Sep,3.7,Massachusetts,2017,2017-09
+MA,Oct,3.7,Massachusetts,2017,2017-10
+MA,Nov,3.6,Massachusetts,2017,2017-11
+MA,Dec,3.6,Massachusetts,2017,2017-12
+MA,Jan,3.6,Massachusetts,2018,2018-01
+MA,Feb,3.5,Massachusetts,2018,2018-02
+MA,Mar,3.5,Massachusetts,2018,2018-03
+MA,Apr,3.5,Massachusetts,2018,2018-04
+MA,May,3.4,Massachusetts,2018,2018-05
+MA,Jun,3.4,Massachusetts,2018,2018-06
+MA,Jul,3.3,Massachusetts,2018,2018-07
+MA,Aug,3.3,Massachusetts,2018,2018-08
+MA,Sep,3.3,Massachusetts,2018,2018-09
+MA,Oct,3.2,Massachusetts,2018,2018-10
+MA,Nov,3.2,Massachusetts,2018,2018-11
+MA,Dec,3.1,Massachusetts,2018,2018-12
+MA,Jan,3.1,Massachusetts,2019,2019-01
+MA,Feb,3.1,Massachusetts,2019,2019-02
+MA,Mar,3,Massachusetts,2019,2019-03
+MA,Apr,3,Massachusetts,2019,2019-04
+MA,May,2.9,Massachusetts,2019,2019-05
+MA,Jun,2.9,Massachusetts,2019,2019-06
+MA,Jul,2.9,Massachusetts,2019,2019-07
+MA,Aug,2.8,Massachusetts,2019,2019-08
+MA,Sep,2.8,Massachusetts,2019,2019-09
+MA,Oct,2.8,Massachusetts,2019,2019-10
+MA,Nov,2.8,Massachusetts,2019,2019-11
+MA,Dec,2.8,Massachusetts,2019,2019-12
+MA,Jan,2.8,Massachusetts,2020,2020-01
+MA,Feb,2.8,Massachusetts,2020,2020-02
+MA,Mar,2.9,Massachusetts,2020,2020-03
+MI,Jan,6,Michigan,2015,2015-01
+MI,Feb,5.9,Michigan,2015,2015-02
+MI,Mar,5.8,Michigan,2015,2015-03
+MI,Apr,5.7,Michigan,2015,2015-04
+MI,May,5.6,Michigan,2015,2015-05
+MI,Jun,5.5,Michigan,2015,2015-06
+MI,Jul,5.3,Michigan,2015,2015-07
+MI,Aug,5.2,Michigan,2015,2015-08
+MI,Sep,5.1,Michigan,2015,2015-09
+MI,Oct,5,Michigan,2015,2015-10
+MI,Nov,4.9,Michigan,2015,2015-11
+MI,Dec,4.9,Michigan,2015,2015-12
+MI,Jan,4.9,Michigan,2016,2016-01
+MI,Feb,4.9,Michigan,2016,2016-02
+MI,Mar,4.9,Michigan,2016,2016-03
+MI,Apr,4.9,Michigan,2016,2016-04
+MI,May,5,Michigan,2016,2016-05
+MI,Jun,5,Michigan,2016,2016-06
+MI,Jul,5,Michigan,2016,2016-07
+MI,Aug,5,Michigan,2016,2016-08
+MI,Sep,5.1,Michigan,2016,2016-09
+MI,Oct,5.1,Michigan,2016,2016-10
+MI,Nov,5.1,Michigan,2016,2016-11
+MI,Dec,5,Michigan,2016,2016-12
+MI,Jan,4.9,Michigan,2017,2017-01
+MI,Feb,4.7,Michigan,2017,2017-02
+MI,Mar,4.6,Michigan,2017,2017-03
+MI,Apr,4.5,Michigan,2017,2017-04
+MI,May,4.4,Michigan,2017,2017-05
+MI,Jun,4.5,Michigan,2017,2017-06
+MI,Jul,4.5,Michigan,2017,2017-07
+MI,Aug,4.6,Michigan,2017,2017-08
+MI,Sep,4.7,Michigan,2017,2017-09
+MI,Oct,4.7,Michigan,2017,2017-10
+MI,Nov,4.6,Michigan,2017,2017-11
+MI,Dec,4.6,Michigan,2017,2017-12
+MI,Jan,4.5,Michigan,2018,2018-01
+MI,Feb,4.4,Michigan,2018,2018-02
+MI,Mar,4.4,Michigan,2018,2018-03
+MI,Apr,4.3,Michigan,2018,2018-04
+MI,May,4.2,Michigan,2018,2018-05
+MI,Jun,4.1,Michigan,2018,2018-06
+MI,Jul,4,Michigan,2018,2018-07
+MI,Aug,3.9,Michigan,2018,2018-08
+MI,Sep,3.9,Michigan,2018,2018-09
+MI,Oct,4,Michigan,2018,2018-10
+MI,Nov,4,Michigan,2018,2018-11
+MI,Dec,4.1,Michigan,2018,2018-12
+MI,Jan,4.2,Michigan,2019,2019-01
+MI,Feb,4.2,Michigan,2019,2019-02
+MI,Mar,4.3,Michigan,2019,2019-03
+MI,Apr,4.3,Michigan,2019,2019-04
+MI,May,4.2,Michigan,2019,2019-05
+MI,Jun,4.2,Michigan,2019,2019-06
+MI,Jul,4.1,Michigan,2019,2019-07
+MI,Aug,4,Michigan,2019,2019-08
+MI,Sep,3.9,Michigan,2019,2019-09
+MI,Oct,3.9,Michigan,2019,2019-10
+MI,Nov,3.9,Michigan,2019,2019-11
+MI,Dec,3.9,Michigan,2019,2019-12
+MI,Jan,3.8,Michigan,2020,2020-01
+MI,Feb,3.6,Michigan,2020,2020-02
+MI,Mar,4.1,Michigan,2020,2020-03
+MN,Jan,3.8,Minnesota,2015,2015-01
+MN,Feb,3.7,Minnesota,2015,2015-02
+MN,Mar,3.7,Minnesota,2015,2015-03
+MN,Apr,3.7,Minnesota,2015,2015-04
+MN,May,3.7,Minnesota,2015,2015-05
+MN,Jun,3.7,Minnesota,2015,2015-06
+MN,Jul,3.7,Minnesota,2015,2015-07
+MN,Aug,3.7,Minnesota,2015,2015-08
+MN,Sep,3.6,Minnesota,2015,2015-09
+MN,Oct,3.6,Minnesota,2015,2015-10
+MN,Nov,3.6,Minnesota,2015,2015-11
+MN,Dec,3.7,Minnesota,2015,2015-12
+MN,Jan,3.7,Minnesota,2016,2016-01
+MN,Feb,3.7,Minnesota,2016,2016-02
+MN,Mar,3.7,Minnesota,2016,2016-03
+MN,Apr,3.8,Minnesota,2016,2016-04
+MN,May,3.8,Minnesota,2016,2016-05
+MN,Jun,3.9,Minnesota,2016,2016-06
+MN,Jul,3.9,Minnesota,2016,2016-07
+MN,Aug,4,Minnesota,2016,2016-08
+MN,Sep,4,Minnesota,2016,2016-09
+MN,Oct,4,Minnesota,2016,2016-10
+MN,Nov,4,Minnesota,2016,2016-11
+MN,Dec,3.9,Minnesota,2016,2016-12
+MN,Jan,3.8,Minnesota,2017,2017-01
+MN,Feb,3.7,Minnesota,2017,2017-02
+MN,Mar,3.6,Minnesota,2017,2017-03
+MN,Apr,3.5,Minnesota,2017,2017-04
+MN,May,3.5,Minnesota,2017,2017-05
+MN,Jun,3.4,Minnesota,2017,2017-06
+MN,Jul,3.4,Minnesota,2017,2017-07
+MN,Aug,3.3,Minnesota,2017,2017-08
+MN,Sep,3.3,Minnesota,2017,2017-09
+MN,Oct,3.2,Minnesota,2017,2017-10
+MN,Nov,3.1,Minnesota,2017,2017-11
+MN,Dec,3.1,Minnesota,2017,2017-12
+MN,Jan,3,Minnesota,2018,2018-01
+MN,Feb,3,Minnesota,2018,2018-02
+MN,Mar,3,Minnesota,2018,2018-03
+MN,Apr,3,Minnesota,2018,2018-04
+MN,May,2.9,Minnesota,2018,2018-05
+MN,Jun,2.9,Minnesota,2018,2018-06
+MN,Jul,2.8,Minnesota,2018,2018-07
+MN,Aug,2.8,Minnesota,2018,2018-08
+MN,Sep,2.9,Minnesota,2018,2018-09
+MN,Oct,2.9,Minnesota,2018,2018-10
+MN,Nov,3,Minnesota,2018,2018-11
+MN,Dec,3.1,Minnesota,2018,2018-12
+MN,Jan,3.2,Minnesota,2019,2019-01
+MN,Feb,3.2,Minnesota,2019,2019-02
+MN,Mar,3.2,Minnesota,2019,2019-03
+MN,Apr,3.2,Minnesota,2019,2019-04
+MN,May,3.2,Minnesota,2019,2019-05
+MN,Jun,3.2,Minnesota,2019,2019-06
+MN,Jul,3.2,Minnesota,2019,2019-07
+MN,Aug,3.2,Minnesota,2019,2019-08
+MN,Sep,3.2,Minnesota,2019,2019-09
+MN,Oct,3.3,Minnesota,2019,2019-10
+MN,Nov,3.3,Minnesota,2019,2019-11
+MN,Dec,3.3,Minnesota,2019,2019-12
+MN,Jan,3.2,Minnesota,2020,2020-01
+MN,Feb,3.1,Minnesota,2020,2020-02
+MN,Mar,3.1,Minnesota,2020,2020-03
+MS,Jan,6.7,Mississippi,2015,2015-01
+MS,Feb,6.6,Mississippi,2015,2015-02
+MS,Mar,6.6,Mississippi,2015,2015-03
+MS,Apr,6.5,Mississippi,2015,2015-04
+MS,May,6.4,Mississippi,2015,2015-05
+MS,Jun,6.3,Mississippi,2015,2015-06
+MS,Jul,6.3,Mississippi,2015,2015-07
+MS,Aug,6.2,Mississippi,2015,2015-08
+MS,Sep,6.2,Mississippi,2015,2015-09
+MS,Oct,6.2,Mississippi,2015,2015-10
+MS,Nov,6.2,Mississippi,2015,2015-11
+MS,Dec,6.2,Mississippi,2015,2015-12
+MS,Jan,6.1,Mississippi,2016,2016-01
+MS,Feb,6,Mississippi,2016,2016-02
+MS,Mar,6,Mississippi,2016,2016-03
+MS,Apr,5.9,Mississippi,2016,2016-04
+MS,May,5.9,Mississippi,2016,2016-05
+MS,Jun,5.9,Mississippi,2016,2016-06
+MS,Jul,5.8,Mississippi,2016,2016-07
+MS,Aug,5.8,Mississippi,2016,2016-08
+MS,Sep,5.7,Mississippi,2016,2016-09
+MS,Oct,5.6,Mississippi,2016,2016-10
+MS,Nov,5.5,Mississippi,2016,2016-11
+MS,Dec,5.5,Mississippi,2016,2016-12
+MS,Jan,5.4,Mississippi,2017,2017-01
+MS,Feb,5.3,Mississippi,2017,2017-02
+MS,Mar,5.2,Mississippi,2017,2017-03
+MS,Apr,5.2,Mississippi,2017,2017-04
+MS,May,5.2,Mississippi,2017,2017-05
+MS,Jun,5.1,Mississippi,2017,2017-06
+MS,Jul,5.1,Mississippi,2017,2017-07
+MS,Aug,5,Mississippi,2017,2017-08
+MS,Sep,5,Mississippi,2017,2017-09
+MS,Oct,4.9,Mississippi,2017,2017-10
+MS,Nov,4.9,Mississippi,2017,2017-11
+MS,Dec,4.9,Mississippi,2017,2017-12
+MS,Jan,4.9,Mississippi,2018,2018-01
+MS,Feb,4.9,Mississippi,2018,2018-02
+MS,Mar,4.9,Mississippi,2018,2018-03
+MS,Apr,4.8,Mississippi,2018,2018-04
+MS,May,4.8,Mississippi,2018,2018-05
+MS,Jun,4.8,Mississippi,2018,2018-06
+MS,Jul,4.7,Mississippi,2018,2018-07
+MS,Aug,4.7,Mississippi,2018,2018-08
+MS,Sep,4.8,Mississippi,2018,2018-09
+MS,Oct,4.9,Mississippi,2018,2018-10
+MS,Nov,5,Mississippi,2018,2018-11
+MS,Dec,5.1,Mississippi,2018,2018-12
+MS,Jan,5.1,Mississippi,2019,2019-01
+MS,Feb,5.2,Mississippi,2019,2019-02
+MS,Mar,5.3,Mississippi,2019,2019-03
+MS,Apr,5.3,Mississippi,2019,2019-04
+MS,May,5.4,Mississippi,2019,2019-05
+MS,Jun,5.4,Mississippi,2019,2019-06
+MS,Jul,5.5,Mississippi,2019,2019-07
+MS,Aug,5.5,Mississippi,2019,2019-08
+MS,Sep,5.6,Mississippi,2019,2019-09
+MS,Oct,5.6,Mississippi,2019,2019-10
+MS,Nov,5.6,Mississippi,2019,2019-11
+MS,Dec,5.6,Mississippi,2019,2019-12
+MS,Jan,5.5,Mississippi,2020,2020-01
+MS,Feb,5.4,Mississippi,2020,2020-02
+MS,Mar,5.3,Mississippi,2020,2020-03
+MO,Jan,5.5,Missouri,2015,2015-01
+MO,Feb,5.5,Missouri,2015,2015-02
+MO,Mar,5.5,Missouri,2015,2015-03
+MO,Apr,5.4,Missouri,2015,2015-04
+MO,May,5.3,Missouri,2015,2015-05
+MO,Jun,5.1,Missouri,2015,2015-06
+MO,Jul,4.9,Missouri,2015,2015-07
+MO,Aug,4.8,Missouri,2015,2015-08
+MO,Sep,4.6,Missouri,2015,2015-09
+MO,Oct,4.5,Missouri,2015,2015-10
+MO,Nov,4.5,Missouri,2015,2015-11
+MO,Dec,4.4,Missouri,2015,2015-12
+MO,Jan,4.4,Missouri,2016,2016-01
+MO,Feb,4.4,Missouri,2016,2016-02
+MO,Mar,4.4,Missouri,2016,2016-03
+MO,Apr,4.5,Missouri,2016,2016-04
+MO,May,4.6,Missouri,2016,2016-05
+MO,Jun,4.7,Missouri,2016,2016-06
+MO,Jul,4.8,Missouri,2016,2016-07
+MO,Aug,4.8,Missouri,2016,2016-08
+MO,Sep,4.8,Missouri,2016,2016-09
+MO,Oct,4.7,Missouri,2016,2016-10
+MO,Nov,4.5,Missouri,2016,2016-11
+MO,Dec,4.3,Missouri,2016,2016-12
+MO,Jan,4.1,Missouri,2017,2017-01
+MO,Feb,4,Missouri,2017,2017-02
+MO,Mar,3.9,Missouri,2017,2017-03
+MO,Apr,3.8,Missouri,2017,2017-04
+MO,May,3.8,Missouri,2017,2017-05
+MO,Jun,3.7,Missouri,2017,2017-06
+MO,Jul,3.7,Missouri,2017,2017-07
+MO,Aug,3.6,Missouri,2017,2017-08
+MO,Sep,3.6,Missouri,2017,2017-09
+MO,Oct,3.6,Missouri,2017,2017-10
+MO,Nov,3.5,Missouri,2017,2017-11
+MO,Dec,3.5,Missouri,2017,2017-12
+MO,Jan,3.4,Missouri,2018,2018-01
+MO,Feb,3.4,Missouri,2018,2018-02
+MO,Mar,3.3,Missouri,2018,2018-03
+MO,Apr,3.3,Missouri,2018,2018-04
+MO,May,3.2,Missouri,2018,2018-05
+MO,Jun,3.1,Missouri,2018,2018-06
+MO,Jul,3,Missouri,2018,2018-07
+MO,Aug,3,Missouri,2018,2018-08
+MO,Sep,3,Missouri,2018,2018-09
+MO,Oct,3,Missouri,2018,2018-10
+MO,Nov,3.1,Missouri,2018,2018-11
+MO,Dec,3.2,Missouri,2018,2018-12
+MO,Jan,3.2,Missouri,2019,2019-01
+MO,Feb,3.2,Missouri,2019,2019-02
+MO,Mar,3.2,Missouri,2019,2019-03
+MO,Apr,3.2,Missouri,2019,2019-04
+MO,May,3.1,Missouri,2019,2019-05
+MO,Jun,3.1,Missouri,2019,2019-06
+MO,Jul,3.2,Missouri,2019,2019-07
+MO,Aug,3.2,Missouri,2019,2019-08
+MO,Sep,3.3,Missouri,2019,2019-09
+MO,Oct,3.4,Missouri,2019,2019-10
+MO,Nov,3.4,Missouri,2019,2019-11
+MO,Dec,3.4,Missouri,2019,2019-12
+MO,Jan,3.5,Missouri,2020,2020-01
+MO,Feb,3.5,Missouri,2020,2020-02
+MO,Mar,4.5,Missouri,2020,2020-03
+MT,Jan,4.3,Montana,2015,2015-01
+MT,Feb,4.2,Montana,2015,2015-02
+MT,Mar,4.2,Montana,2015,2015-03
+MT,Apr,4.2,Montana,2015,2015-04
+MT,May,4.2,Montana,2015,2015-05
+MT,Jun,4.2,Montana,2015,2015-06
+MT,Jul,4.2,Montana,2015,2015-07
+MT,Aug,4.2,Montana,2015,2015-08
+MT,Sep,4.2,Montana,2015,2015-09
+MT,Oct,4.2,Montana,2015,2015-10
+MT,Nov,4.2,Montana,2015,2015-11
+MT,Dec,4.2,Montana,2015,2015-12
+MT,Jan,4.2,Montana,2016,2016-01
+MT,Feb,4.2,Montana,2016,2016-02
+MT,Mar,4.2,Montana,2016,2016-03
+MT,Apr,4.2,Montana,2016,2016-04
+MT,May,4.2,Montana,2016,2016-05
+MT,Jun,4.2,Montana,2016,2016-06
+MT,Jul,4.1,Montana,2016,2016-07
+MT,Aug,4.1,Montana,2016,2016-08
+MT,Sep,4.1,Montana,2016,2016-09
+MT,Oct,4,Montana,2016,2016-10
+MT,Nov,4,Montana,2016,2016-11
+MT,Dec,4,Montana,2016,2016-12
+MT,Jan,4,Montana,2017,2017-01
+MT,Feb,4,Montana,2017,2017-02
+MT,Mar,4,Montana,2017,2017-03
+MT,Apr,4,Montana,2017,2017-04
+MT,May,4,Montana,2017,2017-05
+MT,Jun,4,Montana,2017,2017-06
+MT,Jul,4,Montana,2017,2017-07
+MT,Aug,4,Montana,2017,2017-08
+MT,Sep,3.9,Montana,2017,2017-09
+MT,Oct,3.9,Montana,2017,2017-10
+MT,Nov,3.9,Montana,2017,2017-11
+MT,Dec,3.8,Montana,2017,2017-12
+MT,Jan,3.8,Montana,2018,2018-01
+MT,Feb,3.8,Montana,2018,2018-02
+MT,Mar,3.7,Montana,2018,2018-03
+MT,Apr,3.7,Montana,2018,2018-04
+MT,May,3.7,Montana,2018,2018-05
+MT,Jun,3.6,Montana,2018,2018-06
+MT,Jul,3.6,Montana,2018,2018-07
+MT,Aug,3.6,Montana,2018,2018-08
+MT,Sep,3.6,Montana,2018,2018-09
+MT,Oct,3.6,Montana,2018,2018-10
+MT,Nov,3.5,Montana,2018,2018-11
+MT,Dec,3.5,Montana,2018,2018-12
+MT,Jan,3.5,Montana,2019,2019-01
+MT,Feb,3.5,Montana,2019,2019-02
+MT,Mar,3.5,Montana,2019,2019-03
+MT,Apr,3.5,Montana,2019,2019-04
+MT,May,3.5,Montana,2019,2019-05
+MT,Jun,3.5,Montana,2019,2019-06
+MT,Jul,3.5,Montana,2019,2019-07
+MT,Aug,3.5,Montana,2019,2019-08
+MT,Sep,3.5,Montana,2019,2019-09
+MT,Oct,3.5,Montana,2019,2019-10
+MT,Nov,3.5,Montana,2019,2019-11
+MT,Dec,3.5,Montana,2019,2019-12
+MT,Jan,3.5,Montana,2020,2020-01
+MT,Feb,3.5,Montana,2020,2020-02
+MT,Mar,3.5,Montana,2020,2020-03
+NE,Jan,2.9,Nebraska,2015,2015-01
+NE,Feb,2.9,Nebraska,2015,2015-02
+NE,Mar,2.9,Nebraska,2015,2015-03
+NE,Apr,3,Nebraska,2015,2015-04
+NE,May,3,Nebraska,2015,2015-05
+NE,Jun,3,Nebraska,2015,2015-06
+NE,Jul,3.1,Nebraska,2015,2015-07
+NE,Aug,3.1,Nebraska,2015,2015-08
+NE,Sep,3.1,Nebraska,2015,2015-09
+NE,Oct,3.1,Nebraska,2015,2015-10
+NE,Nov,3,Nebraska,2015,2015-11
+NE,Dec,3,Nebraska,2015,2015-12
+NE,Jan,3,Nebraska,2016,2016-01
+NE,Feb,3,Nebraska,2016,2016-02
+NE,Mar,3,Nebraska,2016,2016-03
+NE,Apr,3,Nebraska,2016,2016-04
+NE,May,3.1,Nebraska,2016,2016-05
+NE,Jun,3.1,Nebraska,2016,2016-06
+NE,Jul,3.1,Nebraska,2016,2016-07
+NE,Aug,3.1,Nebraska,2016,2016-08
+NE,Sep,3.1,Nebraska,2016,2016-09
+NE,Oct,3.1,Nebraska,2016,2016-10
+NE,Nov,3.1,Nebraska,2016,2016-11
+NE,Dec,3.1,Nebraska,2016,2016-12
+NE,Jan,3,Nebraska,2017,2017-01
+NE,Feb,3,Nebraska,2017,2017-02
+NE,Mar,2.9,Nebraska,2017,2017-03
+NE,Apr,2.9,Nebraska,2017,2017-04
+NE,May,2.9,Nebraska,2017,2017-05
+NE,Jun,2.9,Nebraska,2017,2017-06
+NE,Jul,2.9,Nebraska,2017,2017-07
+NE,Aug,2.9,Nebraska,2017,2017-08
+NE,Sep,2.9,Nebraska,2017,2017-09
+NE,Oct,2.9,Nebraska,2017,2017-10
+NE,Nov,2.9,Nebraska,2017,2017-11
+NE,Dec,2.9,Nebraska,2017,2017-12
+NE,Jan,2.9,Nebraska,2018,2018-01
+NE,Feb,2.9,Nebraska,2018,2018-02
+NE,Mar,2.9,Nebraska,2018,2018-03
+NE,Apr,2.9,Nebraska,2018,2018-04
+NE,May,2.9,Nebraska,2018,2018-05
+NE,Jun,2.9,Nebraska,2018,2018-06
+NE,Jul,2.9,Nebraska,2018,2018-07
+NE,Aug,2.9,Nebraska,2018,2018-08
+NE,Sep,2.9,Nebraska,2018,2018-09
+NE,Oct,2.9,Nebraska,2018,2018-10
+NE,Nov,3,Nebraska,2018,2018-11
+NE,Dec,3,Nebraska,2018,2018-12
+NE,Jan,3,Nebraska,2019,2019-01
+NE,Feb,3.1,Nebraska,2019,2019-02
+NE,Mar,3.1,Nebraska,2019,2019-03
+NE,Apr,3.1,Nebraska,2019,2019-04
+NE,May,3.1,Nebraska,2019,2019-05
+NE,Jun,3.1,Nebraska,2019,2019-06
+NE,Jul,3.1,Nebraska,2019,2019-07
+NE,Aug,3.1,Nebraska,2019,2019-08
+NE,Sep,3,Nebraska,2019,2019-09
+NE,Oct,3,Nebraska,2019,2019-10
+NE,Nov,3,Nebraska,2019,2019-11
+NE,Dec,3,Nebraska,2019,2019-12
+NE,Jan,2.9,Nebraska,2020,2020-01
+NE,Feb,2.9,Nebraska,2020,2020-02
+NE,Mar,4.2,Nebraska,2020,2020-03
+NV,Jan,7.2,Nevada,2015,2015-01
+NV,Feb,7.1,Nevada,2015,2015-02
+NV,Mar,7,Nevada,2015,2015-03
+NV,Apr,6.9,Nevada,2015,2015-04
+NV,May,6.9,Nevada,2015,2015-05
+NV,Jun,6.8,Nevada,2015,2015-06
+NV,Jul,6.7,Nevada,2015,2015-07
+NV,Aug,6.7,Nevada,2015,2015-08
+NV,Sep,6.6,Nevada,2015,2015-09
+NV,Oct,6.5,Nevada,2015,2015-10
+NV,Nov,6.4,Nevada,2015,2015-11
+NV,Dec,6.3,Nevada,2015,2015-12
+NV,Jan,6.2,Nevada,2016,2016-01
+NV,Feb,6.1,Nevada,2016,2016-02
+NV,Mar,6,Nevada,2016,2016-03
+NV,Apr,5.9,Nevada,2016,2016-04
+NV,May,5.8,Nevada,2016,2016-05
+NV,Jun,5.7,Nevada,2016,2016-06
+NV,Jul,5.6,Nevada,2016,2016-07
+NV,Aug,5.6,Nevada,2016,2016-08
+NV,Sep,5.5,Nevada,2016,2016-09
+NV,Oct,5.4,Nevada,2016,2016-10
+NV,Nov,5.4,Nevada,2016,2016-11
+NV,Dec,5.3,Nevada,2016,2016-12
+NV,Jan,5.2,Nevada,2017,2017-01
+NV,Feb,5.2,Nevada,2017,2017-02
+NV,Mar,5.2,Nevada,2017,2017-03
+NV,Apr,5.1,Nevada,2017,2017-04
+NV,May,5.1,Nevada,2017,2017-05
+NV,Jun,5,Nevada,2017,2017-06
+NV,Jul,5,Nevada,2017,2017-07
+NV,Aug,4.9,Nevada,2017,2017-08
+NV,Sep,4.9,Nevada,2017,2017-09
+NV,Oct,4.9,Nevada,2017,2017-10
+NV,Nov,4.8,Nevada,2017,2017-11
+NV,Dec,4.8,Nevada,2017,2017-12
+NV,Jan,4.7,Nevada,2018,2018-01
+NV,Feb,4.7,Nevada,2018,2018-02
+NV,Mar,4.6,Nevada,2018,2018-03
+NV,Apr,4.6,Nevada,2018,2018-04
+NV,May,4.5,Nevada,2018,2018-05
+NV,Jun,4.4,Nevada,2018,2018-06
+NV,Jul,4.4,Nevada,2018,2018-07
+NV,Aug,4.4,Nevada,2018,2018-08
+NV,Sep,4.3,Nevada,2018,2018-09
+NV,Oct,4.3,Nevada,2018,2018-10
+NV,Nov,4.3,Nevada,2018,2018-11
+NV,Dec,4.2,Nevada,2018,2018-12
+NV,Jan,4.2,Nevada,2019,2019-01
+NV,Feb,4.1,Nevada,2019,2019-02
+NV,Mar,4.1,Nevada,2019,2019-03
+NV,Apr,4,Nevada,2019,2019-04
+NV,May,4,Nevada,2019,2019-05
+NV,Jun,3.9,Nevada,2019,2019-06
+NV,Jul,3.9,Nevada,2019,2019-07
+NV,Aug,3.8,Nevada,2019,2019-08
+NV,Sep,3.7,Nevada,2019,2019-09
+NV,Oct,3.7,Nevada,2019,2019-10
+NV,Nov,3.7,Nevada,2019,2019-11
+NV,Dec,3.7,Nevada,2019,2019-12
+NV,Jan,3.6,Nevada,2020,2020-01
+NV,Feb,3.6,Nevada,2020,2020-02
+NV,Mar,6.3,Nevada,2020,2020-03
+NH,Jan,3.8,New Hampshire,2015,2015-01
+NH,Feb,3.7,New Hampshire,2015,2015-02
+NH,Mar,3.7,New Hampshire,2015,2015-03
+NH,Apr,3.6,New Hampshire,2015,2015-04
+NH,May,3.5,New Hampshire,2015,2015-05
+NH,Jun,3.4,New Hampshire,2015,2015-06
+NH,Jul,3.3,New Hampshire,2015,2015-07
+NH,Aug,3.2,New Hampshire,2015,2015-08
+NH,Sep,3.2,New Hampshire,2015,2015-09
+NH,Oct,3.1,New Hampshire,2015,2015-10
+NH,Nov,3,New Hampshire,2015,2015-11
+NH,Dec,3,New Hampshire,2015,2015-12
+NH,Jan,2.9,New Hampshire,2016,2016-01
+NH,Feb,2.9,New Hampshire,2016,2016-02
+NH,Mar,2.9,New Hampshire,2016,2016-03
+NH,Apr,2.9,New Hampshire,2016,2016-04
+NH,May,2.9,New Hampshire,2016,2016-05
+NH,Jun,2.9,New Hampshire,2016,2016-06
+NH,Jul,2.9,New Hampshire,2016,2016-07
+NH,Aug,2.9,New Hampshire,2016,2016-08
+NH,Sep,2.8,New Hampshire,2016,2016-09
+NH,Oct,2.8,New Hampshire,2016,2016-10
+NH,Nov,2.8,New Hampshire,2016,2016-11
+NH,Dec,2.8,New Hampshire,2016,2016-12
+NH,Jan,2.8,New Hampshire,2017,2017-01
+NH,Feb,2.8,New Hampshire,2017,2017-02
+NH,Mar,2.8,New Hampshire,2017,2017-03
+NH,Apr,2.7,New Hampshire,2017,2017-04
+NH,May,2.7,New Hampshire,2017,2017-05
+NH,Jun,2.7,New Hampshire,2017,2017-06
+NH,Jul,2.7,New Hampshire,2017,2017-07
+NH,Aug,2.7,New Hampshire,2017,2017-08
+NH,Sep,2.7,New Hampshire,2017,2017-09
+NH,Oct,2.7,New Hampshire,2017,2017-10
+NH,Nov,2.7,New Hampshire,2017,2017-11
+NH,Dec,2.7,New Hampshire,2017,2017-12
+NH,Jan,2.7,New Hampshire,2018,2018-01
+NH,Feb,2.7,New Hampshire,2018,2018-02
+NH,Mar,2.7,New Hampshire,2018,2018-03
+NH,Apr,2.6,New Hampshire,2018,2018-04
+NH,May,2.6,New Hampshire,2018,2018-05
+NH,Jun,2.6,New Hampshire,2018,2018-06
+NH,Jul,2.5,New Hampshire,2018,2018-07
+NH,Aug,2.5,New Hampshire,2018,2018-08
+NH,Sep,2.5,New Hampshire,2018,2018-09
+NH,Oct,2.5,New Hampshire,2018,2018-10
+NH,Nov,2.5,New Hampshire,2018,2018-11
+NH,Dec,2.5,New Hampshire,2018,2018-12
+NH,Jan,2.5,New Hampshire,2019,2019-01
+NH,Feb,2.5,New Hampshire,2019,2019-02
+NH,Mar,2.5,New Hampshire,2019,2019-03
+NH,Apr,2.5,New Hampshire,2019,2019-04
+NH,May,2.5,New Hampshire,2019,2019-05
+NH,Jun,2.5,New Hampshire,2019,2019-06
+NH,Jul,2.6,New Hampshire,2019,2019-07
+NH,Aug,2.6,New Hampshire,2019,2019-08
+NH,Sep,2.6,New Hampshire,2019,2019-09
+NH,Oct,2.6,New Hampshire,2019,2019-10
+NH,Nov,2.6,New Hampshire,2019,2019-11
+NH,Dec,2.6,New Hampshire,2019,2019-12
+NH,Jan,2.6,New Hampshire,2020,2020-01
+NH,Feb,2.6,New Hampshire,2020,2020-02
+NH,Mar,2.6,New Hampshire,2020,2020-03
+NJ,Jan,6.5,New Jersey,2015,2015-01
+NJ,Feb,6.4,New Jersey,2015,2015-02
+NJ,Mar,6.3,New Jersey,2015,2015-03
+NJ,Apr,6.2,New Jersey,2015,2015-04
+NJ,May,6.1,New Jersey,2015,2015-05
+NJ,Jun,5.9,New Jersey,2015,2015-06
+NJ,Jul,5.7,New Jersey,2015,2015-07
+NJ,Aug,5.5,New Jersey,2015,2015-08
+NJ,Sep,5.3,New Jersey,2015,2015-09
+NJ,Oct,5.2,New Jersey,2015,2015-10
+NJ,Nov,5.1,New Jersey,2015,2015-11
+NJ,Dec,5,New Jersey,2015,2015-12
+NJ,Jan,5,New Jersey,2016,2016-01
+NJ,Feb,5,New Jersey,2016,2016-02
+NJ,Mar,5.1,New Jersey,2016,2016-03
+NJ,Apr,5.1,New Jersey,2016,2016-04
+NJ,May,5.1,New Jersey,2016,2016-05
+NJ,Jun,5.1,New Jersey,2016,2016-06
+NJ,Jul,5.1,New Jersey,2016,2016-07
+NJ,Aug,5,New Jersey,2016,2016-08
+NJ,Sep,4.9,New Jersey,2016,2016-09
+NJ,Oct,4.9,New Jersey,2016,2016-10
+NJ,Nov,4.8,New Jersey,2016,2016-11
+NJ,Dec,4.7,New Jersey,2016,2016-12
+NJ,Jan,4.6,New Jersey,2017,2017-01
+NJ,Feb,4.6,New Jersey,2017,2017-02
+NJ,Mar,4.5,New Jersey,2017,2017-03
+NJ,Apr,4.5,New Jersey,2017,2017-04
+NJ,May,4.6,New Jersey,2017,2017-05
+NJ,Jun,4.6,New Jersey,2017,2017-06
+NJ,Jul,4.7,New Jersey,2017,2017-07
+NJ,Aug,4.7,New Jersey,2017,2017-08
+NJ,Sep,4.7,New Jersey,2017,2017-09
+NJ,Oct,4.7,New Jersey,2017,2017-10
+NJ,Nov,4.7,New Jersey,2017,2017-11
+NJ,Dec,4.6,New Jersey,2017,2017-12
+NJ,Jan,4.5,New Jersey,2018,2018-01
+NJ,Feb,4.5,New Jersey,2018,2018-02
+NJ,Mar,4.4,New Jersey,2018,2018-03
+NJ,Apr,4.3,New Jersey,2018,2018-04
+NJ,May,4.2,New Jersey,2018,2018-05
+NJ,Jun,4.1,New Jersey,2018,2018-06
+NJ,Jul,4,New Jersey,2018,2018-07
+NJ,Aug,3.9,New Jersey,2018,2018-08
+NJ,Sep,3.8,New Jersey,2018,2018-09
+NJ,Oct,3.8,New Jersey,2018,2018-10
+NJ,Nov,3.8,New Jersey,2018,2018-11
+NJ,Dec,3.8,New Jersey,2018,2018-12
+NJ,Jan,3.7,New Jersey,2019,2019-01
+NJ,Feb,3.6,New Jersey,2019,2019-02
+NJ,Mar,3.5,New Jersey,2019,2019-03
+NJ,Apr,3.4,New Jersey,2019,2019-04
+NJ,May,3.3,New Jersey,2019,2019-05
+NJ,Jun,3.3,New Jersey,2019,2019-06
+NJ,Jul,3.3,New Jersey,2019,2019-07
+NJ,Aug,3.5,New Jersey,2019,2019-08
+NJ,Sep,3.6,New Jersey,2019,2019-09
+NJ,Oct,3.7,New Jersey,2019,2019-10
+NJ,Nov,3.7,New Jersey,2019,2019-11
+NJ,Dec,3.7,New Jersey,2019,2019-12
+NJ,Jan,3.8,New Jersey,2020,2020-01
+NJ,Feb,3.8,New Jersey,2020,2020-02
+NJ,Mar,3.8,New Jersey,2020,2020-03
+NM,Jan,6.4,New Mexico,2015,2015-01
+NM,Feb,6.5,New Mexico,2015,2015-02
+NM,Mar,6.5,New Mexico,2015,2015-03
+NM,Apr,6.6,New Mexico,2015,2015-04
+NM,May,6.6,New Mexico,2015,2015-05
+NM,Jun,6.5,New Mexico,2015,2015-06
+NM,Jul,6.5,New Mexico,2015,2015-07
+NM,Aug,6.5,New Mexico,2015,2015-08
+NM,Sep,6.4,New Mexico,2015,2015-09
+NM,Oct,6.5,New Mexico,2015,2015-10
+NM,Nov,6.5,New Mexico,2015,2015-11
+NM,Dec,6.5,New Mexico,2015,2015-12
+NM,Jan,6.5,New Mexico,2016,2016-01
+NM,Feb,6.5,New Mexico,2016,2016-02
+NM,Mar,6.6,New Mexico,2016,2016-03
+NM,Apr,6.6,New Mexico,2016,2016-04
+NM,May,6.7,New Mexico,2016,2016-05
+NM,Jun,6.7,New Mexico,2016,2016-06
+NM,Jul,6.7,New Mexico,2016,2016-07
+NM,Aug,6.7,New Mexico,2016,2016-08
+NM,Sep,6.6,New Mexico,2016,2016-09
+NM,Oct,6.6,New Mexico,2016,2016-10
+NM,Nov,6.5,New Mexico,2016,2016-11
+NM,Dec,6.4,New Mexico,2016,2016-12
+NM,Jan,6.4,New Mexico,2017,2017-01
+NM,Feb,6.3,New Mexico,2017,2017-02
+NM,Mar,6.2,New Mexico,2017,2017-03
+NM,Apr,6.1,New Mexico,2017,2017-04
+NM,May,6,New Mexico,2017,2017-05
+NM,Jun,5.9,New Mexico,2017,2017-06
+NM,Jul,5.8,New Mexico,2017,2017-07
+NM,Aug,5.7,New Mexico,2017,2017-08
+NM,Sep,5.6,New Mexico,2017,2017-09
+NM,Oct,5.5,New Mexico,2017,2017-10
+NM,Nov,5.4,New Mexico,2017,2017-11
+NM,Dec,5.3,New Mexico,2017,2017-12
+NM,Jan,5.2,New Mexico,2018,2018-01
+NM,Feb,5.1,New Mexico,2018,2018-02
+NM,Mar,5,New Mexico,2018,2018-03
+NM,Apr,4.9,New Mexico,2018,2018-04
+NM,May,4.8,New Mexico,2018,2018-05
+NM,Jun,4.8,New Mexico,2018,2018-06
+NM,Jul,4.8,New Mexico,2018,2018-07
+NM,Aug,4.8,New Mexico,2018,2018-08
+NM,Sep,4.8,New Mexico,2018,2018-09
+NM,Oct,4.9,New Mexico,2018,2018-10
+NM,Nov,4.9,New Mexico,2018,2018-11
+NM,Dec,4.9,New Mexico,2018,2018-12
+NM,Jan,5,New Mexico,2019,2019-01
+NM,Feb,5,New Mexico,2019,2019-02
+NM,Mar,5,New Mexico,2019,2019-03
+NM,Apr,5,New Mexico,2019,2019-04
+NM,May,4.9,New Mexico,2019,2019-05
+NM,Jun,4.9,New Mexico,2019,2019-06
+NM,Jul,4.8,New Mexico,2019,2019-07
+NM,Aug,4.8,New Mexico,2019,2019-08
+NM,Sep,4.8,New Mexico,2019,2019-09
+NM,Oct,4.8,New Mexico,2019,2019-10
+NM,Nov,4.8,New Mexico,2019,2019-11
+NM,Dec,4.8,New Mexico,2019,2019-12
+NM,Jan,4.8,New Mexico,2020,2020-01
+NM,Feb,4.8,New Mexico,2020,2020-02
+NM,Mar,5.9,New Mexico,2020,2020-03
+NY,Jan,5.7,New York,2015,2015-01
+NY,Feb,5.7,New York,2015,2015-02
+NY,Mar,5.6,New York,2015,2015-03
+NY,Apr,5.5,New York,2015,2015-04
+NY,May,5.4,New York,2015,2015-05
+NY,Jun,5.3,New York,2015,2015-06
+NY,Jul,5.2,New York,2015,2015-07
+NY,Aug,5,New York,2015,2015-08
+NY,Sep,5,New York,2015,2015-09
+NY,Oct,4.9,New York,2015,2015-10
+NY,Nov,4.9,New York,2015,2015-11
+NY,Dec,4.9,New York,2015,2015-12
+NY,Jan,4.9,New York,2016,2016-01
+NY,Feb,4.8,New York,2016,2016-02
+NY,Mar,4.8,New York,2016,2016-03
+NY,Apr,4.8,New York,2016,2016-04
+NY,May,4.8,New York,2016,2016-05
+NY,Jun,4.9,New York,2016,2016-06
+NY,Jul,4.9,New York,2016,2016-07
+NY,Aug,4.9,New York,2016,2016-08
+NY,Sep,5,New York,2016,2016-09
+NY,Oct,4.9,New York,2016,2016-10
+NY,Nov,4.9,New York,2016,2016-11
+NY,Dec,4.8,New York,2016,2016-12
+NY,Jan,4.7,New York,2017,2017-01
+NY,Feb,4.7,New York,2017,2017-02
+NY,Mar,4.7,New York,2017,2017-03
+NY,Apr,4.7,New York,2017,2017-04
+NY,May,4.7,New York,2017,2017-05
+NY,Jun,4.7,New York,2017,2017-06
+NY,Jul,4.8,New York,2017,2017-07
+NY,Aug,4.8,New York,2017,2017-08
+NY,Sep,4.7,New York,2017,2017-09
+NY,Oct,4.7,New York,2017,2017-10
+NY,Nov,4.6,New York,2017,2017-11
+NY,Dec,4.6,New York,2017,2017-12
+NY,Jan,4.5,New York,2018,2018-01
+NY,Feb,4.5,New York,2018,2018-02
+NY,Mar,4.4,New York,2018,2018-03
+NY,Apr,4.3,New York,2018,2018-04
+NY,May,4.2,New York,2018,2018-05
+NY,Jun,4.1,New York,2018,2018-06
+NY,Jul,4,New York,2018,2018-07
+NY,Aug,3.9,New York,2018,2018-08
+NY,Sep,3.9,New York,2018,2018-09
+NY,Oct,3.9,New York,2018,2018-10
+NY,Nov,4,New York,2018,2018-11
+NY,Dec,4,New York,2018,2018-12
+NY,Jan,4,New York,2019,2019-01
+NY,Feb,4,New York,2019,2019-02
+NY,Mar,4,New York,2019,2019-03
+NY,Apr,4,New York,2019,2019-04
+NY,May,4,New York,2019,2019-05
+NY,Jun,3.9,New York,2019,2019-06
+NY,Jul,3.9,New York,2019,2019-07
+NY,Aug,3.9,New York,2019,2019-08
+NY,Sep,3.9,New York,2019,2019-09
+NY,Oct,3.9,New York,2019,2019-10
+NY,Nov,3.9,New York,2019,2019-11
+NY,Dec,3.9,New York,2019,2019-12
+NY,Jan,3.8,New York,2020,2020-01
+NY,Feb,3.7,New York,2020,2020-02
+NY,Mar,4.5,New York,2020,2020-03
+NC,Jan,5.7,North Carolina,2015,2015-01
+NC,Feb,5.8,North Carolina,2015,2015-02
+NC,Mar,5.8,North Carolina,2015,2015-03
+NC,Apr,5.9,North Carolina,2015,2015-04
+NC,May,5.9,North Carolina,2015,2015-05
+NC,Jun,5.9,North Carolina,2015,2015-06
+NC,Jul,5.8,North Carolina,2015,2015-07
+NC,Aug,5.7,North Carolina,2015,2015-08
+NC,Sep,5.6,North Carolina,2015,2015-09
+NC,Oct,5.5,North Carolina,2015,2015-10
+NC,Nov,5.4,North Carolina,2015,2015-11
+NC,Dec,5.3,North Carolina,2015,2015-12
+NC,Jan,5.3,North Carolina,2016,2016-01
+NC,Feb,5.2,North Carolina,2016,2016-02
+NC,Mar,5.1,North Carolina,2016,2016-03
+NC,Apr,5.1,North Carolina,2016,2016-04
+NC,May,5,North Carolina,2016,2016-05
+NC,Jun,5,North Carolina,2016,2016-06
+NC,Jul,5,North Carolina,2016,2016-07
+NC,Aug,5,North Carolina,2016,2016-08
+NC,Sep,5.1,North Carolina,2016,2016-09
+NC,Oct,5.1,North Carolina,2016,2016-10
+NC,Nov,5.1,North Carolina,2016,2016-11
+NC,Dec,5,North Carolina,2016,2016-12
+NC,Jan,4.9,North Carolina,2017,2017-01
+NC,Feb,4.8,North Carolina,2017,2017-02
+NC,Mar,4.6,North Carolina,2017,2017-03
+NC,Apr,4.5,North Carolina,2017,2017-04
+NC,May,4.5,North Carolina,2017,2017-05
+NC,Jun,4.4,North Carolina,2017,2017-06
+NC,Jul,4.4,North Carolina,2017,2017-07
+NC,Aug,4.4,North Carolina,2017,2017-08
+NC,Sep,4.3,North Carolina,2017,2017-09
+NC,Oct,4.3,North Carolina,2017,2017-10
+NC,Nov,4.3,North Carolina,2017,2017-11
+NC,Dec,4.2,North Carolina,2017,2017-12
+NC,Jan,4.2,North Carolina,2018,2018-01
+NC,Feb,4.1,North Carolina,2018,2018-02
+NC,Mar,4.1,North Carolina,2018,2018-03
+NC,Apr,4,North Carolina,2018,2018-04
+NC,May,4,North Carolina,2018,2018-05
+NC,Jun,3.9,North Carolina,2018,2018-06
+NC,Jul,3.9,North Carolina,2018,2018-07
+NC,Aug,3.9,North Carolina,2018,2018-08
+NC,Sep,3.9,North Carolina,2018,2018-09
+NC,Oct,3.9,North Carolina,2018,2018-10
+NC,Nov,3.9,North Carolina,2018,2018-11
+NC,Dec,4,North Carolina,2018,2018-12
+NC,Jan,4,North Carolina,2019,2019-01
+NC,Feb,4.1,North Carolina,2019,2019-02
+NC,Mar,4.1,North Carolina,2019,2019-03
+NC,Apr,4.1,North Carolina,2019,2019-04
+NC,May,4,North Carolina,2019,2019-05
+NC,Jun,4,North Carolina,2019,2019-06
+NC,Jul,3.9,North Carolina,2019,2019-07
+NC,Aug,3.8,North Carolina,2019,2019-08
+NC,Sep,3.7,North Carolina,2019,2019-09
+NC,Oct,3.7,North Carolina,2019,2019-10
+NC,Nov,3.6,North Carolina,2019,2019-11
+NC,Dec,3.6,North Carolina,2019,2019-12
+NC,Jan,3.6,North Carolina,2020,2020-01
+NC,Feb,3.6,North Carolina,2020,2020-02
+NC,Mar,4.4,North Carolina,2020,2020-03
+ND,Jan,2.6,North Dakota,2015,2015-01
+ND,Feb,2.7,North Dakota,2015,2015-02
+ND,Mar,2.7,North Dakota,2015,2015-03
+ND,Apr,2.8,North Dakota,2015,2015-04
+ND,May,2.8,North Dakota,2015,2015-05
+ND,Jun,2.8,North Dakota,2015,2015-06
+ND,Jul,2.8,North Dakota,2015,2015-07
+ND,Aug,2.8,North Dakota,2015,2015-08
+ND,Sep,2.8,North Dakota,2015,2015-09
+ND,Oct,2.9,North Dakota,2015,2015-10
+ND,Nov,2.9,North Dakota,2015,2015-11
+ND,Dec,3,North Dakota,2015,2015-12
+ND,Jan,3.1,North Dakota,2016,2016-01
+ND,Feb,3.2,North Dakota,2016,2016-02
+ND,Mar,3.3,North Dakota,2016,2016-03
+ND,Apr,3.3,North Dakota,2016,2016-04
+ND,May,3.2,North Dakota,2016,2016-05
+ND,Jun,3.2,North Dakota,2016,2016-06
+ND,Jul,3.1,North Dakota,2016,2016-07
+ND,Aug,3,North Dakota,2016,2016-08
+ND,Sep,3,North Dakota,2016,2016-09
+ND,Oct,2.9,North Dakota,2016,2016-10
+ND,Nov,2.9,North Dakota,2016,2016-11
+ND,Dec,2.9,North Dakota,2016,2016-12
+ND,Jan,2.8,North Dakota,2017,2017-01
+ND,Feb,2.7,North Dakota,2017,2017-02
+ND,Mar,2.7,North Dakota,2017,2017-03
+ND,Apr,2.6,North Dakota,2017,2017-04
+ND,May,2.6,North Dakota,2017,2017-05
+ND,Jun,2.6,North Dakota,2017,2017-06
+ND,Jul,2.6,North Dakota,2017,2017-07
+ND,Aug,2.6,North Dakota,2017,2017-08
+ND,Sep,2.7,North Dakota,2017,2017-09
+ND,Oct,2.7,North Dakota,2017,2017-10
+ND,Nov,2.7,North Dakota,2017,2017-11
+ND,Dec,2.7,North Dakota,2017,2017-12
+ND,Jan,2.7,North Dakota,2018,2018-01
+ND,Feb,2.7,North Dakota,2018,2018-02
+ND,Mar,2.7,North Dakota,2018,2018-03
+ND,Apr,2.6,North Dakota,2018,2018-04
+ND,May,2.6,North Dakota,2018,2018-05
+ND,Jun,2.6,North Dakota,2018,2018-06
+ND,Jul,2.6,North Dakota,2018,2018-07
+ND,Aug,2.6,North Dakota,2018,2018-08
+ND,Sep,2.5,North Dakota,2018,2018-09
+ND,Oct,2.5,North Dakota,2018,2018-10
+ND,Nov,2.4,North Dakota,2018,2018-11
+ND,Dec,2.4,North Dakota,2018,2018-12
+ND,Jan,2.3,North Dakota,2019,2019-01
+ND,Feb,2.3,North Dakota,2019,2019-02
+ND,Mar,2.3,North Dakota,2019,2019-03
+ND,Apr,2.3,North Dakota,2019,2019-04
+ND,May,2.4,North Dakota,2019,2019-05
+ND,Jun,2.4,North Dakota,2019,2019-06
+ND,Jul,2.4,North Dakota,2019,2019-07
+ND,Aug,2.4,North Dakota,2019,2019-08
+ND,Sep,2.4,North Dakota,2019,2019-09
+ND,Oct,2.4,North Dakota,2019,2019-10
+ND,Nov,2.4,North Dakota,2019,2019-11
+ND,Dec,2.4,North Dakota,2019,2019-12
+ND,Jan,2.3,North Dakota,2020,2020-01
+ND,Feb,2.2,North Dakota,2020,2020-02
+ND,Mar,2.2,North Dakota,2020,2020-03
+OH,Jan,5.1,Ohio,2015,2015-01
+OH,Feb,5.1,Ohio,2015,2015-02
+OH,Mar,5.1,Ohio,2015,2015-03
+OH,Apr,5.1,Ohio,2015,2015-04
+OH,May,5,Ohio,2015,2015-05
+OH,Jun,4.9,Ohio,2015,2015-06
+OH,Jul,4.8,Ohio,2015,2015-07
+OH,Aug,4.7,Ohio,2015,2015-08
+OH,Sep,4.7,Ohio,2015,2015-09
+OH,Oct,4.7,Ohio,2015,2015-10
+OH,Nov,4.8,Ohio,2015,2015-11
+OH,Dec,4.9,Ohio,2015,2015-12
+OH,Jan,5,Ohio,2016,2016-01
+OH,Feb,5,Ohio,2016,2016-02
+OH,Mar,5,Ohio,2016,2016-03
+OH,Apr,5,Ohio,2016,2016-04
+OH,May,5,Ohio,2016,2016-05
+OH,Jun,5,Ohio,2016,2016-06
+OH,Jul,5,Ohio,2016,2016-07
+OH,Aug,5,Ohio,2016,2016-08
+OH,Sep,5.1,Ohio,2016,2016-09
+OH,Oct,5.2,Ohio,2016,2016-10
+OH,Nov,5.2,Ohio,2016,2016-11
+OH,Dec,5.2,Ohio,2016,2016-12
+OH,Jan,5.2,Ohio,2017,2017-01
+OH,Feb,5.2,Ohio,2017,2017-02
+OH,Mar,5.1,Ohio,2017,2017-03
+OH,Apr,5.1,Ohio,2017,2017-04
+OH,May,5.1,Ohio,2017,2017-05
+OH,Jun,5,Ohio,2017,2017-06
+OH,Jul,5,Ohio,2017,2017-07
+OH,Aug,5,Ohio,2017,2017-08
+OH,Sep,4.9,Ohio,2017,2017-09
+OH,Oct,4.8,Ohio,2017,2017-10
+OH,Nov,4.6,Ohio,2017,2017-11
+OH,Dec,4.5,Ohio,2017,2017-12
+OH,Jan,4.5,Ohio,2018,2018-01
+OH,Feb,4.5,Ohio,2018,2018-02
+OH,Mar,4.5,Ohio,2018,2018-03
+OH,Apr,4.6,Ohio,2018,2018-04
+OH,May,4.6,Ohio,2018,2018-05
+OH,Jun,4.5,Ohio,2018,2018-06
+OH,Jul,4.5,Ohio,2018,2018-07
+OH,Aug,4.4,Ohio,2018,2018-08
+OH,Sep,4.4,Ohio,2018,2018-09
+OH,Oct,4.4,Ohio,2018,2018-10
+OH,Nov,4.4,Ohio,2018,2018-11
+OH,Dec,4.3,Ohio,2018,2018-12
+OH,Jan,4.3,Ohio,2019,2019-01
+OH,Feb,4.2,Ohio,2019,2019-02
+OH,Mar,4.1,Ohio,2019,2019-03
+OH,Apr,4.1,Ohio,2019,2019-04
+OH,May,4.1,Ohio,2019,2019-05
+OH,Jun,4.1,Ohio,2019,2019-06
+OH,Jul,4.2,Ohio,2019,2019-07
+OH,Aug,4.2,Ohio,2019,2019-08
+OH,Sep,4.1,Ohio,2019,2019-09
+OH,Oct,4.1,Ohio,2019,2019-10
+OH,Nov,4.1,Ohio,2019,2019-11
+OH,Dec,4.1,Ohio,2019,2019-12
+OH,Jan,4.1,Ohio,2020,2020-01
+OH,Feb,4.1,Ohio,2020,2020-02
+OH,Mar,5.5,Ohio,2020,2020-03
+OK,Jan,4.2,Oklahoma,2015,2015-01
+OK,Feb,4.2,Oklahoma,2015,2015-02
+OK,Mar,4.3,Oklahoma,2015,2015-03
+OK,Apr,4.4,Oklahoma,2015,2015-04
+OK,May,4.4,Oklahoma,2015,2015-05
+OK,Jun,4.5,Oklahoma,2015,2015-06
+OK,Jul,4.5,Oklahoma,2015,2015-07
+OK,Aug,4.4,Oklahoma,2015,2015-08
+OK,Sep,4.4,Oklahoma,2015,2015-09
+OK,Oct,4.5,Oklahoma,2015,2015-10
+OK,Nov,4.5,Oklahoma,2015,2015-11
+OK,Dec,4.5,Oklahoma,2015,2015-12
+OK,Jan,4.6,Oklahoma,2016,2016-01
+OK,Feb,4.7,Oklahoma,2016,2016-02
+OK,Mar,4.7,Oklahoma,2016,2016-03
+OK,Apr,4.8,Oklahoma,2016,2016-04
+OK,May,4.9,Oklahoma,2016,2016-05
+OK,Jun,4.9,Oklahoma,2016,2016-06
+OK,Jul,4.9,Oklahoma,2016,2016-07
+OK,Aug,4.9,Oklahoma,2016,2016-08
+OK,Sep,4.9,Oklahoma,2016,2016-09
+OK,Oct,4.8,Oklahoma,2016,2016-10
+OK,Nov,4.8,Oklahoma,2016,2016-11
+OK,Dec,4.7,Oklahoma,2016,2016-12
+OK,Jan,4.6,Oklahoma,2017,2017-01
+OK,Feb,4.5,Oklahoma,2017,2017-02
+OK,Mar,4.4,Oklahoma,2017,2017-03
+OK,Apr,4.3,Oklahoma,2017,2017-04
+OK,May,4.3,Oklahoma,2017,2017-05
+OK,Jun,4.2,Oklahoma,2017,2017-06
+OK,Jul,4.2,Oklahoma,2017,2017-07
+OK,Aug,4.1,Oklahoma,2017,2017-08
+OK,Sep,4.1,Oklahoma,2017,2017-09
+OK,Oct,4,Oklahoma,2017,2017-10
+OK,Nov,4,Oklahoma,2017,2017-11
+OK,Dec,3.9,Oklahoma,2017,2017-12
+OK,Jan,3.9,Oklahoma,2018,2018-01
+OK,Feb,3.8,Oklahoma,2018,2018-02
+OK,Mar,3.7,Oklahoma,2018,2018-03
+OK,Apr,3.6,Oklahoma,2018,2018-04
+OK,May,3.5,Oklahoma,2018,2018-05
+OK,Jun,3.4,Oklahoma,2018,2018-06
+OK,Jul,3.3,Oklahoma,2018,2018-07
+OK,Aug,3.2,Oklahoma,2018,2018-08
+OK,Sep,3.2,Oklahoma,2018,2018-09
+OK,Oct,3.2,Oklahoma,2018,2018-10
+OK,Nov,3.2,Oklahoma,2018,2018-11
+OK,Dec,3.3,Oklahoma,2018,2018-12
+OK,Jan,3.3,Oklahoma,2019,2019-01
+OK,Feb,3.3,Oklahoma,2019,2019-02
+OK,Mar,3.2,Oklahoma,2019,2019-03
+OK,Apr,3.2,Oklahoma,2019,2019-04
+OK,May,3.2,Oklahoma,2019,2019-05
+OK,Jun,3.2,Oklahoma,2019,2019-06
+OK,Jul,3.3,Oklahoma,2019,2019-07
+OK,Aug,3.3,Oklahoma,2019,2019-08
+OK,Sep,3.3,Oklahoma,2019,2019-09
+OK,Oct,3.4,Oklahoma,2019,2019-10
+OK,Nov,3.4,Oklahoma,2019,2019-11
+OK,Dec,3.4,Oklahoma,2019,2019-12
+OK,Jan,3.3,Oklahoma,2020,2020-01
+OK,Feb,3.2,Oklahoma,2020,2020-02
+OK,Mar,3.1,Oklahoma,2020,2020-03
+OR,Jan,6,Oregon,2015,2015-01
+OR,Feb,5.9,Oregon,2015,2015-02
+OR,Mar,5.8,Oregon,2015,2015-03
+OR,Apr,5.8,Oregon,2015,2015-04
+OR,May,5.7,Oregon,2015,2015-05
+OR,Jun,5.7,Oregon,2015,2015-06
+OR,Jul,5.6,Oregon,2015,2015-07
+OR,Aug,5.5,Oregon,2015,2015-08
+OR,Sep,5.4,Oregon,2015,2015-09
+OR,Oct,5.3,Oregon,2015,2015-10
+OR,Nov,5.2,Oregon,2015,2015-11
+OR,Dec,5.1,Oregon,2015,2015-12
+OR,Jan,5.1,Oregon,2016,2016-01
+OR,Feb,5,Oregon,2016,2016-02
+OR,Mar,5,Oregon,2016,2016-03
+OR,Apr,5,Oregon,2016,2016-04
+OR,May,5,Oregon,2016,2016-05
+OR,Jun,5,Oregon,2016,2016-06
+OR,Jul,4.9,Oregon,2016,2016-07
+OR,Aug,4.8,Oregon,2016,2016-08
+OR,Sep,4.7,Oregon,2016,2016-09
+OR,Oct,4.6,Oregon,2016,2016-10
+OR,Nov,4.4,Oregon,2016,2016-11
+OR,Dec,4.3,Oregon,2016,2016-12
+OR,Jan,4.2,Oregon,2017,2017-01
+OR,Feb,4.1,Oregon,2017,2017-02
+OR,Mar,4.1,Oregon,2017,2017-03
+OR,Apr,4.1,Oregon,2017,2017-04
+OR,May,4.1,Oregon,2017,2017-05
+OR,Jun,4.1,Oregon,2017,2017-06
+OR,Jul,4.1,Oregon,2017,2017-07
+OR,Aug,4.1,Oregon,2017,2017-08
+OR,Sep,4.1,Oregon,2017,2017-09
+OR,Oct,4.1,Oregon,2017,2017-10
+OR,Nov,4.1,Oregon,2017,2017-11
+OR,Dec,4.1,Oregon,2017,2017-12
+OR,Jan,4.1,Oregon,2018,2018-01
+OR,Feb,4.1,Oregon,2018,2018-02
+OR,Mar,4.1,Oregon,2018,2018-03
+OR,Apr,4,Oregon,2018,2018-04
+OR,May,4,Oregon,2018,2018-05
+OR,Jun,3.9,Oregon,2018,2018-06
+OR,Jul,3.9,Oregon,2018,2018-07
+OR,Aug,4,Oregon,2018,2018-08
+OR,Sep,4,Oregon,2018,2018-09
+OR,Oct,4.1,Oregon,2018,2018-10
+OR,Nov,4.2,Oregon,2018,2018-11
+OR,Dec,4.2,Oregon,2018,2018-12
+OR,Jan,4.2,Oregon,2019,2019-01
+OR,Feb,4.2,Oregon,2019,2019-02
+OR,Mar,4.1,Oregon,2019,2019-03
+OR,Apr,4,Oregon,2019,2019-04
+OR,May,3.9,Oregon,2019,2019-05
+OR,Jun,3.8,Oregon,2019,2019-06
+OR,Jul,3.7,Oregon,2019,2019-07
+OR,Aug,3.6,Oregon,2019,2019-08
+OR,Sep,3.5,Oregon,2019,2019-09
+OR,Oct,3.4,Oregon,2019,2019-10
+OR,Nov,3.4,Oregon,2019,2019-11
+OR,Dec,3.4,Oregon,2019,2019-12
+OR,Jan,3.3,Oregon,2020,2020-01
+OR,Feb,3.3,Oregon,2020,2020-02
+OR,Mar,3.3,Oregon,2020,2020-03
+PA,Jan,5.4,Pennsylvania,2015,2015-01
+PA,Feb,5.4,Pennsylvania,2015,2015-02
+PA,Mar,5.4,Pennsylvania,2015,2015-03
+PA,Apr,5.4,Pennsylvania,2015,2015-04
+PA,May,5.4,Pennsylvania,2015,2015-05
+PA,Jun,5.3,Pennsylvania,2015,2015-06
+PA,Jul,5.3,Pennsylvania,2015,2015-07
+PA,Aug,5.2,Pennsylvania,2015,2015-08
+PA,Sep,5.2,Pennsylvania,2015,2015-09
+PA,Oct,5.1,Pennsylvania,2015,2015-10
+PA,Nov,5.1,Pennsylvania,2015,2015-11
+PA,Dec,5.2,Pennsylvania,2015,2015-12
+PA,Jan,5.2,Pennsylvania,2016,2016-01
+PA,Feb,5.3,Pennsylvania,2016,2016-02
+PA,Mar,5.4,Pennsylvania,2016,2016-03
+PA,Apr,5.4,Pennsylvania,2016,2016-04
+PA,May,5.4,Pennsylvania,2016,2016-05
+PA,Jun,5.5,Pennsylvania,2016,2016-06
+PA,Jul,5.5,Pennsylvania,2016,2016-07
+PA,Aug,5.5,Pennsylvania,2016,2016-08
+PA,Sep,5.4,Pennsylvania,2016,2016-09
+PA,Oct,5.4,Pennsylvania,2016,2016-10
+PA,Nov,5.3,Pennsylvania,2016,2016-11
+PA,Dec,5.2,Pennsylvania,2016,2016-12
+PA,Jan,5.2,Pennsylvania,2017,2017-01
+PA,Feb,5.1,Pennsylvania,2017,2017-02
+PA,Mar,5,Pennsylvania,2017,2017-03
+PA,Apr,5,Pennsylvania,2017,2017-04
+PA,May,4.9,Pennsylvania,2017,2017-05
+PA,Jun,4.8,Pennsylvania,2017,2017-06
+PA,Jul,4.8,Pennsylvania,2017,2017-07
+PA,Aug,4.8,Pennsylvania,2017,2017-08
+PA,Sep,4.7,Pennsylvania,2017,2017-09
+PA,Oct,4.7,Pennsylvania,2017,2017-10
+PA,Nov,4.7,Pennsylvania,2017,2017-11
+PA,Dec,4.6,Pennsylvania,2017,2017-12
+PA,Jan,4.6,Pennsylvania,2018,2018-01
+PA,Feb,4.5,Pennsylvania,2018,2018-02
+PA,Mar,4.4,Pennsylvania,2018,2018-03
+PA,Apr,4.3,Pennsylvania,2018,2018-04
+PA,May,4.3,Pennsylvania,2018,2018-05
+PA,Jun,4.2,Pennsylvania,2018,2018-06
+PA,Jul,4.2,Pennsylvania,2018,2018-07
+PA,Aug,4.2,Pennsylvania,2018,2018-08
+PA,Sep,4.1,Pennsylvania,2018,2018-09
+PA,Oct,4.1,Pennsylvania,2018,2018-10
+PA,Nov,4.1,Pennsylvania,2018,2018-11
+PA,Dec,4.1,Pennsylvania,2018,2018-12
+PA,Jan,4.1,Pennsylvania,2019,2019-01
+PA,Feb,4.1,Pennsylvania,2019,2019-02
+PA,Mar,4.1,Pennsylvania,2019,2019-03
+PA,Apr,4.1,Pennsylvania,2019,2019-04
+PA,May,4.2,Pennsylvania,2019,2019-05
+PA,Jun,4.3,Pennsylvania,2019,2019-06
+PA,Jul,4.4,Pennsylvania,2019,2019-07
+PA,Aug,4.5,Pennsylvania,2019,2019-08
+PA,Sep,4.6,Pennsylvania,2019,2019-09
+PA,Oct,4.6,Pennsylvania,2019,2019-10
+PA,Nov,4.6,Pennsylvania,2019,2019-11
+PA,Dec,4.6,Pennsylvania,2019,2019-12
+PA,Jan,4.7,Pennsylvania,2020,2020-01
+PA,Feb,4.7,Pennsylvania,2020,2020-02
+PA,Mar,6,Pennsylvania,2020,2020-03
+RI,Jan,6.6,Rhode Island,2015,2015-01
+RI,Feb,6.5,Rhode Island,2015,2015-02
+RI,Mar,6.4,Rhode Island,2015,2015-03
+RI,Apr,6.3,Rhode Island,2015,2015-04
+RI,May,6.2,Rhode Island,2015,2015-05
+RI,Jun,6,Rhode Island,2015,2015-06
+RI,Jul,5.9,Rhode Island,2015,2015-07
+RI,Aug,5.8,Rhode Island,2015,2015-08
+RI,Sep,5.7,Rhode Island,2015,2015-09
+RI,Oct,5.6,Rhode Island,2015,2015-10
+RI,Nov,5.5,Rhode Island,2015,2015-11
+RI,Dec,5.5,Rhode Island,2015,2015-12
+RI,Jan,5.4,Rhode Island,2016,2016-01
+RI,Feb,5.4,Rhode Island,2016,2016-02
+RI,Mar,5.4,Rhode Island,2016,2016-03
+RI,Apr,5.4,Rhode Island,2016,2016-04
+RI,May,5.4,Rhode Island,2016,2016-05
+RI,Jun,5.3,Rhode Island,2016,2016-06
+RI,Jul,5.3,Rhode Island,2016,2016-07
+RI,Aug,5.2,Rhode Island,2016,2016-08
+RI,Sep,5.1,Rhode Island,2016,2016-09
+RI,Oct,4.9,Rhode Island,2016,2016-10
+RI,Nov,4.8,Rhode Island,2016,2016-11
+RI,Dec,4.7,Rhode Island,2016,2016-12
+RI,Jan,4.5,Rhode Island,2017,2017-01
+RI,Feb,4.5,Rhode Island,2017,2017-02
+RI,Mar,4.4,Rhode Island,2017,2017-03
+RI,Apr,4.4,Rhode Island,2017,2017-04
+RI,May,4.4,Rhode Island,2017,2017-05
+RI,Jun,4.4,Rhode Island,2017,2017-06
+RI,Jul,4.4,Rhode Island,2017,2017-07
+RI,Aug,4.4,Rhode Island,2017,2017-08
+RI,Sep,4.4,Rhode Island,2017,2017-09
+RI,Oct,4.4,Rhode Island,2017,2017-10
+RI,Nov,4.4,Rhode Island,2017,2017-11
+RI,Dec,4.4,Rhode Island,2017,2017-12
+RI,Jan,4.3,Rhode Island,2018,2018-01
+RI,Feb,4.3,Rhode Island,2018,2018-02
+RI,Mar,4.2,Rhode Island,2018,2018-03
+RI,Apr,4.1,Rhode Island,2018,2018-04
+RI,May,4,Rhode Island,2018,2018-05
+RI,Jun,3.9,Rhode Island,2018,2018-06
+RI,Jul,3.9,Rhode Island,2018,2018-07
+RI,Aug,3.8,Rhode Island,2018,2018-08
+RI,Sep,3.8,Rhode Island,2018,2018-09
+RI,Oct,3.8,Rhode Island,2018,2018-10
+RI,Nov,3.8,Rhode Island,2018,2018-11
+RI,Dec,3.7,Rhode Island,2018,2018-12
+RI,Jan,3.7,Rhode Island,2019,2019-01
+RI,Feb,3.7,Rhode Island,2019,2019-02
+RI,Mar,3.6,Rhode Island,2019,2019-03
+RI,Apr,3.6,Rhode Island,2019,2019-04
+RI,May,3.6,Rhode Island,2019,2019-05
+RI,Jun,3.6,Rhode Island,2019,2019-06
+RI,Jul,3.6,Rhode Island,2019,2019-07
+RI,Aug,3.5,Rhode Island,2019,2019-08
+RI,Sep,3.5,Rhode Island,2019,2019-09
+RI,Oct,3.5,Rhode Island,2019,2019-10
+RI,Nov,3.5,Rhode Island,2019,2019-11
+RI,Dec,3.5,Rhode Island,2019,2019-12
+RI,Jan,3.4,Rhode Island,2020,2020-01
+RI,Feb,3.4,Rhode Island,2020,2020-02
+RI,Mar,4.6,Rhode Island,2020,2020-03
+SC,Jan,6.5,South Carolina,2015,2015-01
+SC,Feb,6.4,South Carolina,2015,2015-02
+SC,Mar,6.4,South Carolina,2015,2015-03
+SC,Apr,6.3,South Carolina,2015,2015-04
+SC,May,6.2,South Carolina,2015,2015-05
+SC,Jun,6,South Carolina,2015,2015-06
+SC,Jul,5.9,South Carolina,2015,2015-07
+SC,Aug,5.8,South Carolina,2015,2015-08
+SC,Sep,5.6,South Carolina,2015,2015-09
+SC,Oct,5.6,South Carolina,2015,2015-10
+SC,Nov,5.5,South Carolina,2015,2015-11
+SC,Dec,5.5,South Carolina,2015,2015-12
+SC,Jan,5.4,South Carolina,2016,2016-01
+SC,Feb,5.4,South Carolina,2016,2016-02
+SC,Mar,5.3,South Carolina,2016,2016-03
+SC,Apr,5.2,South Carolina,2016,2016-04
+SC,May,5.2,South Carolina,2016,2016-05
+SC,Jun,5.1,South Carolina,2016,2016-06
+SC,Jul,5,South Carolina,2016,2016-07
+SC,Aug,4.9,South Carolina,2016,2016-08
+SC,Sep,4.8,South Carolina,2016,2016-09
+SC,Oct,4.7,South Carolina,2016,2016-10
+SC,Nov,4.7,South Carolina,2016,2016-11
+SC,Dec,4.6,South Carolina,2016,2016-12
+SC,Jan,4.5,South Carolina,2017,2017-01
+SC,Feb,4.4,South Carolina,2017,2017-02
+SC,Mar,4.4,South Carolina,2017,2017-03
+SC,Apr,4.3,South Carolina,2017,2017-04
+SC,May,4.3,South Carolina,2017,2017-05
+SC,Jun,4.3,South Carolina,2017,2017-06
+SC,Jul,4.3,South Carolina,2017,2017-07
+SC,Aug,4.3,South Carolina,2017,2017-08
+SC,Sep,4.2,South Carolina,2017,2017-09
+SC,Oct,4.2,South Carolina,2017,2017-10
+SC,Nov,4.1,South Carolina,2017,2017-11
+SC,Dec,4,South Carolina,2017,2017-12
+SC,Jan,3.9,South Carolina,2018,2018-01
+SC,Feb,3.8,South Carolina,2018,2018-02
+SC,Mar,3.6,South Carolina,2018,2018-03
+SC,Apr,3.5,South Carolina,2018,2018-04
+SC,May,3.4,South Carolina,2018,2018-05
+SC,Jun,3.4,South Carolina,2018,2018-06
+SC,Jul,3.3,South Carolina,2018,2018-07
+SC,Aug,3.3,South Carolina,2018,2018-08
+SC,Sep,3.3,South Carolina,2018,2018-09
+SC,Oct,3.3,South Carolina,2018,2018-10
+SC,Nov,3.3,South Carolina,2018,2018-11
+SC,Dec,3.4,South Carolina,2018,2018-12
+SC,Jan,3.4,South Carolina,2019,2019-01
+SC,Feb,3.4,South Carolina,2019,2019-02
+SC,Mar,3.4,South Carolina,2019,2019-03
+SC,Apr,3.3,South Carolina,2019,2019-04
+SC,May,3.1,South Carolina,2019,2019-05
+SC,Jun,2.9,South Carolina,2019,2019-06
+SC,Jul,2.7,South Carolina,2019,2019-07
+SC,Aug,2.5,South Carolina,2019,2019-08
+SC,Sep,2.4,South Carolina,2019,2019-09
+SC,Oct,2.4,South Carolina,2019,2019-10
+SC,Nov,2.4,South Carolina,2019,2019-11
+SC,Dec,2.4,South Carolina,2019,2019-12
+SC,Jan,2.4,South Carolina,2020,2020-01
+SC,Feb,2.5,South Carolina,2020,2020-02
+SC,Mar,2.6,South Carolina,2020,2020-03
+SD,Jan,3.3,South Dakota,2015,2015-01
+SD,Feb,3.3,South Dakota,2015,2015-02
+SD,Mar,3.2,South Dakota,2015,2015-03
+SD,Apr,3.2,South Dakota,2015,2015-04
+SD,May,3.2,South Dakota,2015,2015-05
+SD,Jun,3.1,South Dakota,2015,2015-06
+SD,Jul,3.1,South Dakota,2015,2015-07
+SD,Aug,3.1,South Dakota,2015,2015-08
+SD,Sep,3,South Dakota,2015,2015-09
+SD,Oct,2.9,South Dakota,2015,2015-10
+SD,Nov,2.9,South Dakota,2015,2015-11
+SD,Dec,2.9,South Dakota,2015,2015-12
+SD,Jan,2.9,South Dakota,2016,2016-01
+SD,Feb,2.8,South Dakota,2016,2016-02
+SD,Mar,2.9,South Dakota,2016,2016-03
+SD,Apr,2.9,South Dakota,2016,2016-04
+SD,May,2.9,South Dakota,2016,2016-05
+SD,Jun,3,South Dakota,2016,2016-06
+SD,Jul,3,South Dakota,2016,2016-07
+SD,Aug,3,South Dakota,2016,2016-08
+SD,Sep,3.1,South Dakota,2016,2016-09
+SD,Oct,3.1,South Dakota,2016,2016-10
+SD,Nov,3.1,South Dakota,2016,2016-11
+SD,Dec,3.1,South Dakota,2016,2016-12
+SD,Jan,3.1,South Dakota,2017,2017-01
+SD,Feb,3.2,South Dakota,2017,2017-02
+SD,Mar,3.2,South Dakota,2017,2017-03
+SD,Apr,3.2,South Dakota,2017,2017-04
+SD,May,3.2,South Dakota,2017,2017-05
+SD,Jun,3.2,South Dakota,2017,2017-06
+SD,Jul,3.2,South Dakota,2017,2017-07
+SD,Aug,3.3,South Dakota,2017,2017-08
+SD,Sep,3.3,South Dakota,2017,2017-09
+SD,Oct,3.2,South Dakota,2017,2017-10
+SD,Nov,3.2,South Dakota,2017,2017-11
+SD,Dec,3.2,South Dakota,2017,2017-12
+SD,Jan,3.2,South Dakota,2018,2018-01
+SD,Feb,3.2,South Dakota,2018,2018-02
+SD,Mar,3.1,South Dakota,2018,2018-03
+SD,Apr,3.1,South Dakota,2018,2018-04
+SD,May,3.1,South Dakota,2018,2018-05
+SD,Jun,3.1,South Dakota,2018,2018-06
+SD,Jul,3,South Dakota,2018,2018-07
+SD,Aug,3,South Dakota,2018,2018-08
+SD,Sep,3,South Dakota,2018,2018-09
+SD,Oct,3,South Dakota,2018,2018-10
+SD,Nov,3,South Dakota,2018,2018-11
+SD,Dec,3.1,South Dakota,2018,2018-12
+SD,Jan,3.1,South Dakota,2019,2019-01
+SD,Feb,3.1,South Dakota,2019,2019-02
+SD,Mar,3.2,South Dakota,2019,2019-03
+SD,Apr,3.2,South Dakota,2019,2019-04
+SD,May,3.3,South Dakota,2019,2019-05
+SD,Jun,3.3,South Dakota,2019,2019-06
+SD,Jul,3.3,South Dakota,2019,2019-07
+SD,Aug,3.3,South Dakota,2019,2019-08
+SD,Sep,3.4,South Dakota,2019,2019-09
+SD,Oct,3.4,South Dakota,2019,2019-10
+SD,Nov,3.4,South Dakota,2019,2019-11
+SD,Dec,3.4,South Dakota,2019,2019-12
+SD,Jan,3.4,South Dakota,2020,2020-01
+SD,Feb,3.3,South Dakota,2020,2020-02
+SD,Mar,3.3,South Dakota,2020,2020-03
+TN,Jan,6.2,Tennessee,2015,2015-01
+TN,Feb,6.1,Tennessee,2015,2015-02
+TN,Mar,6,Tennessee,2015,2015-03
+TN,Apr,5.9,Tennessee,2015,2015-04
+TN,May,5.8,Tennessee,2015,2015-05
+TN,Jun,5.7,Tennessee,2015,2015-06
+TN,Jul,5.6,Tennessee,2015,2015-07
+TN,Aug,5.5,Tennessee,2015,2015-08
+TN,Sep,5.3,Tennessee,2015,2015-09
+TN,Oct,5.2,Tennessee,2015,2015-10
+TN,Nov,5,Tennessee,2015,2015-11
+TN,Dec,4.9,Tennessee,2015,2015-12
+TN,Jan,4.8,Tennessee,2016,2016-01
+TN,Feb,4.7,Tennessee,2016,2016-02
+TN,Mar,4.7,Tennessee,2016,2016-03
+TN,Apr,4.7,Tennessee,2016,2016-04
+TN,May,4.7,Tennessee,2016,2016-05
+TN,Jun,4.7,Tennessee,2016,2016-06
+TN,Jul,4.8,Tennessee,2016,2016-07
+TN,Aug,4.8,Tennessee,2016,2016-08
+TN,Sep,4.8,Tennessee,2016,2016-09
+TN,Oct,4.8,Tennessee,2016,2016-10
+TN,Nov,4.7,Tennessee,2016,2016-11
+TN,Dec,4.6,Tennessee,2016,2016-12
+TN,Jan,4.5,Tennessee,2017,2017-01
+TN,Feb,4.3,Tennessee,2017,2017-02
+TN,Mar,4.1,Tennessee,2017,2017-03
+TN,Apr,3.9,Tennessee,2017,2017-04
+TN,May,3.8,Tennessee,2017,2017-05
+TN,Jun,3.6,Tennessee,2017,2017-06
+TN,Jul,3.5,Tennessee,2017,2017-07
+TN,Aug,3.5,Tennessee,2017,2017-08
+TN,Sep,3.5,Tennessee,2017,2017-09
+TN,Oct,3.5,Tennessee,2017,2017-10
+TN,Nov,3.5,Tennessee,2017,2017-11
+TN,Dec,3.5,Tennessee,2017,2017-12
+TN,Jan,3.6,Tennessee,2018,2018-01
+TN,Feb,3.6,Tennessee,2018,2018-02
+TN,Mar,3.6,Tennessee,2018,2018-03
+TN,Apr,3.6,Tennessee,2018,2018-04
+TN,May,3.6,Tennessee,2018,2018-05
+TN,Jun,3.6,Tennessee,2018,2018-06
+TN,Jul,3.5,Tennessee,2018,2018-07
+TN,Aug,3.5,Tennessee,2018,2018-08
+TN,Sep,3.5,Tennessee,2018,2018-09
+TN,Oct,3.4,Tennessee,2018,2018-10
+TN,Nov,3.4,Tennessee,2018,2018-11
+TN,Dec,3.4,Tennessee,2018,2018-12
+TN,Jan,3.4,Tennessee,2019,2019-01
+TN,Feb,3.4,Tennessee,2019,2019-02
+TN,Mar,3.5,Tennessee,2019,2019-03
+TN,Apr,3.5,Tennessee,2019,2019-04
+TN,May,3.5,Tennessee,2019,2019-05
+TN,Jun,3.4,Tennessee,2019,2019-06
+TN,Jul,3.4,Tennessee,2019,2019-07
+TN,Aug,3.4,Tennessee,2019,2019-08
+TN,Sep,3.3,Tennessee,2019,2019-09
+TN,Oct,3.3,Tennessee,2019,2019-10
+TN,Nov,3.3,Tennessee,2019,2019-11
+TN,Dec,3.3,Tennessee,2019,2019-12
+TN,Jan,3.3,Tennessee,2020,2020-01
+TN,Feb,3.4,Tennessee,2020,2020-02
+TN,Mar,3.5,Tennessee,2020,2020-03
+TX,Jan,4.5,Texas,2015,2015-01
+TX,Feb,4.4,Texas,2015,2015-02
+TX,Mar,4.4,Texas,2015,2015-03
+TX,Apr,4.4,Texas,2015,2015-04
+TX,May,4.4,Texas,2015,2015-05
+TX,Jun,4.4,Texas,2015,2015-06
+TX,Jul,4.4,Texas,2015,2015-07
+TX,Aug,4.4,Texas,2015,2015-08
+TX,Sep,4.4,Texas,2015,2015-09
+TX,Oct,4.5,Texas,2015,2015-10
+TX,Nov,4.5,Texas,2015,2015-11
+TX,Dec,4.4,Texas,2015,2015-12
+TX,Jan,4.4,Texas,2016,2016-01
+TX,Feb,4.4,Texas,2016,2016-02
+TX,Mar,4.4,Texas,2016,2016-03
+TX,Apr,4.5,Texas,2016,2016-04
+TX,May,4.6,Texas,2016,2016-05
+TX,Jun,4.7,Texas,2016,2016-06
+TX,Jul,4.7,Texas,2016,2016-07
+TX,Aug,4.7,Texas,2016,2016-08
+TX,Sep,4.8,Texas,2016,2016-09
+TX,Oct,4.8,Texas,2016,2016-10
+TX,Nov,4.8,Texas,2016,2016-11
+TX,Dec,4.8,Texas,2016,2016-12
+TX,Jan,4.7,Texas,2017,2017-01
+TX,Feb,4.7,Texas,2017,2017-02
+TX,Mar,4.6,Texas,2017,2017-03
+TX,Apr,4.5,Texas,2017,2017-04
+TX,May,4.4,Texas,2017,2017-05
+TX,Jun,4.3,Texas,2017,2017-06
+TX,Jul,4.2,Texas,2017,2017-07
+TX,Aug,4.1,Texas,2017,2017-08
+TX,Sep,4.1,Texas,2017,2017-09
+TX,Oct,4.1,Texas,2017,2017-10
+TX,Nov,4,Texas,2017,2017-11
+TX,Dec,4,Texas,2017,2017-12
+TX,Jan,4,Texas,2018,2018-01
+TX,Feb,4,Texas,2018,2018-02
+TX,Mar,4,Texas,2018,2018-03
+TX,Apr,4,Texas,2018,2018-04
+TX,May,3.9,Texas,2018,2018-05
+TX,Jun,3.9,Texas,2018,2018-06
+TX,Jul,3.8,Texas,2018,2018-07
+TX,Aug,3.7,Texas,2018,2018-08
+TX,Sep,3.7,Texas,2018,2018-09
+TX,Oct,3.7,Texas,2018,2018-10
+TX,Nov,3.7,Texas,2018,2018-11
+TX,Dec,3.7,Texas,2018,2018-12
+TX,Jan,3.7,Texas,2019,2019-01
+TX,Feb,3.6,Texas,2019,2019-02
+TX,Mar,3.5,Texas,2019,2019-03
+TX,Apr,3.5,Texas,2019,2019-04
+TX,May,3.4,Texas,2019,2019-05
+TX,Jun,3.4,Texas,2019,2019-06
+TX,Jul,3.5,Texas,2019,2019-07
+TX,Aug,3.5,Texas,2019,2019-08
+TX,Sep,3.5,Texas,2019,2019-09
+TX,Oct,3.5,Texas,2019,2019-10
+TX,Nov,3.5,Texas,2019,2019-11
+TX,Dec,3.5,Texas,2019,2019-12
+TX,Jan,3.5,Texas,2020,2020-01
+TX,Feb,3.5,Texas,2020,2020-02
+TX,Mar,4.7,Texas,2020,2020-03
+UT,Jan,3.6,Utah,2015,2015-01
+UT,Feb,3.6,Utah,2015,2015-02
+UT,Mar,3.6,Utah,2015,2015-03
+UT,Apr,3.6,Utah,2015,2015-04
+UT,May,3.6,Utah,2015,2015-05
+UT,Jun,3.6,Utah,2015,2015-06
+UT,Jul,3.6,Utah,2015,2015-07
+UT,Aug,3.6,Utah,2015,2015-08
+UT,Sep,3.6,Utah,2015,2015-09
+UT,Oct,3.6,Utah,2015,2015-10
+UT,Nov,3.6,Utah,2015,2015-11
+UT,Dec,3.6,Utah,2015,2015-12
+UT,Jan,3.6,Utah,2016,2016-01
+UT,Feb,3.6,Utah,2016,2016-02
+UT,Mar,3.6,Utah,2016,2016-03
+UT,Apr,3.6,Utah,2016,2016-04
+UT,May,3.5,Utah,2016,2016-05
+UT,Jun,3.5,Utah,2016,2016-06
+UT,Jul,3.4,Utah,2016,2016-07
+UT,Aug,3.4,Utah,2016,2016-08
+UT,Sep,3.3,Utah,2016,2016-09
+UT,Oct,3.3,Utah,2016,2016-10
+UT,Nov,3.3,Utah,2016,2016-11
+UT,Dec,3.3,Utah,2016,2016-12
+UT,Jan,3.3,Utah,2017,2017-01
+UT,Feb,3.3,Utah,2017,2017-02
+UT,Mar,3.3,Utah,2017,2017-03
+UT,Apr,3.3,Utah,2017,2017-04
+UT,May,3.3,Utah,2017,2017-05
+UT,Jun,3.3,Utah,2017,2017-06
+UT,Jul,3.3,Utah,2017,2017-07
+UT,Aug,3.3,Utah,2017,2017-08
+UT,Sep,3.2,Utah,2017,2017-09
+UT,Oct,3.2,Utah,2017,2017-10
+UT,Nov,3.2,Utah,2017,2017-11
+UT,Dec,3.1,Utah,2017,2017-12
+UT,Jan,3.1,Utah,2018,2018-01
+UT,Feb,3.1,Utah,2018,2018-02
+UT,Mar,3.1,Utah,2018,2018-03
+UT,Apr,3.1,Utah,2018,2018-04
+UT,May,3.1,Utah,2018,2018-05
+UT,Jun,3.1,Utah,2018,2018-06
+UT,Jul,3.1,Utah,2018,2018-07
+UT,Aug,3,Utah,2018,2018-08
+UT,Sep,3,Utah,2018,2018-09
+UT,Oct,3,Utah,2018,2018-10
+UT,Nov,3,Utah,2018,2018-11
+UT,Dec,2.9,Utah,2018,2018-12
+UT,Jan,2.9,Utah,2019,2019-01
+UT,Feb,2.8,Utah,2019,2019-02
+UT,Mar,2.8,Utah,2019,2019-03
+UT,Apr,2.7,Utah,2019,2019-04
+UT,May,2.7,Utah,2019,2019-05
+UT,Jun,2.6,Utah,2019,2019-06
+UT,Jul,2.5,Utah,2019,2019-07
+UT,Aug,2.5,Utah,2019,2019-08
+UT,Sep,2.5,Utah,2019,2019-09
+UT,Oct,2.4,Utah,2019,2019-10
+UT,Nov,2.4,Utah,2019,2019-11
+UT,Dec,2.4,Utah,2019,2019-12
+UT,Jan,2.5,Utah,2020,2020-01
+UT,Feb,2.5,Utah,2020,2020-02
+UT,Mar,3.6,Utah,2020,2020-03
+VT,Jan,3.8,Vermont,2015,2015-01
+VT,Feb,3.7,Vermont,2015,2015-02
+VT,Mar,3.7,Vermont,2015,2015-03
+VT,Apr,3.6,Vermont,2015,2015-04
+VT,May,3.6,Vermont,2015,2015-05
+VT,Jun,3.6,Vermont,2015,2015-06
+VT,Jul,3.5,Vermont,2015,2015-07
+VT,Aug,3.5,Vermont,2015,2015-08
+VT,Sep,3.5,Vermont,2015,2015-09
+VT,Oct,3.4,Vermont,2015,2015-10
+VT,Nov,3.4,Vermont,2015,2015-11
+VT,Dec,3.4,Vermont,2015,2015-12
+VT,Jan,3.3,Vermont,2016,2016-01
+VT,Feb,3.3,Vermont,2016,2016-02
+VT,Mar,3.3,Vermont,2016,2016-03
+VT,Apr,3.3,Vermont,2016,2016-04
+VT,May,3.3,Vermont,2016,2016-05
+VT,Jun,3.2,Vermont,2016,2016-06
+VT,Jul,3.2,Vermont,2016,2016-07
+VT,Aug,3.2,Vermont,2016,2016-08
+VT,Sep,3.2,Vermont,2016,2016-09
+VT,Oct,3.1,Vermont,2016,2016-10
+VT,Nov,3.1,Vermont,2016,2016-11
+VT,Dec,3.1,Vermont,2016,2016-12
+VT,Jan,3.1,Vermont,2017,2017-01
+VT,Feb,3.1,Vermont,2017,2017-02
+VT,Mar,3.1,Vermont,2017,2017-03
+VT,Apr,3,Vermont,2017,2017-04
+VT,May,3,Vermont,2017,2017-05
+VT,Jun,3,Vermont,2017,2017-06
+VT,Jul,2.9,Vermont,2017,2017-07
+VT,Aug,2.9,Vermont,2017,2017-08
+VT,Sep,2.9,Vermont,2017,2017-09
+VT,Oct,2.8,Vermont,2017,2017-10
+VT,Nov,2.8,Vermont,2017,2017-11
+VT,Dec,2.7,Vermont,2017,2017-12
+VT,Jan,2.7,Vermont,2018,2018-01
+VT,Feb,2.7,Vermont,2018,2018-02
+VT,Mar,2.7,Vermont,2018,2018-03
+VT,Apr,2.6,Vermont,2018,2018-04
+VT,May,2.6,Vermont,2018,2018-05
+VT,Jun,2.6,Vermont,2018,2018-06
+VT,Jul,2.5,Vermont,2018,2018-07
+VT,Aug,2.5,Vermont,2018,2018-08
+VT,Sep,2.5,Vermont,2018,2018-09
+VT,Oct,2.4,Vermont,2018,2018-10
+VT,Nov,2.4,Vermont,2018,2018-11
+VT,Dec,2.4,Vermont,2018,2018-12
+VT,Jan,2.4,Vermont,2019,2019-01
+VT,Feb,2.3,Vermont,2019,2019-02
+VT,Mar,2.3,Vermont,2019,2019-03
+VT,Apr,2.3,Vermont,2019,2019-04
+VT,May,2.3,Vermont,2019,2019-05
+VT,Jun,2.4,Vermont,2019,2019-06
+VT,Jul,2.4,Vermont,2019,2019-07
+VT,Aug,2.4,Vermont,2019,2019-08
+VT,Sep,2.4,Vermont,2019,2019-09
+VT,Oct,2.4,Vermont,2019,2019-10
+VT,Nov,2.4,Vermont,2019,2019-11
+VT,Dec,2.4,Vermont,2019,2019-12
+VT,Jan,2.4,Vermont,2020,2020-01
+VT,Feb,2.4,Vermont,2020,2020-02
+VT,Mar,3.2,Vermont,2020,2020-03
+VA,Jan,4.9,Virginia,2015,2015-01
+VA,Feb,4.8,Virginia,2015,2015-02
+VA,Mar,4.8,Virginia,2015,2015-03
+VA,Apr,4.7,Virginia,2015,2015-04
+VA,May,4.6,Virginia,2015,2015-05
+VA,Jun,4.5,Virginia,2015,2015-06
+VA,Jul,4.4,Virginia,2015,2015-07
+VA,Aug,4.3,Virginia,2015,2015-08
+VA,Sep,4.2,Virginia,2015,2015-09
+VA,Oct,4.1,Virginia,2015,2015-10
+VA,Nov,4.1,Virginia,2015,2015-11
+VA,Dec,4.1,Virginia,2015,2015-12
+VA,Jan,4.1,Virginia,2016,2016-01
+VA,Feb,4,Virginia,2016,2016-02
+VA,Mar,4,Virginia,2016,2016-03
+VA,Apr,4,Virginia,2016,2016-04
+VA,May,4.1,Virginia,2016,2016-05
+VA,Jun,4.1,Virginia,2016,2016-06
+VA,Jul,4.1,Virginia,2016,2016-07
+VA,Aug,4.2,Virginia,2016,2016-08
+VA,Sep,4.2,Virginia,2016,2016-09
+VA,Oct,4.2,Virginia,2016,2016-10
+VA,Nov,4.1,Virginia,2016,2016-11
+VA,Dec,4.1,Virginia,2016,2016-12
+VA,Jan,4,Virginia,2017,2017-01
+VA,Feb,4,Virginia,2017,2017-02
+VA,Mar,3.9,Virginia,2017,2017-03
+VA,Apr,3.8,Virginia,2017,2017-04
+VA,May,3.8,Virginia,2017,2017-05
+VA,Jun,3.7,Virginia,2017,2017-06
+VA,Jul,3.7,Virginia,2017,2017-07
+VA,Aug,3.6,Virginia,2017,2017-08
+VA,Sep,3.6,Virginia,2017,2017-09
+VA,Oct,3.5,Virginia,2017,2017-10
+VA,Nov,3.4,Virginia,2017,2017-11
+VA,Dec,3.4,Virginia,2017,2017-12
+VA,Jan,3.3,Virginia,2018,2018-01
+VA,Feb,3.2,Virginia,2018,2018-02
+VA,Mar,3.2,Virginia,2018,2018-03
+VA,Apr,3.1,Virginia,2018,2018-04
+VA,May,3.1,Virginia,2018,2018-05
+VA,Jun,3,Virginia,2018,2018-06
+VA,Jul,3,Virginia,2018,2018-07
+VA,Aug,2.9,Virginia,2018,2018-08
+VA,Sep,2.9,Virginia,2018,2018-09
+VA,Oct,2.9,Virginia,2018,2018-10
+VA,Nov,2.9,Virginia,2018,2018-11
+VA,Dec,3,Virginia,2018,2018-12
+VA,Jan,3,Virginia,2019,2019-01
+VA,Feb,3,Virginia,2019,2019-02
+VA,Mar,2.9,Virginia,2019,2019-03
+VA,Apr,2.9,Virginia,2019,2019-04
+VA,May,2.8,Virginia,2019,2019-05
+VA,Jun,2.8,Virginia,2019,2019-06
+VA,Jul,2.7,Virginia,2019,2019-07
+VA,Aug,2.7,Virginia,2019,2019-08
+VA,Sep,2.7,Virginia,2019,2019-09
+VA,Oct,2.7,Virginia,2019,2019-10
+VA,Nov,2.7,Virginia,2019,2019-11
+VA,Dec,2.7,Virginia,2019,2019-12
+VA,Jan,2.7,Virginia,2020,2020-01
+VA,Feb,2.6,Virginia,2020,2020-02
+VA,Mar,3.3,Virginia,2020,2020-03
+WA,Jan,5.8,Washington,2015,2015-01
+WA,Feb,5.7,Washington,2015,2015-02
+WA,Mar,5.7,Washington,2015,2015-03
+WA,Apr,5.7,Washington,2015,2015-04
+WA,May,5.7,Washington,2015,2015-05
+WA,Jun,5.6,Washington,2015,2015-06
+WA,Jul,5.6,Washington,2015,2015-07
+WA,Aug,5.6,Washington,2015,2015-08
+WA,Sep,5.6,Washington,2015,2015-09
+WA,Oct,5.6,Washington,2015,2015-10
+WA,Nov,5.6,Washington,2015,2015-11
+WA,Dec,5.5,Washington,2015,2015-12
+WA,Jan,5.5,Washington,2016,2016-01
+WA,Feb,5.5,Washington,2016,2016-02
+WA,Mar,5.4,Washington,2016,2016-03
+WA,Apr,5.4,Washington,2016,2016-04
+WA,May,5.4,Washington,2016,2016-05
+WA,Jun,5.3,Washington,2016,2016-06
+WA,Jul,5.3,Washington,2016,2016-07
+WA,Aug,5.2,Washington,2016,2016-08
+WA,Sep,5.1,Washington,2016,2016-09
+WA,Oct,5.1,Washington,2016,2016-10
+WA,Nov,5,Washington,2016,2016-11
+WA,Dec,4.9,Washington,2016,2016-12
+WA,Jan,4.9,Washington,2017,2017-01
+WA,Feb,4.8,Washington,2017,2017-02
+WA,Mar,4.8,Washington,2017,2017-03
+WA,Apr,4.7,Washington,2017,2017-04
+WA,May,4.7,Washington,2017,2017-05
+WA,Jun,4.7,Washington,2017,2017-06
+WA,Jul,4.7,Washington,2017,2017-07
+WA,Aug,4.7,Washington,2017,2017-08
+WA,Sep,4.7,Washington,2017,2017-09
+WA,Oct,4.6,Washington,2017,2017-10
+WA,Nov,4.6,Washington,2017,2017-11
+WA,Dec,4.6,Washington,2017,2017-12
+WA,Jan,4.6,Washington,2018,2018-01
+WA,Feb,4.5,Washington,2018,2018-02
+WA,Mar,4.5,Washington,2018,2018-03
+WA,Apr,4.5,Washington,2018,2018-04
+WA,May,4.4,Washington,2018,2018-05
+WA,Jun,4.4,Washington,2018,2018-06
+WA,Jul,4.4,Washington,2018,2018-07
+WA,Aug,4.4,Washington,2018,2018-08
+WA,Sep,4.4,Washington,2018,2018-09
+WA,Oct,4.4,Washington,2018,2018-10
+WA,Nov,4.5,Washington,2018,2018-11
+WA,Dec,4.5,Washington,2018,2018-12
+WA,Jan,4.5,Washington,2019,2019-01
+WA,Feb,4.5,Washington,2019,2019-02
+WA,Mar,4.5,Washington,2019,2019-03
+WA,Apr,4.4,Washington,2019,2019-04
+WA,May,4.4,Washington,2019,2019-05
+WA,Jun,4.3,Washington,2019,2019-06
+WA,Jul,4.2,Washington,2019,2019-07
+WA,Aug,4.2,Washington,2019,2019-08
+WA,Sep,4.1,Washington,2019,2019-09
+WA,Oct,4,Washington,2019,2019-10
+WA,Nov,4,Washington,2019,2019-11
+WA,Dec,4,Washington,2019,2019-12
+WA,Jan,3.9,Washington,2020,2020-01
+WA,Feb,3.8,Washington,2020,2020-02
+WA,Mar,5.1,Washington,2020,2020-03
+WV,Jan,6.6,West Virginia,2015,2015-01
+WV,Feb,6.8,West Virginia,2015,2015-02
+WV,Mar,6.9,West Virginia,2015,2015-03
+WV,Apr,7,West Virginia,2015,2015-04
+WV,May,7,West Virginia,2015,2015-05
+WV,Jun,7,West Virginia,2015,2015-06
+WV,Jul,6.9,West Virginia,2015,2015-07
+WV,Aug,6.7,West Virginia,2015,2015-08
+WV,Sep,6.6,West Virginia,2015,2015-09
+WV,Oct,6.5,West Virginia,2015,2015-10
+WV,Nov,6.4,West Virginia,2015,2015-11
+WV,Dec,6.4,West Virginia,2015,2015-12
+WV,Jan,6.4,West Virginia,2016,2016-01
+WV,Feb,6.4,West Virginia,2016,2016-02
+WV,Mar,6.4,West Virginia,2016,2016-03
+WV,Apr,6.3,West Virginia,2016,2016-04
+WV,May,6.2,West Virginia,2016,2016-05
+WV,Jun,6.2,West Virginia,2016,2016-06
+WV,Jul,6.1,West Virginia,2016,2016-07
+WV,Aug,6,West Virginia,2016,2016-08
+WV,Sep,5.9,West Virginia,2016,2016-09
+WV,Oct,5.8,West Virginia,2016,2016-10
+WV,Nov,5.7,West Virginia,2016,2016-11
+WV,Dec,5.5,West Virginia,2016,2016-12
+WV,Jan,5.3,West Virginia,2017,2017-01
+WV,Feb,5.2,West Virginia,2017,2017-02
+WV,Mar,5.1,West Virginia,2017,2017-03
+WV,Apr,5,West Virginia,2017,2017-04
+WV,May,5,West Virginia,2017,2017-05
+WV,Jun,5.1,West Virginia,2017,2017-06
+WV,Jul,5.1,West Virginia,2017,2017-07
+WV,Aug,5.2,West Virginia,2017,2017-08
+WV,Sep,5.3,West Virginia,2017,2017-09
+WV,Oct,5.3,West Virginia,2017,2017-10
+WV,Nov,5.3,West Virginia,2017,2017-11
+WV,Dec,5.4,West Virginia,2017,2017-12
+WV,Jan,5.4,West Virginia,2018,2018-01
+WV,Feb,5.4,West Virginia,2018,2018-02
+WV,Mar,5.4,West Virginia,2018,2018-03
+WV,Apr,5.4,West Virginia,2018,2018-04
+WV,May,5.3,West Virginia,2018,2018-05
+WV,Jun,5.3,West Virginia,2018,2018-06
+WV,Jul,5.2,West Virginia,2018,2018-07
+WV,Aug,5.1,West Virginia,2018,2018-08
+WV,Sep,5.1,West Virginia,2018,2018-09
+WV,Oct,5,West Virginia,2018,2018-10
+WV,Nov,5,West Virginia,2018,2018-11
+WV,Dec,4.9,West Virginia,2018,2018-12
+WV,Jan,4.9,West Virginia,2019,2019-01
+WV,Feb,4.8,West Virginia,2019,2019-02
+WV,Mar,4.8,West Virginia,2019,2019-03
+WV,Apr,4.7,West Virginia,2019,2019-04
+WV,May,4.7,West Virginia,2019,2019-05
+WV,Jun,4.7,West Virginia,2019,2019-06
+WV,Jul,4.8,West Virginia,2019,2019-07
+WV,Aug,4.9,West Virginia,2019,2019-08
+WV,Sep,5,West Virginia,2019,2019-09
+WV,Oct,5.1,West Virginia,2019,2019-10
+WV,Nov,5.1,West Virginia,2019,2019-11
+WV,Dec,5.1,West Virginia,2019,2019-12
+WV,Jan,5,West Virginia,2020,2020-01
+WV,Feb,4.9,West Virginia,2020,2020-02
+WV,Mar,6.1,West Virginia,2020,2020-03
+WI,Jan,4.8,Wisconsin,2015,2015-01
+WI,Feb,4.8,Wisconsin,2015,2015-02
+WI,Mar,4.7,Wisconsin,2015,2015-03
+WI,Apr,4.7,Wisconsin,2015,2015-04
+WI,May,4.6,Wisconsin,2015,2015-05
+WI,Jun,4.5,Wisconsin,2015,2015-06
+WI,Jul,4.5,Wisconsin,2015,2015-07
+WI,Aug,4.4,Wisconsin,2015,2015-08
+WI,Sep,4.4,Wisconsin,2015,2015-09
+WI,Oct,4.3,Wisconsin,2015,2015-10
+WI,Nov,4.3,Wisconsin,2015,2015-11
+WI,Dec,4.3,Wisconsin,2015,2015-12
+WI,Jan,4.3,Wisconsin,2016,2016-01
+WI,Feb,4.2,Wisconsin,2016,2016-02
+WI,Mar,4.2,Wisconsin,2016,2016-03
+WI,Apr,4.1,Wisconsin,2016,2016-04
+WI,May,4.1,Wisconsin,2016,2016-05
+WI,Jun,4,Wisconsin,2016,2016-06
+WI,Jul,4,Wisconsin,2016,2016-07
+WI,Aug,3.9,Wisconsin,2016,2016-08
+WI,Sep,3.9,Wisconsin,2016,2016-09
+WI,Oct,3.9,Wisconsin,2016,2016-10
+WI,Nov,3.8,Wisconsin,2016,2016-11
+WI,Dec,3.7,Wisconsin,2016,2016-12
+WI,Jan,3.6,Wisconsin,2017,2017-01
+WI,Feb,3.5,Wisconsin,2017,2017-02
+WI,Mar,3.4,Wisconsin,2017,2017-03
+WI,Apr,3.3,Wisconsin,2017,2017-04
+WI,May,3.3,Wisconsin,2017,2017-05
+WI,Jun,3.3,Wisconsin,2017,2017-06
+WI,Jul,3.2,Wisconsin,2017,2017-07
+WI,Aug,3.2,Wisconsin,2017,2017-08
+WI,Sep,3.2,Wisconsin,2017,2017-09
+WI,Oct,3.1,Wisconsin,2017,2017-10
+WI,Nov,3.1,Wisconsin,2017,2017-11
+WI,Dec,3,Wisconsin,2017,2017-12
+WI,Jan,3,Wisconsin,2018,2018-01
+WI,Feb,3,Wisconsin,2018,2018-02
+WI,Mar,3,Wisconsin,2018,2018-03
+WI,Apr,3,Wisconsin,2018,2018-04
+WI,May,3,Wisconsin,2018,2018-05
+WI,Jun,3,Wisconsin,2018,2018-06
+WI,Jul,3,Wisconsin,2018,2018-07
+WI,Aug,3,Wisconsin,2018,2018-08
+WI,Sep,3,Wisconsin,2018,2018-09
+WI,Oct,3,Wisconsin,2018,2018-10
+WI,Nov,3,Wisconsin,2018,2018-11
+WI,Dec,3,Wisconsin,2018,2018-12
+WI,Jan,3.1,Wisconsin,2019,2019-01
+WI,Feb,3.2,Wisconsin,2019,2019-02
+WI,Mar,3.2,Wisconsin,2019,2019-03
+WI,Apr,3.3,Wisconsin,2019,2019-04
+WI,May,3.3,Wisconsin,2019,2019-05
+WI,Jun,3.4,Wisconsin,2019,2019-06
+WI,Jul,3.4,Wisconsin,2019,2019-07
+WI,Aug,3.4,Wisconsin,2019,2019-08
+WI,Sep,3.4,Wisconsin,2019,2019-09
+WI,Oct,3.5,Wisconsin,2019,2019-10
+WI,Nov,3.5,Wisconsin,2019,2019-11
+WI,Dec,3.5,Wisconsin,2019,2019-12
+WI,Jan,3.5,Wisconsin,2020,2020-01
+WI,Feb,3.5,Wisconsin,2020,2020-02
+WI,Mar,3.4,Wisconsin,2020,2020-03
+WY,Jan,3.9,Wyoming,2015,2015-01
+WY,Feb,4,Wyoming,2015,2015-02
+WY,Mar,4.1,Wyoming,2015,2015-03
+WY,Apr,4.2,Wyoming,2015,2015-04
+WY,May,4.3,Wyoming,2015,2015-05
+WY,Jun,4.3,Wyoming,2015,2015-06
+WY,Jul,4.4,Wyoming,2015,2015-07
+WY,Aug,4.4,Wyoming,2015,2015-08
+WY,Sep,4.4,Wyoming,2015,2015-09
+WY,Oct,4.5,Wyoming,2015,2015-10
+WY,Nov,4.6,Wyoming,2015,2015-11
+WY,Dec,4.9,Wyoming,2015,2015-12
+WY,Jan,5.1,Wyoming,2016,2016-01
+WY,Feb,5.4,Wyoming,2016,2016-02
+WY,Mar,5.6,Wyoming,2016,2016-03
+WY,Apr,5.7,Wyoming,2016,2016-04
+WY,May,5.7,Wyoming,2016,2016-05
+WY,Jun,5.6,Wyoming,2016,2016-06
+WY,Jul,5.5,Wyoming,2016,2016-07
+WY,Aug,5.3,Wyoming,2016,2016-08
+WY,Sep,5.2,Wyoming,2016,2016-09
+WY,Oct,5,Wyoming,2016,2016-10
+WY,Nov,4.9,Wyoming,2016,2016-11
+WY,Dec,4.8,Wyoming,2016,2016-12
+WY,Jan,4.6,Wyoming,2017,2017-01
+WY,Feb,4.4,Wyoming,2017,2017-02
+WY,Mar,4.3,Wyoming,2017,2017-03
+WY,Apr,4.1,Wyoming,2017,2017-04
+WY,May,4.1,Wyoming,2017,2017-05
+WY,Jun,4,Wyoming,2017,2017-06
+WY,Jul,4.1,Wyoming,2017,2017-07
+WY,Aug,4.1,Wyoming,2017,2017-08
+WY,Sep,4.1,Wyoming,2017,2017-09
+WY,Oct,4.1,Wyoming,2017,2017-10
+WY,Nov,4.1,Wyoming,2017,2017-11
+WY,Dec,4,Wyoming,2017,2017-12
+WY,Jan,4,Wyoming,2018,2018-01
+WY,Feb,4,Wyoming,2018,2018-02
+WY,Mar,3.9,Wyoming,2018,2018-03
+WY,Apr,3.9,Wyoming,2018,2018-04
+WY,May,3.9,Wyoming,2018,2018-05
+WY,Jun,3.9,Wyoming,2018,2018-06
+WY,Jul,3.9,Wyoming,2018,2018-07
+WY,Aug,3.9,Wyoming,2018,2018-08
+WY,Sep,3.9,Wyoming,2018,2018-09
+WY,Oct,3.8,Wyoming,2018,2018-10
+WY,Nov,3.7,Wyoming,2018,2018-11
+WY,Dec,3.6,Wyoming,2018,2018-12
+WY,Jan,3.5,Wyoming,2019,2019-01
+WY,Feb,3.5,Wyoming,2019,2019-02
+WY,Mar,3.4,Wyoming,2019,2019-03
+WY,Apr,3.5,Wyoming,2019,2019-04
+WY,May,3.5,Wyoming,2019,2019-05
+WY,Jun,3.6,Wyoming,2019,2019-06
+WY,Jul,3.7,Wyoming,2019,2019-07
+WY,Aug,3.7,Wyoming,2019,2019-08
+WY,Sep,3.7,Wyoming,2019,2019-09
+WY,Oct,3.7,Wyoming,2019,2019-10
+WY,Nov,3.7,Wyoming,2019,2019-11
+WY,Dec,3.7,Wyoming,2019,2019-12
+WY,Jan,3.7,Wyoming,2020,2020-01
+WY,Feb,3.7,Wyoming,2020,2020-02
+WY,Mar,3.7,Wyoming,2020,2020-03
