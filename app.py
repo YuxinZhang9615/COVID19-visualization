@@ -26,10 +26,30 @@ label2='ABV'
 githublink='https://github.com/austinlasseter/flying-dog-beers'
 sourceurl='https://www.flyingdog.com/beers/'
 
+
+#################################################################
+##############################      Table 3      ################
+legal = pd.read_csv('covid-19-legislation.csv')
+legal.drop('Internal Quorum Link', axis = 1, inplace = True)
+legal.rename(columns= {'Status Text': 'Status'}, inplace = True)
+legal = legal[legal['Region'] != "Puerto Rico"].reset_index(drop = True)
+legal.replace(np.nan, '', inplace = True)
+
+legal['search_area'] = legal[['COVID-19 Legislation', 'Official Description']].agg('.'.join, axis=1)
+legal['search_area'] = legal['search_area'].str.lower()
+legal['search_area'] = [re.sub('[^A-Za-z0-9]+', ' ', str(x)) for x in legal['search_area']]
+legal['search_area'] = [re.sub(' ', '', str(x)) for x in legal['search_area']]
+
+legal['link'] = ['<a href="'] * len(legal['Source Link']) + legal['Source Link'] + ['">click here</a>']
+legal['title'] = ['<a href="'] * len(legal['Source Link']) + legal['Source Link'] + ['">'] + legal['COVID-19 Legislation'] + ['</a>']
+legal['c'] = np.full(legal.shape[0], 1)
+legal['code'] = [x.split(':')[0] for x in legal['COVID-19 Legislation']]
+
+
 ########### Set up the chart
 bitterness = go.Bar(
-    x=beers,
-    y=ibu_values,
+    x=legal['Region'],
+    y=legal['c'],
     name=label1,
     marker={'color':color1}
 )
@@ -57,6 +77,7 @@ app.title=tabtitle
 
 ########### Set up the layout
 app.layout = html.Div(children=[
+    html.H4("Yuxin Zhang"),
     dcc.Graph(
         id='flyingdog',
         figure=beer_fig
