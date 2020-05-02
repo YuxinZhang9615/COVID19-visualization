@@ -4,6 +4,7 @@ Click==7.0
 dash==1.1.1
 dash-core-components==1.1.1
 dash-html-components==1.0.0
+dash_bootstrap_components==0.9.2
 dash-renderer==1.0.0
 dash-table==4.1.0
 dask==2.1.0
