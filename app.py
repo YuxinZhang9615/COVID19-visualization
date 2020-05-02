@@ -12,19 +12,6 @@ from dash.dependencies import Output, Input
 
 import math
 
-########### Define your variables
-beers=['Chesapeake Stout', 'Snake Dog IPA', 'Imperial Porter', 'Double Dog IPA']
-ibu_values=[35, 60, 85, 75]
-abv_values=[5.4, 7.1, 9.2, 4.3]
-color1='lightblue'
-color2='darkgreen'
-mytitle='Beer Comparison'
-tabtitle='beer!'
-myheading='Flying Dog Beers'
-label1='IBU'
-label2='ABV'
-githublink='https://github.com/austinlasseter/flying-dog-beers'
-sourceurl='https://www.flyingdog.com/beers/'
 
 
 #################################################################
@@ -46,35 +33,12 @@ legal['c'] = np.full(legal.shape[0], 1)
 legal['code'] = [x.split(':')[0] for x in legal['COVID-19 Legislation']]
 
 
-########### Set up the chart
-bitterness = go.Bar(
-    x=legal['Region'],
-    y=legal['c'],
-    name=label1,
-    marker={'color':color1}
-)
-alcohol = go.Bar(
-    x=beers,
-    y=abv_values,
-    name=label2,
-    marker={'color':color2}
-)
-
-beer_data = [bitterness, alcohol]
-beer_layout = go.Layout(
-    barmode='group',
-    title = mytitle
-)
-
-beer_fig = go.Figure(data=beer_data, layout=beer_layout)
-
 
 ########### Initiate the app
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-#app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
-app.title=tabtitle
+app.title="COVID19-visual_app_title"
 
 ########### Set up the layout
 NAVBAR = dbc.Navbar(
@@ -97,6 +61,7 @@ NAVBAR = dbc.Navbar(
     dark=True,
     sticky="top",
 )
+
 
 LEGAL_TABLE = [
     dbc.CardHeader(html.H5("Legislation Search Table")),
@@ -158,7 +123,18 @@ LEGAL_TABLE = [
 BODY = dbc.Container([
 
     dcc.Tabs([
+        dcc.Tab(label='Overview', children=[
+            #dbc.Row([dbc.Col(dbc.Card(FLATTEN_THE_CURVE)),], style={"marginTop": 30})
+
+            ]),
         dcc.Tab(label='Mobility', children=[
+
+            ]),
+        dcc.Tab(label='People Opinion', children=[
+
+            ]),
+
+        dcc.Tab(label='Unemployment', children=[
 
             ]),
 
