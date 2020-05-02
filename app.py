@@ -1,7 +1,16 @@
 import dash
+import dash_bootstrap_components as dbc
 import dash_core_components as dcc
 import dash_html_components as html
+import numpy as np
+import pandas as pd
+import random
+import re
 import plotly.graph_objs as go
+import plotly.express as px
+from dash.dependencies import Output, Input
+
+import math
 
 ########### Define your variables
 beers=['Chesapeake Stout', 'Snake Dog IPA', 'Imperial Porter', 'Double Dog IPA']
