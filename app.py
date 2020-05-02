@@ -70,10 +70,10 @@ beer_fig = go.Figure(data=beer_data, layout=beer_layout)
 
 
 ########### Initiate the app
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-server = app.server
-app.title=tabtitle
+#external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+#app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+#server = app.server
+#app.title=tabtitle
 
 ########### Set up the layout
 NAVBAR = dbc.Navbar(
@@ -212,4 +212,4 @@ def update_table(search_text, selected_state, selected_status):
 
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(debug=True)
