@@ -155,11 +155,25 @@ LEGAL_TABLE = [
 
 ]
 
-BODY = dbc.Container(
-    [
+BODY = dbc.Container([
+
+    dcc.Tabs([
+        dcc.Tab(label='Mobility', children=[
+
+            ]),
+
+        dcc.Tab(label='Legislation', children=[
+            dbc.Row([dbc.Col([dbc.Card(LEGAL_TABLE)])], style={"marginTop": 50})
+
+            ]),
+
+        ], colors={"border": "white", "primary": "gold", "background": "cornsilk"
+    })
+
+
         #dbc.Row([dbc.Col(dbc.Card(FLATTEN_THE_CURVE)),], style={"marginTop": 30}),
         #dbc.Row([dbc.Col(dbc.Card(SURVEY_MEDIA)),], style={"marginTop": 30}),
-        dbc.Row([dbc.Col([dbc.Card(LEGAL_TABLE)])], style={"marginTop": 50})
+        
     ],
     className="mt-12",
 )
