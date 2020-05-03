@@ -43,8 +43,8 @@ markdict = {0: {'label': '2020-03-22'},
 
 app.layout = html.Div([
     html.H1('Twitter Hot Words', id='time-range-label'),
-    html.Section(id="slideshow", children=[
-        html.Div(id="slideshow-container", children=[
+    #html.Section(id="slideshow", children=[
+        #html.Div(id="slideshow-container", children=[
         dcc.Slider(
             id='year-slider',
             updatemode = 'mouseup',
@@ -56,8 +56,8 @@ app.layout = html.Div([
         #html.Div(id="slide-container"),
         html.Div(id="image"),
         dcc.Graph(id ='hot-table', style={'display': 'inline-block'})
-        ], style={'width': '100%', 'display': 'inline-block'})
-    ])
+        #], style={'width': '100%', 'display': 'inline-block'})
+    #])
 ])
 
 #print({x: {'label' : str(pd.to_datetime(x, unit='s').date())} for x in daterange['date'].unique()})
