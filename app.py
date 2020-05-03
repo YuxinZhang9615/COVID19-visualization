@@ -182,7 +182,7 @@ color2 = ["#e8f5c8","#aebaf8"]
 ####################################################################################
 #######################   Page 2 - Plot1.   Mobility      ##########################
 ####################################################################################
-df_google = pd.read_csv('US_Corona.csv')
+df_google = pd.read_csv('https://raw.githubusercontent.com/yyyyyokoko/covid-19-challenge/master/US_Corona.csv')
 df_apple = pd.read_csv('apple_mobility.csv')
 # category dropdown 
 # state and county dropdown
@@ -383,7 +383,7 @@ FLATTEN_THE_CURVE = [
             dbc.Col([
                 html.Div([
                     html.Img(src = "assets/legend2.jpeg",
-                            style = {'height': '115px', 'marginTop': '60px', 'float': 'left'})
+                            style = {'height': '15px', 'marginTop': '60px', 'float': 'left'})
                     
                 ], style={'vertical-align': 'middle'})
                 
@@ -669,7 +669,9 @@ GOOGLE =[
     dbc.CardBody([
         dbc.Row([
             dbc.Col([
-                html.Iframe(src = "https://public.flourish.studio/visualisation/2211837/", width="100%", height = '600px')
+                html.Iframe(src = "https://public.flourish.studio/visualisation/2211837/", width="100%", height = '600px'),
+                html.Iframe(src = "https://dash-gallery.plotly.host/dash-drug-discovery/", width="100%", height = '600px')
+
                 ], width = 6),
 
             dbc.Col([
@@ -1157,7 +1159,7 @@ def update_figure(time_lockdown):
 #######################   Page 2 - Plot1.   Mobility      ##########################
 ####################################################################################
 
-df_google = pd.read_csv('US_Corona.csv')
+df_google = pd.read_csv('https://raw.githubusercontent.com/yyyyyokoko/covid-19-challenge/master/US_Corona.csv')
 df_apple = pd.read_csv('apple_mobility.csv')
 # category dropdown 
 # state and county dropdown
