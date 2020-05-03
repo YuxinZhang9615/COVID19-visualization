@@ -160,6 +160,23 @@ lockdown2 = lockdown2.drop(['Country','County'], axis = 1)
 lockdown2 = lockdown2.groupby(['State']).min().reset_index()
 lockdown2 = lockdown2.append(pd.Series(['Arkansas', np.nan, np.nan], index = lockdown2.columns), ignore_index=True)
 
+####################################################################################
+#######################   Page 1 - Plot2.   Map Lockdown      ###################
+####################################################################################
+df_lockdown = pd.read_csv('lockdown_new.csv')
+df_lockdown = df_lockdown[(df_lockdown['code']!= 'DC') ]
+df_lockdown['order'] = df_lockdown['type'].map({0: 'No lockdown order', 0.5: 'Partial lockdown', 
+                                                1:'Statewide lockdown',0.75:'Essential business reopen',
+                                                0.55: 'Partial reopen'})
+for col in df_lockdown.columns: 
+    df_lockdown[col] = df_lockdown[col].astype(str)
+
+df_lockdown['text'] = df_lockdown['date'] +'\n' + df_lockdown['state'] + ': ' + df_lockdown['order'] 
+lockdown_date = list(df_lockdown.date.unique())
+
+color1 = [ "#ead6ee", "#aebaf8"]
+color2 = ["#e8f5c8","#aebaf8"]
+
 
 ####################################################################################
 #######################   Page 3 - Plot1.   Survey      ##########################
@@ -308,65 +325,185 @@ NAVBAR = dbc.Navbar(
 
 #########################################
 ###########  Body Elements  #############
+
 FLATTEN_THE_CURVE = [
     dbc.CardHeader(html.H5("Flatten The Curve")),
     dbc.CardBody([
-        #dcc.Loading(),
-        dcc.Tabs([
-            dcc.Tab(label='World', children=[
-                html.Div([
-                    html.Label('Multi-Select Dropdown'),
-                    dcc.Dropdown(
+        dbc.Row([
+            html.Label("Select countries to include in the line plot:", style={'marginLeft':'10px'}),
+            dcc.Dropdown(
                         id = "selected_countries",
                         options=[{'label': x, 'value': x} for x in list(world_confirmedR.columns[1:])],
                         value= ['US','United Kingdom', 'Italy', 'Germany', 'Spain', 'South Korea', 'India', 'Austria'],
-                        multi=True
-                        ),
-                    dcc.Dropdown(
+                        multi=True,
+                        style={'width': '99%', 'margin': '0px 5px 0px 5px'}
+                        )
+        ]),
+
+        dbc.Row([
+            dbc.Col([
+                dcc.Graph(id='map_lockdown'),
+                dcc.Slider(id = 'lockdown_slider',
+                                    marks = {0:{'label':'3/19/20'}, 6:{'label':'3/25/20'},
+                                    12:{'label':'3/31/20'}, 19:{'label':'4/7','style': {'color': '#f50'}},
+                                    20:{'label':'4/21','style': {'color': '#f50'}},
+                                    27:{'label':'4/30/20'}, 31:{'label':'5/4/20'} 
+                                    },
+                                    min = 0,
+                                    max = 31,
+                                    value = 16,
+                                    included = False,
+                                    updatemode='drag'                                    
+                                    ) 
+                ], width = 5),
+            dbc.Col([
+                html.Img(src = "assets/screenshot.png",
+                style = {'height': '450px'})
+
+                ],width = 1),
+            dbc.Col([
+                html.Label('Select Metrics'),
+                dcc.Dropdown(
                         id = "selected_measure",
                         options = [{'label': 'Confirmed Growth Rate', 'value': 'confirmed'},
                                    {'label': 'Death Growth Rate', 'value': 'death'}],
                         value = 'confirmed'
-                        )
+                        ),
+                dcc.Graph(id = "lineplot1")
 
-                ]),
+                ], width = 6)
+            
 
-                html.Div([
-                    html.Label("my plot here"),
-                    dcc.Graph(id = "lineplot1")
-                    ]),
-                
-            ]),
+        ]),
+        
 
-            dcc.Tab(label='US', children=[
-                html.Div([
-                    html.Label('Multi-Select Dropdown'),
-                    dcc.Dropdown(
+        dbc.Row([
+            html.Label('Multi-Select Dropdown'),
+            dcc.Dropdown(
                         id = "selected_states",
                         options=[{'label': x, 'value': x} for x in list(us_confirmedR.columns[1:])],
                         value= ['New York', 'California'],
                         multi=True
                         ),
-                    dcc.Dropdown(
+            dcc.Dropdown(
                         id = "selected_measure2",
                         options = [{'label': 'Confirmed Growth Rate', 'value': 'confirmed'},
                                    {'label': 'Death Growth Rate', 'value': 'death'}],
                         value = 'confirmed'
-                        )
+                        ),
+            dcc.Graph(id = "lineplot2")
 
-                ]),
-
-                html.Div([
-                    html.Label("my plot here"),
-                    dcc.Graph(id = "lineplot2")
-                    ]),
-            ])
 
         ])
 
-    ])
 
 
+        ])
+
+]
+
+
+#FLATTEN_THE_CURVE2 = [
+    #dbc.CardHeader(html.H5("Flatten The Curve")),
+    #dbc.CardBody([
+        #dcc.Loading(),
+        #dcc.Tabs([
+            #dcc.Tab(label='World', children=[
+                            # html.Div([
+                            #     html.Label('Multi-Select Dropdown'),
+                            #     dcc.Dropdown(
+                            #         id = "selected_countries",
+                            #         options=[{'label': x, 'value': x} for x in list(world_confirmedR.columns[1:])],
+                            #         value= ['US','United Kingdom', 'Italy', 'Germany', 'Spain', 'South Korea', 'India', 'Austria'],
+                            #         multi=True
+                            #         ),
+                            #     dcc.Dropdown(
+                            #         id = "selected_measure",
+                            #         options = [{'label': 'Confirmed Growth Rate', 'value': 'confirmed'},
+                            #                    {'label': 'Death Growth Rate', 'value': 'death'}],
+                            #         value = 'confirmed'
+                            #         )
+
+                            # ], style={'marginLeft': '0px', 'marginRight': '0px', 'padding-left': '0px', 'padding-right': '0px'}),
+
+                            # html.Div([
+                            #     html.Label("my plot here"),
+                            #     dcc.Graph(id = "lineplot1")
+                            # ], style={'marginLeft': '0px', 'marginRight': '0px', 'padding-left': '0px', 'padding-right': '0px',
+                            # }),
+                
+            #]),
+
+            #dcc.Tab(label='US', children=[
+                            # html.Div([
+                            #     html.Label('Multi-Select Dropdown'),
+                            #     dcc.Dropdown(
+                            #         id = "selected_states",
+                            #         options=[{'label': x, 'value': x} for x in list(us_confirmedR.columns[1:])],
+                            #         value= ['New York', 'California'],
+                            #         multi=True
+                            #         ),
+                            #     dcc.Dropdown(
+                            #         id = "selected_measure2",
+                            #         options = [{'label': 'Confirmed Growth Rate', 'value': 'confirmed'},
+                            #                    {'label': 'Death Growth Rate', 'value': 'death'}],
+                            #         value = 'confirmed'
+                            #         )
+
+                            # ], style={'marginLeft': '0px', 'marginRight': '0px', 'padding-left': '0px', 'padding-right': '0px'}),
+
+                            # html.Div([
+                            #     html.Label("my plot here"),
+                            #     dcc.Graph(id = "lineplot2")
+                            # ], style={'marginLeft': '0px', 'marginRight': '0px', 'padding-left': '0px', 'padding-right': '0px'})
+            #])
+
+        #])
+
+    #])
+
+
+#]
+
+MAP_LOCKDOWN = [
+
+    #dbc.CardBody([
+        html.Div([  
+                dcc.Graph(id='map_lockdown'),
+                # Add a slider
+                html.P([
+                    html.Label("Time"),
+                    # dcc.Slider(id = 'lockdown_slider',
+                    #                 marks = {0:{'label':'3/19/20'}, 6:{'label':'3/25/20'},
+                    #                 12:{'label':'3/31/20'}, 19:{'label':'4/7','style': {'color': '#f50'}},
+                    #                 20:{'label':'4/21','style': {'color': '#f50'}},
+                    #                 27:{'label':'4/30/20'}, 31:{'label':'5/4/20'} 
+                    #                 },
+                    #                 min = 0,
+                    #                 max = 31,
+                    #                 value = 16,
+                    #                 included = False,
+                    #                 updatemode='drag'                                    
+                    #                 )           
+                        ],  style = {
+                                    'width' : '87%',
+                                    'fontSize' : '20px',
+                                    'padding-left' : '60px',
+                                    'padding-right' : '100px',
+                                    'display': 'inline-block'
+                                    }),
+                html.Div([
+                    #html.H1("This is my first dashboard"),
+                    html.P("Notes: "),
+                    html.P("1) Until Apr 7, 42 states have implemented stay-at-home orders."),
+                    html.P("2) Started from Apr 21, governers have taken different stategies to reopen their states."),
+                    html.P("Data Source: CNN, The New York Times, CNBC")
+                         ],
+                     style = {'padding' : '50px' }
+                    )
+                ])
+
+        #])
 ]
 
 SURVEY_MEDIA = [
@@ -449,7 +586,7 @@ TWEETER = [
                     ], width = 6),
 
                 dbc.Col([
-                    dcc.Graph(id ='hot-table', style={'display': 'inline-block'})
+                    #dcc.Graph(id ='hot-table', style={'display': 'inline-block'})
                     ], width = 6)
 
                 ])
@@ -461,46 +598,12 @@ TWEETER = [
 
 ]
 
+GOOGLE =[]
+
 UNEMPLOYMENT = [
     dbc.CardHeader(html.H5("Unemployment")),
     dbc.CardBody([
         dbc.Row([
-            dbc.Col([
-                # slider - select date for map
-                # html.P([
-                    html.Label("Time"),
-                    dcc.Slider(id = 'slider',
-                                    marks = {0:{'label':'Jan 2015'}, 1:{'label':''}, 2:{'label':''}, 3:{'label':''}, 
-                                    4:{'label':''}, 5:{'label':''}, 6:{'label':'July 2015'}, 7:{'label':''}, 
-                                    8:{'label':''}, 9:{'label':''}, 10:{'label':''}, 11:{'label':''}, 
-                                    12:{'label':'Jan 2016'}, 13:{'label':''}, 14:{'label':''}, 15:{'label':''}, 
-                                    16:{'label':''}, 17:{'label':''}, 18:{'label':'July 2016'}, 19:{'label':''}, 
-                                    20:{'label':''}, 21:{'label':''}, 22:{'label':''}, 23:{'label':''}, 
-                                    24:{'label':'Jan 2017'}, 25:{'label':''}, 26:{'label':''}, 27:{'label':''}, 
-                                    28:{'label':''}, 29:{'label':''}, 30:{'label':'July 2017'}, 31:{'label':''}, 
-                                    32:{'label':''}, 33:{'label':''}, 34:{'label':''}, 35:{'label':''}, 
-                                    36:{'label':'Jan 2018'}, 37:{'label':''}, 38:{'label':''}, 39:{'label':''}, 
-                                    40:{'label':''}, 41:{'label':''}, 42:{'label':'July 2018'}, 43:{'label':''}, 
-                                    44:{'label':''}, 45:{'label':''}, 46:{'label':''}, 47:{'label':''},
-                                    48:{'label':'Jan 2019'}, 49:{'label':''}, 50:{'label':''}, 51:{'label':''}, 
-                                    52:{'label':''}, 53:{'label':''}, 54:{'label':'July 2019'}, 55:{'label':''}, 
-                                    56:{'label':''}, 57:{'label':''}, 58:{'label':''}, 59:{'label':''}, 
-                                    60:{'label':'Jan 2020'}, 61:{'label':''}, 62:{'label':'Mar 2020'}},
-                                    min = 0,
-                                    max = 62,
-                                    value = 50,
-                                    included = False                                    
-                                    )                                  
-                        # ],  style = {
-                        #             'width' : '87%',
-                        #             'fontSize' : '20px',
-                        #             'padding-left' : '60px',
-                        #             'padding-right' : '100px',
-                        #             'display': 'inline-block'
-                        #             })
-
-                ], width = 6),
-            
             dbc.Col([
                 # html.P([
                     html.Label("Time Period"),
@@ -523,7 +626,8 @@ UNEMPLOYMENT = [
                                     60:{'label':'Jan 2020'}, 61:{'label':''}, 62:{'label':'Mar 2020'}},
                                     min = 0,
                                     max = 62,
-                                    value = [0, 62]
+                                    value = [0, 62],
+                                    allowCross=True
                                     )           
                         # ],  style = {
                         #             'width' : '87%',
@@ -533,7 +637,7 @@ UNEMPLOYMENT = [
                         #             'display': 'inline-block'
                         #             })
 
-                ], width = 6)
+                ], width = 12)
 
             ]),
         dbc.Row([
@@ -630,17 +734,44 @@ LEGAL_TABLE = [
 #################     Body    ########################
 BODY = dbc.Container([
 
-    dcc.Tabs([
+    dcc.Tabs(
+        #parent_className='custom-tabs',
+        #className='custom-tabs-container',
+        children = [
         dcc.Tab(label='Overview', children=[
             dbc.Row([dbc.Col(dbc.Card(FLATTEN_THE_CURVE)),], style={"marginTop": 30})
+            #dbc.CardHeader(html.H5("Flatten The Curve")),
+                # dbc.CardBody([
+                #     dbc.Row([
+                #         dbc.Col([
+                #             dbc.Card(FLATTEN_THE_CURVE)
+                #             ], width = 6),
 
-            ]),
+                #         dbc.Col([
+                #             dbc.Card(MAP_LOCKDOWN)
+                #             ], width = 6)
+                #         ])
+                #     ])
+            #dbc.Row([dbc.Col(dbc.Card(FLATTEN_THE_CURVE)),], style={"marginTop": 30})
+
+            ], className='custom-tab'),
+
         dcc.Tab(label='Mobility', children=[
 
-            ]),
+            ], className='custom-tab'),
+
         dcc.Tab(label='People Opinion', children=[
             dbc.Row([dbc.Col(dbc.Card(SURVEY_MEDIA)),], style={"marginTop": 30}),
-            dbc.Row([dbc.Col(dbc.Card(TWEETER)),], style={"marginTop": 30})
+            dbc.Row([
+                dbc.Col([
+                    dbc.Card(TWEETER)
+                    ], width = 6),
+                dbc.Col([
+                    dbc.Card(GOOGLE)
+                    ], width = 6)
+                ], style={"marginTop": 20})
+
+        
 
 
             # dcc.Tabs([
@@ -669,8 +800,9 @@ BODY = dbc.Container([
         ], colors={"border": "white", "primary": "gold", "background": "cornsilk"
     })
         
-    ],
-    className="mt-12",
+    ]
+    #,className="no_margin_container",
+    ,className="mt-12",
 )
 
 
@@ -714,18 +846,19 @@ def update_fig(selected_countries, selected_measure):
                              y = df['US'],
                              name = 'US',
                              mode = 'lines',
-                             line = dict(color = 'rgba(53,92,125, 0.8)', width = 2, shape = 'spline'),
+                             line = dict(color = 'rgba(53,92,125, 0.8)', width = 3, shape = 'spline'),
                              #text = ["United States" if i == 38 else "" for i in range(df.shape[0])],
                              #textposition = "top center",
                              #textfont = dict(color = "rgba(53,92,125, 1)")
                             ),
               go.Scatter(x = df.Date,
                           y = [df['US'][i] if pd.to_datetime(lockdown.Date[lockdown['Country/Region'] == 'US'].values[0]) == pd.Timestamp(df.Date[i]) else np.nan for i in range(df.shape[0])],
+                          name = 'US (partial lockdown)',
                           mode = 'markers',
                           marker = dict(color = 'rgba(53,92,125, 0.8)', size = 10),
-                          #text = ["Partial" if pd.to_datetime(lockdown.Date[lockdown['Country/Region'] == 'US'].values[0]) == pd.Timestamp(df.Date[i]) else "" for i in range(df.shape[0])],
-                          #textposition="top right",
-                          #textfont = dict(color = "rgba(53,92,125, 1)")
+                          text = ["Partial lockdown" if pd.to_datetime(lockdown.Date[lockdown['Country/Region'] == 'US'].values[0]) == pd.Timestamp(df.Date[i]) else "" for i in range(df.shape[0])],
+                          textposition="top right",
+                          textfont = dict(color = "rgba(53,92,125, 1)")
                             )]
     
     if "Italy"  in selected_countries:
@@ -733,7 +866,7 @@ def update_fig(selected_countries, selected_measure):
                              y = df['Italy'],
                              name = 'Italy',
                              mode = 'lines',
-                             line = dict(color = 'rgba(153,184,152, 0.9)', width = 2, shape = 'spline'),
+                             line = dict(color = 'rgba(153,184,152, 0.9)', width = 3, shape = 'spline'),
                             ),
               go.Scatter(x = df.Date,
                           y = [df['Italy'][i] if pd.to_datetime(lockdown.Date[lockdown['Country/Region'] == 'Italy'].values[0]) == pd.Timestamp(df.Date[i]) else np.nan for i in range(df.shape[0])],
@@ -746,7 +879,7 @@ def update_fig(selected_countries, selected_measure):
                              y = df['Spain'],
                              name = 'Spain',
                              mode = 'lines',
-                             line = dict(color = 'rgba(237, 177, 131, 0.9)', width = 2, shape = 'spline'),
+                             line = dict(color = 'rgba(237, 177, 131, 0.9)', width = 3, shape = 'spline'),
                             ),
               go.Scatter(x = df.Date,
                           y = [df['Spain'][i] if pd.to_datetime(lockdown.Date[lockdown['Country/Region'] == 'Spain'].values[0]) == pd.Timestamp(df.Date[i]) else np.nan for i in range(df.shape[0])],
@@ -760,7 +893,7 @@ def update_fig(selected_countries, selected_measure):
                              y = df['South Korea'],
                              name = 'South Korea',
                              mode = 'lines',
-                             line = dict(color = 'rgba(246,114,128, 0.9)', width = 2, shape = 'spline'),
+                             line = dict(color = 'rgba(246,114,128, 0.9)', width = 3, shape = 'spline'),
                             ),
               go.Scatter(x = df.Date,
                           y = [df['South Korea'][i] if pd.to_datetime(lockdown.Date[lockdown['Country/Region'] == 'South Korea'].values[0]) == pd.Timestamp(df.Date[i]) else np.nan for i in range(df.shape[0])],
@@ -777,7 +910,7 @@ def update_fig(selected_countries, selected_measure):
                         name = selected_countries[i],
                         mode = 'lines',
                         line = dict(color = colors_World[selected_countries[i]], 
-                            width = 1, shape = 'spline')) for i in range(len(selected_countries))]
+                            width = 2, shape = 'spline')) for i in range(len(selected_countries))]
     others2 = [go.Scatter(x = df.Date,
                           y = [df[selected_countries[i]][j] if pd.to_datetime(lockdown.Date[lockdown['Country/Region'] == selected_countries[i]].values) == pd.Timestamp(df.Date.iloc[j]) else np.nan for j in range(df.shape[0])],
                           #name = selected_countries[i] + ' (' + str(lockdown.Type[lockdown['Country/Region'] == selected_countries[i]].values[0]) + ')',
@@ -792,9 +925,10 @@ def update_fig(selected_countries, selected_measure):
     data = data + others1 + others2 + US + IT + SP + SK + ID + GM + UK
 
     if selected_measure == "confirmed":
-        layout = {"title": "Confirmed Case Growth Rate ", "height": 700, "plot_bgcolor": '#f5f7fa',}
+        layout = {"title": "Confirmed Case Growth Rate ", "width": 750, "plot_bgcolor": '#f5f7fa',
+                    "margin": "l=0, r=0, t=50, b=0, pad=0"}
     elif selected_measure == "death":
-        layout = {"title": "Death Case Growth Rate", "height": 700, "plot_bgcolor": '#f5f7fa',}
+        layout = {"title": "Death Case Growth Rate", "height": 500, "plot_bgcolor": '#f5f7fa',}
 
 
     return dict(data = data,
@@ -881,6 +1015,61 @@ def update_fig2(selected_states, selected_measure2):
 
     return dict(data = data,
                 layout = layout)
+
+####################################################################################
+#######################   Page 1 - Plot2.   Map Lockdown      ###################
+####################################################################################
+@app.callback(Output('map_lockdown', 'figure'),
+            [Input('lockdown_slider', 'value')])
+
+def update_figure(time_lockdown):
+
+    lockdown_new = df_lockdown[df_lockdown['date'] == lockdown_date[time_lockdown]]
+
+    if time_lockdown <= 19:
+        fig = go.Figure(data=go.Choropleth(
+                locations=lockdown_new['code'],
+                z=lockdown_new['type'],
+                autocolorscale = False,
+                colorscale= color1,            
+                locationmode = 'USA-states',
+                
+                text= lockdown_new['text'],  # hover text
+                colorbar={'dtick':0.5,
+                        'tickmode':'array',
+                        'ticktext':['No lockdown order','Partial lockdown','Statewide lockdown'],
+                        'tickvals':[0,0.5,1],
+                        'tickangle': 90
+                        }               
+            ))
+    else:
+        fig = go.Figure(data=go.Choropleth(
+                locations=lockdown_new['code'],
+                z=lockdown_new['type'],
+                autocolorscale = False,
+                colorscale= color2,            
+                locationmode = 'USA-states',
+                text= lockdown_new['text'],  # hover text
+                #colorbar_title = "Percent",
+                
+                colorbar={'dtick':0.25,
+                        'tickmode':'array',
+                        'ticktext':['Partial reopen','Essential business reopen','Statewide lockdown'],
+                        'tickvals':[0.55,0.75,1],
+                        'tickangle': 90
+                        }               
+            ))
+       
+    fig.update_layout(
+    title_text = 'Lockdown Timeline by States',
+    geo_scope='usa',
+    font=dict(size=10),
+    width = 600, #height = 500,
+    margin=dict(l=0, r=0, t=80, b=0, pad = 0),
+    legend_orientation="h"
+    )
+
+    return fig
 
 ####################################################################################
 #######################   Page 3 - Plot1.   Survey      ###########################
@@ -1152,9 +1341,9 @@ def update_output(value):
 def slider_output(value):
     return str(pd.to_datetime(value, unit='s').date())
 
-@app.callback(
-    dash.dependencies.Output('hot-table', 'figure'),
-    [Input('year-slider', 'value')])
+# @app.callback(
+#     dash.dependencies.Output('hot-table', 'figure'),
+#     [Input('year-slider', 'value')])
 
 def table_output(value):
     filename = "https://raw.githubusercontent.com/yyyyyokoko/covid-19-challenge/master/twitterViz/newcsv/" + str(pd.to_datetime(value, unit='s').date()) + '.csv'
@@ -1191,12 +1380,14 @@ def table_output(value):
 ####################################################################################
 
 @app.callback([Output('plot1', 'figure'),Output('plot2', 'figure'),Output('map', 'figure')],
-             [Input('opt', 'value'),Input('RangeSlider','value'),Input('slider', 'value')])
+             [Input('opt', 'value'),Input('RangeSlider','value'),])
 
-def update_figure(state1,time1,time_map):
+
+def update_figure(state1,time1):
+    
     # filtering the data
     df2 = df[(df.Month >= dates[time1[0]]) & (df.Month <= dates[time1[1]])]
-    df_new = df_map[df_map['Month']== date_map[time_map]]
+    df_new = df_map[df_map['Month']== date_map[time1[0]]]
 
     traces_1 = []
     traces_2 = []
@@ -1211,7 +1402,8 @@ def update_figure(state1,time1,time_map):
             text= val,
             name = val,
             mode = 'lines',
-            showlegend=True,           
+            showlegend=True,
+            
         ))
 
         traces_2.append(go.Scatter(
@@ -1233,10 +1425,16 @@ def update_figure(state1,time1,time_map):
             colorscale='Reds',
             locationmode = 'USA-states',
             text=df_new['text'], # hover text
-            colorbar_title = "Percent"))    
+            colorbar_title = "Percent",
+        ))
+
     fig3.update_layout(
-            title_text = 'Unemployment Rate by State',
-            geo_scope='usa') # limite map scope to USA)
+            #title_text = 'Unemployment Rate by State',
+            geo_scope='usa',
+            font=dict(size=10),
+            width = 500,
+            margin=dict(l=0,r=0,b=0,t=0,pad=0)
+    ) # limite map scope to USA)
     
     return fig1, fig2, fig3
 
@@ -1247,8 +1445,11 @@ layout1 = go.Layout(title = 'Time Series for Unemployment Rate',
                        showticklabels=True,
                        spikemode  = 'across+toaxis',
                        linewidth=0.5,
-                       mirror=True)                       
-                       )
+                       mirror=True),
+                   plot_bgcolor = 'white',
+                   font=dict(size=10),
+                    height = 200, width = 500, margin=dict(l=80,r=0,b=0,t=30,pad=0))
+
 layout2 = go.Layout(title = 'Time Series for the Emerging Unemployment Claims',
                    hovermode = 'x',
                    spikedistance =  -1,
@@ -1256,7 +1457,10 @@ layout2 = go.Layout(title = 'Time Series for the Emerging Unemployment Claims',
                        showticklabels=True,
                        spikemode  = 'across+toaxis',
                        linewidth=0.5,
-                       mirror=True))
+                       mirror=True),
+                   plot_bgcolor = 'white',
+                   font=dict(size=9),
+                   height = 200, width = 500, margin=dict(l=80,r=0,b=0,t=60,pad=0))
 
 ####################################################################################
 #######################   Page 5 - Plot1.   Legislation      ######################
