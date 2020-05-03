@@ -263,8 +263,12 @@ symbols3 = pd.DataFrame({'population':['All Adults', 'Registered Voters', 'Likel
 ####################################################################################
 #######################   Page 3 - Plot2.   Twiter      ##########################
 ####################################################################################
-daterange = pd.DataFrame(pd.date_range(start='3/22/2020',end='4/22/2020',freq='D'), columns = ['date'])
-daterange['date'] = [x.timestamp() for x in daterange['date']]
+
+# daterange = pd.DataFrame(pd.date_range(start='3/22/2020',end='4/22/2020',freq='D'), columns = ['date'])
+# daterange['date'] = [x.timestamp() for x in daterange['date']]
+
+daterange = pd.date_range(start='3/22/2020',end='4/29/2020',freq='D')
+daterange = [str(pd.to_datetime(x, unit='s').date()) for x in daterange]
 
 
 
@@ -631,38 +635,56 @@ SURVEY_MEDIA = [
 
 ]
 
+markdict = {0: {'label': '2020-03-22'},
+            1: {'label': ''}, 2: {'label': ''}, 3: {'label': ''}, 4: {'label': ''},
+            5: {'label': '2020-03-27'}, 
+            6: {'label': ''}, 7: {'label': ''}, 8: {'label': ''}, 9: {'label': ''},
+            10: {'label': '2020-04-01'},
+            11: {'label': ''}, 12: {'label': ''}, 13: {'label': ''}, 14: {'label': ''},
+            15: {'label': '2020-04-06'},
+            16: {'label': ''}, 17: {'label': ''}, 18: {'label': ''}, 19: {'label': ''},
+            20: {'label': '2020-04-11'},
+            21: {'label': ''}, 22: {'label': ''}, 23: {'label': ''}, 24: {'label': ''},
+            25: {'label': '2020-04-16'}, 
+            26: {'label': ''}, 27: {'label': ''}, 28: {'label': ''}, 29: {'label': ''},
+            30: {'label': '2020-04-21'},
+            31: {'label': ''}, 32: {'label': ''}, 33: {'label': ''}, 
+            34: {'label': '2020-04-25'},
+            35: {'label': ''}, 36: {'label': ''}, 37: {'label': ''},
+            38: {'label': '2020-04-29'}}
+
 TWEETER = [
     dbc.CardHeader(html.H5('Twitter HoT Words ')),
     dbc.CardBody([
-        html.Div([
-        html.Label('WordCloud', id='time-range-label'),
-        html.Section(id="slideshow", children=[
-            dcc.Slider(
-                id='year-slider',
-                updatemode = 'mouseup',
-                min=daterange['date'].min(),
-                max=daterange['date'].max(),
-                value=daterange['date'].min(),
-                marks={x: {'label' : str(pd.to_datetime(x, unit='s').date())} for x in daterange['date'].unique()},
-                step=86400),
-            html.Div(id="slide-container"),
-            dbc.Row([
-                dbc.Col([
-                    html.Div(id="image")
-                    ], width = 6),
+        dbc.Row([
+            dbc.Col([
+                dcc.Slider(
+                        id='year-slider',
+                        updatemode = 'mouseup',
+                        min=0,
+                        max=38,
+                        value=38,
+                        marks=markdict,
+                        step=1)
 
-                dbc.Col([
-                    #dcc.Graph(id ='hot-table', style={'display': 'inline-block'})
-                    ], width = 6)
+                ], width = 12)
 
-                ])
-            
-        ])
-    ])
+
+            ]),
+        dbc.Row([
+            dbc.Col([
+                html.Div(id="image")
+                ], width = 6),
+            dbc.Col([
+                dcc.Graph(id ='hot-table', style={'display': 'inline-block'})
+                ], width = 6)
+
+            ])
 
         ])
 
 ]
+
 
 GOOGLE =[
     dbc.CardHeader(html.H5('Google Search Trend')),
@@ -1848,49 +1870,57 @@ def update_fig_s1(selected_pollsters, radio_display1):
 
 
 def update_output(value):
-    src1 = "https://raw.githubusercontent.com/yyyyyokoko/covid-19-challenge/master/twitterViz/images/" + str(pd.to_datetime(value, unit='s').date()) + '.png'
+    src1 = "https://raw.githubusercontent.com/yyyyyokoko/covid-19-challenge/master/twitterViz/images/" + daterange[value] + '.png'
     img = html.Img(src=src1,  style={'height':'50%', 'width':'50%', 'display': 'inline-block'})
     return img
-    # if value:
-    #     print(pd.to_datetime(value, unit='s'))
-    #     return pd.to_datetime(value, unit='s')
 
 @app.callback(
-    dash.dependencies.Output('slide-container', 'children'),
+    dash.dependencies.Output('hot-table', 'figure'),
     [Input('year-slider', 'value')])
 
-def slider_output(value):
-    return str(pd.to_datetime(value, unit='s').date())
-
-# @app.callback(
-#     dash.dependencies.Output('hot-table', 'figure'),
-#     [Input('year-slider', 'value')])
-
 def table_output(value):
-    filename = "https://raw.githubusercontent.com/yyyyyokoko/covid-19-challenge/master/twitterViz/newcsv/" + str(pd.to_datetime(value, unit='s').date()) + '.csv'
+    filename = "https://raw.githubusercontent.com/yyyyyokoko/covid-19-challenge/master/twitterViz/newcsv/" + daterange[value] + '.csv'
     df = pd.read_csv(filename)
     #temp = temp.iloc[1:-1,:].reset_index(drop = True)
     #df['rank'] = df.index + 1
-    
-    if str(pd.to_datetime(value, unit='s').date()) != "2020-03-22":
-        font_color=['black']*2+[['red' if boolv else 'black' for boolv in df['change'].str.contains('New')]]
+
+    if daterange[value] != "2020-03-22":
+        #red : New , yello: 上涨， green: 下降
+        font_color=['black']
+        temp = []
+        df['change'] = pd.to_numeric(df['change'], errors='coerce')
+        for i in df['change']:
+            if np.isnan(i):
+                temp.append('rgb(248, 112, 96)')
+            else:
+                if i >= 0:
+                    temp.append('rgb(246, 189, 96)')
+                else:
+                    temp.append('rgb(132, 236, 157)')
+        font_color.append(temp)
         data=[go.Table(
-            header=dict(values=list(df.columns),
-                        fill_color='paleturquoise',
+            columnwidth = [80,40,40],
+            header=dict(values=['Keywords', 'Hottness'],
+                        line_color= 'gainsboro',
+                        fill_color='rgb(16, 37, 66)',
+                        font=dict(color='rgb(238, 240, 242)'),
                         align='left'),
-            cells=dict(values=[df['word'], df['count'], list(df['change'])],
-                    line_color='darkslategray',
-                    fill=dict(color=['lavender', 'white', 'white']),
-                    #font_color=font_color,
+            cells=dict(values=[df['word'], df['count']],
+                    line_color= 'gainsboro',
+                    fill=dict(color=['rgb(247, 237, 226)', 'white']),
+                    font_color=font_color,
                     align= ['left']*3))]
     else:
         data=[go.Table(
+            columnwidth = [80,40,40],
             header=dict(values=list(df.columns),
-                        fill_color='paleturquoise',
+                        line_color= 'gainsboro',
+                        fill_color='rgb(16, 37, 66)',
+                        font=dict(color='rgb(238, 240, 242)'),
                         align='left'),
             cells=dict(values=[df['word'], df['count']],
-                    line_color='darkslategray',
-                    fill=dict(color=['lavender', 'white']),
+                    line_color= 'gainsboro',
+                    fill=dict(color=['rgb(247, 237, 226)', 'white']),
                     align='left'))]
 
     return dict(data = data)
