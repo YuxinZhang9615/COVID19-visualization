@@ -9,6 +9,7 @@ import re
 import plotly.graph_objs as go
 import plotly.express as px
 from dash.dependencies import Output, Input
+from plotly.subplots import make_subplots
 
 import math
 
@@ -179,6 +180,27 @@ color2 = ["#e8f5c8","#aebaf8"]
 
 
 ####################################################################################
+#######################   Page 2 - Plot1.   Mobility      ##########################
+####################################################################################
+df_google = pd.read_csv('US_Corona.csv')
+df_apple = pd.read_csv('apple_mobility.csv')
+# category dropdown 
+# state and county dropdown
+state = df_google['State'].unique()
+Dict = {}
+for s in state:
+    df_1 = df_google[df_google['State'] == s]
+    df_2 = df_1[['State', 'County']]
+    Dict[s] = df_2['County'].unique()
+
+opt_state = options=[{'label': k, 'value': k} for k in Dict.keys()]
+# date slide bar
+df_google['Date'] = pd.to_datetime(df_google.Date)
+df_apple['Date'] = pd.to_datetime(df_apple.Date)
+dates = ['2020-02-29', '2020-03-07', '2020-03-14', '2020-03-21',
+         '2020-03-28', '2020-04-04', '2020-04-11']
+
+####################################################################################
 #######################   Page 3 - Plot1.   Survey      ##########################
 ####################################################################################
 ### original
@@ -239,7 +261,7 @@ symbols3 = pd.DataFrame({'population':['All Adults', 'Registered Voters', 'Likel
 
 
 ####################################################################################
-#######################   Page 3 - Plot2.   Tweeter      ##########################
+#######################   Page 3 - Plot2.   Twiter      ##########################
 ####################################################################################
 daterange = pd.DataFrame(pd.date_range(start='3/22/2020',end='4/22/2020',freq='D'), columns = ['date'])
 daterange['date'] = [x.timestamp() for x in daterange['date']]
@@ -249,19 +271,21 @@ daterange['date'] = [x.timestamp() for x in daterange['date']]
 ####################################################################################
 #######################   Page 4 - Plot1.   Unemployment      #####################
 ####################################################################################
-df = pd.read_csv('unemployment_rate.csv')
+df_unemployment_rate = pd.read_csv('unemployment_rate.csv')
+
 df_claims = pd.read_csv('unemployment_claims.csv')
-df_map = df
+
+df_map = pd.read_csv('unemployment_rate.csv')
 for col in df_map.columns:
     df_map[col] = df_map[col].astype(str)
 df_map['text'] = df_map['State'] + ': ' + df_map['UEP Rate'] 
 
 ## dropdown
-features = df.State.unique()
+features = df_unemployment_rate.State.unique()
 opts = [{'label' : i, 'value' : i} for i in features]
-## range slider
-dates = list(df.Month.unique())
-## slider
+## Range Slider
+un_dates = list(df_unemployment_rate.Month.unique())
+## Slider
 date_map = list(df_map.Month.unique())
 
 
@@ -357,8 +381,12 @@ FLATTEN_THE_CURVE = [
                                     ) 
                 ], width = 5),
             dbc.Col([
-                html.Img(src = "assets/screenshot.png",
-                style = {'height': '450px'})
+                html.Div([
+                    html.Img(src = "assets/legend2.jpeg",
+                            style = {'height': '115px', 'marginTop': '60px', 'float': 'left'})
+                    
+                ], style={'vertical-align': 'middle'})
+                
 
                 ],width = 1),
             dbc.Col([
@@ -506,6 +534,44 @@ MAP_LOCKDOWN = [
         #])
 ]
 
+MOBILITY = [
+    dbc.CardHeader(html.H5('Mobility: Are people really following the stay-at-home rules?')),
+    dbc.CardBody([
+        dbc.Row([
+            dbc.Col([
+                html.Label("Choose a state"),
+                dcc.Dropdown(id = 'opt_s', options = opt_state,
+                                value = 'The Whole Country')
+                ], width = 6),
+            dbc.Col([
+                html.Label("Choose a county"),
+                    dcc.Dropdown(id = 'opt_c')
+                ], width = 6)
+            ]),
+        dbc.Row([
+            dbc.Col([
+                html.Label("Time Period"),
+                dcc.RangeSlider(id = 'slider',
+                                    marks = {i : dates[i] for i in range(0, 7)},
+                                    min = 0,
+                                    max = 6,
+                                    value = [1, 5])
+                ], width = 12)
+            
+            ]),
+        dbc.Row([
+            dbc.Col([
+                dcc.Graph(id = 'google_fig')
+                ], width = 6),
+            dbc.Col([
+                dcc.Graph(id = 'all_fig')
+                ], width = 6)
+            ])
+
+
+        ])
+]
+
 SURVEY_MEDIA = [
     dbc.CardHeader(html.H5("Survey")),
     dbc.CardBody([
@@ -566,7 +632,7 @@ SURVEY_MEDIA = [
 ]
 
 TWEETER = [
-    dbc.CardHeader(html.H5('Tweeter HoT Words ')),
+    dbc.CardHeader(html.H5('Twitter HoT Words ')),
     dbc.CardBody([
         html.Div([
         html.Label('WordCloud', id='time-range-label'),
@@ -598,7 +664,21 @@ TWEETER = [
 
 ]
 
-GOOGLE =[]
+GOOGLE =[
+    dbc.CardHeader(html.H5('Google Search Trend')),
+    dbc.CardBody([
+        dbc.Row([
+            dbc.Col([
+                html.Iframe(src = "https://public.flourish.studio/visualisation/2211837/", width="100%", height = '600px')
+                ], width = 6),
+
+            dbc.Col([
+                ], width = 6)
+            ])
+
+        ])
+
+    ]
 
 UNEMPLOYMENT = [
     dbc.CardHeader(html.H5("Unemployment")),
@@ -757,6 +837,7 @@ BODY = dbc.Container([
             ], className='custom-tab'),
 
         dcc.Tab(label='Mobility', children=[
+            dbc.Row([dbc.Col(dbc.Card(MOBILITY)),], style={"marginTop": 30})
 
             ], className='custom-tab'),
 
@@ -764,11 +845,11 @@ BODY = dbc.Container([
             dbc.Row([dbc.Col(dbc.Card(SURVEY_MEDIA)),], style={"marginTop": 30}),
             dbc.Row([
                 dbc.Col([
-                    dbc.Card(TWEETER)
-                    ], width = 6),
-                dbc.Col([
                     dbc.Card(GOOGLE)
-                    ], width = 6)
+                    ], width = 12),
+                dbc.Col([
+                    dbc.Card(TWEETER)
+                    ], width = 12)
                 ], style={"marginTop": 20})
 
         
@@ -1033,6 +1114,7 @@ def update_figure(time_lockdown):
                 autocolorscale = False,
                 colorscale= color1,            
                 locationmode = 'USA-states',
+                showscale = False,
                 
                 text= lockdown_new['text'],  # hover text
                 colorbar={'dtick':0.5,
@@ -1051,6 +1133,7 @@ def update_figure(time_lockdown):
                 locationmode = 'USA-states',
                 text= lockdown_new['text'],  # hover text
                 #colorbar_title = "Percent",
+                showscale = False,
                 
                 colorbar={'dtick':0.25,
                         'tickmode':'array',
@@ -1064,12 +1147,448 @@ def update_figure(time_lockdown):
     title_text = 'Lockdown Timeline by States',
     geo_scope='usa',
     font=dict(size=10),
-    width = 600, #height = 500,
+    width = 505, #height = 500,
     margin=dict(l=0, r=0, t=80, b=0, pad = 0),
-    legend_orientation="h"
     )
 
     return fig
+
+####################################################################################
+#######################   Page 2 - Plot1.   Mobility      ##########################
+####################################################################################
+
+df_google = pd.read_csv('US_Corona.csv')
+df_apple = pd.read_csv('apple_mobility.csv')
+# category dropdown 
+# state and county dropdown
+state = df_google['State'].unique()
+Dict = {}
+for s in state:
+    df_1 = df_google[df_google['State'] == s]
+    df_2 = df_1[['State', 'County']]
+    Dict[s] = df_2['County'].unique()
+
+opt_state = options=[{'label': k, 'value': k} for k in Dict.keys()]
+# date slide bar
+df_google['Date'] = pd.to_datetime(df_google.Date)
+df_apple['Date'] = pd.to_datetime(df_apple.Date)
+dates = ['2020-02-29', '2020-03-07', '2020-03-14', '2020-03-21',
+         '2020-03-28', '2020-04-04', '2020-04-11']
+
+# Step 3. Create a plotly figure
+##############################################################################
+### Google Mobility
+fig = make_subplots(
+    rows=2, cols=3,
+    subplot_titles=("Retail", "Grocery", "Parks", 
+                    "Transit", "Work", "Residential"))
+
+df0 = df_google[(df_google['State'] == "The Whole Country")]
+
+fig.add_trace(go.Scatter(x = df0.Date, y = df0.Retail,
+                    name = 'Retail',
+                    line = dict(width = 2,
+                                color = 'rgb(229, 151, 50)')),
+                    row=1, col=1)
+
+fig.add_trace(go.Scatter(x = df0.Date, y = df0.Grocery,
+                    name = 'Grocery',
+                    line = dict(width = 2,
+                                color = 'rgb(51, 218, 230)')),
+                    row=1, col=2)
+
+fig.add_trace(go.Scatter(x = df0.Date, y = df0.Parks,
+                    name = 'Parks',
+                    line = dict(width = 2,
+                                color = 'rgb(61, 202, 169)')),
+                    row=1, col=3)
+
+fig.add_trace(go.Scatter(x = df0.Date, y = df0.Transit,
+                    name = 'Transit',
+                    line = dict(width = 2,
+                                color = 'rgb(148, 147, 159)')),
+                    row=2, col=1)
+
+fig.add_trace(go.Scatter(x = df0.Date, y = df0.Work,
+                    name = 'Work',
+                    line = dict(width = 2,
+                                color = 'rgb(143, 132, 242)')),
+                    row=2, col=2)
+
+fig.add_trace(go.Scatter(x = df0.Date, y = df0.Residential,
+                    name = 'Residential',
+                    line = dict(width = 2,
+                                color = 'rgb(242, 132, 227)')),
+                    row=2, col=3)
+
+fig.update_xaxes(tickangle=45, tickfont=dict(family='Rockwell', color='black', size=10))
+
+fig.update_layout(height=500, width=700, 
+                    title = 'Time Series Plot for Mobility in' + str(df0['County'][0]),
+                    hovermode = 'closest', 
+                    shapes = [{'type': 'line', 'y0':0, 'y1': 0, 
+                                       'x0':'2020-03-07', 'x1':'2020-04-04', 
+                               'xref':'x1','yref':'y1',
+                               'line': {'color': 'black', 'width': 0.5}
+                               },
+                              {'type': 'line', 'y0':0, 'y1': 0, 
+                                       'x0':'2020-03-07', 'x1':'2020-04-04',
+                               'xref':'x2','yref':'y2',
+                               'line': {'color': 'black', 'width': 0.5}
+                               },
+                              {'type': 'line', 'y0':0, 'y1': 0, 
+                                       'x0':'2020-03-07', 'x1':'2020-04-04',
+                                       'xref':'x3','yref':'y3',
+                               'line': {'color': 'black', 'width': 0.5}
+                               },
+                               {'type': 'line', 'y0':0, 'y1': 0, 
+                                       'x0':'2020-03-07', 'x1':'2020-04-04',
+                                       'xref':'x4','yref':'y4',
+                               'line': {'color': 'black', 'width': 0.5}
+                               },
+                               {'type': 'line', 'y0':0, 'y1': 0, 
+                                       'x0':'2020-03-07', 'x1':'2020-04-04',
+                                       'xref':'x5','yref':'y5',
+                               'line': {'color': 'black', 'width': 0.5}
+                               },
+                               {'type': 'line', 'y0':0, 'y1': 0, 
+                                       'x0':'2020-03-07', 'x1':'2020-04-04',
+                                       'xref':'x6','yref':'y6',
+                               'line': {'color': 'black', 'width': 0.5}
+                               }
+                      ])
+
+##############################################################################
+### Apple Mobility
+# Define cities
+city = ['New York City', 'Rome', 'London', 'Berlin', 'Toronto', 'Tokyo']
+fig_app = make_subplots(
+    rows=2, cols=3,
+    subplot_titles=('New York City', 'Rome', 'London', 'Berlin', 'Toronto', 'Tokyo'))
+
+df_US = df_apple[(df_apple['Region'] == city[0])]
+####### NYC
+traceapp1 = go.Scatter(x = df_US.Date, y = df_US.driving,
+                    name = 'Driving',
+                    mode='lines',
+                    line = dict(width = 1,
+                                color = 'rgb(131, 90, 241)'),
+                    stackgroup='one')
+                                
+
+traceapp2 = go.Scatter(x = df_US.Date, y = df_US.transit,
+                    name = 'Transit',
+                    mode='lines',
+                    line = dict(width = 1,
+                                color = 'rgb(111, 231, 219)'),
+                    stackgroup='one')
+
+traceapp3 = go.Scatter(x = df_US.Date, y = df_US.walking,
+                    name = 'Walking',
+                    mode='lines',
+                    line=dict(width = 1, 
+                              color='rgb(102, 255, 102)'),
+                    stackgroup='one')
+
+fig_app.add_trace(traceapp3,
+              row=1, col=1)
+fig_app.add_trace(traceapp2,
+              row=1, col=1)
+fig_app.add_trace(traceapp1,
+              row=1, col=1)
+
+for c in range(1, len(city)): 
+#    print(c, city[c])
+    df_apple_city = df_apple[(df_apple['Region'] == city[c])]
+    
+    traceapp1 = go.Scatter(x = df_apple_city.Date, y = df_apple_city.driving,
+                    name = 'Driving',
+                    mode='lines',
+                    line = dict(width = 1,
+                                color = 'rgb(131, 90, 241)'),
+                    stackgroup='one', showlegend= False)
+                                
+
+    traceapp2 = go.Scatter(x = df_apple_city.Date, y = df_apple_city.transit,
+                        name = 'Transit',
+                        mode='lines',
+                        line = dict(width = 1,
+                                    color = 'rgb(111, 231, 219)'),
+                        stackgroup='one', showlegend= False)
+    
+    traceapp3 = go.Scatter(x = df_apple_city.Date, y = df_apple_city.walking,
+                        name = 'Walking',
+                        mode='lines',
+                        line=dict(width = 1, 
+                                  color='rgb(102, 255, 102)'),
+                        stackgroup='one', showlegend= False)
+    if(c < 3): 
+        fig_app.add_trace(traceapp3,
+              row=1, col=c+1)
+        fig_app.add_trace(traceapp2,
+                      row=1, col=c+1)
+        fig_app.add_trace(traceapp1,
+                      row=1, col=c+1)
+    
+    else: 
+        fig_app.add_trace(traceapp3,
+              row=2, col=c-2)
+        fig_app.add_trace(traceapp2,
+                      row=2, col=c-2)
+        fig_app.add_trace(traceapp1,
+                      row=2, col=c-2)
+        
+fig_app.update_xaxes(tickangle=45, tickfont=dict(family='Rockwell', color='black', size=10))
+
+fig_app.update_layout(height=500, width=700, 
+                    title = 'Time Series Plot for Mobility',
+                    hovermode = 'x unified')
+             
+## Step 5. Add callback functions
+@app.callback(
+    Output('opt_c', 'options'),
+    [Input('opt_s', 'value')])
+def set_state_options(selected_state):
+    return [{'label': i, 'value': i} for i in Dict[selected_state]]
+
+@app.callback(
+    Output('opt_c', 'value'),
+    [Input('opt_c', 'options')])
+def set_county_value(available_options):
+    return available_options[0]['value']
+
+@app.callback(Output('google_fig', 'figure'),
+              [Input('slider', 'value'), 
+               Input('opt_s', 'value'), Input('opt_c', 'value')])
+
+def update_figure(input2, selected_state, selected_county):
+    df_3 = df_google[(df_google['State'] == selected_state) & (df_google['County'] == selected_county)]
+    df_3 = df_3.sort_values(['Date']).reset_index(drop=True)
+    df_4 = df_3[(df_3['Date'] >= dates[input2[0]]) & (df_3['Date'] < dates[input2[1]])]
+    df_4 = df_4.sort_values(['Date']).reset_index(drop=True)
+    
+###############################################################################
+#### Google Mobility
+    fig = make_subplots(
+    rows=2, cols=3,
+    subplot_titles=("Retail", "Grocery", "Parks", 
+                    "Transit", "Work", "Residential"))
+    
+    fig.add_trace(go.Scatter(x = df_4.Date, y = df_4.Retail,
+                        name = 'Retail',
+                        fill = 'tozeroy',
+                        line = dict(width = 2,
+                                    color = 'rgb(229, 151, 50)')),
+                        row=1, col=1)
+    
+    fig.add_trace(go.Scatter(x = df_4.Date, y = df_4.Grocery,
+                        name = 'Grocery',
+                        fill = 'tozeroy',
+                        line = dict(width = 2,
+                                    color = 'rgb(51, 218, 230)')),
+                        row=1, col=2)
+    
+    fig.add_trace(go.Scatter(x = df_4.Date, y = df_4.Parks,
+                        name = 'Parks',
+                        fill = 'tozeroy',
+                        line = dict(width = 2,
+                                    color = 'rgb(61, 202, 169)')),
+                        row=1, col=3)
+    
+    fig.add_trace(go.Scatter(x = df_4.Date, y = df_4.Transit,
+                        name = 'Transit',
+                        fill = 'tozeroy',
+                        line = dict(width = 2,
+                                    color = 'rgb(148, 147, 159)')),
+                        row=2, col=1)
+    
+    fig.add_trace(go.Scatter(x = df_4.Date, y = df_4.Work,
+                        name = 'Work',
+                        fill = 'tozeroy',
+                        line = dict(width = 2,
+                                    color = 'rgb(143, 132, 242)')),
+                        row=2, col=2)
+    
+    fig.add_trace(go.Scatter(x = df_4.Date, y = df_4.Residential,
+                        name = 'Residential',
+                        fill = 'tozeroy',
+                        line = dict(width = 2,
+                                    color = 'rgb(242, 132, 227)')),
+                        row=2, col=3)
+    
+    fig.update_xaxes(tickangle=45, tickfont=dict(family='Rockwell', color='black', size=10))
+    
+    if (df_3['State'][0] == "The Whole Country"):
+        fig.update_layout(height=500, width=700, 
+                    title = 'Time Series Plot for Mobility in ' + str(df_4['County'][0]),
+                    hovermode = 'closest')
+        
+        fig['layout'].update(shapes = [{'type': 'line', 'y0':0, 'y1': 0, 
+                                       'x0':min(df_4.Date), 'x1':max(df_4.Date),
+                                       'xref':'x1', 'yref':'y1',
+                               'line': {'color': 'black', 'width': 0.5}
+                               },
+                               {'type': 'line', 'y0':0, 'y1': 0, 
+                                       'x0':min(df_4.Date), 'x1':max(df_4.Date),
+                                       'xref':'x2', 'yref':'y2',
+                               'line': {'color': 'black', 'width': 0.5}
+                               },
+                               {'type': 'line', 'y0':0, 'y1': 0, 
+                                       'x0':min(df_4.Date), 'x1':max(df_4.Date),
+                                       'xref':'x3','yref':'y3',
+                               'line': {'color': 'black', 'width': 0.5}
+                               },
+                               {'type': 'line', 'y0':0, 'y1': 0, 
+                                       'x0':min(df_4.Date), 'x1':max(df_4.Date),
+                                       'xref':'x4','yref':'y4',
+                               'line': {'color': 'black', 'width': 0.5}
+                               },
+                               {'type': 'line', 'y0':0, 'y1': 0, 
+                                       'x0':min(df_4.Date), 'x1':max(df_4.Date),
+                                       'xref':'x5','yref':'y5',
+                               'line': {'color': 'black', 'width': 0.5}
+                               },
+                               {'type': 'line', 'y0':0, 'y1': 0, 
+                                       'x0':min(df_4.Date), 'x1':max(df_4.Date),
+                                       'xref':'x6','yref':'y6',
+                               'line': {'color': 'black', 'width': 0.5}
+                               }
+                              ])
+                
+    else: 
+        fig.update_layout(height=500, width=700, 
+                        title = 'Time Series Plot for Mobility in ' + str(df_4['County'][0]) + ', ' + str(df_3['State'][0]),
+                        hovermode = 'closest')
+        
+        fig['layout'].update(shapes = [{'type': 'line', 'y0':0, 'y1': 0, 
+                                       'x0':min(df_4.Date), 'x1':max(df_4.Date),
+                                       'xref':'x1','yref':'y1',
+                               'line': {'color': 'black', 'width': 0.5}
+                               }, 
+                               {'type': 'line', 'y0':0, 'y1': 0, 
+                                       'x0':min(df_4.Date), 'x1':max(df_4.Date),
+                                       'xref':'x2','yref':'y2',
+                               'line': {'color': 'black', 'width': 0.5}
+                               },
+                               {'type': 'line', 'y0':0, 'y1': 0, 
+                                       'x0':min(df_4.Date), 'x1':max(df_4.Date),
+                                       'xref':'x3','yref':'y3',
+                               'line': {'color': 'black', 'width': 0.5}
+                               },
+                               {'type': 'line', 'y0':0, 'y1': 0, 
+                                       'x0':min(df_4.Date), 'x1':max(df_4.Date),
+                                       'xref':'x4','yref':'y4',
+                               'line': {'color': 'black', 'width': 0.5}
+                               },
+                               {'type': 'line', 'y0':0, 'y1': 0, 
+                                       'x0':min(df_4.Date), 'x1':max(df_4.Date),
+                                       'xref':'x5','yref':'y5',
+                               'line': {'color': 'black', 'width': 0.5}
+                               },
+                               {'type': 'line', 'y0':0, 'y1': 0, 
+                                       'x0':min(df_4.Date), 'x1':max(df_4.Date),
+                                       'xref':'x6','yref':'y6',
+                               'line': {'color': 'black', 'width': 0.5}
+                               }                          
+                              ])
+    
+    
+    return fig
+
+##############################################################################
+### Apple Mobility
+@app.callback(Output('all_fig', 'figure'), 
+              [Input('slider', 'value')])
+
+def update_fig(input2):
+#    df_apple_US = df_apple[(df_apple['Region'] == "Tokyo")]
+    fig_app = make_subplots(
+    rows=2, cols=3,
+    subplot_titles=('New York City', 'Rome', 'London', 'Berlin', 'Toronto', 'Tokyo'))
+    
+    df_US = df_apple[(df_apple['Region'] == city[0])]
+    df_apple_US = df_US[(df_US['Date'] >= dates[input2[0]]) & (df_US['Date'] < dates[input2[1]])]
+    
+    traceapp1 = go.Scatter(x = df_apple_US.Date, y = df_apple_US.driving,
+                        name = 'Driving',
+                        mode='lines',
+                        line = dict(width = 1,
+                                    color = 'rgb(131, 90, 241)'),
+                        stackgroup='one')
+                                    
+    
+    traceapp2 = go.Scatter(x = df_apple_US.Date, y = df_apple_US.transit,
+                        name = 'Transit',
+                        mode='lines',
+                        line = dict(width = 1,
+                                    color = 'rgb(111, 231, 219)'),
+                        stackgroup='one')
+    
+    traceapp3 = go.Scatter(x = df_apple_US.Date, y = df_apple_US.walking,
+                        name = 'Walking',
+                        mode='lines',
+                        line=dict(width = 1, 
+                                  color='rgb(102, 255, 102)'),
+                        stackgroup='one')
+    
+    fig_app.add_trace(traceapp3,
+              row=1, col=1)
+    fig_app.add_trace(traceapp2,
+                  row=1, col=1)
+    fig_app.add_trace(traceapp1,
+                  row=1, col=1)
+
+    for c in range(1, len(city)): 
+    #    print(c, city[c])
+        df_apple_city = df_apple[(df_apple['Region'] == city[c])]
+        df_apple_new = df_apple_city[(df_apple_city['Date'] >= dates[input2[0]]) & (df_apple_city['Date'] < dates[input2[1]])]
+        
+        traceapp1 = go.Scatter(x = df_apple_new.Date, y = df_apple_new.driving,
+                        name = 'Driving',
+                        mode='lines',
+                        line = dict(width = 1,
+                                    color = 'rgb(131, 90, 241)'),
+                        stackgroup='one', showlegend= False)
+                                    
+    
+        traceapp2 = go.Scatter(x = df_apple_new.Date, y = df_apple_new.transit,
+                            name = 'Transit',
+                            mode='lines',
+                            line = dict(width = 1,
+                                        color = 'rgb(111, 231, 219)'),
+                            stackgroup='one', showlegend= False)
+        
+        traceapp3 = go.Scatter(x = df_apple_new.Date, y = df_apple_new.walking,
+                            name = 'Walking',
+                            mode='lines',
+                            line=dict(width = 1, 
+                                      color='rgb(102, 255, 102)'),
+                            stackgroup='one', showlegend= False)
+        if(c < 3): 
+            fig_app.add_trace(traceapp3,
+                  row=1, col=c+1)
+            fig_app.add_trace(traceapp2,
+                          row=1, col=c+1)
+            fig_app.add_trace(traceapp1,
+                          row=1, col=c+1)
+        
+        else: 
+            fig_app.add_trace(traceapp3,
+                  row=2, col=c-2)
+            fig_app.add_trace(traceapp2,
+                          row=2, col=c-2)
+            fig_app.add_trace(traceapp1,
+                          row=2, col=c-2)
+            
+    fig_app.update_xaxes(tickangle=45, tickfont=dict(family='Rockwell', color='black', size=10))
+    
+    fig_app.update_layout(height=500, width=700, 
+                        title = 'Time Series Plot for Mobility',
+                        hovermode = 'x unified')
+
+    return fig_app
+
+
 
 ####################################################################################
 #######################   Page 3 - Plot1.   Survey      ###########################
@@ -1379,64 +1898,8 @@ def table_output(value):
 #######################   Page 4 - Plot1.   Unemployment      ######################
 ####################################################################################
 
-@app.callback([Output('plot1', 'figure'),Output('plot2', 'figure'),Output('map', 'figure')],
-             [Input('opt', 'value'),Input('RangeSlider','value'),])
-
-
-def update_figure(state1,time1):
-    
-    # filtering the data
-    df2 = df[(df.Month >= dates[time1[0]]) & (df.Month <= dates[time1[1]])]
-    df_new = df_map[df_map['Month']== date_map[time1[0]]]
-
-    traces_1 = []
-    traces_2 = []
-
-    for val in state1:
-        df1 = df2[(df2.State == val)]
-        df_claims_1 = df_claims[df_claims['State'] == val]
-
-        traces_1.append(go.Scatter(
-            x = df1['Month'],
-            y = df1['UEP Rate'],
-            text= val,
-            name = val,
-            mode = 'lines',
-            showlegend=True,
-            
-        ))
-
-        traces_2.append(go.Scatter(
-            x = df_claims_1['date'],
-            y = df_claims_1['claims'],
-            text= val,
-            name = val,
-            mode = 'lines',
-            showlegend=False
-        ))
-    
-    fig1 = go.Figure(data = traces_1, layout = layout1)
-
-    fig2 = go.Figure(data = traces_2, layout = layout2)
-
-    fig3 = go.Figure(data=go.Choropleth(
-            locations=df_new['code'],
-            z=df_new['UEP Rate'].astype(float),
-            colorscale='Reds',
-            locationmode = 'USA-states',
-            text=df_new['text'], # hover text
-            colorbar_title = "Percent",
-        ))
-
-    fig3.update_layout(
-            #title_text = 'Unemployment Rate by State',
-            geo_scope='usa',
-            font=dict(size=10),
-            width = 500,
-            margin=dict(l=0,r=0,b=0,t=0,pad=0)
-    ) # limite map scope to USA)
-    
-    return fig1, fig2, fig3
+df_unemployment_rate_0 = df_unemployment_rate[df_unemployment_rate['code']=='AL']
+df_claims_0 = df_claims[df_claims['code']=='AL']
 
 layout1 = go.Layout(title = 'Time Series for Unemployment Rate',
                    hovermode = 'x',
@@ -1461,6 +1924,104 @@ layout2 = go.Layout(title = 'Time Series for the Emerging Unemployment Claims',
                    plot_bgcolor = 'white',
                    font=dict(size=9),
                    height = 200, width = 500, margin=dict(l=80,r=0,b=0,t=60,pad=0))
+
+trace_1 = go.Scatter(x = df_unemployment_rate_0['Month'], y = df_unemployment_rate_0['UEP Rate'],
+                    name = 'Alabama',
+                    line = dict(width = 2,
+                                color = 'rgb(229, 151, 50)'))
+# layout1 = go.Layout(title = 'Time Series for Unemployment Rate',
+#                    hovermode = 'x',
+#                    spikedistance =  -1,
+#                    xaxis=dict(
+#                        #showline=True, 
+#                        #showgrid=True, 
+#                        showticklabels=True,
+#                        spikemode  = 'across+toaxis',
+#                        #linecolor='rgb(204, 204, 204)',
+#                        linewidth=0.5,
+#                        mirror=True)                       
+#                        )
+
+trace_2 = go.Scatter(x = df_claims_0['date'], y = df_claims_0['claims'],
+                    name = 'Alabama',
+                    line = dict(width = 2,
+                                color = 'rgb(229, 151, 50)'))
+# layout2 = go.Layout(title = 'Time Series for Emerging Unemployment Claims',
+#                    hovermode = 'x',
+#                    spikedistance =  -1,
+#                    xaxis=dict(
+#                        #showline=True, 
+#                        #showgrid=True, 
+#                        showticklabels=True,
+#                        spikemode  = 'across+toaxis',
+#                        #linecolor='rgb(204, 204, 204)',
+#                        linewidth=0.5,
+#                        mirror=True))
+
+fig1 = go.Figure(data = [trace_1], layout = layout1)
+fig2 = go.Figure(data = [trace_2], layout = layout2)
+
+
+@app.callback([Output('plot1', 'figure'),Output('plot2', 'figure'),Output('map', 'figure')],
+             [Input('opt', 'value'),Input('RangeSlider','value'),])
+
+
+def update_figure(un_state,un_time):
+    
+    # filtering the data
+    df_unemployment_rate_2 = df_unemployment_rate[(df_unemployment_rate.Month >= un_dates[un_time[0]]) & (df_unemployment_rate.Month <= un_dates[un_time[1]])]
+    df_new_un = df_map[df_map['Month']== date_map[un_time[0]]]
+
+    traces_1 = []
+    traces_2 = []
+
+    for val in un_state:
+        df_unemployment_rate_1 = df_unemployment_rate_2[(df_unemployment_rate_2.State == val)]
+        df_claims_1 = df_claims[df_claims['State'] == val]
+
+        traces_1.append(go.Scatter(
+            x = df_unemployment_rate_1['Month'],
+            y = df_unemployment_rate_1['UEP Rate'],
+            text= val,
+            name = val,
+            mode = 'lines',
+            showlegend=True,
+            
+        ))
+
+        traces_2.append(go.Scatter(
+            x = df_claims_1['date'],
+            y = df_claims_1['claims'],
+            text= val,
+            name = val,
+            mode = 'lines',
+            showlegend=False
+        ))
+    
+    fig1 = go.Figure(data = traces_1, layout = layout1)
+
+    fig2 = go.Figure(data = traces_2, layout = layout2)
+
+    fig3 = go.Figure(data=go.Choropleth(
+            locations=df_new_un['code'],
+            z=df_new_un['UEP Rate'].astype(float),
+            colorscale='Reds',
+            locationmode = 'USA-states',
+            text=df_new_un['text'], # hover text
+            colorbar_title = "Percent"
+            
+        ))
+
+    fig3.update_layout(
+            title_text = 'Unemployment Rate by State',
+            geo_scope='usa',
+            font=dict(size=10),
+            width = 500,
+            margin=dict(l=0,r=0,b=0,t=0,pad=0)) # limite map scope to USA)
+    
+    return fig1, fig2, fig3
+
+
 
 ####################################################################################
 #######################   Page 5 - Plot1.   Legislation      ######################
