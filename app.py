@@ -11,7 +11,7 @@ import plotly.express as px
 from dash.dependencies import Output, Input
 
 #from plotly.subplots import make_subplots
-
+import datetime
 import math
 
 
@@ -178,6 +178,21 @@ lockdown_date = list(df_lockdown.date.unique())
 
 color1 = [ "#ead6ee", "#aebaf8"]
 color2 = ["#e8f5c8","#aebaf8"]
+
+#######world
+df_world = pd.read_csv('countryLockdown_date.csv')
+
+df_world['area'] = df_world['type'].map({0: 'Not lockdown', 0.5: 'Partial lockdown', 1: 'Full lockdown'})
+
+for col in df_world.columns: 
+    df_world[col] = df_world[col].astype(str)
+
+df_world['text'] = df_world['date'] + df_world['region'] + ': ' + df_world['area'] 
+
+world_date = list(df_world.date.unique())
+world_date = sorted(world_date, key=lambda date: datetime.datetime.strptime(date, "%m/%d/%y"))
+
+color_lock = [ 'rgb(204,230,255)', 'rgb(133,122,173)', 'rgb(105,10,61)']
 
 
 ####################################################################################
@@ -375,7 +390,7 @@ FLATTEN_THE_CURVE = [
                 dcc.Slider(id = 'lockdown_slider',
                                     marks = {0:{'label':'3/19/20'}, 6:{'label':'3/25/20'},
                                     12:{'label':'3/31/20'}, 19:{'label':'4/7','style': {'color': '#f50'}},
-                                    20:{'label':'4/21','style': {'color': '#f50'}},
+                                    20:{'label':'','style': {'color': '#f50'}},
                                     27:{'label':'4/30/20'}, 31:{'label':'5/4/20'} 
                                     },
                                     min = 0,
@@ -388,7 +403,7 @@ FLATTEN_THE_CURVE = [
             dbc.Col([
                 html.Div([
                     html.Img(src = "assets/legend2.jpeg",
-                            style = {'height': '15px', 'marginTop': '60px', 'float': 'left'})
+                            style = {'height': '100px', 'marginTop': '60px', 'float': 'left'})
                     
                 ], style={'vertical-align': 'middle'})
                 
@@ -408,23 +423,52 @@ FLATTEN_THE_CURVE = [
             
 
         ]),
-        
-
         dbc.Row([
-            html.Label('Multi-Select Dropdown'),
-            dcc.Dropdown(
-                        id = "selected_states",
-                        options=[{'label': x, 'value': x} for x in list(us_confirmedR.columns[1:])],
-                        value= ['New York', 'California'],
-                        multi=True
-                        ),
-            dcc.Dropdown(
+            dbc.Col([
+                html.Label('Select states to include in the line plot: '),
+                dcc.Dropdown(
+                            id = "selected_states",
+                            options=[{'label': x, 'value': x} for x in list(us_confirmedR.columns[1:])],
+                            value= ['New York', 'California'],
+                            multi=True
+                            )
+                ], width = 12)
+
+            ]),
+        
+        dbc.Row([
+            dbc.Col([
+                dcc.Graph(id='world_lockdown_map'),
+                dcc.Slider(id = 'world_lockdown_slider',
+                                    marks = {0:{'label':'Jan 23'}, 1:{'label':''}, 2:{'label':''}, 3:{'label':'Feb 25'}, 
+                                    4:{'label':''}, 5:{'label':''}, 6:{'label':'Mar 5'}, 7:{'label':''}, 
+                                    8:{'label':''}, 9:{'label':''}, 10:{'label':'Mar 10'}, 11:{'label':''}, 
+                                    12:{'label':''}, 13:{'label':''}, 14:{'label':''}, 15:{'label':'Mar 15'}, 
+                                    16:{'label':''}, 17:{'label':''}, 18:{'label':''}, 19:{'label':''}, 
+                                    20:{'label':'Mar 20'}, 21:{'label':''}, 22:{'label':''}, 23:{'label':''}, 
+                                    24:{'label':''}, 25:{'label':'Mar 25'}, 26:{'label':''}, 27:{'label':''}, 
+                                    28:{'label':'Mar 28'}, 29:{'label':''}, 30:{'label':'Mar 30'}, 31:{'label':''}
+                                    },
+                                    min = 0,
+                                    max = 31,
+                                    value = 16,
+                                    included = False,
+                                    updatemode='drag'                                    
+                                    )   
+
+                ], width = 6),
+
+            dbc.Col([
+                dcc.Dropdown(
                         id = "selected_measure2",
                         options = [{'label': 'Confirmed Growth Rate', 'value': 'confirmed'},
                                    {'label': 'Death Growth Rate', 'value': 'death'}],
                         value = 'confirmed'
                         ),
-            dcc.Graph(id = "lineplot2")
+                dcc.Graph(id = "lineplot2")
+
+                ], width = 6)
+            
 
 
         ])
@@ -697,8 +741,8 @@ GOOGLE =[
 
             dbc.Col([
                 dbc.Jumbotron([
-                    html.Img(src = "assets/googleTrend.png",
-                            style = {"width" : '540px'})
+                    html.Img(src = "assets/googleTrend5.png",
+                            style = {"width" : '400px'})
                     ])
                 
                 
@@ -1175,9 +1219,33 @@ def update_figure(time_lockdown):
     fig.update_layout(
     title_text = 'Lockdown Timeline by States',
     geo_scope='usa',
-    font=dict(size=10),
-    width = 505, #height = 500,
+    font=dict(size=13),
+    width = 510, #height = 500,
     margin=dict(l=0, r=0, t=80, b=0, pad = 0),
+    )
+
+    return fig
+
+##### world
+@app.callback(Output('world_lockdown_map', 'figure'),
+            [Input('world_lockdown_slider', 'value')])
+
+def update_figure(world_time):
+
+    lockdown_new = df_world[df_world['date'] == world_date[world_time]]
+
+    fig = px.choropleth(lockdown_new, locations="iso_alpha",
+                    color="type",
+                    hover_name="region", # column to add to hover information
+                    color_continuous_scale=color_lock
+                    #text= lockdown_new['text']
+                    )
+    fig.update_geos(lataxis_showgrid=False, lonaxis_showgrid=False, 
+                    projection_type="natural earth",showcountries=True)             
+    fig.update_layout(
+    title_text = 'Worldwide Lockdown by Regions',
+    margin=dict(l=0, r=0, t=80, b=0, pad = 0),
+    coloraxis_showscale = False
     )
 
     return fig
