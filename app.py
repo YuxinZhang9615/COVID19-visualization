@@ -580,23 +580,23 @@ MAP_LOCKDOWN = [
 SURVEY_MEDIA = [
     dbc.CardHeader(html.H5("Survey")),
     dbc.CardBody([
-        dbc.Row([
-            dbc.Col([
-                html.H5("Select Topics :")
-                ], width = 2),
-            dbc.Col([
-                dcc.Dropdown(
-                    id = 'selected_question',
-                    options = [{'label': 'How concerned are Americans about Infection?', 'value': 'Q_concern_infec'},
-                               {'label': 'How concerned are Americans about Economy?', 'value': 'Q_concern_econ'},
-                               {'label': 'Approval of Trump’s response varies widely by party', 'value': 'Q_approval_1'},
-                               {'label': 'Do Americans approve of Trump’s response to the coronavirus crisis?', 'value': 'Q_approval_2'}]
+        # dbc.Row([
+        #     dbc.Col([
+        #         html.H5("Select Topics :")
+        #         ], width = 2),
+        #     dbc.Col([
+        #         dcc.Dropdown(
+        #             id = 'selected_question',
+        #             options = [{'label': 'How concerned are Americans about Infection?', 'value': 'Q_concern_infec'},
+        #                        {'label': 'How concerned are Americans about Economy?', 'value': 'Q_concern_econ'},
+        #                        {'label': 'Approval of Trump’s response varies widely by party', 'value': 'Q_approval_1'},
+        #                        {'label': 'Do Americans approve of Trump’s response to the coronavirus crisis?', 'value': 'Q_approval_2'}]
 
-                    )
+        #             )
 
-                ], width = 10),
+        #         ], width = 10),
 
-            ]),
+        #     ]),
         dbc.Row([
             dbc.Col([
                 html.H5("Choose Filter :"),
@@ -692,12 +692,15 @@ GOOGLE =[
     dbc.CardBody([
         dbc.Row([
             dbc.Col([
-                html.Iframe(src = "https://public.flourish.studio/visualisation/2211837/", width="100%", height = '600px'),
-                html.Iframe(src = "https://dash-gallery.plotly.host/dash-drug-discovery/", width="100%", height = '600px')
-
+                html.Iframe(src = "https://public.flourish.studio/visualisation/2211837/", width="100%", height = '600px')
                 ], width = 6),
 
             dbc.Col([
+                dbc.Jumbotron([
+                    html.Img(src = "assets/googleTrend.png",
+                            style = {"width" : '540px'})
+                    ])
+                
                 
                 ], width = 6)
             ])
