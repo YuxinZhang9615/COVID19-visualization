@@ -410,6 +410,7 @@ FLATTEN_THE_CURVE = [
 
                 ],width = 1),
             dbc.Col([
+                html.Div([], style={'height': '20px'}),
                 html.Label('Select Metrics'),
                 dcc.Dropdown(
                         id = "selected_measure",
@@ -459,6 +460,8 @@ FLATTEN_THE_CURVE = [
                 ], width = 6),
 
             dbc.Col([
+                html.Div([], style={'height': '20px'}),
+                html.Label('Select Metrics'),
                 dcc.Dropdown(
                         id = "selected_measure2",
                         options = [{'label': 'Confirmed Growth Rate', 'value': 'confirmed'},
@@ -1079,10 +1082,10 @@ def update_fig(selected_countries, selected_measure):
     data = data + others1 + others2 + US + IT + SP + SK + ID + GM + UK
 
     if selected_measure == "confirmed":
-        layout = {"title": "Confirmed Case Growth Rate ", "width": 750, "plot_bgcolor": '#f5f7fa',
+        layout = {"title": "Confirmed Case Growth Rate ", "height": 450, "plot_bgcolor": '#f5f7fa',
                     "margin": "l=0, r=0, t=50, b=0, pad=0"}
     elif selected_measure == "death":
-        layout = {"title": "Death Case Growth Rate", "height": 500, "plot_bgcolor": '#f5f7fa',}
+        layout = {"title": "Death Case Growth Rate", "height": 450, "plot_bgcolor": '#f5f7fa',}
 
 
     return dict(data = data,
@@ -1163,9 +1166,9 @@ def update_fig2(selected_states, selected_measure2):
     data = data + others1 + others2 + NY + CA
     
     if selected_measure2 == "confirmed":
-        layout = {"title": "Confirmed Case Growth Rate ", "height": 700, "plot_bgcolor": '#f5f7fa',}
+        layout = {"title": "Confirmed Case Growth Rate ", "height": 450,  "plot_bgcolor": '#f5f7fa',}
     elif selected_measure2 == "death":
-        layout = {"title": "Death Case Growth Rate", "height": 700, "plot_bgcolor": '#f5f7fa',}
+        layout = {"title": "Death Case Growth Rate", "height": 450, "plot_bgcolor": '#f5f7fa',}
 
     return dict(data = data,
                 layout = layout)
