@@ -766,7 +766,7 @@ UNEMPLOYMENT = [
                     dcc.Dropdown(id = 'opt', 
                                  options = opts,
                                  placeholder="Select any states",
-                                 value = opts[0]['value'],                                 
+                                 value = [opts[0]['value'],  opts[2]['value']],                                 
                                  searchable=True,                              
                                  multi=True)
                         # ], style = {'width': '400px',
@@ -870,7 +870,7 @@ BODY = dbc.Container([
 
             ], className='custom-tab'),
 
-        dcc.Tab(label='People Opinion', children=[
+        dcc.Tab(label='Public Opinion', children=[
             dbc.Row([dbc.Col(dbc.Card(SURVEY_MEDIA)),], style={"marginTop": 30}),
             dbc.Row([
                 dbc.Col([
@@ -1682,7 +1682,43 @@ def update_fig_s1(selected_pollsters, radio_display1):
                              name = 'not at all (AVERAGE)',
                              mode = 'lines',
                              line = dict(color = "Green")
-                            )]
+                            ), 
+                go.Scatter(x=['2020-02-29','2020-02-29', '2020-03-09', '2020-03-12','2020-03-27', '2020-03-27', '2020-04-19'],
+                            y=[76, 73, -3, 71, 74, 71, 71],
+                            text=["1st death reported",
+                                "in the US",
+                                "First Trading Curb",
+                                'Second Trading Curb',
+                                "Trump signs",
+                                "Stimulus bill",
+                                "U.S Oil Price Hits $15"],
+                            mode="text",
+                        ),
+                go.Scatter(x = ['2020-02-29', '2020-02-29'],
+                         y = [0,70],
+                         mode = 'lines',
+                         line = dict(color = "grey",width=1, dash="dashdot")
+                        ),
+                go.Scatter(x = ['2020-03-09', '2020-03-09'],
+                         y = [0,70],
+                         mode = 'lines',
+                         line = dict(color = "grey",width=1, dash="dashdot")
+                        ),
+                go.Scatter(x = ['2020-03-12', '2020-03-12'],
+                         y = [0,70],
+                         mode = 'lines',
+                         line = dict(color = "grey",width=1, dash="dashdot")
+                        ),
+                go.Scatter(x = ['2020-03-27', '2020-03-27'],
+                         y = [0,70],
+                         mode = 'lines',
+                         line = dict(color = "grey",width=1, dash="dashdot")
+                        ),
+                go.Scatter(x = ['2020-04-19', '2020-04-19'],
+                         y = [0,70],
+                         mode = 'lines',
+                         line = dict(color = "grey",width=1, dash="dashdot")
+                        )]
 
 
     if radio_display1 == 'All':
@@ -1995,8 +2031,30 @@ trace_2 = go.Scatter(x = df_claims_0['date'], y = df_claims_0['claims'],
 #                        linewidth=0.5,
 #                        mirror=True))
 
+linetrace = go.Scatter(
+                x=[df_claims_0['date'][357],df_claims_0['date'][357]], # , '2020-03-09', '2020-03-12','2020-03-27', '2020-03-27', '2020-04-19'],
+                y=[0, -3], # -3, 71, 74, 71, 71],
+                text=["1st death reported",
+                    "in the US"],
+                    # "First Trading Curb",
+                    # 'Second Trading Curb',
+                    # "Trump signs",
+                    # "Stimulus bill",
+                    # "U.S Oil Price Hits $15"],
+                mode="text",
+                showlegend=False
+            )
+
+linetrace2 = go.Scatter(x = [df_claims_0['date'][357], df_claims_0['date'][357]],
+                         y = [0,140000],
+                         mode = 'lines',
+                         line = dict(color = "black",width=1, dash="dashdot"),
+                         showlegend=False
+                        )           
+
+
 fig1 = go.Figure(data = [trace_1], layout = layout1)
-fig2 = go.Figure(data = [trace_2], layout = layout2)
+fig2 = go.Figure(data = [trace_2, linetrace, linetrace2], layout = layout2)
 
 
 @app.callback([Output('plot1', 'figure'),Output('plot2', 'figure'),Output('map', 'figure')],
@@ -2011,6 +2069,7 @@ def update_figure(un_state,un_time):
 
     traces_1 = []
     traces_2 = []
+    highesty = 0
 
     for val in un_state:
         df_unemployment_rate_1 = df_unemployment_rate_2[(df_unemployment_rate_2.State == val)]
@@ -2034,7 +2093,47 @@ def update_figure(un_state,un_time):
             mode = 'lines',
             showlegend=False
         ))
+
+        if df_claims_1['claims'].max() > highesty:
+            highesty = df_claims_1['claims'].max()
     
+    linetrace = go.Scatter(
+                x=[df_claims_0['date'][357], df_claims_0['date'][459],  df_claims_0['date'][561]],
+                y=[highesty+4000, -10000, highesty+4000],
+                text=["1st death reported",
+                    "Week of Trading Curbs",
+                    "Stimulus bill signed"
+                    ],
+                    # "Trump signs",
+                    # "Stimulus bill",
+                    # "U.S Oil Price Hits $15"],
+                mode="text",
+                showlegend=False
+            )
+    linetrace2 = go.Scatter(x = [df_claims_0['date'][357], df_claims_0['date'][357]],
+                            y = [0,highesty],
+                            mode = 'lines',
+                            line = dict(color = "black",width=1, dash="dashdot"),
+                            showlegend=False
+                            )  
+    linetrace3 = go.Scatter(x = [df_claims_0['date'][459], df_claims_0['date'][459]],
+                            y = [0,highesty],
+                            mode = 'lines',
+                            line = dict(color = "black",width=1, dash="dashdot"),
+                            showlegend=False
+                            )   
+    linetrace4 = go.Scatter(x = [df_claims_0['date'][561], df_claims_0['date'][561]],
+                            y = [0,highesty],
+                            mode = 'lines',
+                            line = dict(color = "black",width=1, dash="dashdot"),
+                            showlegend=False
+                            )   
+
+    traces_2.append(linetrace)
+    traces_2.append(linetrace2)   
+    traces_2.append(linetrace3)  
+    traces_2.append(linetrace4) 
+
     fig1 = go.Figure(data = traces_1, layout = layout1)
 
     fig2 = go.Figure(data = traces_2, layout = layout2)
