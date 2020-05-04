@@ -865,7 +865,7 @@ BODY = dbc.Container([
 
             ], className='custom-tab'),
 
-        dcc.Tab(label='People Opinion', children=[
+        dcc.Tab(label='Public Opinion', children=[
             dbc.Row([dbc.Col(dbc.Card(SURVEY_MEDIA)),], style={"marginTop": 30}),
             dbc.Row([
                 dbc.Col([
@@ -1677,7 +1677,43 @@ def update_fig_s1(selected_pollsters, radio_display1):
                              name = 'not at all (AVERAGE)',
                              mode = 'lines',
                              line = dict(color = "Green")
-                            )]
+                            ), 
+                go.Scatter(x=['2020-02-29','2020-02-29', '2020-03-09', '2020-03-12','2020-03-27', '2020-03-27', '2020-04-19'],
+                            y=[76, 73, -3, 71, 74, 71, 71],
+                            text=["1st death reported",
+                                "in the US",
+                                "First Trading Curb",
+                                'Second Trading Curb',
+                                "Trump signs",
+                                "Stimulus bill",
+                                "U.S Oil Price Hits $15"],
+                            mode="text",
+                        ),
+                go.Scatter(x = ['2020-02-29', '2020-02-29'],
+                         y = [0,70],
+                         mode = 'lines',
+                         line = dict(color = "grey",width=1, dash="dashdot")
+                        ),
+                go.Scatter(x = ['2020-03-09', '2020-03-09'],
+                         y = [0,70],
+                         mode = 'lines',
+                         line = dict(color = "grey",width=1, dash="dashdot")
+                        ),
+                go.Scatter(x = ['2020-03-12', '2020-03-12'],
+                         y = [0,70],
+                         mode = 'lines',
+                         line = dict(color = "grey",width=1, dash="dashdot")
+                        ),
+                go.Scatter(x = ['2020-03-27', '2020-03-27'],
+                         y = [0,70],
+                         mode = 'lines',
+                         line = dict(color = "grey",width=1, dash="dashdot")
+                        ),
+                go.Scatter(x = ['2020-04-19', '2020-04-19'],
+                         y = [0,70],
+                         mode = 'lines',
+                         line = dict(color = "grey",width=1, dash="dashdot")
+                        )]
 
 
     if radio_display1 == 'All':
