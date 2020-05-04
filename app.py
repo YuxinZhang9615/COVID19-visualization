@@ -667,18 +667,17 @@ TWEETER = [
                         value=38,
                         marks=markdict,
                         step=1)
-
                 ], width = 12)
 
 
             ]),
         dbc.Row([
             dbc.Col([
-                html.Div(id="image")
-                ], width = 6),
+                html.Div(id="image", style = {'width': '100%'})
+                ], width = 8),
             dbc.Col([
-                dcc.Graph(id ='hot-table', style={'display': 'inline-block'})
-                ], width = 6)
+                dcc.Graph(id ='hot-table', style={'display': 'inline-block','width':'100%'})
+                ], width = 4)
 
             ])
 
@@ -694,7 +693,6 @@ GOOGLE =[
             dbc.Col([
                 html.Iframe(src = "https://public.flourish.studio/visualisation/2211837/", width="100%", height = '600px'),
                 html.Iframe(src = "https://dash-gallery.plotly.host/dash-drug-discovery/", width="100%", height = '600px')
-
                 ], width = 6),
 
             dbc.Col([
@@ -1909,7 +1907,7 @@ def update_fig_s1(selected_pollsters, radio_display1):
 
 def update_output(value):
     src1 = "https://raw.githubusercontent.com/yyyyyokoko/covid-19-challenge/master/twitterViz/images/" + daterange[value] + '.png'
-    img = html.Img(src=src1,  style={'height':'50%', 'width':'50%', 'display': 'inline-block'})
+    img = html.Img(src=src1,  style={'width':'100%', 'display': 'inline-block'})
     return img
 
 @app.callback(
