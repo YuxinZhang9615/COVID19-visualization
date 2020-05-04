@@ -430,7 +430,7 @@ FLATTEN_THE_CURVE = [
                 dcc.Dropdown(
                             id = "selected_states",
                             options=[{'label': x, 'value': x} for x in list(us_confirmedR.columns[1:])],
-                            value= ['New York', 'California'],
+                            value= ['New York', 'California', 'Georgia', 'Florida','Delaware', 'Colorado'],
                             multi=True
                             )
                 ], width = 12)
@@ -1003,7 +1003,7 @@ def update_fig(selected_countries, selected_measure):
                              y = df['US'],
                              name = 'US',
                              mode = 'lines',
-                             line = dict(color = 'rgba(53,92,125, 0.8)', width = 3, shape = 'spline'),
+                             line = dict(color = 'rgba(53,92,125, 0.8)', width = 2, shape = 'spline'),
                              #text = ["United States" if i == 38 else "" for i in range(df.shape[0])],
                              #textposition = "top center",
                              #textfont = dict(color = "rgba(53,92,125, 1)")
@@ -1023,11 +1023,12 @@ def update_fig(selected_countries, selected_measure):
                              y = df['Italy'],
                              name = 'Italy',
                              mode = 'lines',
-                             line = dict(color = 'rgba(153,184,152, 0.9)', width = 3, shape = 'spline'),
+                             line = dict(color = 'rgba(153,184,152, 0.9)', width = 2, shape = 'spline'),
                             ),
               go.Scatter(x = df.Date,
                           y = [df['Italy'][i] if pd.to_datetime(lockdown.Date[lockdown['Country/Region'] == 'Italy'].values[0]) == pd.Timestamp(df.Date[i]) else np.nan for i in range(df.shape[0])],
                           mode = 'markers',
+                          name = 'Italy (full lockdown)',
                           marker = dict(color = 'rgba(153,184,152, 0.9)', size = 10),
                             )]
 
@@ -1036,11 +1037,12 @@ def update_fig(selected_countries, selected_measure):
                              y = df['Spain'],
                              name = 'Spain',
                              mode = 'lines',
-                             line = dict(color = 'rgba(237, 177, 131, 0.9)', width = 3, shape = 'spline'),
+                             line = dict(color = 'rgba(237, 177, 131, 0.9)', width = 2, shape = 'spline'),
                             ),
               go.Scatter(x = df.Date,
                           y = [df['Spain'][i] if pd.to_datetime(lockdown.Date[lockdown['Country/Region'] == 'Spain'].values[0]) == pd.Timestamp(df.Date[i]) else np.nan for i in range(df.shape[0])],
                           mode = 'markers',
+                          name = 'Spain (full lockdown)',
                           marker = dict(color = 'rgba(237, 177, 131, 0.9)', size = 10),
                           #text = ["Full" if lockdown.Date[lockdown['Country/Region'] == 'Spain'].values == df.Date[i] else "" for i in range(df.shape[0])],
                           #textposition="top right"
@@ -1050,11 +1052,12 @@ def update_fig(selected_countries, selected_measure):
                              y = df['South Korea'],
                              name = 'South Korea',
                              mode = 'lines',
-                             line = dict(color = 'rgba(246,114,128, 0.9)', width = 3, shape = 'spline'),
+                             line = dict(color = 'rgba(246,114,128, 0.9)', width = 2, shape = 'spline'),
                             ),
               go.Scatter(x = df.Date,
                           y = [df['South Korea'][i] if pd.to_datetime(lockdown.Date[lockdown['Country/Region'] == 'South Korea'].values[0]) == pd.Timestamp(df.Date[i]) else np.nan for i in range(df.shape[0])],
                           mode = 'markers',
+                          name = 'South Korea (full)',
                           marker = dict(color = 'rgba(246,114,128, 0.9)', size = 10),
                           #text = ["Full" if lockdown.Date[lockdown['Country/Region'] == 'South Korea'].values == df.Date[i] else "" for i in range(df.shape[0])],
                           #textposition="top right"
@@ -1070,7 +1073,7 @@ def update_fig(selected_countries, selected_measure):
                             width = 2, shape = 'spline')) for i in range(len(selected_countries))]
     others2 = [go.Scatter(x = df.Date,
                           y = [df[selected_countries[i]][j] if pd.to_datetime(lockdown.Date[lockdown['Country/Region'] == selected_countries[i]].values) == pd.Timestamp(df.Date.iloc[j]) else np.nan for j in range(df.shape[0])],
-                          #name = selected_countries[i] + ' (' + str(lockdown.Type[lockdown['Country/Region'] == selected_countries[i]].values[0]) + ')',
+                          name = selected_countries[i] + ' (' + str(lockdown.Type[lockdown['Country/Region'] == selected_countries[i]].values[0]) + ')',
                           mode = 'markers',
                           #marker = dict(color = colors_World[selected_countries[i]],  size = 5),
                           #text = [lockdown['Type'][lockdown['Country/Region'] == selected_countries[i]].values[0] if pd.to_datetime(lockdown.Date[lockdown['Country/Region'] == selected_countries[i]].values) == pd.Timestamp(df.Date.iloc[j]) else "unknown type" for j in range(df.shape[0])],
@@ -1112,11 +1115,11 @@ def update_fig2(selected_states, selected_measure2):
         NY = [go.Scatter(x = df.Date,
                              y = df['New York'],
                              name = 'New York',
-                             mode = 'lines',
-                             line = dict(color = 'rgba(53,92,125, 0.9)', width = 3, shape = 'spline'),
-                             #text = ["New York" if i == 38 else "" for i in range(df.shape[0])],
-                             #textposition = "top center",
-                             #textfont = dict(color = "rgba(53,92,125, 1)")
+                             mode = 'lines+text',
+                             line = dict(color = 'rgba(53,92,125, 0.9)', width = 2, shape = 'spline'),
+                             text = ["New York" if i == 32 else "" for i in range(df.shape[0])],
+                             textposition = "top center",
+                             textfont = dict(color = "rgba(53,92,125, 1)")
                             ),
               go.Scatter(x = df.Date,
                           y = [df['New York'][i] if pd.to_datetime(lockdown2.Date[lockdown2['State'] == 'New York'].values[0]) == pd.Timestamp(df.Date[i]) else np.nan for i in range(df.shape[0])],
@@ -1134,16 +1137,16 @@ def update_fig2(selected_states, selected_measure2):
                              y = df['California'],
                              name = 'California',
                              mode = 'lines+text',
-                             line = dict(color = 'rgba(53,92,125, 0.9)', width = 3, shape = 'spline'),
+                             line = dict(color = 'rgba(237, 123, 24, 0.9)', width = 2, shape = 'spline'),
                              text = ["California" if i == 38 else "" for i in range(df.shape[0])],
                              textposition = "top center",
-                             textfont = dict(color = "rgba(53,92,125, 1)")
+                             textfont = dict(color = "rgba(237, 123, 24, 1)")
                             ),
               go.Scatter(x = df.Date,
                           y = [df['California'][i] if pd.to_datetime(lockdown2.Date[lockdown2['State'] == 'California'].values[0]) == pd.Timestamp(df.Date[i]) else np.nan for i in range(df.shape[0])],
                           name = 'California',
                           mode = 'markers',
-                          marker = dict(color = 'rgba(53,92,125, 1)', size = 10),
+                          marker = dict(color = 'rgba(237, 123, 24, 1)', size = 10),
                           #text = ["Partial" if pd.to_datetime(lockdown2.Date[lockdown2['Country/Region'] == 'US'].values[0]) == pd.Timestamp(df.Date[i]) else "" for i in range(df.shape[0])],
                           #textposition="top right",
                           #textfont = dict(color = "rgba(53,92,125, 1)")
@@ -1154,7 +1157,7 @@ def update_fig2(selected_states, selected_measure2):
                         name = selected_states[i],
                         mode = 'lines',
                         line = dict(color= f'rgba({np.random.randint(0,256)}, {np.random.randint(0,256)}, {np.random.randint(0,256)},0.9)', 
-                            width = 0.8, shape = 'spline')) for i in range(len(selected_states))]
+                            width = 1, shape = 'spline')) for i in range(len(selected_states))]
     others2 = [go.Scatter(x = df.Date,
                           y = [df[selected_states[i]][j] if pd.to_datetime(lockdown2.Date[lockdown2['State'] == selected_states[i]].values) == pd.Timestamp(df.Date.iloc[j]) else np.nan for j in range(df.shape[0])],
                           name = selected_states[i] + ' (' + str(lockdown2.Type[lockdown2['State'] == selected_states[i]].values[0]) + ')',
