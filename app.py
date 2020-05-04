@@ -9,6 +9,7 @@ import re
 import plotly.graph_objs as go
 import plotly.express as px
 from dash.dependencies import Output, Input
+
 #from plotly.subplots import make_subplots
 
 import math
@@ -697,6 +698,7 @@ GOOGLE =[
                 ], width = 6),
 
             dbc.Col([
+                
                 ], width = 6)
             ])
 

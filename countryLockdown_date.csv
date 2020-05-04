@@ -1,0 +1,4321 @@
+region,date,type,iso_alpha
+Afghanistan,1/23/20,0,AFG
+Afghanistan,2/2/20,0,AFG
+Afghanistan,2/23/20,0,AFG
+Afghanistan,2/25/20,0,AFG
+Afghanistan,2/27/20,0,AFG
+Afghanistan,3/10/20,0,AFG
+Afghanistan,3/11/20,0,AFG
+Afghanistan,3/12/20,0,AFG
+Afghanistan,3/13/20,0,AFG
+Afghanistan,3/14/20,0,AFG
+Afghanistan,3/15/20,0,AFG
+Afghanistan,3/16/20,0,AFG
+Afghanistan,3/17/20,0,AFG
+Afghanistan,3/18/20,0,AFG
+Afghanistan,3/19/20,0,AFG
+Afghanistan,3/2/20,0,AFG
+Afghanistan,3/20/20,0,AFG
+Afghanistan,3/21/20,0,AFG
+Afghanistan,3/22/20,0,AFG
+Afghanistan,3/23/20,0,AFG
+Afghanistan,3/24/20,1,AFG
+Afghanistan,3/25/20,1,AFG
+Afghanistan,3/26/20,1,AFG
+Afghanistan,3/27/20,1,AFG
+Afghanistan,3/28/20,1,AFG
+Afghanistan,3/29/20,1,AFG
+Afghanistan,3/30/20,1,AFG
+Afghanistan,3/5/20,1,AFG
+Afghanistan,3/6/20,1,AFG
+Afghanistan,3/8/20,1,AFG
+Afghanistan,3/9/20,1,AFG
+Afghanistan,4/2/20,1,AFG
+Albania,1/23/20,0,ALB
+Albania,2/2/20,0,ALB
+Albania,2/23/20,0,ALB
+Albania,2/25/20,0,ALB
+Albania,2/27/20,0,ALB
+Albania,3/10/20,0,ALB
+Albania,3/11/20,0,ALB
+Albania,3/12/20,0,ALB
+Albania,3/13/20,0,ALB
+Albania,3/14/20,0,ALB
+Albania,3/15/20,0,ALB
+Albania,3/16/20,0,ALB
+Albania,3/17/20,0,ALB
+Albania,3/18/20,0,ALB
+Albania,3/19/20,0,ALB
+Albania,3/2/20,0,ALB
+Albania,3/20/20,0,ALB
+Albania,3/21/20,0,ALB
+Albania,3/22/20,0,ALB
+Albania,3/23/20,0,ALB
+Albania,3/24/20,0,ALB
+Albania,3/25/20,0,ALB
+Albania,3/26/20,0,ALB
+Albania,3/27/20,0,ALB
+Albania,3/28/20,0,ALB
+Albania,3/29/20,0,ALB
+Albania,3/30/20,0,ALB
+Albania,3/5/20,0,ALB
+Albania,3/6/20,0,ALB
+Albania,3/8/20,1,ALB
+Albania,3/9/20,1,ALB
+Albania,4/2/20,1,ALB
+Algeria,1/23/20,0,DZA
+Algeria,2/2/20,0,DZA
+Algeria,2/23/20,0,DZA
+Algeria,2/25/20,0,DZA
+Algeria,2/27/20,0,DZA
+Algeria,3/10/20,0,DZA
+Algeria,3/11/20,0,DZA
+Algeria,3/12/20,0,DZA
+Algeria,3/13/20,0,DZA
+Algeria,3/14/20,0,DZA
+Algeria,3/15/20,0,DZA
+Algeria,3/16/20,0,DZA
+Algeria,3/17/20,0,DZA
+Algeria,3/18/20,0,DZA
+Algeria,3/19/20,0,DZA
+Algeria,3/2/20,0,DZA
+Algeria,3/20/20,0,DZA
+Algeria,3/21/20,0,DZA
+Algeria,3/22/20,0,DZA
+Algeria,3/23/20,0,DZA
+Algeria,3/24/20,1,DZA
+Algeria,3/25/20,1,DZA
+Algeria,3/26/20,1,DZA
+Algeria,3/27/20,1,DZA
+Algeria,3/28/20,1,DZA
+Algeria,3/29/20,1,DZA
+Algeria,3/30/20,1,DZA
+Algeria,3/5/20,1,DZA
+Algeria,3/6/20,1,DZA
+Algeria,3/8/20,1,DZA
+Algeria,3/9/20,1,DZA
+Algeria,4/2/20,1,DZA
+Andorra,1/23/20,0,AND
+Andorra,2/2/20,0,AND
+Andorra,2/23/20,0,AND
+Andorra,2/25/20,0,AND
+Andorra,2/27/20,0,AND
+Andorra,3/10/20,0,AND
+Andorra,3/11/20,0,AND
+Andorra,3/12/20,0,AND
+Andorra,3/13/20,0,AND
+Andorra,3/14/20,0,AND
+Andorra,3/15/20,0,AND
+Andorra,3/16/20,1,AND
+Andorra,3/17/20,1,AND
+Andorra,3/18/20,1,AND
+Andorra,3/19/20,1,AND
+Andorra,3/2/20,1,AND
+Andorra,3/20/20,1,AND
+Andorra,3/21/20,1,AND
+Andorra,3/22/20,1,AND
+Andorra,3/23/20,1,AND
+Andorra,3/24/20,1,AND
+Andorra,3/25/20,1,AND
+Andorra,3/26/20,1,AND
+Andorra,3/27/20,1,AND
+Andorra,3/28/20,1,AND
+Andorra,3/29/20,1,AND
+Andorra,3/30/20,1,AND
+Andorra,3/5/20,1,AND
+Andorra,3/6/20,1,AND
+Andorra,3/8/20,1,AND
+Andorra,3/9/20,1,AND
+Andorra,4/2/20,1,AND
+Angola,1/23/20,0,AGO
+Angola,2/2/20,0,AGO
+Angola,2/23/20,0,AGO
+Angola,2/25/20,0,AGO
+Angola,2/27/20,0,AGO
+Angola,3/10/20,0,AGO
+Angola,3/11/20,0,AGO
+Angola,3/12/20,0,AGO
+Angola,3/13/20,0,AGO
+Angola,3/14/20,0,AGO
+Angola,3/15/20,0,AGO
+Angola,3/16/20,0,AGO
+Angola,3/17/20,0,AGO
+Angola,3/18/20,0,AGO
+Angola,3/19/20,0,AGO
+Angola,3/2/20,0,AGO
+Angola,3/20/20,0,AGO
+Angola,3/21/20,0,AGO
+Angola,3/22/20,0,AGO
+Angola,3/23/20,0,AGO
+Angola,3/24/20,1,AGO
+Angola,3/25/20,1,AGO
+Angola,3/26/20,1,AGO
+Angola,3/27/20,1,AGO
+Angola,3/28/20,1,AGO
+Angola,3/29/20,1,AGO
+Angola,3/30/20,1,AGO
+Angola,3/5/20,1,AGO
+Angola,3/6/20,1,AGO
+Angola,3/8/20,1,AGO
+Angola,3/9/20,1,AGO
+Angola,4/2/20,1,AGO
+Argentina,1/23/20,0,ARG
+Argentina,2/2/20,0,ARG
+Argentina,2/23/20,0,ARG
+Argentina,2/25/20,0,ARG
+Argentina,2/27/20,0,ARG
+Argentina,3/10/20,0,ARG
+Argentina,3/11/20,0,ARG
+Argentina,3/12/20,0,ARG
+Argentina,3/13/20,0,ARG
+Argentina,3/14/20,0,ARG
+Argentina,3/15/20,0,ARG
+Argentina,3/16/20,0,ARG
+Argentina,3/17/20,0,ARG
+Argentina,3/18/20,0,ARG
+Argentina,3/19/20,0,ARG
+Argentina,3/2/20,0,ARG
+Argentina,3/20/20,1,ARG
+Argentina,3/21/20,1,ARG
+Argentina,3/22/20,1,ARG
+Argentina,3/23/20,1,ARG
+Argentina,3/24/20,1,ARG
+Argentina,3/25/20,1,ARG
+Argentina,3/26/20,1,ARG
+Argentina,3/27/20,1,ARG
+Argentina,3/28/20,1,ARG
+Argentina,3/29/20,1,ARG
+Argentina,3/30/20,1,ARG
+Argentina,3/5/20,1,ARG
+Argentina,3/6/20,1,ARG
+Argentina,3/8/20,1,ARG
+Argentina,3/9/20,1,ARG
+Argentina,4/2/20,1,ARG
+Armenia,1/23/20,0,ARM
+Armenia,2/2/20,0,ARM
+Armenia,2/23/20,0,ARM
+Armenia,2/25/20,0,ARM
+Armenia,2/27/20,0,ARM
+Armenia,3/10/20,0,ARM
+Armenia,3/11/20,0,ARM
+Armenia,3/12/20,0,ARM
+Armenia,3/13/20,0,ARM
+Armenia,3/14/20,0,ARM
+Armenia,3/15/20,0,ARM
+Armenia,3/16/20,0,ARM
+Armenia,3/17/20,0,ARM
+Armenia,3/18/20,0,ARM
+Armenia,3/19/20,0,ARM
+Armenia,3/2/20,0,ARM
+Armenia,3/20/20,0,ARM
+Armenia,3/21/20,0,ARM
+Armenia,3/22/20,0,ARM
+Armenia,3/23/20,0,ARM
+Armenia,3/24/20,1,ARM
+Armenia,3/25/20,1,ARM
+Armenia,3/26/20,1,ARM
+Armenia,3/27/20,1,ARM
+Armenia,3/28/20,1,ARM
+Armenia,3/29/20,1,ARM
+Armenia,3/30/20,1,ARM
+Armenia,3/5/20,1,ARM
+Armenia,3/6/20,1,ARM
+Armenia,3/8/20,1,ARM
+Armenia,3/9/20,1,ARM
+Armenia,4/2/20,1,ARM
+Australia,1/23/20,0,AUS
+Australia,2/2/20,0,AUS
+Australia,2/23/20,0,AUS
+Australia,2/25/20,0,AUS
+Australia,2/27/20,0,AUS
+Australia,3/10/20,0,AUS
+Australia,3/11/20,0,AUS
+Australia,3/12/20,0,AUS
+Australia,3/13/20,0,AUS
+Australia,3/14/20,0,AUS
+Australia,3/15/20,0,AUS
+Australia,3/16/20,0,AUS
+Australia,3/17/20,0,AUS
+Australia,3/18/20,0,AUS
+Australia,3/19/20,0,AUS
+Australia,3/2/20,0,AUS
+Australia,3/20/20,0,AUS
+Australia,3/21/20,0,AUS
+Australia,3/22/20,0,AUS
+Australia,3/23/20,0,AUS
+Australia,3/24/20,0.5,AUS
+Australia,3/25/20,0.5,AUS
+Australia,3/26/20,0.5,AUS
+Australia,3/27/20,0.5,AUS
+Australia,3/28/20,0.5,AUS
+Australia,3/29/20,0.5,AUS
+Australia,3/30/20,0.5,AUS
+Australia,3/5/20,0.5,AUS
+Australia,3/6/20,0.5,AUS
+Australia,3/8/20,0.5,AUS
+Australia,3/9/20,0.5,AUS
+Australia,4/2/20,0.5,AUS
+Austria,1/23/20,0,AUT
+Austria,2/2/20,0,AUT
+Austria,2/23/20,0,AUT
+Austria,2/25/20,0,AUT
+Austria,2/27/20,0,AUT
+Austria,3/10/20,0,AUT
+Austria,3/11/20,0,AUT
+Austria,3/12/20,0,AUT
+Austria,3/13/20,0,AUT
+Austria,3/14/20,0,AUT
+Austria,3/15/20,0,AUT
+Austria,3/16/20,1,AUT
+Austria,3/17/20,1,AUT
+Austria,3/18/20,1,AUT
+Austria,3/19/20,1,AUT
+Austria,3/2/20,1,AUT
+Austria,3/20/20,1,AUT
+Austria,3/21/20,1,AUT
+Austria,3/22/20,1,AUT
+Austria,3/23/20,1,AUT
+Austria,3/24/20,1,AUT
+Austria,3/25/20,1,AUT
+Austria,3/26/20,1,AUT
+Austria,3/27/20,1,AUT
+Austria,3/28/20,1,AUT
+Austria,3/29/20,1,AUT
+Austria,3/30/20,1,AUT
+Austria,3/5/20,1,AUT
+Austria,3/6/20,1,AUT
+Austria,3/8/20,1,AUT
+Austria,3/9/20,1,AUT
+Austria,4/2/20,1,AUT
+Azerbaijan,1/23/20,0,AZE
+Azerbaijan,2/2/20,0,AZE
+Azerbaijan,2/23/20,0,AZE
+Azerbaijan,2/25/20,0,AZE
+Azerbaijan,2/27/20,0,AZE
+Azerbaijan,3/10/20,0,AZE
+Azerbaijan,3/11/20,0,AZE
+Azerbaijan,3/12/20,0,AZE
+Azerbaijan,3/13/20,0,AZE
+Azerbaijan,3/14/20,0,AZE
+Azerbaijan,3/15/20,0,AZE
+Azerbaijan,3/16/20,0,AZE
+Azerbaijan,3/17/20,0,AZE
+Azerbaijan,3/18/20,0,AZE
+Azerbaijan,3/19/20,0,AZE
+Azerbaijan,3/2/20,1,AZE
+Azerbaijan,3/20/20,1,AZE
+Azerbaijan,3/21/20,1,AZE
+Azerbaijan,3/22/20,1,AZE
+Azerbaijan,3/23/20,1,AZE
+Azerbaijan,3/24/20,1,AZE
+Azerbaijan,3/25/20,1,AZE
+Azerbaijan,3/26/20,1,AZE
+Azerbaijan,3/27/20,1,AZE
+Azerbaijan,3/28/20,1,AZE
+Azerbaijan,3/29/20,1,AZE
+Azerbaijan,3/30/20,1,AZE
+Azerbaijan,3/5/20,1,AZE
+Azerbaijan,3/6/20,1,AZE
+Azerbaijan,3/8/20,1,AZE
+Azerbaijan,3/9/20,1,AZE
+Azerbaijan,4/2/20,1,AZE
+Bahamas,1/23/20,0,BHS
+Bahamas,2/2/20,0,BHS
+Bahamas,2/23/20,0,BHS
+Bahamas,2/25/20,0,BHS
+Bahamas,2/27/20,0,BHS
+Bahamas,3/10/20,0,BHS
+Bahamas,3/11/20,0,BHS
+Bahamas,3/12/20,0,BHS
+Bahamas,3/13/20,0,BHS
+Bahamas,3/14/20,0,BHS
+Bahamas,3/15/20,0,BHS
+Bahamas,3/16/20,0,BHS
+Bahamas,3/17/20,0,BHS
+Bahamas,3/18/20,0,BHS
+Bahamas,3/19/20,0,BHS
+Bahamas,3/2/20,0,BHS
+Bahamas,3/20/20,1,BHS
+Bahamas,3/21/20,1,BHS
+Bahamas,3/22/20,1,BHS
+Bahamas,3/23/20,1,BHS
+Bahamas,3/24/20,1,BHS
+Bahamas,3/25/20,1,BHS
+Bahamas,3/26/20,1,BHS
+Bahamas,3/27/20,1,BHS
+Bahamas,3/28/20,1,BHS
+Bahamas,3/29/20,1,BHS
+Bahamas,3/30/20,1,BHS
+Bahamas,3/5/20,1,BHS
+Bahamas,3/6/20,1,BHS
+Bahamas,3/8/20,1,BHS
+Bahamas,3/9/20,1,BHS
+Bahamas,4/2/20,1,BHS
+Bahrain,1/23/20,0,BHR
+Bahrain,2/2/20,0,BHR
+Bahrain,2/23/20,0,BHR
+Bahrain,2/25/20,1,BHR
+Bahrain,2/27/20,1,BHR
+Bahrain,3/10/20,1,BHR
+Bahrain,3/11/20,1,BHR
+Bahrain,3/12/20,1,BHR
+Bahrain,3/13/20,1,BHR
+Bahrain,3/14/20,1,BHR
+Bahrain,3/15/20,1,BHR
+Bahrain,3/16/20,1,BHR
+Bahrain,3/17/20,1,BHR
+Bahrain,3/18/20,1,BHR
+Bahrain,3/19/20,1,BHR
+Bahrain,3/2/20,1,BHR
+Bahrain,3/20/20,1,BHR
+Bahrain,3/21/20,1,BHR
+Bahrain,3/22/20,1,BHR
+Bahrain,3/23/20,1,BHR
+Bahrain,3/24/20,1,BHR
+Bahrain,3/25/20,1,BHR
+Bahrain,3/26/20,1,BHR
+Bahrain,3/27/20,1,BHR
+Bahrain,3/28/20,1,BHR
+Bahrain,3/29/20,1,BHR
+Bahrain,3/30/20,1,BHR
+Bahrain,3/5/20,1,BHR
+Bahrain,3/6/20,1,BHR
+Bahrain,3/8/20,1,BHR
+Bahrain,3/9/20,1,BHR
+Bahrain,4/2/20,1,BHR
+Bangladesh,1/23/20,0,BGD
+Bangladesh,2/2/20,0,BGD
+Bangladesh,2/23/20,0,BGD
+Bangladesh,2/25/20,0,BGD
+Bangladesh,2/27/20,0,BGD
+Bangladesh,3/10/20,0,BGD
+Bangladesh,3/11/20,0,BGD
+Bangladesh,3/12/20,0,BGD
+Bangladesh,3/13/20,0,BGD
+Bangladesh,3/14/20,0,BGD
+Bangladesh,3/15/20,0,BGD
+Bangladesh,3/16/20,0,BGD
+Bangladesh,3/17/20,0,BGD
+Bangladesh,3/18/20,0,BGD
+Bangladesh,3/19/20,1,BGD
+Bangladesh,3/2/20,1,BGD
+Bangladesh,3/20/20,1,BGD
+Bangladesh,3/21/20,1,BGD
+Bangladesh,3/22/20,1,BGD
+Bangladesh,3/23/20,1,BGD
+Bangladesh,3/24/20,1,BGD
+Bangladesh,3/25/20,1,BGD
+Bangladesh,3/26/20,1,BGD
+Bangladesh,3/27/20,1,BGD
+Bangladesh,3/28/20,1,BGD
+Bangladesh,3/29/20,1,BGD
+Bangladesh,3/30/20,1,BGD
+Bangladesh,3/5/20,1,BGD
+Bangladesh,3/6/20,1,BGD
+Bangladesh,3/8/20,1,BGD
+Bangladesh,3/9/20,1,BGD
+Bangladesh,4/2/20,1,BGD
+Barbados,1/23/20,0,BRB
+Barbados,2/2/20,0,BRB
+Barbados,2/23/20,0,BRB
+Barbados,2/25/20,0,BRB
+Barbados,2/27/20,0,BRB
+Barbados,3/10/20,0,BRB
+Barbados,3/11/20,0,BRB
+Barbados,3/12/20,0,BRB
+Barbados,3/13/20,0,BRB
+Barbados,3/14/20,0,BRB
+Barbados,3/15/20,0,BRB
+Barbados,3/16/20,0,BRB
+Barbados,3/17/20,0,BRB
+Barbados,3/18/20,0,BRB
+Barbados,3/19/20,0,BRB
+Barbados,3/2/20,0,BRB
+Barbados,3/20/20,0,BRB
+Barbados,3/21/20,0,BRB
+Barbados,3/22/20,0,BRB
+Barbados,3/23/20,0,BRB
+Barbados,3/24/20,0,BRB
+Barbados,3/25/20,0,BRB
+Barbados,3/26/20,0,BRB
+Barbados,3/27/20,0,BRB
+Barbados,3/28/20,1,BRB
+Barbados,3/29/20,1,BRB
+Barbados,3/30/20,1,BRB
+Barbados,3/5/20,1,BRB
+Barbados,3/6/20,1,BRB
+Barbados,3/8/20,1,BRB
+Barbados,3/9/20,1,BRB
+Barbados,4/2/20,1,BRB
+Belgium,1/23/20,0,BEL
+Belgium,2/2/20,0,BEL
+Belgium,2/23/20,0,BEL
+Belgium,2/25/20,0,BEL
+Belgium,2/27/20,0,BEL
+Belgium,3/10/20,0,BEL
+Belgium,3/11/20,0,BEL
+Belgium,3/12/20,0,BEL
+Belgium,3/13/20,0,BEL
+Belgium,3/14/20,0,BEL
+Belgium,3/15/20,0,BEL
+Belgium,3/16/20,0,BEL
+Belgium,3/17/20,1,BEL
+Belgium,3/18/20,1,BEL
+Belgium,3/19/20,1,BEL
+Belgium,3/2/20,1,BEL
+Belgium,3/20/20,1,BEL
+Belgium,3/21/20,1,BEL
+Belgium,3/22/20,1,BEL
+Belgium,3/23/20,1,BEL
+Belgium,3/24/20,1,BEL
+Belgium,3/25/20,1,BEL
+Belgium,3/26/20,1,BEL
+Belgium,3/27/20,1,BEL
+Belgium,3/28/20,1,BEL
+Belgium,3/29/20,1,BEL
+Belgium,3/30/20,1,BEL
+Belgium,3/5/20,1,BEL
+Belgium,3/6/20,1,BEL
+Belgium,3/8/20,1,BEL
+Belgium,3/9/20,1,BEL
+Belgium,4/2/20,1,BEL
+Belize,1/23/20,0,BLZ
+Belize,2/2/20,0,BLZ
+Belize,2/23/20,0,BLZ
+Belize,2/25/20,0,BLZ
+Belize,2/27/20,0,BLZ
+Belize,3/10/20,0,BLZ
+Belize,3/11/20,0,BLZ
+Belize,3/12/20,0,BLZ
+Belize,3/13/20,0,BLZ
+Belize,3/14/20,0,BLZ
+Belize,3/15/20,0,BLZ
+Belize,3/16/20,0,BLZ
+Belize,3/17/20,0,BLZ
+Belize,3/18/20,0,BLZ
+Belize,3/19/20,0,BLZ
+Belize,3/2/20,0,BLZ
+Belize,3/20/20,0,BLZ
+Belize,3/21/20,0,BLZ
+Belize,3/22/20,0,BLZ
+Belize,3/23/20,0,BLZ
+Belize,3/24/20,0,BLZ
+Belize,3/25/20,0,BLZ
+Belize,3/26/20,0,BLZ
+Belize,3/27/20,0,BLZ
+Belize,3/28/20,0,BLZ
+Belize,3/29/20,0,BLZ
+Belize,3/30/20,1,BLZ
+Belize,3/5/20,1,BLZ
+Belize,3/6/20,1,BLZ
+Belize,3/8/20,1,BLZ
+Belize,3/9/20,1,BLZ
+Belize,4/2/20,1,BLZ
+Bhutan,1/23/20,0,BTN
+Bhutan,2/2/20,0,BTN
+Bhutan,2/23/20,0,BTN
+Bhutan,2/25/20,0,BTN
+Bhutan,2/27/20,0,BTN
+Bhutan,3/10/20,0,BTN
+Bhutan,3/11/20,0,BTN
+Bhutan,3/12/20,0,BTN
+Bhutan,3/13/20,0,BTN
+Bhutan,3/14/20,0,BTN
+Bhutan,3/15/20,0,BTN
+Bhutan,3/16/20,0,BTN
+Bhutan,3/17/20,0,BTN
+Bhutan,3/18/20,0,BTN
+Bhutan,3/19/20,0,BTN
+Bhutan,3/2/20,0,BTN
+Bhutan,3/20/20,0,BTN
+Bhutan,3/21/20,0,BTN
+Bhutan,3/22/20,0,BTN
+Bhutan,3/23/20,0,BTN
+Bhutan,3/24/20,0,BTN
+Bhutan,3/25/20,0,BTN
+Bhutan,3/26/20,0,BTN
+Bhutan,3/27/20,0,BTN
+Bhutan,3/28/20,0,BTN
+Bhutan,3/29/20,0,BTN
+Bhutan,3/30/20,0,BTN
+Bhutan,3/5/20,0,BTN
+Bhutan,3/6/20,1,BTN
+Bhutan,3/8/20,1,BTN
+Bhutan,3/9/20,1,BTN
+Bhutan,4/2/20,1,BTN
+Bolivia,1/23/20,0,BOL
+Bolivia,2/2/20,0,BOL
+Bolivia,2/23/20,0,BOL
+Bolivia,2/25/20,0,BOL
+Bolivia,2/27/20,0,BOL
+Bolivia,3/10/20,0,BOL
+Bolivia,3/11/20,0,BOL
+Bolivia,3/12/20,1,BOL
+Bolivia,3/13/20,1,BOL
+Bolivia,3/14/20,1,BOL
+Bolivia,3/15/20,1,BOL
+Bolivia,3/16/20,1,BOL
+Bolivia,3/17/20,1,BOL
+Bolivia,3/18/20,1,BOL
+Bolivia,3/19/20,1,BOL
+Bolivia,3/2/20,1,BOL
+Bolivia,3/20/20,1,BOL
+Bolivia,3/21/20,1,BOL
+Bolivia,3/22/20,1,BOL
+Bolivia,3/23/20,1,BOL
+Bolivia,3/24/20,1,BOL
+Bolivia,3/25/20,1,BOL
+Bolivia,3/26/20,1,BOL
+Bolivia,3/27/20,1,BOL
+Bolivia,3/28/20,1,BOL
+Bolivia,3/29/20,1,BOL
+Bolivia,3/30/20,1,BOL
+Bolivia,3/5/20,1,BOL
+Bolivia,3/6/20,1,BOL
+Bolivia,3/8/20,1,BOL
+Bolivia,3/9/20,1,BOL
+Bolivia,4/2/20,1,BOL
+Bosnia and Herzegovina,1/23/20,0,BIH
+Bosnia and Herzegovina,2/2/20,0,BIH
+Bosnia and Herzegovina,2/23/20,0,BIH
+Bosnia and Herzegovina,2/25/20,0,BIH
+Bosnia and Herzegovina,2/27/20,0,BIH
+Bosnia and Herzegovina,3/10/20,0,BIH
+Bosnia and Herzegovina,3/11/20,1,BIH
+Bosnia and Herzegovina,3/12/20,1,BIH
+Bosnia and Herzegovina,3/13/20,1,BIH
+Bosnia and Herzegovina,3/14/20,1,BIH
+Bosnia and Herzegovina,3/15/20,1,BIH
+Bosnia and Herzegovina,3/16/20,1,BIH
+Bosnia and Herzegovina,3/17/20,1,BIH
+Bosnia and Herzegovina,3/18/20,1,BIH
+Bosnia and Herzegovina,3/19/20,1,BIH
+Bosnia and Herzegovina,3/2/20,1,BIH
+Bosnia and Herzegovina,3/20/20,1,BIH
+Bosnia and Herzegovina,3/21/20,1,BIH
+Bosnia and Herzegovina,3/22/20,1,BIH
+Bosnia and Herzegovina,3/23/20,1,BIH
+Bosnia and Herzegovina,3/24/20,1,BIH
+Bosnia and Herzegovina,3/25/20,1,BIH
+Bosnia and Herzegovina,3/26/20,1,BIH
+Bosnia and Herzegovina,3/27/20,1,BIH
+Bosnia and Herzegovina,3/28/20,1,BIH
+Bosnia and Herzegovina,3/29/20,1,BIH
+Bosnia and Herzegovina,3/30/20,1,BIH
+Bosnia and Herzegovina,3/5/20,1,BIH
+Bosnia and Herzegovina,3/6/20,1,BIH
+Bosnia and Herzegovina,3/8/20,1,BIH
+Bosnia and Herzegovina,3/9/20,1,BIH
+Bosnia and Herzegovina,4/2/20,1,BIH
+Botswana,1/23/20,0,BWA
+Botswana,2/2/20,0,BWA
+Botswana,2/23/20,0,BWA
+Botswana,2/25/20,0,BWA
+Botswana,2/27/20,0,BWA
+Botswana,3/10/20,0,BWA
+Botswana,3/11/20,0,BWA
+Botswana,3/12/20,0,BWA
+Botswana,3/13/20,0,BWA
+Botswana,3/14/20,0,BWA
+Botswana,3/15/20,0,BWA
+Botswana,3/16/20,0,BWA
+Botswana,3/17/20,0,BWA
+Botswana,3/18/20,0,BWA
+Botswana,3/19/20,0,BWA
+Botswana,3/2/20,0,BWA
+Botswana,3/20/20,0,BWA
+Botswana,3/21/20,0,BWA
+Botswana,3/22/20,0,BWA
+Botswana,3/23/20,0,BWA
+Botswana,3/24/20,0,BWA
+Botswana,3/25/20,0,BWA
+Botswana,3/26/20,0,BWA
+Botswana,3/27/20,0,BWA
+Botswana,3/28/20,0,BWA
+Botswana,3/29/20,0,BWA
+Botswana,3/30/20,0,BWA
+Botswana,3/5/20,0,BWA
+Botswana,3/6/20,0,BWA
+Botswana,3/8/20,0,BWA
+Botswana,3/9/20,0,BWA
+Botswana,4/2/20,1,BWA
+Bulgaria,1/23/20,0,BGR
+Bulgaria,2/2/20,0,BGR
+Bulgaria,2/23/20,0,BGR
+Bulgaria,2/25/20,0,BGR
+Bulgaria,2/27/20,0,BGR
+Bulgaria,3/10/20,0,BGR
+Bulgaria,3/11/20,0,BGR
+Bulgaria,3/12/20,0,BGR
+Bulgaria,3/13/20,1,BGR
+Bulgaria,3/14/20,1,BGR
+Bulgaria,3/15/20,1,BGR
+Bulgaria,3/16/20,1,BGR
+Bulgaria,3/17/20,1,BGR
+Bulgaria,3/18/20,1,BGR
+Bulgaria,3/19/20,1,BGR
+Bulgaria,3/2/20,1,BGR
+Bulgaria,3/20/20,1,BGR
+Bulgaria,3/21/20,1,BGR
+Bulgaria,3/22/20,1,BGR
+Bulgaria,3/23/20,1,BGR
+Bulgaria,3/24/20,1,BGR
+Bulgaria,3/25/20,1,BGR
+Bulgaria,3/26/20,1,BGR
+Bulgaria,3/27/20,1,BGR
+Bulgaria,3/28/20,1,BGR
+Bulgaria,3/29/20,1,BGR
+Bulgaria,3/30/20,1,BGR
+Bulgaria,3/5/20,1,BGR
+Bulgaria,3/6/20,1,BGR
+Bulgaria,3/8/20,1,BGR
+Bulgaria,3/9/20,1,BGR
+Bulgaria,4/2/20,1,BGR
+Burkina Faso,1/23/20,0,BFA
+Burkina Faso,2/2/20,0,BFA
+Burkina Faso,2/23/20,0,BFA
+Burkina Faso,2/25/20,0,BFA
+Burkina Faso,2/27/20,0,BFA
+Burkina Faso,3/10/20,0,BFA
+Burkina Faso,3/11/20,0,BFA
+Burkina Faso,3/12/20,0,BFA
+Burkina Faso,3/13/20,0,BFA
+Burkina Faso,3/14/20,0,BFA
+Burkina Faso,3/15/20,0,BFA
+Burkina Faso,3/16/20,0,BFA
+Burkina Faso,3/17/20,0,BFA
+Burkina Faso,3/18/20,0,BFA
+Burkina Faso,3/19/20,0,BFA
+Burkina Faso,3/2/20,0,BFA
+Burkina Faso,3/20/20,0,BFA
+Burkina Faso,3/21/20,1,BFA
+Burkina Faso,3/22/20,1,BFA
+Burkina Faso,3/23/20,1,BFA
+Burkina Faso,3/24/20,1,BFA
+Burkina Faso,3/25/20,1,BFA
+Burkina Faso,3/26/20,1,BFA
+Burkina Faso,3/27/20,1,BFA
+Burkina Faso,3/28/20,1,BFA
+Burkina Faso,3/29/20,1,BFA
+Burkina Faso,3/30/20,1,BFA
+Burkina Faso,3/5/20,1,BFA
+Burkina Faso,3/6/20,1,BFA
+Burkina Faso,3/8/20,1,BFA
+Burkina Faso,3/9/20,1,BFA
+Burkina Faso,4/2/20,1,BFA
+Cambodia,1/23/20,0,KHM
+Cambodia,2/2/20,0,KHM
+Cambodia,2/23/20,0,KHM
+Cambodia,2/25/20,0,KHM
+Cambodia,2/27/20,0,KHM
+Cambodia,3/10/20,0,KHM
+Cambodia,3/11/20,0,KHM
+Cambodia,3/12/20,0,KHM
+Cambodia,3/13/20,0,KHM
+Cambodia,3/14/20,0,KHM
+Cambodia,3/15/20,0,KHM
+Cambodia,3/16/20,0,KHM
+Cambodia,3/17/20,0,KHM
+Cambodia,3/18/20,0,KHM
+Cambodia,3/19/20,0,KHM
+Cambodia,3/2/20,0,KHM
+Cambodia,3/20/20,0,KHM
+Cambodia,3/21/20,0,KHM
+Cambodia,3/22/20,0,KHM
+Cambodia,3/23/20,0,KHM
+Cambodia,3/24/20,0,KHM
+Cambodia,3/25/20,0,KHM
+Cambodia,3/26/20,0,KHM
+Cambodia,3/27/20,0,KHM
+Cambodia,3/28/20,0.5,KHM
+Cambodia,3/29/20,0.5,KHM
+Cambodia,3/30/20,0.5,KHM
+Cambodia,3/5/20,0.5,KHM
+Cambodia,3/6/20,0.5,KHM
+Cambodia,3/8/20,0.5,KHM
+Cambodia,3/9/20,0.5,KHM
+Cambodia,4/2/20,0.5,KHM
+Canada,1/23/20,0,CAN
+Canada,2/2/20,0,CAN
+Canada,2/23/20,0,CAN
+Canada,2/25/20,0,CAN
+Canada,2/27/20,0,CAN
+Canada,3/10/20,0,CAN
+Canada,3/11/20,0,CAN
+Canada,3/12/20,0.5,CAN
+Canada,3/13/20,0.5,CAN
+Canada,3/14/20,0.5,CAN
+Canada,3/15/20,0.5,CAN
+Canada,3/16/20,0.5,CAN
+Canada,3/17/20,0.5,CAN
+Canada,3/18/20,0.5,CAN
+Canada,3/19/20,0.5,CAN
+Canada,3/2/20,0.5,CAN
+Canada,3/20/20,0.5,CAN
+Canada,3/21/20,0.5,CAN
+Canada,3/22/20,0.5,CAN
+Canada,3/23/20,0.5,CAN
+Canada,3/24/20,0.5,CAN
+Canada,3/25/20,0.5,CAN
+Canada,3/26/20,0.5,CAN
+Canada,3/27/20,0.5,CAN
+Canada,3/28/20,0.5,CAN
+Canada,3/29/20,0.5,CAN
+Canada,3/30/20,0.5,CAN
+Canada,3/5/20,0.5,CAN
+Canada,3/6/20,0.5,CAN
+Canada,3/8/20,0.5,CAN
+Canada,3/9/20,0.5,CAN
+Canada,4/2/20,0.5,CAN
+Chile,1/23/20,0,CHL
+Chile,2/2/20,0,CHL
+Chile,2/23/20,0,CHL
+Chile,2/25/20,0,CHL
+Chile,2/27/20,0,CHL
+Chile,3/10/20,0,CHL
+Chile,3/11/20,0,CHL
+Chile,3/12/20,0,CHL
+Chile,3/13/20,0,CHL
+Chile,3/14/20,0,CHL
+Chile,3/15/20,0,CHL
+Chile,3/16/20,0,CHL
+Chile,3/17/20,0,CHL
+Chile,3/18/20,0,CHL
+Chile,3/19/20,0,CHL
+Chile,3/2/20,0,CHL
+Chile,3/20/20,0,CHL
+Chile,3/21/20,0,CHL
+Chile,3/22/20,0,CHL
+Chile,3/23/20,0,CHL
+Chile,3/24/20,0,CHL
+Chile,3/25/20,0,CHL
+Chile,3/26/20,1,CHL
+Chile,3/27/20,1,CHL
+Chile,3/28/20,1,CHL
+Chile,3/29/20,1,CHL
+Chile,3/30/20,1,CHL
+Chile,3/5/20,1,CHL
+Chile,3/6/20,1,CHL
+Chile,3/8/20,1,CHL
+Chile,3/9/20,1,CHL
+Chile,4/2/20,1,CHL
+China,1/23/20,1,CHN
+China,2/2/20,1,CHN
+China,2/23/20,1,CHN
+China,2/25/20,1,CHN
+China,2/27/20,1,CHN
+China,3/10/20,1,CHN
+China,3/11/20,1,CHN
+China,3/12/20,1,CHN
+China,3/13/20,1,CHN
+China,3/14/20,1,CHN
+China,3/15/20,1,CHN
+China,3/16/20,1,CHN
+China,3/17/20,1,CHN
+China,3/18/20,1,CHN
+China,3/19/20,1,CHN
+China,3/2/20,1,CHN
+China,3/20/20,1,CHN
+China,3/21/20,1,CHN
+China,3/22/20,1,CHN
+China,3/23/20,1,CHN
+China,3/24/20,1,CHN
+China,3/25/20,1,CHN
+China,3/26/20,1,CHN
+China,3/27/20,1,CHN
+China,3/28/20,1,CHN
+China,3/29/20,1,CHN
+China,3/30/20,1,CHN
+China,3/5/20,1,CHN
+China,3/6/20,1,CHN
+China,3/8/20,1,CHN
+China,3/9/20,1,CHN
+China,4/2/20,1,CHN
+Colombia,1/23/20,0,COL
+Colombia,2/2/20,0,COL
+Colombia,2/23/20,0,COL
+Colombia,2/25/20,0,COL
+Colombia,2/27/20,0,COL
+Colombia,3/10/20,0,COL
+Colombia,3/11/20,0,COL
+Colombia,3/12/20,0,COL
+Colombia,3/13/20,0,COL
+Colombia,3/14/20,0,COL
+Colombia,3/15/20,0,COL
+Colombia,3/16/20,0,COL
+Colombia,3/17/20,0,COL
+Colombia,3/18/20,0,COL
+Colombia,3/19/20,0,COL
+Colombia,3/2/20,0,COL
+Colombia,3/20/20,0,COL
+Colombia,3/21/20,0,COL
+Colombia,3/22/20,0,COL
+Colombia,3/23/20,0,COL
+Colombia,3/24/20,0,COL
+Colombia,3/25/20,1,COL
+Colombia,3/26/20,1,COL
+Colombia,3/27/20,1,COL
+Colombia,3/28/20,1,COL
+Colombia,3/29/20,1,COL
+Colombia,3/30/20,1,COL
+Colombia,3/5/20,1,COL
+Colombia,3/6/20,1,COL
+Colombia,3/8/20,1,COL
+Colombia,3/9/20,1,COL
+Colombia,4/2/20,1,COL
+Congo,1/23/20,0,COG
+Congo,2/2/20,0,COG
+Congo,2/23/20,0,COG
+Congo,2/25/20,0,COG
+Congo,2/27/20,0,COG
+Congo,3/10/20,0,COG
+Congo,3/11/20,0,COG
+Congo,3/12/20,0,COG
+Congo,3/13/20,0,COG
+Congo,3/14/20,0,COG
+Congo,3/15/20,0,COG
+Congo,3/16/20,0,COG
+Congo,3/17/20,0,COG
+Congo,3/18/20,0,COG
+Congo,3/19/20,0.5,COG
+Congo,3/2/20,0.5,COG
+Congo,3/20/20,0.5,COG
+Congo,3/21/20,0.5,COG
+Congo,3/22/20,0.5,COG
+Congo,3/23/20,0.5,COG
+Congo,3/24/20,0.5,COG
+Congo,3/25/20,0.5,COG
+Congo,3/26/20,0.5,COG
+Congo,3/27/20,0.5,COG
+Congo,3/28/20,0.5,COG
+Congo,3/29/20,0.5,COG
+Congo,3/30/20,0.5,COG
+Congo,3/5/20,0.5,COG
+Congo,3/6/20,0.5,COG
+Congo,3/8/20,0.5,COG
+Congo,3/9/20,0.5,COG
+Congo,4/2/20,0.5,COG
+Costa Rica,1/23/20,0,CRI
+Costa Rica,2/2/20,0,CRI
+Costa Rica,2/23/20,0,CRI
+Costa Rica,2/25/20,0,CRI
+Costa Rica,2/27/20,0,CRI
+Costa Rica,3/10/20,0,CRI
+Costa Rica,3/11/20,0,CRI
+Costa Rica,3/12/20,0,CRI
+Costa Rica,3/13/20,0,CRI
+Costa Rica,3/14/20,0,CRI
+Costa Rica,3/15/20,1,CRI
+Costa Rica,3/16/20,1,CRI
+Costa Rica,3/17/20,1,CRI
+Costa Rica,3/18/20,1,CRI
+Costa Rica,3/19/20,1,CRI
+Costa Rica,3/2/20,1,CRI
+Costa Rica,3/20/20,1,CRI
+Costa Rica,3/21/20,1,CRI
+Costa Rica,3/22/20,1,CRI
+Costa Rica,3/23/20,1,CRI
+Costa Rica,3/24/20,1,CRI
+Costa Rica,3/25/20,1,CRI
+Costa Rica,3/26/20,1,CRI
+Costa Rica,3/27/20,1,CRI
+Costa Rica,3/28/20,1,CRI
+Costa Rica,3/29/20,1,CRI
+Costa Rica,3/30/20,1,CRI
+Costa Rica,3/5/20,1,CRI
+Costa Rica,3/6/20,1,CRI
+Costa Rica,3/8/20,1,CRI
+Costa Rica,3/9/20,1,CRI
+Costa Rica,4/2/20,1,CRI
+Croatia,1/23/20,0,HRV
+Croatia,2/2/20,0,HRV
+Croatia,2/23/20,0,HRV
+Croatia,2/25/20,0,HRV
+Croatia,2/27/20,0,HRV
+Croatia,3/10/20,0,HRV
+Croatia,3/11/20,0,HRV
+Croatia,3/12/20,0,HRV
+Croatia,3/13/20,0,HRV
+Croatia,3/14/20,0,HRV
+Croatia,3/15/20,0,HRV
+Croatia,3/16/20,0,HRV
+Croatia,3/17/20,0,HRV
+Croatia,3/18/20,0,HRV
+Croatia,3/19/20,0,HRV
+Croatia,3/2/20,0,HRV
+Croatia,3/20/20,0,HRV
+Croatia,3/21/20,0,HRV
+Croatia,3/22/20,0.5,HRV
+Croatia,3/23/20,0.5,HRV
+Croatia,3/24/20,0.5,HRV
+Croatia,3/25/20,0.5,HRV
+Croatia,3/26/20,0.5,HRV
+Croatia,3/27/20,0.5,HRV
+Croatia,3/28/20,0.5,HRV
+Croatia,3/29/20,0.5,HRV
+Croatia,3/30/20,0.5,HRV
+Croatia,3/5/20,0.5,HRV
+Croatia,3/6/20,0.5,HRV
+Croatia,3/8/20,0.5,HRV
+Croatia,3/9/20,0.5,HRV
+Croatia,4/2/20,0.5,HRV
+Cyprus,1/23/20,0,CYP
+Cyprus,2/2/20,0,CYP
+Cyprus,2/23/20,0,CYP
+Cyprus,2/25/20,0,CYP
+Cyprus,2/27/20,0,CYP
+Cyprus,3/10/20,0,CYP
+Cyprus,3/11/20,0,CYP
+Cyprus,3/12/20,0,CYP
+Cyprus,3/13/20,0,CYP
+Cyprus,3/14/20,0,CYP
+Cyprus,3/15/20,0,CYP
+Cyprus,3/16/20,0,CYP
+Cyprus,3/17/20,0,CYP
+Cyprus,3/18/20,0,CYP
+Cyprus,3/19/20,0,CYP
+Cyprus,3/2/20,0,CYP
+Cyprus,3/20/20,0,CYP
+Cyprus,3/21/20,0,CYP
+Cyprus,3/22/20,0,CYP
+Cyprus,3/23/20,0,CYP
+Cyprus,3/24/20,0,CYP
+Cyprus,3/25/20,1,CYP
+Cyprus,3/26/20,1,CYP
+Cyprus,3/27/20,1,CYP
+Cyprus,3/28/20,1,CYP
+Cyprus,3/29/20,1,CYP
+Cyprus,3/30/20,1,CYP
+Cyprus,3/5/20,1,CYP
+Cyprus,3/6/20,1,CYP
+Cyprus,3/8/20,1,CYP
+Cyprus,3/9/20,1,CYP
+Cyprus,4/2/20,1,CYP
+Czech Republic,1/23/20,0,CZE
+Czech Republic,2/2/20,0,CZE
+Czech Republic,2/23/20,0,CZE
+Czech Republic,2/25/20,0,CZE
+Czech Republic,2/27/20,0,CZE
+Czech Republic,3/10/20,0,CZE
+Czech Republic,3/11/20,0,CZE
+Czech Republic,3/12/20,0,CZE
+Czech Republic,3/13/20,0,CZE
+Czech Republic,3/14/20,0,CZE
+Czech Republic,3/15/20,0,CZE
+Czech Republic,3/16/20,1,CZE
+Czech Republic,3/17/20,1,CZE
+Czech Republic,3/18/20,1,CZE
+Czech Republic,3/19/20,1,CZE
+Czech Republic,3/2/20,1,CZE
+Czech Republic,3/20/20,1,CZE
+Czech Republic,3/21/20,1,CZE
+Czech Republic,3/22/20,1,CZE
+Czech Republic,3/23/20,1,CZE
+Czech Republic,3/24/20,1,CZE
+Czech Republic,3/25/20,1,CZE
+Czech Republic,3/26/20,1,CZE
+Czech Republic,3/27/20,1,CZE
+Czech Republic,3/28/20,1,CZE
+Czech Republic,3/29/20,1,CZE
+Czech Republic,3/30/20,1,CZE
+Czech Republic,3/5/20,1,CZE
+Czech Republic,3/6/20,1,CZE
+Czech Republic,3/8/20,1,CZE
+Czech Republic,3/9/20,1,CZE
+Czech Republic,4/2/20,1,CZE
+Denmark,1/23/20,0,DNK
+Denmark,2/2/20,0,DNK
+Denmark,2/23/20,0,DNK
+Denmark,2/25/20,0,DNK
+Denmark,2/27/20,0,DNK
+Denmark,3/10/20,0,DNK
+Denmark,3/11/20,0.5,DNK
+Denmark,3/12/20,1,DNK
+Denmark,3/13/20,1,DNK
+Denmark,3/14/20,1,DNK
+Denmark,3/15/20,1,DNK
+Denmark,3/16/20,1,DNK
+Denmark,3/17/20,1,DNK
+Denmark,3/18/20,1,DNK
+Denmark,3/19/20,1,DNK
+Denmark,3/2/20,1,DNK
+Denmark,3/20/20,1,DNK
+Denmark,3/21/20,1,DNK
+Denmark,3/22/20,1,DNK
+Denmark,3/23/20,1,DNK
+Denmark,3/24/20,1,DNK
+Denmark,3/25/20,1,DNK
+Denmark,3/26/20,1,DNK
+Denmark,3/27/20,1,DNK
+Denmark,3/28/20,1,DNK
+Denmark,3/29/20,1,DNK
+Denmark,3/30/20,1,DNK
+Denmark,3/5/20,1,DNK
+Denmark,3/6/20,1,DNK
+Denmark,3/8/20,1,DNK
+Denmark,3/9/20,1,DNK
+Denmark,4/2/20,1,DNK
+Dominican Republic,1/23/20,0,DOM
+Dominican Republic,2/2/20,0,DOM
+Dominican Republic,2/23/20,0,DOM
+Dominican Republic,2/25/20,0,DOM
+Dominican Republic,2/27/20,0,DOM
+Dominican Republic,3/10/20,0,DOM
+Dominican Republic,3/11/20,0,DOM
+Dominican Republic,3/12/20,0,DOM
+Dominican Republic,3/13/20,0,DOM
+Dominican Republic,3/14/20,0,DOM
+Dominican Republic,3/15/20,0,DOM
+Dominican Republic,3/16/20,0,DOM
+Dominican Republic,3/17/20,1,DOM
+Dominican Republic,3/18/20,1,DOM
+Dominican Republic,3/19/20,1,DOM
+Dominican Republic,3/2/20,1,DOM
+Dominican Republic,3/20/20,1,DOM
+Dominican Republic,3/21/20,1,DOM
+Dominican Republic,3/22/20,1,DOM
+Dominican Republic,3/23/20,1,DOM
+Dominican Republic,3/24/20,1,DOM
+Dominican Republic,3/25/20,1,DOM
+Dominican Republic,3/26/20,1,DOM
+Dominican Republic,3/27/20,1,DOM
+Dominican Republic,3/28/20,1,DOM
+Dominican Republic,3/29/20,1,DOM
+Dominican Republic,3/30/20,1,DOM
+Dominican Republic,3/5/20,1,DOM
+Dominican Republic,3/6/20,1,DOM
+Dominican Republic,3/8/20,1,DOM
+Dominican Republic,3/9/20,1,DOM
+Dominican Republic,4/2/20,1,DOM
+Ecuador,1/23/20,0,ECU
+Ecuador,2/2/20,0,ECU
+Ecuador,2/23/20,0,ECU
+Ecuador,2/25/20,0,ECU
+Ecuador,2/27/20,0,ECU
+Ecuador,3/10/20,0,ECU
+Ecuador,3/11/20,0,ECU
+Ecuador,3/12/20,0,ECU
+Ecuador,3/13/20,0,ECU
+Ecuador,3/14/20,0,ECU
+Ecuador,3/15/20,0,ECU
+Ecuador,3/16/20,0,ECU
+Ecuador,3/17/20,0,ECU
+Ecuador,3/18/20,0,ECU
+Ecuador,3/19/20,0,ECU
+Ecuador,3/2/20,0,ECU
+Ecuador,3/20/20,0,ECU
+Ecuador,3/21/20,0,ECU
+Ecuador,3/22/20,0,ECU
+Ecuador,3/23/20,0,ECU
+Ecuador,3/24/20,0.5,ECU
+Ecuador,3/25/20,0.5,ECU
+Ecuador,3/26/20,0.5,ECU
+Ecuador,3/27/20,0.5,ECU
+Ecuador,3/28/20,0.5,ECU
+Ecuador,3/29/20,0.5,ECU
+Ecuador,3/30/20,0.5,ECU
+Ecuador,3/5/20,0.5,ECU
+Ecuador,3/6/20,0.5,ECU
+Ecuador,3/8/20,0.5,ECU
+Ecuador,3/9/20,0.5,ECU
+Ecuador,4/2/20,0.5,ECU
+Egypt,1/23/20,0,EGY
+Egypt,2/2/20,0,EGY
+Egypt,2/23/20,0,EGY
+Egypt,2/25/20,0,EGY
+Egypt,2/27/20,0,EGY
+Egypt,3/10/20,0,EGY
+Egypt,3/11/20,0,EGY
+Egypt,3/12/20,0,EGY
+Egypt,3/13/20,0,EGY
+Egypt,3/14/20,0,EGY
+Egypt,3/15/20,0,EGY
+Egypt,3/16/20,0,EGY
+Egypt,3/17/20,0,EGY
+Egypt,3/18/20,0,EGY
+Egypt,3/19/20,0,EGY
+Egypt,3/2/20,0,EGY
+Egypt,3/20/20,0,EGY
+Egypt,3/21/20,0,EGY
+Egypt,3/22/20,0,EGY
+Egypt,3/23/20,0,EGY
+Egypt,3/24/20,1,EGY
+Egypt,3/25/20,1,EGY
+Egypt,3/26/20,1,EGY
+Egypt,3/27/20,1,EGY
+Egypt,3/28/20,1,EGY
+Egypt,3/29/20,1,EGY
+Egypt,3/30/20,1,EGY
+Egypt,3/5/20,1,EGY
+Egypt,3/6/20,1,EGY
+Egypt,3/8/20,1,EGY
+Egypt,3/9/20,1,EGY
+Egypt,4/2/20,1,EGY
+El Salvador,1/23/20,0,SLV
+El Salvador,2/2/20,0,SLV
+El Salvador,2/23/20,0,SLV
+El Salvador,2/25/20,0,SLV
+El Salvador,2/27/20,0,SLV
+El Salvador,3/10/20,0,SLV
+El Salvador,3/11/20,1,SLV
+El Salvador,3/12/20,1,SLV
+El Salvador,3/13/20,1,SLV
+El Salvador,3/14/20,1,SLV
+El Salvador,3/15/20,1,SLV
+El Salvador,3/16/20,1,SLV
+El Salvador,3/17/20,1,SLV
+El Salvador,3/18/20,1,SLV
+El Salvador,3/19/20,1,SLV
+El Salvador,3/2/20,1,SLV
+El Salvador,3/20/20,1,SLV
+El Salvador,3/21/20,1,SLV
+El Salvador,3/22/20,1,SLV
+El Salvador,3/23/20,1,SLV
+El Salvador,3/24/20,1,SLV
+El Salvador,3/25/20,1,SLV
+El Salvador,3/26/20,1,SLV
+El Salvador,3/27/20,1,SLV
+El Salvador,3/28/20,1,SLV
+El Salvador,3/29/20,1,SLV
+El Salvador,3/30/20,1,SLV
+El Salvador,3/5/20,1,SLV
+El Salvador,3/6/20,1,SLV
+El Salvador,3/8/20,1,SLV
+El Salvador,3/9/20,1,SLV
+El Salvador,4/2/20,1,SLV
+Estonia,1/23/20,0,EST
+Estonia,2/2/20,0,EST
+Estonia,2/23/20,0,EST
+Estonia,2/25/20,0,EST
+Estonia,2/27/20,0,EST
+Estonia,3/10/20,0,EST
+Estonia,3/11/20,0,EST
+Estonia,3/12/20,0,EST
+Estonia,3/13/20,1,EST
+Estonia,3/14/20,1,EST
+Estonia,3/15/20,1,EST
+Estonia,3/16/20,1,EST
+Estonia,3/17/20,1,EST
+Estonia,3/18/20,1,EST
+Estonia,3/19/20,1,EST
+Estonia,3/2/20,1,EST
+Estonia,3/20/20,1,EST
+Estonia,3/21/20,1,EST
+Estonia,3/22/20,1,EST
+Estonia,3/23/20,1,EST
+Estonia,3/24/20,1,EST
+Estonia,3/25/20,1,EST
+Estonia,3/26/20,1,EST
+Estonia,3/27/20,1,EST
+Estonia,3/28/20,1,EST
+Estonia,3/29/20,1,EST
+Estonia,3/30/20,1,EST
+Estonia,3/5/20,1,EST
+Estonia,3/6/20,1,EST
+Estonia,3/8/20,1,EST
+Estonia,3/9/20,1,EST
+Estonia,4/2/20,1,EST
+Ethiopia,1/23/20,0,ETH
+Ethiopia,2/2/20,0,ETH
+Ethiopia,2/23/20,0,ETH
+Ethiopia,2/25/20,0,ETH
+Ethiopia,2/27/20,0,ETH
+Ethiopia,3/10/20,0,ETH
+Ethiopia,3/11/20,0,ETH
+Ethiopia,3/12/20,0,ETH
+Ethiopia,3/13/20,0,ETH
+Ethiopia,3/14/20,0,ETH
+Ethiopia,3/15/20,0,ETH
+Ethiopia,3/16/20,1,ETH
+Ethiopia,3/17/20,1,ETH
+Ethiopia,3/18/20,1,ETH
+Ethiopia,3/19/20,1,ETH
+Ethiopia,3/2/20,1,ETH
+Ethiopia,3/20/20,1,ETH
+Ethiopia,3/21/20,1,ETH
+Ethiopia,3/22/20,1,ETH
+Ethiopia,3/23/20,1,ETH
+Ethiopia,3/24/20,1,ETH
+Ethiopia,3/25/20,1,ETH
+Ethiopia,3/26/20,1,ETH
+Ethiopia,3/27/20,1,ETH
+Ethiopia,3/28/20,1,ETH
+Ethiopia,3/29/20,1,ETH
+Ethiopia,3/30/20,1,ETH
+Ethiopia,3/5/20,1,ETH
+Ethiopia,3/6/20,1,ETH
+Ethiopia,3/8/20,1,ETH
+Ethiopia,3/9/20,1,ETH
+Ethiopia,4/2/20,1,ETH
+Fiji,1/23/20,0,FJI
+Fiji,2/2/20,0,FJI
+Fiji,2/23/20,0,FJI
+Fiji,2/25/20,0,FJI
+Fiji,2/27/20,0,FJI
+Fiji,3/10/20,0,FJI
+Fiji,3/11/20,0,FJI
+Fiji,3/12/20,0,FJI
+Fiji,3/13/20,0,FJI
+Fiji,3/14/20,0,FJI
+Fiji,3/15/20,0,FJI
+Fiji,3/16/20,0,FJI
+Fiji,3/17/20,0,FJI
+Fiji,3/18/20,0,FJI
+Fiji,3/19/20,0,FJI
+Fiji,3/2/20,0,FJI
+Fiji,3/20/20,1,FJI
+Fiji,3/21/20,1,FJI
+Fiji,3/22/20,1,FJI
+Fiji,3/23/20,1,FJI
+Fiji,3/24/20,1,FJI
+Fiji,3/25/20,1,FJI
+Fiji,3/26/20,1,FJI
+Fiji,3/27/20,1,FJI
+Fiji,3/28/20,1,FJI
+Fiji,3/29/20,1,FJI
+Fiji,3/30/20,1,FJI
+Fiji,3/5/20,1,FJI
+Fiji,3/6/20,1,FJI
+Fiji,3/8/20,1,FJI
+Fiji,3/9/20,1,FJI
+Fiji,4/2/20,1,FJI
+Finland,1/23/20,0,FIN
+Finland,2/2/20,0,FIN
+Finland,2/23/20,0,FIN
+Finland,2/25/20,0,FIN
+Finland,2/27/20,0,FIN
+Finland,3/10/20,0,FIN
+Finland,3/11/20,0,FIN
+Finland,3/12/20,0,FIN
+Finland,3/13/20,0,FIN
+Finland,3/14/20,0,FIN
+Finland,3/15/20,0,FIN
+Finland,3/16/20,0,FIN
+Finland,3/17/20,0,FIN
+Finland,3/18/20,0,FIN
+Finland,3/19/20,0,FIN
+Finland,3/2/20,0,FIN
+Finland,3/20/20,0,FIN
+Finland,3/21/20,0,FIN
+Finland,3/22/20,0,FIN
+Finland,3/23/20,0,FIN
+Finland,3/24/20,0,FIN
+Finland,3/25/20,0,FIN
+Finland,3/26/20,0,FIN
+Finland,3/27/20,1,FIN
+Finland,3/28/20,1,FIN
+Finland,3/29/20,1,FIN
+Finland,3/30/20,1,FIN
+Finland,3/5/20,1,FIN
+Finland,3/6/20,1,FIN
+Finland,3/8/20,1,FIN
+Finland,3/9/20,1,FIN
+Finland,4/2/20,1,FIN
+France,1/23/20,0,FRA
+France,2/2/20,0,FRA
+France,2/23/20,0,FRA
+France,2/25/20,0,FRA
+France,2/27/20,0,FRA
+France,3/10/20,0,FRA
+France,3/11/20,0,FRA
+France,3/12/20,0,FRA
+France,3/13/20,0,FRA
+France,3/14/20,0,FRA
+France,3/15/20,0,FRA
+France,3/16/20,1,FRA
+France,3/17/20,1,FRA
+France,3/18/20,1,FRA
+France,3/19/20,1,FRA
+France,3/2/20,1,FRA
+France,3/20/20,1,FRA
+France,3/21/20,1,FRA
+France,3/22/20,1,FRA
+France,3/23/20,1,FRA
+France,3/24/20,1,FRA
+France,3/25/20,1,FRA
+France,3/26/20,1,FRA
+France,3/27/20,1,FRA
+France,3/28/20,1,FRA
+France,3/29/20,1,FRA
+France,3/30/20,1,FRA
+France,3/5/20,1,FRA
+France,3/6/20,1,FRA
+France,3/8/20,1,FRA
+France,3/9/20,1,FRA
+France,4/2/20,1,FRA
+Gambia,1/23/20,0,GMB
+Gambia,2/2/20,0,GMB
+Gambia,2/23/20,0,GMB
+Gambia,2/25/20,0,GMB
+Gambia,2/27/20,0,GMB
+Gambia,3/10/20,0,GMB
+Gambia,3/11/20,0,GMB
+Gambia,3/12/20,0,GMB
+Gambia,3/13/20,0,GMB
+Gambia,3/14/20,0,GMB
+Gambia,3/15/20,0,GMB
+Gambia,3/16/20,0,GMB
+Gambia,3/17/20,0,GMB
+Gambia,3/18/20,0,GMB
+Gambia,3/19/20,0,GMB
+Gambia,3/2/20,0,GMB
+Gambia,3/20/20,0,GMB
+Gambia,3/21/20,0,GMB
+Gambia,3/22/20,0,GMB
+Gambia,3/23/20,0,GMB
+Gambia,3/24/20,0,GMB
+Gambia,3/25/20,0,GMB
+Gambia,3/26/20,0,GMB
+Gambia,3/27/20,1,GMB
+Gambia,3/28/20,1,GMB
+Gambia,3/29/20,1,GMB
+Gambia,3/30/20,1,GMB
+Gambia,3/5/20,1,GMB
+Gambia,3/6/20,1,GMB
+Gambia,3/8/20,1,GMB
+Gambia,3/9/20,1,GMB
+Gambia,4/2/20,1,GMB
+Georgia,1/23/20,0,GEO
+Georgia,2/2/20,0,GEO
+Georgia,2/23/20,0,GEO
+Georgia,2/25/20,0,GEO
+Georgia,2/27/20,0,GEO
+Georgia,3/10/20,0,GEO
+Georgia,3/11/20,0,GEO
+Georgia,3/12/20,0,GEO
+Georgia,3/13/20,0,GEO
+Georgia,3/14/20,0,GEO
+Georgia,3/15/20,0,GEO
+Georgia,3/16/20,0,GEO
+Georgia,3/17/20,0,GEO
+Georgia,3/18/20,0,GEO
+Georgia,3/19/20,0,GEO
+Georgia,3/2/20,0,GEO
+Georgia,3/20/20,0,GEO
+Georgia,3/21/20,0,GEO
+Georgia,3/22/20,0.5,GEO
+Georgia,3/23/20,0.5,GEO
+Georgia,3/24/20,0.5,GEO
+Georgia,3/25/20,0.5,GEO
+Georgia,3/26/20,0.5,GEO
+Georgia,3/27/20,0.5,GEO
+Georgia,3/28/20,0.5,GEO
+Georgia,3/29/20,0.5,GEO
+Georgia,3/30/20,0.5,GEO
+Georgia,3/5/20,0.5,GEO
+Georgia,3/6/20,0.5,GEO
+Georgia,3/8/20,0.5,GEO
+Georgia,3/9/20,0.5,GEO
+Georgia,4/2/20,0.5,GEO
+Germany,1/23/20,0,DEU
+Germany,2/2/20,0,DEU
+Germany,2/23/20,0,DEU
+Germany,2/25/20,0,DEU
+Germany,2/27/20,0,DEU
+Germany,3/10/20,0,DEU
+Germany,3/11/20,0,DEU
+Germany,3/12/20,0,DEU
+Germany,3/13/20,0,DEU
+Germany,3/14/20,0,DEU
+Germany,3/15/20,0,DEU
+Germany,3/16/20,0,DEU
+Germany,3/17/20,0,DEU
+Germany,3/18/20,0,DEU
+Germany,3/19/20,0,DEU
+Germany,3/2/20,0,DEU
+Germany,3/20/20,1,DEU
+Germany,3/21/20,1,DEU
+Germany,3/22/20,1,DEU
+Germany,3/23/20,1,DEU
+Germany,3/24/20,1,DEU
+Germany,3/25/20,1,DEU
+Germany,3/26/20,1,DEU
+Germany,3/27/20,1,DEU
+Germany,3/28/20,1,DEU
+Germany,3/29/20,1,DEU
+Germany,3/30/20,1,DEU
+Germany,3/5/20,1,DEU
+Germany,3/6/20,1,DEU
+Germany,3/8/20,1,DEU
+Germany,3/9/20,1,DEU
+Germany,4/2/20,1,DEU
+Ghana,1/23/20,0,GHA
+Ghana,2/2/20,0,GHA
+Ghana,2/23/20,0,GHA
+Ghana,2/25/20,0,GHA
+Ghana,2/27/20,0,GHA
+Ghana,3/10/20,0,GHA
+Ghana,3/11/20,0,GHA
+Ghana,3/12/20,0,GHA
+Ghana,3/13/20,0,GHA
+Ghana,3/14/20,0,GHA
+Ghana,3/15/20,1,GHA
+Ghana,3/16/20,1,GHA
+Ghana,3/17/20,1,GHA
+Ghana,3/18/20,1,GHA
+Ghana,3/19/20,1,GHA
+Ghana,3/2/20,1,GHA
+Ghana,3/20/20,1,GHA
+Ghana,3/21/20,1,GHA
+Ghana,3/22/20,1,GHA
+Ghana,3/23/20,1,GHA
+Ghana,3/24/20,1,GHA
+Ghana,3/25/20,1,GHA
+Ghana,3/26/20,1,GHA
+Ghana,3/27/20,1,GHA
+Ghana,3/28/20,1,GHA
+Ghana,3/29/20,1,GHA
+Ghana,3/30/20,1,GHA
+Ghana,3/5/20,1,GHA
+Ghana,3/6/20,1,GHA
+Ghana,3/8/20,1,GHA
+Ghana,3/9/20,1,GHA
+Ghana,4/2/20,1,GHA
+Greece,1/23/20,0,GRC
+Greece,2/2/20,0,GRC
+Greece,2/23/20,0,GRC
+Greece,2/25/20,0,GRC
+Greece,2/27/20,0,GRC
+Greece,3/10/20,0,GRC
+Greece,3/11/20,0,GRC
+Greece,3/12/20,0,GRC
+Greece,3/13/20,0,GRC
+Greece,3/14/20,0,GRC
+Greece,3/15/20,0,GRC
+Greece,3/16/20,0,GRC
+Greece,3/17/20,0,GRC
+Greece,3/18/20,1,GRC
+Greece,3/19/20,1,GRC
+Greece,3/2/20,1,GRC
+Greece,3/20/20,1,GRC
+Greece,3/21/20,1,GRC
+Greece,3/22/20,1,GRC
+Greece,3/23/20,1,GRC
+Greece,3/24/20,1,GRC
+Greece,3/25/20,1,GRC
+Greece,3/26/20,1,GRC
+Greece,3/27/20,1,GRC
+Greece,3/28/20,1,GRC
+Greece,3/29/20,1,GRC
+Greece,3/30/20,1,GRC
+Greece,3/5/20,1,GRC
+Greece,3/6/20,1,GRC
+Greece,3/8/20,1,GRC
+Greece,3/9/20,1,GRC
+Greece,4/2/20,1,GRC
+Holy See (Vatican City State),1/23/20,0,VAT
+Holy See (Vatican City State),2/2/20,0,VAT
+Holy See (Vatican City State),2/23/20,0,VAT
+Holy See (Vatican City State),2/25/20,0,VAT
+Holy See (Vatican City State),2/27/20,0,VAT
+Holy See (Vatican City State),3/10/20,1,VAT
+Holy See (Vatican City State),3/11/20,1,VAT
+Holy See (Vatican City State),3/12/20,1,VAT
+Holy See (Vatican City State),3/13/20,1,VAT
+Holy See (Vatican City State),3/14/20,1,VAT
+Holy See (Vatican City State),3/15/20,1,VAT
+Holy See (Vatican City State),3/16/20,1,VAT
+Holy See (Vatican City State),3/17/20,1,VAT
+Holy See (Vatican City State),3/18/20,1,VAT
+Holy See (Vatican City State),3/19/20,1,VAT
+Holy See (Vatican City State),3/2/20,1,VAT
+Holy See (Vatican City State),3/20/20,1,VAT
+Holy See (Vatican City State),3/21/20,1,VAT
+Holy See (Vatican City State),3/22/20,1,VAT
+Holy See (Vatican City State),3/23/20,1,VAT
+Holy See (Vatican City State),3/24/20,1,VAT
+Holy See (Vatican City State),3/25/20,1,VAT
+Holy See (Vatican City State),3/26/20,1,VAT
+Holy See (Vatican City State),3/27/20,1,VAT
+Holy See (Vatican City State),3/28/20,1,VAT
+Holy See (Vatican City State),3/29/20,1,VAT
+Holy See (Vatican City State),3/30/20,1,VAT
+Holy See (Vatican City State),3/5/20,1,VAT
+Holy See (Vatican City State),3/6/20,1,VAT
+Holy See (Vatican City State),3/8/20,1,VAT
+Holy See (Vatican City State),3/9/20,1,VAT
+Holy See (Vatican City State),4/2/20,1,VAT
+Honduras,1/23/20,0,HND
+Honduras,2/2/20,0,HND
+Honduras,2/23/20,0,HND
+Honduras,2/25/20,0,HND
+Honduras,2/27/20,0,HND
+Honduras,3/10/20,0,HND
+Honduras,3/11/20,0,HND
+Honduras,3/12/20,0,HND
+Honduras,3/13/20,0,HND
+Honduras,3/14/20,0,HND
+Honduras,3/15/20,0,HND
+Honduras,3/16/20,0,HND
+Honduras,3/17/20,0,HND
+Honduras,3/18/20,0,HND
+Honduras,3/19/20,0,HND
+Honduras,3/2/20,0,HND
+Honduras,3/20/20,0.5,HND
+Honduras,3/21/20,0.5,HND
+Honduras,3/22/20,0.5,HND
+Honduras,3/23/20,0.5,HND
+Honduras,3/24/20,0.5,HND
+Honduras,3/25/20,0.5,HND
+Honduras,3/26/20,0.5,HND
+Honduras,3/27/20,0.5,HND
+Honduras,3/28/20,0.5,HND
+Honduras,3/29/20,0.5,HND
+Honduras,3/30/20,0.5,HND
+Honduras,3/5/20,0.5,HND
+Honduras,3/6/20,0.5,HND
+Honduras,3/8/20,0.5,HND
+Honduras,3/9/20,0.5,HND
+Honduras,4/2/20,0.5,HND
+Hungary,1/23/20,0,HUN
+Hungary,2/2/20,0,HUN
+Hungary,2/23/20,0,HUN
+Hungary,2/25/20,0,HUN
+Hungary,2/27/20,0,HUN
+Hungary,3/10/20,0,HUN
+Hungary,3/11/20,0,HUN
+Hungary,3/12/20,0,HUN
+Hungary,3/13/20,0,HUN
+Hungary,3/14/20,0,HUN
+Hungary,3/15/20,0,HUN
+Hungary,3/16/20,1,HUN
+Hungary,3/17/20,1,HUN
+Hungary,3/18/20,1,HUN
+Hungary,3/19/20,1,HUN
+Hungary,3/2/20,1,HUN
+Hungary,3/20/20,1,HUN
+Hungary,3/21/20,1,HUN
+Hungary,3/22/20,1,HUN
+Hungary,3/23/20,1,HUN
+Hungary,3/24/20,1,HUN
+Hungary,3/25/20,1,HUN
+Hungary,3/26/20,1,HUN
+Hungary,3/27/20,1,HUN
+Hungary,3/28/20,1,HUN
+Hungary,3/29/20,1,HUN
+Hungary,3/30/20,1,HUN
+Hungary,3/5/20,1,HUN
+Hungary,3/6/20,1,HUN
+Hungary,3/8/20,1,HUN
+Hungary,3/9/20,1,HUN
+Hungary,4/2/20,1,HUN
+Iceland,1/23/20,0,ISL
+Iceland,2/2/20,0,ISL
+Iceland,2/23/20,0,ISL
+Iceland,2/25/20,0,ISL
+Iceland,2/27/20,0,ISL
+Iceland,3/10/20,0,ISL
+Iceland,3/11/20,0,ISL
+Iceland,3/12/20,0,ISL
+Iceland,3/13/20,0,ISL
+Iceland,3/14/20,0,ISL
+Iceland,3/15/20,0,ISL
+Iceland,3/16/20,1,ISL
+Iceland,3/17/20,1,ISL
+Iceland,3/18/20,1,ISL
+Iceland,3/19/20,1,ISL
+Iceland,3/2/20,1,ISL
+Iceland,3/20/20,1,ISL
+Iceland,3/21/20,1,ISL
+Iceland,3/22/20,1,ISL
+Iceland,3/23/20,1,ISL
+Iceland,3/24/20,1,ISL
+Iceland,3/25/20,1,ISL
+Iceland,3/26/20,1,ISL
+Iceland,3/27/20,1,ISL
+Iceland,3/28/20,1,ISL
+Iceland,3/29/20,1,ISL
+Iceland,3/30/20,1,ISL
+Iceland,3/5/20,1,ISL
+Iceland,3/6/20,1,ISL
+Iceland,3/8/20,1,ISL
+Iceland,3/9/20,1,ISL
+Iceland,4/2/20,1,ISL
+India,1/23/20,0,IND
+India,2/2/20,0,IND
+India,2/23/20,0,IND
+India,2/25/20,0,IND
+India,2/27/20,0,IND
+India,3/10/20,0,IND
+India,3/11/20,0,IND
+India,3/12/20,0,IND
+India,3/13/20,0,IND
+India,3/14/20,0,IND
+India,3/15/20,0,IND
+India,3/16/20,0,IND
+India,3/17/20,0,IND
+India,3/18/20,0,IND
+India,3/19/20,0,IND
+India,3/2/20,0,IND
+India,3/20/20,0,IND
+India,3/21/20,0,IND
+India,3/22/20,0,IND
+India,3/23/20,0,IND
+India,3/24/20,1,IND
+India,3/25/20,1,IND
+India,3/26/20,1,IND
+India,3/27/20,1,IND
+India,3/28/20,1,IND
+India,3/29/20,1,IND
+India,3/30/20,1,IND
+India,3/5/20,1,IND
+India,3/6/20,1,IND
+India,3/8/20,1,IND
+India,3/9/20,1,IND
+India,4/2/20,1,IND
+Indonesia,1/23/20,0,IDN
+Indonesia,2/2/20,0,IDN
+Indonesia,2/23/20,0,IDN
+Indonesia,2/25/20,0,IDN
+Indonesia,2/27/20,0,IDN
+Indonesia,3/10/20,0,IDN
+Indonesia,3/11/20,0,IDN
+Indonesia,3/12/20,0,IDN
+Indonesia,3/13/20,0,IDN
+Indonesia,3/14/20,0,IDN
+Indonesia,3/15/20,1,IDN
+Indonesia,3/16/20,1,IDN
+Indonesia,3/17/20,1,IDN
+Indonesia,3/18/20,1,IDN
+Indonesia,3/19/20,1,IDN
+Indonesia,3/2/20,1,IDN
+Indonesia,3/20/20,1,IDN
+Indonesia,3/21/20,1,IDN
+Indonesia,3/22/20,1,IDN
+Indonesia,3/23/20,1,IDN
+Indonesia,3/24/20,1,IDN
+Indonesia,3/25/20,1,IDN
+Indonesia,3/26/20,1,IDN
+Indonesia,3/27/20,1,IDN
+Indonesia,3/28/20,1,IDN
+Indonesia,3/29/20,1,IDN
+Indonesia,3/30/20,1,IDN
+Indonesia,3/5/20,1,IDN
+Indonesia,3/6/20,1,IDN
+Indonesia,3/8/20,1,IDN
+Indonesia,3/9/20,1,IDN
+Indonesia,4/2/20,1,IDN
+Iran,1/23/20,0,IRN
+Iran,2/2/20,0,IRN
+Iran,2/23/20,0,IRN
+Iran,2/25/20,0,IRN
+Iran,2/27/20,0,IRN
+Iran,3/10/20,0,IRN
+Iran,3/11/20,0,IRN
+Iran,3/12/20,0,IRN
+Iran,3/13/20,0,IRN
+Iran,3/14/20,0,IRN
+Iran,3/15/20,1,IRN
+Iran,3/16/20,1,IRN
+Iran,3/17/20,1,IRN
+Iran,3/18/20,1,IRN
+Iran,3/19/20,1,IRN
+Iran,3/2/20,1,IRN
+Iran,3/20/20,1,IRN
+Iran,3/21/20,1,IRN
+Iran,3/22/20,1,IRN
+Iran,3/23/20,1,IRN
+Iran,3/24/20,1,IRN
+Iran,3/25/20,1,IRN
+Iran,3/26/20,1,IRN
+Iran,3/27/20,1,IRN
+Iran,3/28/20,1,IRN
+Iran,3/29/20,1,IRN
+Iran,3/30/20,1,IRN
+Iran,3/5/20,1,IRN
+Iran,3/6/20,1,IRN
+Iran,3/8/20,1,IRN
+Iran,3/9/20,1,IRN
+Iran,4/2/20,1,IRN
+Iraq,1/23/20,0,IRQ
+Iraq,2/2/20,0,IRQ
+Iraq,2/23/20,0,IRQ
+Iraq,2/25/20,0,IRQ
+Iraq,2/27/20,0,IRQ
+Iraq,3/10/20,0,IRQ
+Iraq,3/11/20,0,IRQ
+Iraq,3/12/20,0,IRQ
+Iraq,3/13/20,0,IRQ
+Iraq,3/14/20,0,IRQ
+Iraq,3/15/20,0,IRQ
+Iraq,3/16/20,0,IRQ
+Iraq,3/17/20,0,IRQ
+Iraq,3/18/20,0,IRQ
+Iraq,3/19/20,0,IRQ
+Iraq,3/2/20,0,IRQ
+Iraq,3/20/20,0,IRQ
+Iraq,3/21/20,0,IRQ
+Iraq,3/22/20,1,IRQ
+Iraq,3/23/20,1,IRQ
+Iraq,3/24/20,1,IRQ
+Iraq,3/25/20,1,IRQ
+Iraq,3/26/20,1,IRQ
+Iraq,3/27/20,1,IRQ
+Iraq,3/28/20,1,IRQ
+Iraq,3/29/20,1,IRQ
+Iraq,3/30/20,1,IRQ
+Iraq,3/5/20,1,IRQ
+Iraq,3/6/20,1,IRQ
+Iraq,3/8/20,1,IRQ
+Iraq,3/9/20,1,IRQ
+Iraq,4/2/20,1,IRQ
+Ireland,1/23/20,0,IRL
+Ireland,2/2/20,0,IRL
+Ireland,2/23/20,0,IRL
+Ireland,2/25/20,0,IRL
+Ireland,2/27/20,0,IRL
+Ireland,3/10/20,0,IRL
+Ireland,3/11/20,0,IRL
+Ireland,3/12/20,1,IRL
+Ireland,3/13/20,1,IRL
+Ireland,3/14/20,1,IRL
+Ireland,3/15/20,1,IRL
+Ireland,3/16/20,1,IRL
+Ireland,3/17/20,1,IRL
+Ireland,3/18/20,1,IRL
+Ireland,3/19/20,1,IRL
+Ireland,3/2/20,1,IRL
+Ireland,3/20/20,1,IRL
+Ireland,3/21/20,1,IRL
+Ireland,3/22/20,1,IRL
+Ireland,3/23/20,1,IRL
+Ireland,3/24/20,1,IRL
+Ireland,3/25/20,1,IRL
+Ireland,3/26/20,1,IRL
+Ireland,3/27/20,1,IRL
+Ireland,3/28/20,1,IRL
+Ireland,3/29/20,1,IRL
+Ireland,3/30/20,1,IRL
+Ireland,3/5/20,1,IRL
+Ireland,3/6/20,1,IRL
+Ireland,3/8/20,1,IRL
+Ireland,3/9/20,1,IRL
+Ireland,4/2/20,1,IRL
+Israel,1/23/20,0,ISR
+Israel,2/2/20,0,ISR
+Israel,2/23/20,0,ISR
+Israel,2/25/20,0,ISR
+Israel,2/27/20,0,ISR
+Israel,3/10/20,0,ISR
+Israel,3/11/20,0,ISR
+Israel,3/12/20,1,ISR
+Israel,3/13/20,1,ISR
+Israel,3/14/20,1,ISR
+Israel,3/15/20,1,ISR
+Israel,3/16/20,1,ISR
+Israel,3/17/20,1,ISR
+Israel,3/18/20,1,ISR
+Israel,3/19/20,1,ISR
+Israel,3/2/20,1,ISR
+Israel,3/20/20,1,ISR
+Israel,3/21/20,1,ISR
+Israel,3/22/20,1,ISR
+Israel,3/23/20,1,ISR
+Israel,3/24/20,1,ISR
+Israel,3/25/20,1,ISR
+Israel,3/26/20,1,ISR
+Israel,3/27/20,1,ISR
+Israel,3/28/20,1,ISR
+Israel,3/29/20,1,ISR
+Israel,3/30/20,1,ISR
+Israel,3/5/20,1,ISR
+Israel,3/6/20,1,ISR
+Israel,3/8/20,1,ISR
+Israel,3/9/20,1,ISR
+Israel,4/2/20,1,ISR
+Italy,1/23/20,0,ITA
+Italy,2/2/20,0,ITA
+Italy,2/23/20,0,ITA
+Italy,2/25/20,0,ITA
+Italy,2/27/20,0,ITA
+Italy,3/10/20,0,ITA
+Italy,3/11/20,1,ITA
+Italy,3/12/20,1,ITA
+Italy,3/13/20,1,ITA
+Italy,3/14/20,1,ITA
+Italy,3/15/20,1,ITA
+Italy,3/16/20,1,ITA
+Italy,3/17/20,1,ITA
+Italy,3/18/20,1,ITA
+Italy,3/19/20,1,ITA
+Italy,3/2/20,1,ITA
+Italy,3/20/20,1,ITA
+Italy,3/21/20,1,ITA
+Italy,3/22/20,1,ITA
+Italy,3/23/20,1,ITA
+Italy,3/24/20,1,ITA
+Italy,3/25/20,1,ITA
+Italy,3/26/20,1,ITA
+Italy,3/27/20,1,ITA
+Italy,3/28/20,1,ITA
+Italy,3/29/20,1,ITA
+Italy,3/30/20,1,ITA
+Italy,3/5/20,1,ITA
+Italy,3/6/20,1,ITA
+Italy,3/8/20,1,ITA
+Italy,3/9/20,1,ITA
+Italy,4/2/20,1,ITA
+Jamaica,1/23/20,0,JAM
+Jamaica,2/2/20,0,JAM
+Jamaica,2/23/20,0,JAM
+Jamaica,2/25/20,0,JAM
+Jamaica,2/27/20,0,JAM
+Jamaica,3/10/20,0,JAM
+Jamaica,3/11/20,0,JAM
+Jamaica,3/12/20,1,JAM
+Jamaica,3/13/20,1,JAM
+Jamaica,3/14/20,1,JAM
+Jamaica,3/15/20,1,JAM
+Jamaica,3/16/20,1,JAM
+Jamaica,3/17/20,1,JAM
+Jamaica,3/18/20,1,JAM
+Jamaica,3/19/20,1,JAM
+Jamaica,3/2/20,1,JAM
+Jamaica,3/20/20,1,JAM
+Jamaica,3/21/20,1,JAM
+Jamaica,3/22/20,1,JAM
+Jamaica,3/23/20,1,JAM
+Jamaica,3/24/20,1,JAM
+Jamaica,3/25/20,1,JAM
+Jamaica,3/26/20,1,JAM
+Jamaica,3/27/20,1,JAM
+Jamaica,3/28/20,1,JAM
+Jamaica,3/29/20,1,JAM
+Jamaica,3/30/20,1,JAM
+Jamaica,3/5/20,1,JAM
+Jamaica,3/6/20,1,JAM
+Jamaica,3/8/20,1,JAM
+Jamaica,3/9/20,1,JAM
+Jamaica,4/2/20,1,JAM
+Japan,1/23/20,0,JPN
+Japan,2/2/20,0,JPN
+Japan,2/23/20,0,JPN
+Japan,2/25/20,0,JPN
+Japan,2/27/20,1,JPN
+Japan,3/10/20,1,JPN
+Japan,3/11/20,1,JPN
+Japan,3/12/20,1,JPN
+Japan,3/13/20,1,JPN
+Japan,3/14/20,1,JPN
+Japan,3/15/20,1,JPN
+Japan,3/16/20,1,JPN
+Japan,3/17/20,1,JPN
+Japan,3/18/20,1,JPN
+Japan,3/19/20,1,JPN
+Japan,3/2/20,1,JPN
+Japan,3/20/20,1,JPN
+Japan,3/21/20,1,JPN
+Japan,3/22/20,1,JPN
+Japan,3/23/20,1,JPN
+Japan,3/24/20,1,JPN
+Japan,3/25/20,1,JPN
+Japan,3/26/20,1,JPN
+Japan,3/27/20,1,JPN
+Japan,3/28/20,1,JPN
+Japan,3/29/20,1,JPN
+Japan,3/30/20,1,JPN
+Japan,3/5/20,1,JPN
+Japan,3/6/20,1,JPN
+Japan,3/8/20,1,JPN
+Japan,3/9/20,1,JPN
+Japan,4/2/20,1,JPN
+Jersey,1/23/20,0,JEY
+Jersey,2/2/20,0,JEY
+Jersey,2/23/20,0,JEY
+Jersey,2/25/20,0,JEY
+Jersey,2/27/20,0,JEY
+Jersey,3/10/20,0,JEY
+Jersey,3/11/20,0,JEY
+Jersey,3/12/20,0,JEY
+Jersey,3/13/20,0,JEY
+Jersey,3/14/20,0,JEY
+Jersey,3/15/20,0,JEY
+Jersey,3/16/20,0,JEY
+Jersey,3/17/20,0,JEY
+Jersey,3/18/20,1,JEY
+Jersey,3/19/20,1,JEY
+Jersey,3/2/20,1,JEY
+Jersey,3/20/20,1,JEY
+Jersey,3/21/20,1,JEY
+Jersey,3/22/20,1,JEY
+Jersey,3/23/20,1,JEY
+Jersey,3/24/20,1,JEY
+Jersey,3/25/20,1,JEY
+Jersey,3/26/20,1,JEY
+Jersey,3/27/20,1,JEY
+Jersey,3/28/20,1,JEY
+Jersey,3/29/20,1,JEY
+Jersey,3/30/20,1,JEY
+Jersey,3/5/20,1,JEY
+Jersey,3/6/20,1,JEY
+Jersey,3/8/20,1,JEY
+Jersey,3/9/20,1,JEY
+Jersey,4/2/20,1,JEY
+Jordan,1/23/20,0,JOR
+Jordan,2/2/20,0,JOR
+Jordan,2/23/20,0,JOR
+Jordan,2/25/20,0,JOR
+Jordan,2/27/20,0,JOR
+Jordan,3/10/20,0,JOR
+Jordan,3/11/20,0,JOR
+Jordan,3/12/20,0,JOR
+Jordan,3/13/20,0,JOR
+Jordan,3/14/20,0,JOR
+Jordan,3/15/20,0,JOR
+Jordan,3/16/20,0,JOR
+Jordan,3/17/20,0,JOR
+Jordan,3/18/20,0,JOR
+Jordan,3/19/20,0,JOR
+Jordan,3/2/20,0,JOR
+Jordan,3/20/20,0,JOR
+Jordan,3/21/20,1,JOR
+Jordan,3/22/20,1,JOR
+Jordan,3/23/20,1,JOR
+Jordan,3/24/20,1,JOR
+Jordan,3/25/20,1,JOR
+Jordan,3/26/20,1,JOR
+Jordan,3/27/20,1,JOR
+Jordan,3/28/20,1,JOR
+Jordan,3/29/20,1,JOR
+Jordan,3/30/20,1,JOR
+Jordan,3/5/20,1,JOR
+Jordan,3/6/20,1,JOR
+Jordan,3/8/20,1,JOR
+Jordan,3/9/20,1,JOR
+Jordan,4/2/20,1,JOR
+Kazakhstan,1/23/20,0,KAZ
+Kazakhstan,2/2/20,0,KAZ
+Kazakhstan,2/23/20,0,KAZ
+Kazakhstan,2/25/20,0,KAZ
+Kazakhstan,2/27/20,0,KAZ
+Kazakhstan,3/10/20,0,KAZ
+Kazakhstan,3/11/20,0,KAZ
+Kazakhstan,3/12/20,0,KAZ
+Kazakhstan,3/13/20,0,KAZ
+Kazakhstan,3/14/20,0,KAZ
+Kazakhstan,3/15/20,1,KAZ
+Kazakhstan,3/16/20,1,KAZ
+Kazakhstan,3/17/20,1,KAZ
+Kazakhstan,3/18/20,1,KAZ
+Kazakhstan,3/19/20,1,KAZ
+Kazakhstan,3/2/20,1,KAZ
+Kazakhstan,3/20/20,1,KAZ
+Kazakhstan,3/21/20,1,KAZ
+Kazakhstan,3/22/20,1,KAZ
+Kazakhstan,3/23/20,1,KAZ
+Kazakhstan,3/24/20,1,KAZ
+Kazakhstan,3/25/20,1,KAZ
+Kazakhstan,3/26/20,1,KAZ
+Kazakhstan,3/27/20,1,KAZ
+Kazakhstan,3/28/20,1,KAZ
+Kazakhstan,3/29/20,1,KAZ
+Kazakhstan,3/30/20,1,KAZ
+Kazakhstan,3/5/20,1,KAZ
+Kazakhstan,3/6/20,1,KAZ
+Kazakhstan,3/8/20,1,KAZ
+Kazakhstan,3/9/20,1,KAZ
+Kazakhstan,4/2/20,1,KAZ
+Kenya,1/23/20,0,KEN
+Kenya,2/2/20,0,KEN
+Kenya,2/23/20,0,KEN
+Kenya,2/25/20,0,KEN
+Kenya,2/27/20,0,KEN
+Kenya,3/10/20,0,KEN
+Kenya,3/11/20,0,KEN
+Kenya,3/12/20,0,KEN
+Kenya,3/13/20,0,KEN
+Kenya,3/14/20,0,KEN
+Kenya,3/15/20,1,KEN
+Kenya,3/16/20,1,KEN
+Kenya,3/17/20,1,KEN
+Kenya,3/18/20,1,KEN
+Kenya,3/19/20,1,KEN
+Kenya,3/2/20,1,KEN
+Kenya,3/20/20,1,KEN
+Kenya,3/21/20,1,KEN
+Kenya,3/22/20,1,KEN
+Kenya,3/23/20,1,KEN
+Kenya,3/24/20,1,KEN
+Kenya,3/25/20,1,KEN
+Kenya,3/26/20,1,KEN
+Kenya,3/27/20,1,KEN
+Kenya,3/28/20,1,KEN
+Kenya,3/29/20,1,KEN
+Kenya,3/30/20,1,KEN
+Kenya,3/5/20,1,KEN
+Kenya,3/6/20,1,KEN
+Kenya,3/8/20,1,KEN
+Kenya,3/9/20,1,KEN
+Kenya,4/2/20,1,KEN
+Kuwait,1/23/20,0,KWT
+Kuwait,2/2/20,0,KWT
+Kuwait,2/23/20,0,KWT
+Kuwait,2/25/20,0,KWT
+Kuwait,2/27/20,0,KWT
+Kuwait,3/10/20,0,KWT
+Kuwait,3/11/20,0,KWT
+Kuwait,3/12/20,0,KWT
+Kuwait,3/13/20,0,KWT
+Kuwait,3/14/20,0,KWT
+Kuwait,3/15/20,0,KWT
+Kuwait,3/16/20,0.5,KWT
+Kuwait,3/17/20,0.5,KWT
+Kuwait,3/18/20,0.5,KWT
+Kuwait,3/19/20,0.5,KWT
+Kuwait,3/2/20,0.5,KWT
+Kuwait,3/20/20,0.5,KWT
+Kuwait,3/21/20,0.5,KWT
+Kuwait,3/22/20,0.5,KWT
+Kuwait,3/23/20,0.5,KWT
+Kuwait,3/24/20,0.5,KWT
+Kuwait,3/25/20,0.5,KWT
+Kuwait,3/26/20,0.5,KWT
+Kuwait,3/27/20,0.5,KWT
+Kuwait,3/28/20,0.5,KWT
+Kuwait,3/29/20,0.5,KWT
+Kuwait,3/30/20,0.5,KWT
+Kuwait,3/5/20,0.5,KWT
+Kuwait,3/6/20,0.5,KWT
+Kuwait,3/8/20,0.5,KWT
+Kuwait,3/9/20,0.5,KWT
+Kuwait,4/2/20,0.5,KWT
+Kyrgyzstan,1/23/20,0,KGZ
+Kyrgyzstan,2/2/20,0,KGZ
+Kyrgyzstan,2/23/20,0,KGZ
+Kyrgyzstan,2/25/20,0,KGZ
+Kyrgyzstan,2/27/20,0,KGZ
+Kyrgyzstan,3/10/20,0,KGZ
+Kyrgyzstan,3/11/20,0,KGZ
+Kyrgyzstan,3/12/20,0,KGZ
+Kyrgyzstan,3/13/20,0,KGZ
+Kyrgyzstan,3/14/20,0,KGZ
+Kyrgyzstan,3/15/20,0,KGZ
+Kyrgyzstan,3/16/20,0,KGZ
+Kyrgyzstan,3/17/20,0,KGZ
+Kyrgyzstan,3/18/20,0,KGZ
+Kyrgyzstan,3/19/20,0,KGZ
+Kyrgyzstan,3/2/20,0,KGZ
+Kyrgyzstan,3/20/20,0,KGZ
+Kyrgyzstan,3/21/20,0,KGZ
+Kyrgyzstan,3/22/20,0,KGZ
+Kyrgyzstan,3/23/20,0,KGZ
+Kyrgyzstan,3/24/20,0.5,KGZ
+Kyrgyzstan,3/25/20,0.5,KGZ
+Kyrgyzstan,3/26/20,0.5,KGZ
+Kyrgyzstan,3/27/20,0.5,KGZ
+Kyrgyzstan,3/28/20,0.5,KGZ
+Kyrgyzstan,3/29/20,0.5,KGZ
+Kyrgyzstan,3/30/20,0.5,KGZ
+Kyrgyzstan,3/5/20,0.5,KGZ
+Kyrgyzstan,3/6/20,0.5,KGZ
+Kyrgyzstan,3/8/20,0.5,KGZ
+Kyrgyzstan,3/9/20,0.5,KGZ
+Kyrgyzstan,4/2/20,0.5,KGZ
+Latvia,1/23/20,0,LVA
+Latvia,2/2/20,0,LVA
+Latvia,2/23/20,0,LVA
+Latvia,2/25/20,0,LVA
+Latvia,2/27/20,0,LVA
+Latvia,3/10/20,0,LVA
+Latvia,3/11/20,0,LVA
+Latvia,3/12/20,0,LVA
+Latvia,3/13/20,1,LVA
+Latvia,3/14/20,1,LVA
+Latvia,3/15/20,1,LVA
+Latvia,3/16/20,1,LVA
+Latvia,3/17/20,1,LVA
+Latvia,3/18/20,1,LVA
+Latvia,3/19/20,1,LVA
+Latvia,3/2/20,1,LVA
+Latvia,3/20/20,1,LVA
+Latvia,3/21/20,1,LVA
+Latvia,3/22/20,1,LVA
+Latvia,3/23/20,1,LVA
+Latvia,3/24/20,1,LVA
+Latvia,3/25/20,1,LVA
+Latvia,3/26/20,1,LVA
+Latvia,3/27/20,1,LVA
+Latvia,3/28/20,1,LVA
+Latvia,3/29/20,1,LVA
+Latvia,3/30/20,1,LVA
+Latvia,3/5/20,1,LVA
+Latvia,3/6/20,1,LVA
+Latvia,3/8/20,1,LVA
+Latvia,3/9/20,1,LVA
+Latvia,4/2/20,1,LVA
+Lebanon,1/23/20,0,LBN
+Lebanon,2/2/20,0,LBN
+Lebanon,2/23/20,0,LBN
+Lebanon,2/25/20,0,LBN
+Lebanon,2/27/20,0,LBN
+Lebanon,3/10/20,0,LBN
+Lebanon,3/11/20,0,LBN
+Lebanon,3/12/20,0,LBN
+Lebanon,3/13/20,0,LBN
+Lebanon,3/14/20,0,LBN
+Lebanon,3/15/20,0,LBN
+Lebanon,3/16/20,1,LBN
+Lebanon,3/17/20,1,LBN
+Lebanon,3/18/20,1,LBN
+Lebanon,3/19/20,1,LBN
+Lebanon,3/2/20,1,LBN
+Lebanon,3/20/20,1,LBN
+Lebanon,3/21/20,1,LBN
+Lebanon,3/22/20,1,LBN
+Lebanon,3/23/20,1,LBN
+Lebanon,3/24/20,1,LBN
+Lebanon,3/25/20,1,LBN
+Lebanon,3/26/20,1,LBN
+Lebanon,3/27/20,1,LBN
+Lebanon,3/28/20,1,LBN
+Lebanon,3/29/20,1,LBN
+Lebanon,3/30/20,1,LBN
+Lebanon,3/5/20,1,LBN
+Lebanon,3/6/20,1,LBN
+Lebanon,3/8/20,1,LBN
+Lebanon,3/9/20,1,LBN
+Lebanon,4/2/20,1,LBN
+Liechtenstein,1/23/20,0,LIE
+Liechtenstein,2/2/20,0,LIE
+Liechtenstein,2/23/20,0,LIE
+Liechtenstein,2/25/20,0,LIE
+Liechtenstein,2/27/20,0,LIE
+Liechtenstein,3/10/20,0,LIE
+Liechtenstein,3/11/20,0,LIE
+Liechtenstein,3/12/20,0,LIE
+Liechtenstein,3/13/20,0,LIE
+Liechtenstein,3/14/20,0,LIE
+Liechtenstein,3/15/20,0,LIE
+Liechtenstein,3/16/20,0,LIE
+Liechtenstein,3/17/20,0,LIE
+Liechtenstein,3/18/20,0,LIE
+Liechtenstein,3/19/20,0,LIE
+Liechtenstein,3/2/20,0,LIE
+Liechtenstein,3/20/20,0.5,LIE
+Liechtenstein,3/21/20,0.5,LIE
+Liechtenstein,3/22/20,0.5,LIE
+Liechtenstein,3/23/20,0.5,LIE
+Liechtenstein,3/24/20,0.5,LIE
+Liechtenstein,3/25/20,0.5,LIE
+Liechtenstein,3/26/20,0.5,LIE
+Liechtenstein,3/27/20,0.5,LIE
+Liechtenstein,3/28/20,0.5,LIE
+Liechtenstein,3/29/20,0.5,LIE
+Liechtenstein,3/30/20,0.5,LIE
+Liechtenstein,3/5/20,0.5,LIE
+Liechtenstein,3/6/20,0.5,LIE
+Liechtenstein,3/8/20,0.5,LIE
+Liechtenstein,3/9/20,0.5,LIE
+Liechtenstein,4/2/20,0.5,LIE
+Lithuania,1/23/20,0,LTU
+Lithuania,2/2/20,0,LTU
+Lithuania,2/23/20,0,LTU
+Lithuania,2/25/20,0,LTU
+Lithuania,2/27/20,0,LTU
+Lithuania,3/10/20,0,LTU
+Lithuania,3/11/20,0,LTU
+Lithuania,3/12/20,0,LTU
+Lithuania,3/13/20,0,LTU
+Lithuania,3/14/20,0,LTU
+Lithuania,3/15/20,0,LTU
+Lithuania,3/16/20,1,LTU
+Lithuania,3/17/20,1,LTU
+Lithuania,3/18/20,1,LTU
+Lithuania,3/19/20,1,LTU
+Lithuania,3/2/20,1,LTU
+Lithuania,3/20/20,1,LTU
+Lithuania,3/21/20,1,LTU
+Lithuania,3/22/20,1,LTU
+Lithuania,3/23/20,1,LTU
+Lithuania,3/24/20,1,LTU
+Lithuania,3/25/20,1,LTU
+Lithuania,3/26/20,1,LTU
+Lithuania,3/27/20,1,LTU
+Lithuania,3/28/20,1,LTU
+Lithuania,3/29/20,1,LTU
+Lithuania,3/30/20,1,LTU
+Lithuania,3/5/20,1,LTU
+Lithuania,3/6/20,1,LTU
+Lithuania,3/8/20,1,LTU
+Lithuania,3/9/20,1,LTU
+Lithuania,4/2/20,1,LTU
+Luxembourg,1/23/20,0,LUX
+Luxembourg,2/2/20,0,LUX
+Luxembourg,2/23/20,0,LUX
+Luxembourg,2/25/20,0,LUX
+Luxembourg,2/27/20,0,LUX
+Luxembourg,3/10/20,0,LUX
+Luxembourg,3/11/20,0,LUX
+Luxembourg,3/12/20,0,LUX
+Luxembourg,3/13/20,0,LUX
+Luxembourg,3/14/20,0,LUX
+Luxembourg,3/15/20,0,LUX
+Luxembourg,3/16/20,1,LUX
+Luxembourg,3/17/20,1,LUX
+Luxembourg,3/18/20,1,LUX
+Luxembourg,3/19/20,1,LUX
+Luxembourg,3/2/20,1,LUX
+Luxembourg,3/20/20,1,LUX
+Luxembourg,3/21/20,1,LUX
+Luxembourg,3/22/20,1,LUX
+Luxembourg,3/23/20,1,LUX
+Luxembourg,3/24/20,1,LUX
+Luxembourg,3/25/20,1,LUX
+Luxembourg,3/26/20,1,LUX
+Luxembourg,3/27/20,1,LUX
+Luxembourg,3/28/20,1,LUX
+Luxembourg,3/29/20,1,LUX
+Luxembourg,3/30/20,1,LUX
+Luxembourg,3/5/20,1,LUX
+Luxembourg,3/6/20,1,LUX
+Luxembourg,3/8/20,1,LUX
+Luxembourg,3/9/20,1,LUX
+Luxembourg,4/2/20,1,LUX
+"Macedonia, the former Yugoslav Republic of",1/23/20,0,MKD
+"Macedonia, the former Yugoslav Republic of",2/2/20,0,MKD
+"Macedonia, the former Yugoslav Republic of",2/23/20,0,MKD
+"Macedonia, the former Yugoslav Republic of",2/25/20,0,MKD
+"Macedonia, the former Yugoslav Republic of",2/27/20,0,MKD
+"Macedonia, the former Yugoslav Republic of",3/10/20,0,MKD
+"Macedonia, the former Yugoslav Republic of",3/11/20,0,MKD
+"Macedonia, the former Yugoslav Republic of",3/12/20,0,MKD
+"Macedonia, the former Yugoslav Republic of",3/13/20,0,MKD
+"Macedonia, the former Yugoslav Republic of",3/14/20,0,MKD
+"Macedonia, the former Yugoslav Republic of",3/15/20,0,MKD
+"Macedonia, the former Yugoslav Republic of",3/16/20,0,MKD
+"Macedonia, the former Yugoslav Republic of",3/17/20,0,MKD
+"Macedonia, the former Yugoslav Republic of",3/18/20,1,MKD
+"Macedonia, the former Yugoslav Republic of",3/19/20,1,MKD
+"Macedonia, the former Yugoslav Republic of",3/2/20,1,MKD
+"Macedonia, the former Yugoslav Republic of",3/20/20,1,MKD
+"Macedonia, the former Yugoslav Republic of",3/21/20,1,MKD
+"Macedonia, the former Yugoslav Republic of",3/22/20,1,MKD
+"Macedonia, the former Yugoslav Republic of",3/23/20,1,MKD
+"Macedonia, the former Yugoslav Republic of",3/24/20,1,MKD
+"Macedonia, the former Yugoslav Republic of",3/25/20,1,MKD
+"Macedonia, the former Yugoslav Republic of",3/26/20,1,MKD
+"Macedonia, the former Yugoslav Republic of",3/27/20,1,MKD
+"Macedonia, the former Yugoslav Republic of",3/28/20,1,MKD
+"Macedonia, the former Yugoslav Republic of",3/29/20,1,MKD
+"Macedonia, the former Yugoslav Republic of",3/30/20,1,MKD
+"Macedonia, the former Yugoslav Republic of",3/5/20,1,MKD
+"Macedonia, the former Yugoslav Republic of",3/6/20,1,MKD
+"Macedonia, the former Yugoslav Republic of",3/8/20,1,MKD
+"Macedonia, the former Yugoslav Republic of",3/9/20,1,MKD
+"Macedonia, the former Yugoslav Republic of",4/2/20,1,MKD
+Madagascar,1/23/20,0,MDG
+Madagascar,2/2/20,0,MDG
+Madagascar,2/23/20,0,MDG
+Madagascar,2/25/20,0,MDG
+Madagascar,2/27/20,0,MDG
+Madagascar,3/10/20,0,MDG
+Madagascar,3/11/20,0,MDG
+Madagascar,3/12/20,0,MDG
+Madagascar,3/13/20,0,MDG
+Madagascar,3/14/20,0,MDG
+Madagascar,3/15/20,0,MDG
+Madagascar,3/16/20,0,MDG
+Madagascar,3/17/20,0.5,MDG
+Madagascar,3/18/20,0.5,MDG
+Madagascar,3/19/20,0.5,MDG
+Madagascar,3/2/20,0.5,MDG
+Madagascar,3/20/20,0.5,MDG
+Madagascar,3/21/20,0.5,MDG
+Madagascar,3/22/20,0.5,MDG
+Madagascar,3/23/20,0.5,MDG
+Madagascar,3/24/20,0.5,MDG
+Madagascar,3/25/20,0.5,MDG
+Madagascar,3/26/20,0.5,MDG
+Madagascar,3/27/20,0.5,MDG
+Madagascar,3/28/20,0.5,MDG
+Madagascar,3/29/20,0.5,MDG
+Madagascar,3/30/20,0.5,MDG
+Madagascar,3/5/20,0.5,MDG
+Madagascar,3/6/20,0.5,MDG
+Madagascar,3/8/20,0.5,MDG
+Madagascar,3/9/20,0.5,MDG
+Madagascar,4/2/20,0.5,MDG
+Malaysia,1/23/20,0,MYS
+Malaysia,2/2/20,0,MYS
+Malaysia,2/23/20,0,MYS
+Malaysia,2/25/20,0,MYS
+Malaysia,2/27/20,0,MYS
+Malaysia,3/10/20,0,MYS
+Malaysia,3/11/20,0,MYS
+Malaysia,3/12/20,0,MYS
+Malaysia,3/13/20,0,MYS
+Malaysia,3/14/20,0,MYS
+Malaysia,3/15/20,0,MYS
+Malaysia,3/16/20,0,MYS
+Malaysia,3/17/20,0,MYS
+Malaysia,3/18/20,1,MYS
+Malaysia,3/19/20,1,MYS
+Malaysia,3/2/20,1,MYS
+Malaysia,3/20/20,1,MYS
+Malaysia,3/21/20,1,MYS
+Malaysia,3/22/20,1,MYS
+Malaysia,3/23/20,1,MYS
+Malaysia,3/24/20,1,MYS
+Malaysia,3/25/20,1,MYS
+Malaysia,3/26/20,1,MYS
+Malaysia,3/27/20,1,MYS
+Malaysia,3/28/20,1,MYS
+Malaysia,3/29/20,1,MYS
+Malaysia,3/30/20,1,MYS
+Malaysia,3/5/20,1,MYS
+Malaysia,3/6/20,1,MYS
+Malaysia,3/8/20,1,MYS
+Malaysia,3/9/20,1,MYS
+Malaysia,4/2/20,1,MYS
+Maldives,1/23/20,0,MDV
+Maldives,2/2/20,0,MDV
+Maldives,2/23/20,0,MDV
+Maldives,2/25/20,0,MDV
+Maldives,2/27/20,0,MDV
+Maldives,3/10/20,0,MDV
+Maldives,3/11/20,1,MDV
+Maldives,3/12/20,1,MDV
+Maldives,3/13/20,1,MDV
+Maldives,3/14/20,1,MDV
+Maldives,3/15/20,1,MDV
+Maldives,3/16/20,1,MDV
+Maldives,3/17/20,1,MDV
+Maldives,3/18/20,1,MDV
+Maldives,3/19/20,1,MDV
+Maldives,3/2/20,1,MDV
+Maldives,3/20/20,1,MDV
+Maldives,3/21/20,1,MDV
+Maldives,3/22/20,1,MDV
+Maldives,3/23/20,1,MDV
+Maldives,3/24/20,1,MDV
+Maldives,3/25/20,1,MDV
+Maldives,3/26/20,1,MDV
+Maldives,3/27/20,1,MDV
+Maldives,3/28/20,1,MDV
+Maldives,3/29/20,1,MDV
+Maldives,3/30/20,1,MDV
+Maldives,3/5/20,1,MDV
+Maldives,3/6/20,1,MDV
+Maldives,3/8/20,1,MDV
+Maldives,3/9/20,1,MDV
+Maldives,4/2/20,1,MDV
+Mali,1/23/20,0,MLI
+Mali,2/2/20,0,MLI
+Mali,2/23/20,0,MLI
+Mali,2/25/20,0,MLI
+Mali,2/27/20,0,MLI
+Mali,3/10/20,0,MLI
+Mali,3/11/20,0,MLI
+Mali,3/12/20,0,MLI
+Mali,3/13/20,0,MLI
+Mali,3/14/20,0,MLI
+Mali,3/15/20,0,MLI
+Mali,3/16/20,0,MLI
+Mali,3/17/20,0,MLI
+Mali,3/18/20,1,MLI
+Mali,3/19/20,1,MLI
+Mali,3/2/20,1,MLI
+Mali,3/20/20,1,MLI
+Mali,3/21/20,1,MLI
+Mali,3/22/20,1,MLI
+Mali,3/23/20,1,MLI
+Mali,3/24/20,1,MLI
+Mali,3/25/20,1,MLI
+Mali,3/26/20,1,MLI
+Mali,3/27/20,1,MLI
+Mali,3/28/20,1,MLI
+Mali,3/29/20,1,MLI
+Mali,3/30/20,1,MLI
+Mali,3/5/20,1,MLI
+Mali,3/6/20,1,MLI
+Mali,3/8/20,1,MLI
+Mali,3/9/20,1,MLI
+Mali,4/2/20,1,MLI
+Malta,1/23/20,0,MLT
+Malta,2/2/20,0,MLT
+Malta,2/23/20,0,MLT
+Malta,2/25/20,0,MLT
+Malta,2/27/20,0,MLT
+Malta,3/10/20,0,MLT
+Malta,3/11/20,0,MLT
+Malta,3/12/20,1,MLT
+Malta,3/13/20,1,MLT
+Malta,3/14/20,1,MLT
+Malta,3/15/20,1,MLT
+Malta,3/16/20,1,MLT
+Malta,3/17/20,1,MLT
+Malta,3/18/20,1,MLT
+Malta,3/19/20,1,MLT
+Malta,3/2/20,1,MLT
+Malta,3/20/20,1,MLT
+Malta,3/21/20,1,MLT
+Malta,3/22/20,1,MLT
+Malta,3/23/20,1,MLT
+Malta,3/24/20,1,MLT
+Malta,3/25/20,1,MLT
+Malta,3/26/20,1,MLT
+Malta,3/27/20,1,MLT
+Malta,3/28/20,1,MLT
+Malta,3/29/20,1,MLT
+Malta,3/30/20,1,MLT
+Malta,3/5/20,1,MLT
+Malta,3/6/20,1,MLT
+Malta,3/8/20,1,MLT
+Malta,3/9/20,1,MLT
+Malta,4/2/20,1,MLT
+Mauritius,1/23/20,0,MUS
+Mauritius,2/2/20,0,MUS
+Mauritius,2/23/20,0,MUS
+Mauritius,2/25/20,0,MUS
+Mauritius,2/27/20,0,MUS
+Mauritius,3/10/20,0,MUS
+Mauritius,3/11/20,0,MUS
+Mauritius,3/12/20,0,MUS
+Mauritius,3/13/20,0,MUS
+Mauritius,3/14/20,0,MUS
+Mauritius,3/15/20,0,MUS
+Mauritius,3/16/20,0,MUS
+Mauritius,3/17/20,0.5,MUS
+Mauritius,3/18/20,0.5,MUS
+Mauritius,3/19/20,0.5,MUS
+Mauritius,3/2/20,0.5,MUS
+Mauritius,3/20/20,0.5,MUS
+Mauritius,3/21/20,0.5,MUS
+Mauritius,3/22/20,0.5,MUS
+Mauritius,3/23/20,0.5,MUS
+Mauritius,3/24/20,0.5,MUS
+Mauritius,3/25/20,0.5,MUS
+Mauritius,3/26/20,0.5,MUS
+Mauritius,3/27/20,0.5,MUS
+Mauritius,3/28/20,0.5,MUS
+Mauritius,3/29/20,0.5,MUS
+Mauritius,3/30/20,0.5,MUS
+Mauritius,3/5/20,0.5,MUS
+Mauritius,3/6/20,0.5,MUS
+Mauritius,3/8/20,0.5,MUS
+Mauritius,3/9/20,0.5,MUS
+Mauritius,4/2/20,0.5,MUS
+Mexico,1/23/20,0,MEX
+Mexico,2/2/20,0,MEX
+Mexico,2/23/20,0,MEX
+Mexico,2/25/20,0,MEX
+Mexico,2/27/20,0,MEX
+Mexico,3/10/20,0,MEX
+Mexico,3/11/20,0,MEX
+Mexico,3/12/20,0,MEX
+Mexico,3/13/20,0,MEX
+Mexico,3/14/20,0.5,MEX
+Mexico,3/15/20,0.5,MEX
+Mexico,3/16/20,0.5,MEX
+Mexico,3/17/20,0.5,MEX
+Mexico,3/18/20,0.5,MEX
+Mexico,3/19/20,0.5,MEX
+Mexico,3/2/20,0.5,MEX
+Mexico,3/20/20,0.5,MEX
+Mexico,3/21/20,0.5,MEX
+Mexico,3/22/20,0.5,MEX
+Mexico,3/23/20,0.5,MEX
+Mexico,3/24/20,0.5,MEX
+Mexico,3/25/20,0.5,MEX
+Mexico,3/26/20,0.5,MEX
+Mexico,3/27/20,0.5,MEX
+Mexico,3/28/20,0.5,MEX
+Mexico,3/29/20,0.5,MEX
+Mexico,3/30/20,0.5,MEX
+Mexico,3/5/20,0.5,MEX
+Mexico,3/6/20,0.5,MEX
+Mexico,3/8/20,0.5,MEX
+Mexico,3/9/20,0.5,MEX
+Mexico,4/2/20,0.5,MEX
+Moldova,1/23/20,0,MDA
+Moldova,2/2/20,0,MDA
+Moldova,2/23/20,0,MDA
+Moldova,2/25/20,0,MDA
+Moldova,2/27/20,0,MDA
+Moldova,3/10/20,0,MDA
+Moldova,3/11/20,1,MDA
+Moldova,3/12/20,1,MDA
+Moldova,3/13/20,1,MDA
+Moldova,3/14/20,1,MDA
+Moldova,3/15/20,1,MDA
+Moldova,3/16/20,1,MDA
+Moldova,3/17/20,1,MDA
+Moldova,3/18/20,1,MDA
+Moldova,3/19/20,1,MDA
+Moldova,3/2/20,1,MDA
+Moldova,3/20/20,1,MDA
+Moldova,3/21/20,1,MDA
+Moldova,3/22/20,1,MDA
+Moldova,3/23/20,1,MDA
+Moldova,3/24/20,1,MDA
+Moldova,3/25/20,1,MDA
+Moldova,3/26/20,1,MDA
+Moldova,3/27/20,1,MDA
+Moldova,3/28/20,1,MDA
+Moldova,3/29/20,1,MDA
+Moldova,3/30/20,1,MDA
+Moldova,3/5/20,1,MDA
+Moldova,3/6/20,1,MDA
+Moldova,3/8/20,1,MDA
+Moldova,3/9/20,1,MDA
+Moldova,4/2/20,1,MDA
+Monaco,1/23/20,0,MCO
+Monaco,2/2/20,0,MCO
+Monaco,2/23/20,0,MCO
+Monaco,2/25/20,0,MCO
+Monaco,2/27/20,0,MCO
+Monaco,3/10/20,0,MCO
+Monaco,3/11/20,0,MCO
+Monaco,3/12/20,0,MCO
+Monaco,3/13/20,0,MCO
+Monaco,3/14/20,0,MCO
+Monaco,3/15/20,0,MCO
+Monaco,3/16/20,0,MCO
+Monaco,3/17/20,1,MCO
+Monaco,3/18/20,1,MCO
+Monaco,3/19/20,1,MCO
+Monaco,3/2/20,1,MCO
+Monaco,3/20/20,1,MCO
+Monaco,3/21/20,1,MCO
+Monaco,3/22/20,1,MCO
+Monaco,3/23/20,1,MCO
+Monaco,3/24/20,1,MCO
+Monaco,3/25/20,1,MCO
+Monaco,3/26/20,1,MCO
+Monaco,3/27/20,1,MCO
+Monaco,3/28/20,1,MCO
+Monaco,3/29/20,1,MCO
+Monaco,3/30/20,1,MCO
+Monaco,3/5/20,1,MCO
+Monaco,3/6/20,1,MCO
+Monaco,3/8/20,1,MCO
+Monaco,3/9/20,1,MCO
+Monaco,4/2/20,1,MCO
+Mongolia,1/23/20,0,MNG
+Mongolia,2/2/20,0,MNG
+Mongolia,2/23/20,0,MNG
+Mongolia,2/25/20,0,MNG
+Mongolia,2/27/20,0,MNG
+Mongolia,3/10/20,1,MNG
+Mongolia,3/11/20,1,MNG
+Mongolia,3/12/20,1,MNG
+Mongolia,3/13/20,1,MNG
+Mongolia,3/14/20,1,MNG
+Mongolia,3/15/20,1,MNG
+Mongolia,3/16/20,1,MNG
+Mongolia,3/17/20,1,MNG
+Mongolia,3/18/20,1,MNG
+Mongolia,3/19/20,1,MNG
+Mongolia,3/2/20,1,MNG
+Mongolia,3/20/20,1,MNG
+Mongolia,3/21/20,1,MNG
+Mongolia,3/22/20,1,MNG
+Mongolia,3/23/20,1,MNG
+Mongolia,3/24/20,1,MNG
+Mongolia,3/25/20,1,MNG
+Mongolia,3/26/20,1,MNG
+Mongolia,3/27/20,1,MNG
+Mongolia,3/28/20,1,MNG
+Mongolia,3/29/20,1,MNG
+Mongolia,3/30/20,1,MNG
+Mongolia,3/5/20,1,MNG
+Mongolia,3/6/20,1,MNG
+Mongolia,3/8/20,1,MNG
+Mongolia,3/9/20,1,MNG
+Mongolia,4/2/20,1,MNG
+Montenegro,1/23/20,0,MNE
+Montenegro,2/2/20,0,MNE
+Montenegro,2/23/20,0,MNE
+Montenegro,2/25/20,0,MNE
+Montenegro,2/27/20,0,MNE
+Montenegro,3/10/20,0,MNE
+Montenegro,3/11/20,0,MNE
+Montenegro,3/12/20,0,MNE
+Montenegro,3/13/20,0,MNE
+Montenegro,3/14/20,0,MNE
+Montenegro,3/15/20,0,MNE
+Montenegro,3/16/20,0,MNE
+Montenegro,3/17/20,0,MNE
+Montenegro,3/18/20,0,MNE
+Montenegro,3/19/20,0,MNE
+Montenegro,3/2/20,0,MNE
+Montenegro,3/20/20,0,MNE
+Montenegro,3/21/20,0,MNE
+Montenegro,3/22/20,0,MNE
+Montenegro,3/23/20,0,MNE
+Montenegro,3/24/20,1,MNE
+Montenegro,3/25/20,1,MNE
+Montenegro,3/26/20,1,MNE
+Montenegro,3/27/20,1,MNE
+Montenegro,3/28/20,1,MNE
+Montenegro,3/29/20,1,MNE
+Montenegro,3/30/20,1,MNE
+Montenegro,3/5/20,1,MNE
+Montenegro,3/6/20,1,MNE
+Montenegro,3/8/20,1,MNE
+Montenegro,3/9/20,1,MNE
+Montenegro,4/2/20,1,MNE
+Morocco,1/23/20,0,MAR
+Morocco,2/2/20,0,MAR
+Morocco,2/23/20,0,MAR
+Morocco,2/25/20,0,MAR
+Morocco,2/27/20,0,MAR
+Morocco,3/10/20,0,MAR
+Morocco,3/11/20,0,MAR
+Morocco,3/12/20,0,MAR
+Morocco,3/13/20,0,MAR
+Morocco,3/14/20,0,MAR
+Morocco,3/15/20,0,MAR
+Morocco,3/16/20,1,MAR
+Morocco,3/17/20,1,MAR
+Morocco,3/18/20,1,MAR
+Morocco,3/19/20,1,MAR
+Morocco,3/2/20,1,MAR
+Morocco,3/20/20,1,MAR
+Morocco,3/21/20,1,MAR
+Morocco,3/22/20,1,MAR
+Morocco,3/23/20,1,MAR
+Morocco,3/24/20,1,MAR
+Morocco,3/25/20,1,MAR
+Morocco,3/26/20,1,MAR
+Morocco,3/27/20,1,MAR
+Morocco,3/28/20,1,MAR
+Morocco,3/29/20,1,MAR
+Morocco,3/30/20,1,MAR
+Morocco,3/5/20,1,MAR
+Morocco,3/6/20,1,MAR
+Morocco,3/8/20,1,MAR
+Morocco,3/9/20,1,MAR
+Morocco,4/2/20,1,MAR
+Namibia,1/23/20,0,NAM
+Namibia,2/2/20,0,NAM
+Namibia,2/23/20,0,NAM
+Namibia,2/25/20,0,NAM
+Namibia,2/27/20,0,NAM
+Namibia,3/10/20,0,NAM
+Namibia,3/11/20,0,NAM
+Namibia,3/12/20,0,NAM
+Namibia,3/13/20,0,NAM
+Namibia,3/14/20,1,NAM
+Namibia,3/15/20,1,NAM
+Namibia,3/16/20,1,NAM
+Namibia,3/17/20,1,NAM
+Namibia,3/18/20,1,NAM
+Namibia,3/19/20,1,NAM
+Namibia,3/2/20,1,NAM
+Namibia,3/20/20,1,NAM
+Namibia,3/21/20,1,NAM
+Namibia,3/22/20,1,NAM
+Namibia,3/23/20,1,NAM
+Namibia,3/24/20,1,NAM
+Namibia,3/25/20,1,NAM
+Namibia,3/26/20,1,NAM
+Namibia,3/27/20,1,NAM
+Namibia,3/28/20,1,NAM
+Namibia,3/29/20,1,NAM
+Namibia,3/30/20,1,NAM
+Namibia,3/5/20,1,NAM
+Namibia,3/6/20,1,NAM
+Namibia,3/8/20,1,NAM
+Namibia,3/9/20,1,NAM
+Namibia,4/2/20,1,NAM
+Nepal,1/23/20,0,NPL
+Nepal,2/2/20,0,NPL
+Nepal,2/23/20,0,NPL
+Nepal,2/25/20,0,NPL
+Nepal,2/27/20,0,NPL
+Nepal,3/10/20,0,NPL
+Nepal,3/11/20,0,NPL
+Nepal,3/12/20,0,NPL
+Nepal,3/13/20,0,NPL
+Nepal,3/14/20,0,NPL
+Nepal,3/15/20,0,NPL
+Nepal,3/16/20,0,NPL
+Nepal,3/17/20,0,NPL
+Nepal,3/18/20,0,NPL
+Nepal,3/19/20,0,NPL
+Nepal,3/2/20,0,NPL
+Nepal,3/20/20,0,NPL
+Nepal,3/21/20,0,NPL
+Nepal,3/22/20,0,NPL
+Nepal,3/23/20,0,NPL
+Nepal,3/24/20,1,NPL
+Nepal,3/25/20,1,NPL
+Nepal,3/26/20,1,NPL
+Nepal,3/27/20,1,NPL
+Nepal,3/28/20,1,NPL
+Nepal,3/29/20,1,NPL
+Nepal,3/30/20,1,NPL
+Nepal,3/5/20,1,NPL
+Nepal,3/6/20,1,NPL
+Nepal,3/8/20,1,NPL
+Nepal,3/9/20,1,NPL
+Nepal,4/2/20,1,NPL
+Netherlands,1/23/20,0,NLD
+Netherlands,2/2/20,0,NLD
+Netherlands,2/23/20,0,NLD
+Netherlands,2/25/20,0,NLD
+Netherlands,2/27/20,0,NLD
+Netherlands,3/10/20,0,NLD
+Netherlands,3/11/20,0,NLD
+Netherlands,3/12/20,0,NLD
+Netherlands,3/13/20,0,NLD
+Netherlands,3/14/20,0,NLD
+Netherlands,3/15/20,0,NLD
+Netherlands,3/16/20,0.5,NLD
+Netherlands,3/17/20,0.5,NLD
+Netherlands,3/18/20,0.5,NLD
+Netherlands,3/19/20,0.5,NLD
+Netherlands,3/2/20,0.5,NLD
+Netherlands,3/20/20,0.5,NLD
+Netherlands,3/21/20,0.5,NLD
+Netherlands,3/22/20,0.5,NLD
+Netherlands,3/23/20,0.5,NLD
+Netherlands,3/24/20,1,NLD
+Netherlands,3/25/20,1,NLD
+Netherlands,3/26/20,1,NLD
+Netherlands,3/27/20,1,NLD
+Netherlands,3/28/20,1,NLD
+Netherlands,3/29/20,1,NLD
+Netherlands,3/30/20,1,NLD
+Netherlands,3/5/20,1,NLD
+Netherlands,3/6/20,1,NLD
+Netherlands,3/8/20,1,NLD
+Netherlands,3/9/20,1,NLD
+Netherlands,4/2/20,1,NLD
+New Zealand,1/23/20,0,NZL
+New Zealand,2/2/20,0,NZL
+New Zealand,2/23/20,0,NZL
+New Zealand,2/25/20,0,NZL
+New Zealand,2/27/20,0,NZL
+New Zealand,3/10/20,0,NZL
+New Zealand,3/11/20,0,NZL
+New Zealand,3/12/20,0,NZL
+New Zealand,3/13/20,0,NZL
+New Zealand,3/14/20,0,NZL
+New Zealand,3/15/20,0,NZL
+New Zealand,3/16/20,0,NZL
+New Zealand,3/17/20,0,NZL
+New Zealand,3/18/20,0,NZL
+New Zealand,3/19/20,0,NZL
+New Zealand,3/2/20,0,NZL
+New Zealand,3/20/20,0,NZL
+New Zealand,3/21/20,0,NZL
+New Zealand,3/22/20,0,NZL
+New Zealand,3/23/20,0,NZL
+New Zealand,3/24/20,0,NZL
+New Zealand,3/25/20,1,NZL
+New Zealand,3/26/20,1,NZL
+New Zealand,3/27/20,1,NZL
+New Zealand,3/28/20,1,NZL
+New Zealand,3/29/20,1,NZL
+New Zealand,3/30/20,1,NZL
+New Zealand,3/5/20,1,NZL
+New Zealand,3/6/20,1,NZL
+New Zealand,3/8/20,1,NZL
+New Zealand,3/9/20,1,NZL
+New Zealand,4/2/20,1,NZL
+Nigeria,1/23/20,0,NGA
+Nigeria,2/2/20,0,NGA
+Nigeria,2/23/20,0,NGA
+Nigeria,2/25/20,0,NGA
+Nigeria,2/27/20,0,NGA
+Nigeria,3/10/20,0,NGA
+Nigeria,3/11/20,0,NGA
+Nigeria,3/12/20,0,NGA
+Nigeria,3/13/20,0,NGA
+Nigeria,3/14/20,0,NGA
+Nigeria,3/15/20,0,NGA
+Nigeria,3/16/20,0,NGA
+Nigeria,3/17/20,0,NGA
+Nigeria,3/18/20,0,NGA
+Nigeria,3/19/20,0,NGA
+Nigeria,3/2/20,0,NGA
+Nigeria,3/20/20,0,NGA
+Nigeria,3/21/20,0,NGA
+Nigeria,3/22/20,0,NGA
+Nigeria,3/23/20,0,NGA
+Nigeria,3/24/20,0,NGA
+Nigeria,3/25/20,1,NGA
+Nigeria,3/26/20,1,NGA
+Nigeria,3/27/20,1,NGA
+Nigeria,3/28/20,1,NGA
+Nigeria,3/29/20,1,NGA
+Nigeria,3/30/20,1,NGA
+Nigeria,3/5/20,1,NGA
+Nigeria,3/6/20,1,NGA
+Nigeria,3/8/20,1,NGA
+Nigeria,3/9/20,1,NGA
+Nigeria,4/2/20,1,NGA
+Norway,1/23/20,0,NOR
+Norway,2/2/20,0,NOR
+Norway,2/23/20,0,NOR
+Norway,2/25/20,0,NOR
+Norway,2/27/20,0,NOR
+Norway,3/10/20,0,NOR
+Norway,3/11/20,0,NOR
+Norway,3/12/20,1,NOR
+Norway,3/13/20,1,NOR
+Norway,3/14/20,1,NOR
+Norway,3/15/20,1,NOR
+Norway,3/16/20,1,NOR
+Norway,3/17/20,1,NOR
+Norway,3/18/20,1,NOR
+Norway,3/19/20,1,NOR
+Norway,3/2/20,1,NOR
+Norway,3/20/20,1,NOR
+Norway,3/21/20,1,NOR
+Norway,3/22/20,1,NOR
+Norway,3/23/20,1,NOR
+Norway,3/24/20,1,NOR
+Norway,3/25/20,1,NOR
+Norway,3/26/20,1,NOR
+Norway,3/27/20,1,NOR
+Norway,3/28/20,1,NOR
+Norway,3/29/20,1,NOR
+Norway,3/30/20,1,NOR
+Norway,3/5/20,1,NOR
+Norway,3/6/20,1,NOR
+Norway,3/8/20,1,NOR
+Norway,3/9/20,1,NOR
+Norway,4/2/20,1,NOR
+Oman,1/23/20,0,OMN
+Oman,2/2/20,0,OMN
+Oman,2/23/20,0,OMN
+Oman,2/25/20,0,OMN
+Oman,2/27/20,0,OMN
+Oman,3/10/20,0,OMN
+Oman,3/11/20,0,OMN
+Oman,3/12/20,0,OMN
+Oman,3/13/20,0,OMN
+Oman,3/14/20,0,OMN
+Oman,3/15/20,0,OMN
+Oman,3/16/20,0,OMN
+Oman,3/17/20,0,OMN
+Oman,3/18/20,0,OMN
+Oman,3/19/20,0,OMN
+Oman,3/2/20,0,OMN
+Oman,3/20/20,0,OMN
+Oman,3/21/20,0,OMN
+Oman,3/22/20,0,OMN
+Oman,3/23/20,0,OMN
+Oman,3/24/20,0,OMN
+Oman,3/25/20,0,OMN
+Oman,3/26/20,0,OMN
+Oman,3/27/20,0,OMN
+Oman,3/28/20,0,OMN
+Oman,3/29/20,0.5,OMN
+Oman,3/30/20,0.5,OMN
+Oman,3/5/20,0.5,OMN
+Oman,3/6/20,0.5,OMN
+Oman,3/8/20,0.5,OMN
+Oman,3/9/20,0.5,OMN
+Oman,4/2/20,0.5,OMN
+Pakistan,1/23/20,0,PAK
+Pakistan,2/2/20,0,PAK
+Pakistan,2/23/20,0,PAK
+Pakistan,2/25/20,0,PAK
+Pakistan,2/27/20,0,PAK
+Pakistan,3/10/20,0,PAK
+Pakistan,3/11/20,0,PAK
+Pakistan,3/12/20,0,PAK
+Pakistan,3/13/20,0,PAK
+Pakistan,3/14/20,0,PAK
+Pakistan,3/15/20,0,PAK
+Pakistan,3/16/20,0,PAK
+Pakistan,3/17/20,0,PAK
+Pakistan,3/18/20,0,PAK
+Pakistan,3/19/20,0,PAK
+Pakistan,3/2/20,0,PAK
+Pakistan,3/20/20,0,PAK
+Pakistan,3/21/20,0,PAK
+Pakistan,3/22/20,0,PAK
+Pakistan,3/23/20,0,PAK
+Pakistan,3/24/20,0,PAK
+Pakistan,3/25/20,0,PAK
+Pakistan,3/26/20,1,PAK
+Pakistan,3/27/20,1,PAK
+Pakistan,3/28/20,1,PAK
+Pakistan,3/29/20,1,PAK
+Pakistan,3/30/20,1,PAK
+Pakistan,3/5/20,1,PAK
+Pakistan,3/6/20,1,PAK
+Pakistan,3/8/20,1,PAK
+Pakistan,3/9/20,1,PAK
+Pakistan,4/2/20,1,PAK
+Palestine,1/23/20,0,PSE
+Palestine,2/2/20,0,PSE
+Palestine,2/23/20,0,PSE
+Palestine,2/25/20,0,PSE
+Palestine,2/27/20,0,PSE
+Palestine,3/10/20,0,PSE
+Palestine,3/11/20,0,PSE
+Palestine,3/12/20,0,PSE
+Palestine,3/13/20,0,PSE
+Palestine,3/14/20,0,PSE
+Palestine,3/15/20,0,PSE
+Palestine,3/16/20,0,PSE
+Palestine,3/17/20,0,PSE
+Palestine,3/18/20,0,PSE
+Palestine,3/19/20,0,PSE
+Palestine,3/2/20,0,PSE
+Palestine,3/20/20,0,PSE
+Palestine,3/21/20,0,PSE
+Palestine,3/22/20,0,PSE
+Palestine,3/23/20,0,PSE
+Palestine,3/24/20,0,PSE
+Palestine,3/25/20,0,PSE
+Palestine,3/26/20,0,PSE
+Palestine,3/27/20,0,PSE
+Palestine,3/28/20,0,PSE
+Palestine,3/29/20,0,PSE
+Palestine,3/30/20,0,PSE
+Palestine,3/5/20,1,PSE
+Palestine,3/6/20,1,PSE
+Palestine,3/8/20,1,PSE
+Palestine,3/9/20,1,PSE
+Palestine,4/2/20,1,PSE
+Panama,1/23/20,0,PAN
+Panama,2/2/20,0,PAN
+Panama,2/23/20,0,PAN
+Panama,2/25/20,0,PAN
+Panama,2/27/20,0,PAN
+Panama,3/10/20,0,PAN
+Panama,3/11/20,0,PAN
+Panama,3/12/20,0,PAN
+Panama,3/13/20,0,PAN
+Panama,3/14/20,0,PAN
+Panama,3/15/20,0,PAN
+Panama,3/16/20,0,PAN
+Panama,3/17/20,0,PAN
+Panama,3/18/20,0,PAN
+Panama,3/19/20,0,PAN
+Panama,3/2/20,0,PAN
+Panama,3/20/20,0,PAN
+Panama,3/21/20,0,PAN
+Panama,3/22/20,0,PAN
+Panama,3/23/20,0,PAN
+Panama,3/24/20,0,PAN
+Panama,3/25/20,1,PAN
+Panama,3/26/20,1,PAN
+Panama,3/27/20,1,PAN
+Panama,3/28/20,1,PAN
+Panama,3/29/20,1,PAN
+Panama,3/30/20,1,PAN
+Panama,3/5/20,1,PAN
+Panama,3/6/20,1,PAN
+Panama,3/8/20,1,PAN
+Panama,3/9/20,1,PAN
+Panama,4/2/20,1,PAN
+Paraguay,1/23/20,0,PRY
+Paraguay,2/2/20,0,PRY
+Paraguay,2/23/20,0,PRY
+Paraguay,2/25/20,0,PRY
+Paraguay,2/27/20,0,PRY
+Paraguay,3/10/20,0,PRY
+Paraguay,3/11/20,0,PRY
+Paraguay,3/12/20,0,PRY
+Paraguay,3/13/20,0,PRY
+Paraguay,3/14/20,0,PRY
+Paraguay,3/15/20,0.5,PRY
+Paraguay,3/16/20,0.5,PRY
+Paraguay,3/17/20,0.5,PRY
+Paraguay,3/18/20,0.5,PRY
+Paraguay,3/19/20,0.5,PRY
+Paraguay,3/2/20,0.5,PRY
+Paraguay,3/20/20,0.5,PRY
+Paraguay,3/21/20,0.5,PRY
+Paraguay,3/22/20,0.5,PRY
+Paraguay,3/23/20,0.5,PRY
+Paraguay,3/24/20,0.5,PRY
+Paraguay,3/25/20,0.5,PRY
+Paraguay,3/26/20,0.5,PRY
+Paraguay,3/27/20,0.5,PRY
+Paraguay,3/28/20,0.5,PRY
+Paraguay,3/29/20,0.5,PRY
+Paraguay,3/30/20,0.5,PRY
+Paraguay,3/5/20,0.5,PRY
+Paraguay,3/6/20,0.5,PRY
+Paraguay,3/8/20,0.5,PRY
+Paraguay,3/9/20,0.5,PRY
+Paraguay,4/2/20,0.5,PRY
+Peru,1/23/20,0,PER
+Peru,2/2/20,0,PER
+Peru,2/23/20,0,PER
+Peru,2/25/20,0,PER
+Peru,2/27/20,0,PER
+Peru,3/10/20,1,PER
+Peru,3/11/20,1,PER
+Peru,3/12/20,1,PER
+Peru,3/13/20,1,PER
+Peru,3/14/20,1,PER
+Peru,3/15/20,1,PER
+Peru,3/16/20,1,PER
+Peru,3/17/20,1,PER
+Peru,3/18/20,1,PER
+Peru,3/19/20,1,PER
+Peru,3/2/20,1,PER
+Peru,3/20/20,1,PER
+Peru,3/21/20,1,PER
+Peru,3/22/20,1,PER
+Peru,3/23/20,1,PER
+Peru,3/24/20,1,PER
+Peru,3/25/20,1,PER
+Peru,3/26/20,1,PER
+Peru,3/27/20,1,PER
+Peru,3/28/20,1,PER
+Peru,3/29/20,1,PER
+Peru,3/30/20,1,PER
+Peru,3/5/20,1,PER
+Peru,3/6/20,1,PER
+Peru,3/8/20,1,PER
+Peru,3/9/20,1,PER
+Peru,4/2/20,1,PER
+Philippines,1/23/20,0,PHL
+Philippines,2/2/20,0,PHL
+Philippines,2/23/20,0,PHL
+Philippines,2/25/20,0,PHL
+Philippines,2/27/20,0,PHL
+Philippines,3/10/20,0,PHL
+Philippines,3/11/20,0,PHL
+Philippines,3/12/20,0,PHL
+Philippines,3/13/20,0,PHL
+Philippines,3/14/20,0,PHL
+Philippines,3/15/20,0,PHL
+Philippines,3/16/20,0.5,PHL
+Philippines,3/17/20,0.5,PHL
+Philippines,3/18/20,0.5,PHL
+Philippines,3/19/20,0.5,PHL
+Philippines,3/2/20,0.5,PHL
+Philippines,3/20/20,0.5,PHL
+Philippines,3/21/20,0.5,PHL
+Philippines,3/22/20,0.5,PHL
+Philippines,3/23/20,0.5,PHL
+Philippines,3/24/20,0.5,PHL
+Philippines,3/25/20,0.5,PHL
+Philippines,3/26/20,0.5,PHL
+Philippines,3/27/20,0.5,PHL
+Philippines,3/28/20,0.5,PHL
+Philippines,3/29/20,0.5,PHL
+Philippines,3/30/20,0.5,PHL
+Philippines,3/5/20,0.5,PHL
+Philippines,3/6/20,0.5,PHL
+Philippines,3/8/20,0.5,PHL
+Philippines,3/9/20,0.5,PHL
+Philippines,4/2/20,0.5,PHL
+Poland,1/23/20,0,POL
+Poland,2/2/20,0,POL
+Poland,2/23/20,0,POL
+Poland,2/25/20,0,POL
+Poland,2/27/20,0,POL
+Poland,3/10/20,0,POL
+Poland,3/11/20,0,POL
+Poland,3/12/20,1,POL
+Poland,3/13/20,1,POL
+Poland,3/14/20,1,POL
+Poland,3/15/20,1,POL
+Poland,3/16/20,1,POL
+Poland,3/17/20,1,POL
+Poland,3/18/20,1,POL
+Poland,3/19/20,1,POL
+Poland,3/2/20,1,POL
+Poland,3/20/20,1,POL
+Poland,3/21/20,1,POL
+Poland,3/22/20,1,POL
+Poland,3/23/20,1,POL
+Poland,3/24/20,1,POL
+Poland,3/25/20,1,POL
+Poland,3/26/20,1,POL
+Poland,3/27/20,1,POL
+Poland,3/28/20,1,POL
+Poland,3/29/20,1,POL
+Poland,3/30/20,1,POL
+Poland,3/5/20,1,POL
+Poland,3/6/20,1,POL
+Poland,3/8/20,1,POL
+Poland,3/9/20,1,POL
+Poland,4/2/20,1,POL
+Portugal,1/23/20,0,PRT
+Portugal,2/2/20,0,PRT
+Portugal,2/23/20,0,PRT
+Portugal,2/25/20,0,PRT
+Portugal,2/27/20,0,PRT
+Portugal,3/10/20,0,PRT
+Portugal,3/11/20,0,PRT
+Portugal,3/12/20,0,PRT
+Portugal,3/13/20,0,PRT
+Portugal,3/14/20,0,PRT
+Portugal,3/15/20,0,PRT
+Portugal,3/16/20,0,PRT
+Portugal,3/17/20,0,PRT
+Portugal,3/18/20,1,PRT
+Portugal,3/19/20,1,PRT
+Portugal,3/2/20,1,PRT
+Portugal,3/20/20,1,PRT
+Portugal,3/21/20,1,PRT
+Portugal,3/22/20,1,PRT
+Portugal,3/23/20,1,PRT
+Portugal,3/24/20,1,PRT
+Portugal,3/25/20,1,PRT
+Portugal,3/26/20,1,PRT
+Portugal,3/27/20,1,PRT
+Portugal,3/28/20,1,PRT
+Portugal,3/29/20,1,PRT
+Portugal,3/30/20,1,PRT
+Portugal,3/5/20,1,PRT
+Portugal,3/6/20,1,PRT
+Portugal,3/8/20,1,PRT
+Portugal,3/9/20,1,PRT
+Portugal,4/2/20,1,PRT
+Qatar,1/23/20,0,QAT
+Qatar,2/2/20,0,QAT
+Qatar,2/23/20,0,QAT
+Qatar,2/25/20,0,QAT
+Qatar,2/27/20,0,QAT
+Qatar,3/10/20,0,QAT
+Qatar,3/11/20,1,QAT
+Qatar,3/12/20,1,QAT
+Qatar,3/13/20,1,QAT
+Qatar,3/14/20,1,QAT
+Qatar,3/15/20,1,QAT
+Qatar,3/16/20,1,QAT
+Qatar,3/17/20,1,QAT
+Qatar,3/18/20,1,QAT
+Qatar,3/19/20,1,QAT
+Qatar,3/2/20,1,QAT
+Qatar,3/20/20,1,QAT
+Qatar,3/21/20,1,QAT
+Qatar,3/22/20,1,QAT
+Qatar,3/23/20,1,QAT
+Qatar,3/24/20,1,QAT
+Qatar,3/25/20,1,QAT
+Qatar,3/26/20,1,QAT
+Qatar,3/27/20,1,QAT
+Qatar,3/28/20,1,QAT
+Qatar,3/29/20,1,QAT
+Qatar,3/30/20,1,QAT
+Qatar,3/5/20,1,QAT
+Qatar,3/6/20,1,QAT
+Qatar,3/8/20,1,QAT
+Qatar,3/9/20,1,QAT
+Qatar,4/2/20,1,QAT
+Romania,1/23/20,0,ROU
+Romania,2/2/20,0,ROU
+Romania,2/23/20,0,ROU
+Romania,2/25/20,0,ROU
+Romania,2/27/20,0,ROU
+Romania,3/10/20,0,ROU
+Romania,3/11/20,0,ROU
+Romania,3/12/20,0,ROU
+Romania,3/13/20,0,ROU
+Romania,3/14/20,0,ROU
+Romania,3/15/20,0,ROU
+Romania,3/16/20,0,ROU
+Romania,3/17/20,0,ROU
+Romania,3/18/20,0,ROU
+Romania,3/19/20,0,ROU
+Romania,3/2/20,0,ROU
+Romania,3/20/20,0,ROU
+Romania,3/21/20,0,ROU
+Romania,3/22/20,0,ROU
+Romania,3/23/20,0,ROU
+Romania,3/24/20,0,ROU
+Romania,3/25/20,1,ROU
+Romania,3/26/20,1,ROU
+Romania,3/27/20,1,ROU
+Romania,3/28/20,1,ROU
+Romania,3/29/20,1,ROU
+Romania,3/30/20,1,ROU
+Romania,3/5/20,1,ROU
+Romania,3/6/20,1,ROU
+Romania,3/8/20,1,ROU
+Romania,3/9/20,1,ROU
+Romania,4/2/20,1,ROU
+Russia,1/23/20,0,RUS
+Russia,2/2/20,0,RUS
+Russia,2/23/20,0,RUS
+Russia,2/25/20,0,RUS
+Russia,2/27/20,0,RUS
+Russia,3/10/20,0,RUS
+Russia,3/11/20,0,RUS
+Russia,3/12/20,0,RUS
+Russia,3/13/20,0,RUS
+Russia,3/14/20,0,RUS
+Russia,3/15/20,0,RUS
+Russia,3/16/20,0,RUS
+Russia,3/17/20,0,RUS
+Russia,3/18/20,0,RUS
+Russia,3/19/20,0,RUS
+Russia,3/2/20,0,RUS
+Russia,3/20/20,0,RUS
+Russia,3/21/20,0,RUS
+Russia,3/22/20,0,RUS
+Russia,3/23/20,0,RUS
+Russia,3/24/20,0,RUS
+Russia,3/25/20,0,RUS
+Russia,3/26/20,0,RUS
+Russia,3/27/20,1,RUS
+Russia,3/28/20,1,RUS
+Russia,3/29/20,1,RUS
+Russia,3/30/20,1,RUS
+Russia,3/5/20,1,RUS
+Russia,3/6/20,1,RUS
+Russia,3/8/20,1,RUS
+Russia,3/9/20,1,RUS
+Russia,4/2/20,1,RUS
+Rwanda,1/23/20,0,RWA
+Rwanda,2/2/20,0,RWA
+Rwanda,2/23/20,0,RWA
+Rwanda,2/25/20,0,RWA
+Rwanda,2/27/20,0,RWA
+Rwanda,3/10/20,0,RWA
+Rwanda,3/11/20,0,RWA
+Rwanda,3/12/20,0,RWA
+Rwanda,3/13/20,0,RWA
+Rwanda,3/14/20,0,RWA
+Rwanda,3/15/20,0,RWA
+Rwanda,3/16/20,1,RWA
+Rwanda,3/17/20,1,RWA
+Rwanda,3/18/20,1,RWA
+Rwanda,3/19/20,1,RWA
+Rwanda,3/2/20,1,RWA
+Rwanda,3/20/20,1,RWA
+Rwanda,3/21/20,1,RWA
+Rwanda,3/22/20,1,RWA
+Rwanda,3/23/20,1,RWA
+Rwanda,3/24/20,1,RWA
+Rwanda,3/25/20,1,RWA
+Rwanda,3/26/20,1,RWA
+Rwanda,3/27/20,1,RWA
+Rwanda,3/28/20,1,RWA
+Rwanda,3/29/20,1,RWA
+Rwanda,3/30/20,1,RWA
+Rwanda,3/5/20,1,RWA
+Rwanda,3/6/20,1,RWA
+Rwanda,3/8/20,1,RWA
+Rwanda,3/9/20,1,RWA
+Rwanda,4/2/20,1,RWA
+Saint Lucia,1/23/20,0,LCA
+Saint Lucia,2/2/20,0,LCA
+Saint Lucia,2/23/20,0,LCA
+Saint Lucia,2/25/20,0,LCA
+Saint Lucia,2/27/20,0,LCA
+Saint Lucia,3/10/20,0,LCA
+Saint Lucia,3/11/20,0,LCA
+Saint Lucia,3/12/20,0,LCA
+Saint Lucia,3/13/20,0,LCA
+Saint Lucia,3/14/20,0,LCA
+Saint Lucia,3/15/20,0,LCA
+Saint Lucia,3/16/20,0,LCA
+Saint Lucia,3/17/20,0,LCA
+Saint Lucia,3/18/20,0,LCA
+Saint Lucia,3/19/20,0,LCA
+Saint Lucia,3/2/20,0,LCA
+Saint Lucia,3/20/20,1,LCA
+Saint Lucia,3/21/20,1,LCA
+Saint Lucia,3/22/20,1,LCA
+Saint Lucia,3/23/20,1,LCA
+Saint Lucia,3/24/20,1,LCA
+Saint Lucia,3/25/20,1,LCA
+Saint Lucia,3/26/20,1,LCA
+Saint Lucia,3/27/20,1,LCA
+Saint Lucia,3/28/20,1,LCA
+Saint Lucia,3/29/20,1,LCA
+Saint Lucia,3/30/20,1,LCA
+Saint Lucia,3/5/20,1,LCA
+Saint Lucia,3/6/20,1,LCA
+Saint Lucia,3/8/20,1,LCA
+Saint Lucia,3/9/20,1,LCA
+Saint Lucia,4/2/20,1,LCA
+San Marino,1/23/20,0,SMR
+San Marino,2/2/20,0,SMR
+San Marino,2/23/20,0,SMR
+San Marino,2/25/20,0,SMR
+San Marino,2/27/20,0,SMR
+San Marino,3/10/20,0,SMR
+San Marino,3/11/20,0,SMR
+San Marino,3/12/20,0,SMR
+San Marino,3/13/20,0,SMR
+San Marino,3/14/20,0,SMR
+San Marino,3/15/20,0,SMR
+San Marino,3/16/20,0,SMR
+San Marino,3/17/20,0,SMR
+San Marino,3/18/20,0,SMR
+San Marino,3/19/20,0,SMR
+San Marino,3/2/20,0,SMR
+San Marino,3/20/20,0,SMR
+San Marino,3/21/20,0,SMR
+San Marino,3/22/20,0,SMR
+San Marino,3/23/20,0,SMR
+San Marino,3/24/20,0,SMR
+San Marino,3/25/20,0,SMR
+San Marino,3/26/20,0,SMR
+San Marino,3/27/20,0,SMR
+San Marino,3/28/20,0,SMR
+San Marino,3/29/20,0,SMR
+San Marino,3/30/20,0,SMR
+San Marino,3/5/20,0,SMR
+San Marino,3/6/20,0,SMR
+San Marino,3/8/20,0,SMR
+San Marino,3/9/20,1,SMR
+San Marino,4/2/20,1,SMR
+Saudi Arabia,1/23/20,0,SAU
+Saudi Arabia,2/2/20,0,SAU
+Saudi Arabia,2/23/20,0,SAU
+Saudi Arabia,2/25/20,0,SAU
+Saudi Arabia,2/27/20,0,SAU
+Saudi Arabia,3/10/20,0,SAU
+Saudi Arabia,3/11/20,0,SAU
+Saudi Arabia,3/12/20,0,SAU
+Saudi Arabia,3/13/20,0,SAU
+Saudi Arabia,3/14/20,0,SAU
+Saudi Arabia,3/15/20,1,SAU
+Saudi Arabia,3/16/20,1,SAU
+Saudi Arabia,3/17/20,1,SAU
+Saudi Arabia,3/18/20,1,SAU
+Saudi Arabia,3/19/20,1,SAU
+Saudi Arabia,3/2/20,1,SAU
+Saudi Arabia,3/20/20,1,SAU
+Saudi Arabia,3/21/20,1,SAU
+Saudi Arabia,3/22/20,1,SAU
+Saudi Arabia,3/23/20,1,SAU
+Saudi Arabia,3/24/20,1,SAU
+Saudi Arabia,3/25/20,1,SAU
+Saudi Arabia,3/26/20,1,SAU
+Saudi Arabia,3/27/20,1,SAU
+Saudi Arabia,3/28/20,1,SAU
+Saudi Arabia,3/29/20,1,SAU
+Saudi Arabia,3/30/20,1,SAU
+Saudi Arabia,3/5/20,1,SAU
+Saudi Arabia,3/6/20,1,SAU
+Saudi Arabia,3/8/20,1,SAU
+Saudi Arabia,3/9/20,1,SAU
+Saudi Arabia,4/2/20,1,SAU
+Senegal,1/23/20,0,SEN
+Senegal,2/2/20,0,SEN
+Senegal,2/23/20,0,SEN
+Senegal,2/25/20,0,SEN
+Senegal,2/27/20,0,SEN
+Senegal,3/10/20,0,SEN
+Senegal,3/11/20,0,SEN
+Senegal,3/12/20,0,SEN
+Senegal,3/13/20,0,SEN
+Senegal,3/14/20,0,SEN
+Senegal,3/15/20,0,SEN
+Senegal,3/16/20,0,SEN
+Senegal,3/17/20,0,SEN
+Senegal,3/18/20,0,SEN
+Senegal,3/19/20,0,SEN
+Senegal,3/2/20,0,SEN
+Senegal,3/20/20,0,SEN
+Senegal,3/21/20,0,SEN
+Senegal,3/22/20,0,SEN
+Senegal,3/23/20,0,SEN
+Senegal,3/24/20,0.5,SEN
+Senegal,3/25/20,0.5,SEN
+Senegal,3/26/20,0.5,SEN
+Senegal,3/27/20,0.5,SEN
+Senegal,3/28/20,0.5,SEN
+Senegal,3/29/20,0.5,SEN
+Senegal,3/30/20,0.5,SEN
+Senegal,3/5/20,0.5,SEN
+Senegal,3/6/20,0.5,SEN
+Senegal,3/8/20,0.5,SEN
+Senegal,3/9/20,0.5,SEN
+Senegal,4/2/20,0.5,SEN
+Serbia,1/23/20,0,SRB
+Serbia,2/2/20,0,SRB
+Serbia,2/23/20,0,SRB
+Serbia,2/25/20,0,SRB
+Serbia,2/27/20,0,SRB
+Serbia,3/10/20,0,SRB
+Serbia,3/11/20,0,SRB
+Serbia,3/12/20,0,SRB
+Serbia,3/13/20,0,SRB
+Serbia,3/14/20,0,SRB
+Serbia,3/15/20,1,SRB
+Serbia,3/16/20,1,SRB
+Serbia,3/17/20,1,SRB
+Serbia,3/18/20,1,SRB
+Serbia,3/19/20,1,SRB
+Serbia,3/2/20,1,SRB
+Serbia,3/20/20,1,SRB
+Serbia,3/21/20,1,SRB
+Serbia,3/22/20,1,SRB
+Serbia,3/23/20,1,SRB
+Serbia,3/24/20,1,SRB
+Serbia,3/25/20,1,SRB
+Serbia,3/26/20,1,SRB
+Serbia,3/27/20,1,SRB
+Serbia,3/28/20,1,SRB
+Serbia,3/29/20,1,SRB
+Serbia,3/30/20,1,SRB
+Serbia,3/5/20,1,SRB
+Serbia,3/6/20,1,SRB
+Serbia,3/8/20,1,SRB
+Serbia,3/9/20,1,SRB
+Serbia,4/2/20,1,SRB
+Singapore,1/23/20,0,SGP
+Singapore,2/2/20,0,SGP
+Singapore,2/23/20,0,SGP
+Singapore,2/25/20,0,SGP
+Singapore,2/27/20,0,SGP
+Singapore,3/10/20,0,SGP
+Singapore,3/11/20,0,SGP
+Singapore,3/12/20,0,SGP
+Singapore,3/13/20,0,SGP
+Singapore,3/14/20,0,SGP
+Singapore,3/15/20,0,SGP
+Singapore,3/16/20,0,SGP
+Singapore,3/17/20,0,SGP
+Singapore,3/18/20,0,SGP
+Singapore,3/19/20,0,SGP
+Singapore,3/2/20,0,SGP
+Singapore,3/20/20,0,SGP
+Singapore,3/21/20,0,SGP
+Singapore,3/22/20,0,SGP
+Singapore,3/23/20,0,SGP
+Singapore,3/24/20,0,SGP
+Singapore,3/25/20,0,SGP
+Singapore,3/26/20,0.5,SGP
+Singapore,3/27/20,0.5,SGP
+Singapore,3/28/20,0.5,SGP
+Singapore,3/29/20,0.5,SGP
+Singapore,3/30/20,0.5,SGP
+Singapore,3/5/20,0.5,SGP
+Singapore,3/6/20,0.5,SGP
+Singapore,3/8/20,0.5,SGP
+Singapore,3/9/20,0.5,SGP
+Singapore,4/2/20,0.5,SGP
+Slovakia,1/23/20,0,SVK
+Slovakia,2/2/20,0,SVK
+Slovakia,2/23/20,0,SVK
+Slovakia,2/25/20,0,SVK
+Slovakia,2/27/20,0,SVK
+Slovakia,3/10/20,0,SVK
+Slovakia,3/11/20,0,SVK
+Slovakia,3/12/20,0,SVK
+Slovakia,3/13/20,0,SVK
+Slovakia,3/14/20,0,SVK
+Slovakia,3/15/20,0,SVK
+Slovakia,3/16/20,0,SVK
+Slovakia,3/17/20,0,SVK
+Slovakia,3/18/20,0,SVK
+Slovakia,3/19/20,0,SVK
+Slovakia,3/2/20,0,SVK
+Slovakia,3/20/20,0,SVK
+Slovakia,3/21/20,0,SVK
+Slovakia,3/22/20,0,SVK
+Slovakia,3/23/20,0,SVK
+Slovakia,3/24/20,0,SVK
+Slovakia,3/25/20,0,SVK
+Slovakia,3/26/20,0,SVK
+Slovakia,3/27/20,0,SVK
+Slovakia,3/28/20,0,SVK
+Slovakia,3/29/20,0,SVK
+Slovakia,3/30/20,0,SVK
+Slovakia,3/5/20,0,SVK
+Slovakia,3/6/20,0,SVK
+Slovakia,3/8/20,0,SVK
+Slovakia,3/9/20,1,SVK
+Slovakia,4/2/20,1,SVK
+Slovenia,1/23/20,0,SVN
+Slovenia,2/2/20,0,SVN
+Slovenia,2/23/20,0,SVN
+Slovenia,2/25/20,0,SVN
+Slovenia,2/27/20,0,SVN
+Slovenia,3/10/20,0,SVN
+Slovenia,3/11/20,1,SVN
+Slovenia,3/12/20,1,SVN
+Slovenia,3/13/20,1,SVN
+Slovenia,3/14/20,1,SVN
+Slovenia,3/15/20,1,SVN
+Slovenia,3/16/20,1,SVN
+Slovenia,3/17/20,1,SVN
+Slovenia,3/18/20,1,SVN
+Slovenia,3/19/20,1,SVN
+Slovenia,3/2/20,1,SVN
+Slovenia,3/20/20,1,SVN
+Slovenia,3/21/20,1,SVN
+Slovenia,3/22/20,1,SVN
+Slovenia,3/23/20,1,SVN
+Slovenia,3/24/20,1,SVN
+Slovenia,3/25/20,1,SVN
+Slovenia,3/26/20,1,SVN
+Slovenia,3/27/20,1,SVN
+Slovenia,3/28/20,1,SVN
+Slovenia,3/29/20,1,SVN
+Slovenia,3/30/20,1,SVN
+Slovenia,3/5/20,1,SVN
+Slovenia,3/6/20,1,SVN
+Slovenia,3/8/20,1,SVN
+Slovenia,3/9/20,1,SVN
+Slovenia,4/2/20,1,SVN
+Somalia,1/23/20,0,SOM
+Somalia,2/2/20,0,SOM
+Somalia,2/23/20,0,SOM
+Somalia,2/25/20,0,SOM
+Somalia,2/27/20,0,SOM
+Somalia,3/10/20,0,SOM
+Somalia,3/11/20,0,SOM
+Somalia,3/12/20,0,SOM
+Somalia,3/13/20,0,SOM
+Somalia,3/14/20,0,SOM
+Somalia,3/15/20,0,SOM
+Somalia,3/16/20,0,SOM
+Somalia,3/17/20,0,SOM
+Somalia,3/18/20,0,SOM
+Somalia,3/19/20,1,SOM
+Somalia,3/2/20,1,SOM
+Somalia,3/20/20,1,SOM
+Somalia,3/21/20,1,SOM
+Somalia,3/22/20,1,SOM
+Somalia,3/23/20,1,SOM
+Somalia,3/24/20,1,SOM
+Somalia,3/25/20,1,SOM
+Somalia,3/26/20,1,SOM
+Somalia,3/27/20,1,SOM
+Somalia,3/28/20,1,SOM
+Somalia,3/29/20,1,SOM
+Somalia,3/30/20,1,SOM
+Somalia,3/5/20,1,SOM
+Somalia,3/6/20,1,SOM
+Somalia,3/8/20,1,SOM
+Somalia,3/9/20,1,SOM
+Somalia,4/2/20,1,SOM
+South Africa,1/23/20,0,ZAF
+South Africa,2/2/20,0,ZAF
+South Africa,2/23/20,0,ZAF
+South Africa,2/25/20,0,ZAF
+South Africa,2/27/20,0,ZAF
+South Africa,3/10/20,0,ZAF
+South Africa,3/11/20,0,ZAF
+South Africa,3/12/20,0,ZAF
+South Africa,3/13/20,0,ZAF
+South Africa,3/14/20,0,ZAF
+South Africa,3/15/20,0,ZAF
+South Africa,3/16/20,0,ZAF
+South Africa,3/17/20,0,ZAF
+South Africa,3/18/20,0,ZAF
+South Africa,3/19/20,0,ZAF
+South Africa,3/2/20,0,ZAF
+South Africa,3/20/20,0,ZAF
+South Africa,3/21/20,0,ZAF
+South Africa,3/22/20,0,ZAF
+South Africa,3/23/20,0,ZAF
+South Africa,3/24/20,0,ZAF
+South Africa,3/25/20,0,ZAF
+South Africa,3/26/20,1,ZAF
+South Africa,3/27/20,1,ZAF
+South Africa,3/28/20,1,ZAF
+South Africa,3/29/20,1,ZAF
+South Africa,3/30/20,1,ZAF
+South Africa,3/5/20,1,ZAF
+South Africa,3/6/20,1,ZAF
+South Africa,3/8/20,1,ZAF
+South Africa,3/9/20,1,ZAF
+South Africa,4/2/20,1,ZAF
+South Korea,1/23/20,0,KOR
+South Korea,2/2/20,0,KOR
+South Korea,2/23/20,1,KOR
+South Korea,2/25/20,1,KOR
+South Korea,2/27/20,1,KOR
+South Korea,3/10/20,1,KOR
+South Korea,3/11/20,1,KOR
+South Korea,3/12/20,1,KOR
+South Korea,3/13/20,1,KOR
+South Korea,3/14/20,1,KOR
+South Korea,3/15/20,1,KOR
+South Korea,3/16/20,1,KOR
+South Korea,3/17/20,1,KOR
+South Korea,3/18/20,1,KOR
+South Korea,3/19/20,1,KOR
+South Korea,3/2/20,1,KOR
+South Korea,3/20/20,1,KOR
+South Korea,3/21/20,1,KOR
+South Korea,3/22/20,1,KOR
+South Korea,3/23/20,1,KOR
+South Korea,3/24/20,1,KOR
+South Korea,3/25/20,1,KOR
+South Korea,3/26/20,1,KOR
+South Korea,3/27/20,1,KOR
+South Korea,3/28/20,1,KOR
+South Korea,3/29/20,1,KOR
+South Korea,3/30/20,1,KOR
+South Korea,3/5/20,1,KOR
+South Korea,3/6/20,1,KOR
+South Korea,3/8/20,1,KOR
+South Korea,3/9/20,1,KOR
+South Korea,4/2/20,1,KOR
+Spain,1/23/20,0,ESP
+Spain,2/2/20,0,ESP
+Spain,2/23/20,0,ESP
+Spain,2/25/20,0,ESP
+Spain,2/27/20,0,ESP
+Spain,3/10/20,0,ESP
+Spain,3/11/20,0,ESP
+Spain,3/12/20,0,ESP
+Spain,3/13/20,0,ESP
+Spain,3/14/20,1,ESP
+Spain,3/15/20,1,ESP
+Spain,3/16/20,1,ESP
+Spain,3/17/20,1,ESP
+Spain,3/18/20,1,ESP
+Spain,3/19/20,1,ESP
+Spain,3/2/20,1,ESP
+Spain,3/20/20,1,ESP
+Spain,3/21/20,1,ESP
+Spain,3/22/20,1,ESP
+Spain,3/23/20,1,ESP
+Spain,3/24/20,1,ESP
+Spain,3/25/20,1,ESP
+Spain,3/26/20,1,ESP
+Spain,3/27/20,1,ESP
+Spain,3/28/20,1,ESP
+Spain,3/29/20,1,ESP
+Spain,3/30/20,1,ESP
+Spain,3/5/20,1,ESP
+Spain,3/6/20,1,ESP
+Spain,3/8/20,1,ESP
+Spain,3/9/20,1,ESP
+Spain,4/2/20,1,ESP
+Sri Lanka,1/23/20,0,LKA
+Sri Lanka,2/2/20,0,LKA
+Sri Lanka,2/23/20,0,LKA
+Sri Lanka,2/25/20,0,LKA
+Sri Lanka,2/27/20,0,LKA
+Sri Lanka,3/10/20,0,LKA
+Sri Lanka,3/11/20,0,LKA
+Sri Lanka,3/12/20,0,LKA
+Sri Lanka,3/13/20,0,LKA
+Sri Lanka,3/14/20,0,LKA
+Sri Lanka,3/15/20,0,LKA
+Sri Lanka,3/16/20,0,LKA
+Sri Lanka,3/17/20,0,LKA
+Sri Lanka,3/18/20,0,LKA
+Sri Lanka,3/19/20,0,LKA
+Sri Lanka,3/2/20,0,LKA
+Sri Lanka,3/20/20,0,LKA
+Sri Lanka,3/21/20,1,LKA
+Sri Lanka,3/22/20,1,LKA
+Sri Lanka,3/23/20,1,LKA
+Sri Lanka,3/24/20,1,LKA
+Sri Lanka,3/25/20,1,LKA
+Sri Lanka,3/26/20,1,LKA
+Sri Lanka,3/27/20,1,LKA
+Sri Lanka,3/28/20,1,LKA
+Sri Lanka,3/29/20,1,LKA
+Sri Lanka,3/30/20,1,LKA
+Sri Lanka,3/5/20,1,LKA
+Sri Lanka,3/6/20,1,LKA
+Sri Lanka,3/8/20,1,LKA
+Sri Lanka,3/9/20,1,LKA
+Sri Lanka,4/2/20,1,LKA
+Switzerland,1/23/20,0,CHE
+Switzerland,2/2/20,0,CHE
+Switzerland,2/23/20,0,CHE
+Switzerland,2/25/20,0,CHE
+Switzerland,2/27/20,0,CHE
+Switzerland,3/10/20,0,CHE
+Switzerland,3/11/20,0,CHE
+Switzerland,3/12/20,0,CHE
+Switzerland,3/13/20,0,CHE
+Switzerland,3/14/20,0,CHE
+Switzerland,3/15/20,0,CHE
+Switzerland,3/16/20,0,CHE
+Switzerland,3/17/20,0,CHE
+Switzerland,3/18/20,1,CHE
+Switzerland,3/19/20,1,CHE
+Switzerland,3/2/20,1,CHE
+Switzerland,3/20/20,1,CHE
+Switzerland,3/21/20,1,CHE
+Switzerland,3/22/20,1,CHE
+Switzerland,3/23/20,1,CHE
+Switzerland,3/24/20,1,CHE
+Switzerland,3/25/20,1,CHE
+Switzerland,3/26/20,1,CHE
+Switzerland,3/27/20,1,CHE
+Switzerland,3/28/20,1,CHE
+Switzerland,3/29/20,1,CHE
+Switzerland,3/30/20,1,CHE
+Switzerland,3/5/20,1,CHE
+Switzerland,3/6/20,1,CHE
+Switzerland,3/8/20,1,CHE
+Switzerland,3/9/20,1,CHE
+Switzerland,4/2/20,1,CHE
+Syrian Arab Republic,1/23/20,0,SYR
+Syrian Arab Republic,2/2/20,0,SYR
+Syrian Arab Republic,2/23/20,0,SYR
+Syrian Arab Republic,2/25/20,0,SYR
+Syrian Arab Republic,2/27/20,0,SYR
+Syrian Arab Republic,3/10/20,0,SYR
+Syrian Arab Republic,3/11/20,0,SYR
+Syrian Arab Republic,3/12/20,0,SYR
+Syrian Arab Republic,3/13/20,0,SYR
+Syrian Arab Republic,3/14/20,1,SYR
+Syrian Arab Republic,3/15/20,1,SYR
+Syrian Arab Republic,3/16/20,1,SYR
+Syrian Arab Republic,3/17/20,1,SYR
+Syrian Arab Republic,3/18/20,1,SYR
+Syrian Arab Republic,3/19/20,1,SYR
+Syrian Arab Republic,3/2/20,1,SYR
+Syrian Arab Republic,3/20/20,1,SYR
+Syrian Arab Republic,3/21/20,1,SYR
+Syrian Arab Republic,3/22/20,1,SYR
+Syrian Arab Republic,3/23/20,1,SYR
+Syrian Arab Republic,3/24/20,1,SYR
+Syrian Arab Republic,3/25/20,1,SYR
+Syrian Arab Republic,3/26/20,1,SYR
+Syrian Arab Republic,3/27/20,1,SYR
+Syrian Arab Republic,3/28/20,1,SYR
+Syrian Arab Republic,3/29/20,1,SYR
+Syrian Arab Republic,3/30/20,1,SYR
+Syrian Arab Republic,3/5/20,1,SYR
+Syrian Arab Republic,3/6/20,1,SYR
+Syrian Arab Republic,3/8/20,1,SYR
+Syrian Arab Republic,3/9/20,1,SYR
+Syrian Arab Republic,4/2/20,1,SYR
+Taiwan*,1/23/20,0,TWN
+Taiwan*,2/2/20,1,TWN
+Taiwan*,2/23/20,1,TWN
+Taiwan*,2/25/20,1,TWN
+Taiwan*,2/27/20,1,TWN
+Taiwan*,3/10/20,1,TWN
+Taiwan*,3/11/20,1,TWN
+Taiwan*,3/12/20,1,TWN
+Taiwan*,3/13/20,1,TWN
+Taiwan*,3/14/20,1,TWN
+Taiwan*,3/15/20,1,TWN
+Taiwan*,3/16/20,1,TWN
+Taiwan*,3/17/20,1,TWN
+Taiwan*,3/18/20,1,TWN
+Taiwan*,3/19/20,1,TWN
+Taiwan*,3/2/20,1,TWN
+Taiwan*,3/20/20,1,TWN
+Taiwan*,3/21/20,1,TWN
+Taiwan*,3/22/20,1,TWN
+Taiwan*,3/23/20,1,TWN
+Taiwan*,3/24/20,1,TWN
+Taiwan*,3/25/20,1,TWN
+Taiwan*,3/26/20,1,TWN
+Taiwan*,3/27/20,1,TWN
+Taiwan*,3/28/20,1,TWN
+Taiwan*,3/29/20,1,TWN
+Taiwan*,3/30/20,1,TWN
+Taiwan*,3/5/20,1,TWN
+Taiwan*,3/6/20,1,TWN
+Taiwan*,3/8/20,1,TWN
+Taiwan*,3/9/20,1,TWN
+Taiwan*,4/2/20,1,TWN
+Thailand,1/23/20,0,THA
+Thailand,2/2/20,0,THA
+Thailand,2/23/20,0,THA
+Thailand,2/25/20,0,THA
+Thailand,2/27/20,0,THA
+Thailand,3/10/20,0,THA
+Thailand,3/11/20,0,THA
+Thailand,3/12/20,0,THA
+Thailand,3/13/20,0,THA
+Thailand,3/14/20,0,THA
+Thailand,3/15/20,0,THA
+Thailand,3/16/20,0,THA
+Thailand,3/17/20,0,THA
+Thailand,3/18/20,0,THA
+Thailand,3/19/20,0,THA
+Thailand,3/2/20,0,THA
+Thailand,3/20/20,0,THA
+Thailand,3/21/20,0,THA
+Thailand,3/22/20,1,THA
+Thailand,3/23/20,1,THA
+Thailand,3/24/20,1,THA
+Thailand,3/25/20,1,THA
+Thailand,3/26/20,1,THA
+Thailand,3/27/20,1,THA
+Thailand,3/28/20,1,THA
+Thailand,3/29/20,1,THA
+Thailand,3/30/20,1,THA
+Thailand,3/5/20,1,THA
+Thailand,3/6/20,1,THA
+Thailand,3/8/20,1,THA
+Thailand,3/9/20,1,THA
+Thailand,4/2/20,1,THA
+Togo,1/23/20,0,TGO
+Togo,2/2/20,0,TGO
+Togo,2/23/20,0,TGO
+Togo,2/25/20,0,TGO
+Togo,2/27/20,0,TGO
+Togo,3/10/20,0,TGO
+Togo,3/11/20,0,TGO
+Togo,3/12/20,0,TGO
+Togo,3/13/20,0,TGO
+Togo,3/14/20,0,TGO
+Togo,3/15/20,0,TGO
+Togo,3/16/20,0,TGO
+Togo,3/17/20,0,TGO
+Togo,3/18/20,0,TGO
+Togo,3/19/20,0,TGO
+Togo,3/2/20,0,TGO
+Togo,3/20/20,0.5,TGO
+Togo,3/21/20,0.5,TGO
+Togo,3/22/20,0.5,TGO
+Togo,3/23/20,0.5,TGO
+Togo,3/24/20,0.5,TGO
+Togo,3/25/20,0.5,TGO
+Togo,3/26/20,0.5,TGO
+Togo,3/27/20,0.5,TGO
+Togo,3/28/20,0.5,TGO
+Togo,3/29/20,0.5,TGO
+Togo,3/30/20,0.5,TGO
+Togo,3/5/20,0.5,TGO
+Togo,3/6/20,0.5,TGO
+Togo,3/8/20,0.5,TGO
+Togo,3/9/20,0.5,TGO
+Togo,4/2/20,0.5,TGO
+Trinidad and Tobago,1/23/20,0,TTO
+Trinidad and Tobago,2/2/20,0,TTO
+Trinidad and Tobago,2/23/20,0,TTO
+Trinidad and Tobago,2/25/20,0,TTO
+Trinidad and Tobago,2/27/20,0,TTO
+Trinidad and Tobago,3/10/20,0,TTO
+Trinidad and Tobago,3/11/20,0,TTO
+Trinidad and Tobago,3/12/20,0,TTO
+Trinidad and Tobago,3/13/20,1,TTO
+Trinidad and Tobago,3/14/20,1,TTO
+Trinidad and Tobago,3/15/20,1,TTO
+Trinidad and Tobago,3/16/20,1,TTO
+Trinidad and Tobago,3/17/20,1,TTO
+Trinidad and Tobago,3/18/20,1,TTO
+Trinidad and Tobago,3/19/20,1,TTO
+Trinidad and Tobago,3/2/20,1,TTO
+Trinidad and Tobago,3/20/20,1,TTO
+Trinidad and Tobago,3/21/20,1,TTO
+Trinidad and Tobago,3/22/20,1,TTO
+Trinidad and Tobago,3/23/20,1,TTO
+Trinidad and Tobago,3/24/20,1,TTO
+Trinidad and Tobago,3/25/20,1,TTO
+Trinidad and Tobago,3/26/20,1,TTO
+Trinidad and Tobago,3/27/20,1,TTO
+Trinidad and Tobago,3/28/20,1,TTO
+Trinidad and Tobago,3/29/20,1,TTO
+Trinidad and Tobago,3/30/20,1,TTO
+Trinidad and Tobago,3/5/20,1,TTO
+Trinidad and Tobago,3/6/20,1,TTO
+Trinidad and Tobago,3/8/20,1,TTO
+Trinidad and Tobago,3/9/20,1,TTO
+Trinidad and Tobago,4/2/20,1,TTO
+Tunisia,1/23/20,0,TUN
+Tunisia,2/2/20,0,TUN
+Tunisia,2/23/20,0,TUN
+Tunisia,2/25/20,0,TUN
+Tunisia,2/27/20,0,TUN
+Tunisia,3/10/20,0,TUN
+Tunisia,3/11/20,0,TUN
+Tunisia,3/12/20,0,TUN
+Tunisia,3/13/20,0,TUN
+Tunisia,3/14/20,0,TUN
+Tunisia,3/15/20,0,TUN
+Tunisia,3/16/20,0,TUN
+Tunisia,3/17/20,0,TUN
+Tunisia,3/18/20,0,TUN
+Tunisia,3/19/20,0,TUN
+Tunisia,3/2/20,0,TUN
+Tunisia,3/20/20,1,TUN
+Tunisia,3/21/20,1,TUN
+Tunisia,3/22/20,1,TUN
+Tunisia,3/23/20,1,TUN
+Tunisia,3/24/20,1,TUN
+Tunisia,3/25/20,1,TUN
+Tunisia,3/26/20,1,TUN
+Tunisia,3/27/20,1,TUN
+Tunisia,3/28/20,1,TUN
+Tunisia,3/29/20,1,TUN
+Tunisia,3/30/20,1,TUN
+Tunisia,3/5/20,1,TUN
+Tunisia,3/6/20,1,TUN
+Tunisia,3/8/20,1,TUN
+Tunisia,3/9/20,1,TUN
+Tunisia,4/2/20,1,TUN
+Turkey,1/23/20,0,TUR
+Turkey,2/2/20,0,TUR
+Turkey,2/23/20,0,TUR
+Turkey,2/25/20,0,TUR
+Turkey,2/27/20,0,TUR
+Turkey,3/10/20,0,TUR
+Turkey,3/11/20,0,TUR
+Turkey,3/12/20,0,TUR
+Turkey,3/13/20,0,TUR
+Turkey,3/14/20,0,TUR
+Turkey,3/15/20,0,TUR
+Turkey,3/16/20,0,TUR
+Turkey,3/17/20,0,TUR
+Turkey,3/18/20,0,TUR
+Turkey,3/19/20,0,TUR
+Turkey,3/2/20,0,TUR
+Turkey,3/20/20,0,TUR
+Turkey,3/21/20,0,TUR
+Turkey,3/22/20,0,TUR
+Turkey,3/23/20,1,TUR
+Turkey,3/24/20,1,TUR
+Turkey,3/25/20,1,TUR
+Turkey,3/26/20,1,TUR
+Turkey,3/27/20,1,TUR
+Turkey,3/28/20,1,TUR
+Turkey,3/29/20,1,TUR
+Turkey,3/30/20,1,TUR
+Turkey,3/5/20,1,TUR
+Turkey,3/6/20,1,TUR
+Turkey,3/8/20,1,TUR
+Turkey,3/9/20,1,TUR
+Turkey,4/2/20,1,TUR
+Uganda,1/23/20,0,UGA
+Uganda,2/2/20,0,UGA
+Uganda,2/23/20,0,UGA
+Uganda,2/25/20,0,UGA
+Uganda,2/27/20,0,UGA
+Uganda,3/10/20,0,UGA
+Uganda,3/11/20,0,UGA
+Uganda,3/12/20,0,UGA
+Uganda,3/13/20,0,UGA
+Uganda,3/14/20,0,UGA
+Uganda,3/15/20,0,UGA
+Uganda,3/16/20,0,UGA
+Uganda,3/17/20,0,UGA
+Uganda,3/18/20,1,UGA
+Uganda,3/19/20,1,UGA
+Uganda,3/2/20,1,UGA
+Uganda,3/20/20,1,UGA
+Uganda,3/21/20,1,UGA
+Uganda,3/22/20,1,UGA
+Uganda,3/23/20,1,UGA
+Uganda,3/24/20,1,UGA
+Uganda,3/25/20,1,UGA
+Uganda,3/26/20,1,UGA
+Uganda,3/27/20,1,UGA
+Uganda,3/28/20,1,UGA
+Uganda,3/29/20,1,UGA
+Uganda,3/30/20,1,UGA
+Uganda,3/5/20,1,UGA
+Uganda,3/6/20,1,UGA
+Uganda,3/8/20,1,UGA
+Uganda,3/9/20,1,UGA
+Uganda,4/2/20,1,UGA
+Ukraine,1/23/20,0,UKR
+Ukraine,2/2/20,0,UKR
+Ukraine,2/23/20,0,UKR
+Ukraine,2/25/20,0,UKR
+Ukraine,2/27/20,0,UKR
+Ukraine,3/10/20,0,UKR
+Ukraine,3/11/20,0,UKR
+Ukraine,3/12/20,0,UKR
+Ukraine,3/13/20,0,UKR
+Ukraine,3/14/20,0,UKR
+Ukraine,3/15/20,0,UKR
+Ukraine,3/16/20,0,UKR
+Ukraine,3/17/20,1,UKR
+Ukraine,3/18/20,1,UKR
+Ukraine,3/19/20,1,UKR
+Ukraine,3/2/20,1,UKR
+Ukraine,3/20/20,1,UKR
+Ukraine,3/21/20,1,UKR
+Ukraine,3/22/20,1,UKR
+Ukraine,3/23/20,1,UKR
+Ukraine,3/24/20,1,UKR
+Ukraine,3/25/20,1,UKR
+Ukraine,3/26/20,1,UKR
+Ukraine,3/27/20,1,UKR
+Ukraine,3/28/20,1,UKR
+Ukraine,3/29/20,1,UKR
+Ukraine,3/30/20,1,UKR
+Ukraine,3/5/20,1,UKR
+Ukraine,3/6/20,1,UKR
+Ukraine,3/8/20,1,UKR
+Ukraine,3/9/20,1,UKR
+Ukraine,4/2/20,1,UKR
+United Arab Emirates,1/23/20,0,ARE
+United Arab Emirates,2/2/20,0,ARE
+United Arab Emirates,2/23/20,0,ARE
+United Arab Emirates,2/25/20,0,ARE
+United Arab Emirates,2/27/20,0,ARE
+United Arab Emirates,3/10/20,0,ARE
+United Arab Emirates,3/11/20,0,ARE
+United Arab Emirates,3/12/20,0,ARE
+United Arab Emirates,3/13/20,0,ARE
+United Arab Emirates,3/14/20,0,ARE
+United Arab Emirates,3/15/20,0,ARE
+United Arab Emirates,3/16/20,0,ARE
+United Arab Emirates,3/17/20,0,ARE
+United Arab Emirates,3/18/20,0,ARE
+United Arab Emirates,3/19/20,0,ARE
+United Arab Emirates,3/2/20,0,ARE
+United Arab Emirates,3/20/20,0,ARE
+United Arab Emirates,3/21/20,0,ARE
+United Arab Emirates,3/22/20,0,ARE
+United Arab Emirates,3/23/20,0,ARE
+United Arab Emirates,3/24/20,1,ARE
+United Arab Emirates,3/25/20,1,ARE
+United Arab Emirates,3/26/20,1,ARE
+United Arab Emirates,3/27/20,1,ARE
+United Arab Emirates,3/28/20,1,ARE
+United Arab Emirates,3/29/20,1,ARE
+United Arab Emirates,3/30/20,1,ARE
+United Arab Emirates,3/5/20,1,ARE
+United Arab Emirates,3/6/20,1,ARE
+United Arab Emirates,3/8/20,1,ARE
+United Arab Emirates,3/9/20,1,ARE
+United Arab Emirates,4/2/20,1,ARE
+United Kingdom,1/23/20,0,GBR
+United Kingdom,2/2/20,0,GBR
+United Kingdom,2/23/20,0,GBR
+United Kingdom,2/25/20,0,GBR
+United Kingdom,2/27/20,0,GBR
+United Kingdom,3/10/20,0,GBR
+United Kingdom,3/11/20,0,GBR
+United Kingdom,3/12/20,0,GBR
+United Kingdom,3/13/20,0,GBR
+United Kingdom,3/14/20,0,GBR
+United Kingdom,3/15/20,0,GBR
+United Kingdom,3/16/20,0,GBR
+United Kingdom,3/17/20,0,GBR
+United Kingdom,3/18/20,0.5,GBR
+United Kingdom,3/19/20,0.5,GBR
+United Kingdom,3/2/20,0.5,GBR
+United Kingdom,3/20/20,0.5,GBR
+United Kingdom,3/21/20,0.5,GBR
+United Kingdom,3/22/20,0.5,GBR
+United Kingdom,3/23/20,0.5,GBR
+United Kingdom,3/24/20,0.5,GBR
+United Kingdom,3/25/20,0.5,GBR
+United Kingdom,3/26/20,0.5,GBR
+United Kingdom,3/27/20,0.5,GBR
+United Kingdom,3/28/20,0.5,GBR
+United Kingdom,3/29/20,0.5,GBR
+United Kingdom,3/30/20,0.5,GBR
+United Kingdom,3/5/20,0.5,GBR
+United Kingdom,3/6/20,0.5,GBR
+United Kingdom,3/8/20,0.5,GBR
+United Kingdom,3/9/20,0.5,GBR
+United Kingdom,4/2/20,0.5,GBR
+United States,1/23/20,0,USA
+United States,2/2/20,0,USA
+United States,2/23/20,0,USA
+United States,2/25/20,0,USA
+United States,2/27/20,0,USA
+United States,3/10/20,0,USA
+United States,3/11/20,0,USA
+United States,3/12/20,0,USA
+United States,3/13/20,0,USA
+United States,3/14/20,0,USA
+United States,3/15/20,0,USA
+United States,3/16/20,0,USA
+United States,3/17/20,0,USA
+United States,3/18/20,0,USA
+United States,3/19/20,0.5,USA
+United States,3/2/20,0.5,USA
+United States,3/20/20,0.5,USA
+United States,3/21/20,0.5,USA
+United States,3/22/20,0.5,USA
+United States,3/23/20,0.5,USA
+United States,3/24/20,0.5,USA
+United States,3/25/20,0.5,USA
+United States,3/26/20,0.5,USA
+United States,3/27/20,0.5,USA
+United States,3/28/20,0.5,USA
+United States,3/29/20,0.5,USA
+United States,3/30/20,0.5,USA
+United States,3/5/20,0.5,USA
+United States,3/6/20,0.5,USA
+United States,3/8/20,0.5,USA
+United States,3/9/20,0.5,USA
+United States,4/2/20,0.5,USA
+Uruguay,1/23/20,0,URY
+Uruguay,2/2/20,0,URY
+Uruguay,2/23/20,0,URY
+Uruguay,2/25/20,0,URY
+Uruguay,2/27/20,0,URY
+Uruguay,3/10/20,0,URY
+Uruguay,3/11/20,0,URY
+Uruguay,3/12/20,0,URY
+Uruguay,3/13/20,0,URY
+Uruguay,3/14/20,0,URY
+Uruguay,3/15/20,0,URY
+Uruguay,3/16/20,1,URY
+Uruguay,3/17/20,1,URY
+Uruguay,3/18/20,1,URY
+Uruguay,3/19/20,1,URY
+Uruguay,3/2/20,1,URY
+Uruguay,3/20/20,1,URY
+Uruguay,3/21/20,1,URY
+Uruguay,3/22/20,1,URY
+Uruguay,3/23/20,1,URY
+Uruguay,3/24/20,1,URY
+Uruguay,3/25/20,1,URY
+Uruguay,3/26/20,1,URY
+Uruguay,3/27/20,1,URY
+Uruguay,3/28/20,1,URY
+Uruguay,3/29/20,1,URY
+Uruguay,3/30/20,1,URY
+Uruguay,3/5/20,1,URY
+Uruguay,3/6/20,1,URY
+Uruguay,3/8/20,1,URY
+Uruguay,3/9/20,1,URY
+Uruguay,4/2/20,1,URY
+Uzbekistan,1/23/20,0,UZB
+Uzbekistan,2/2/20,0,UZB
+Uzbekistan,2/23/20,0,UZB
+Uzbekistan,2/25/20,0,UZB
+Uzbekistan,2/27/20,0,UZB
+Uzbekistan,3/10/20,0,UZB
+Uzbekistan,3/11/20,0,UZB
+Uzbekistan,3/12/20,0,UZB
+Uzbekistan,3/13/20,0,UZB
+Uzbekistan,3/14/20,0,UZB
+Uzbekistan,3/15/20,0,UZB
+Uzbekistan,3/16/20,0,UZB
+Uzbekistan,3/17/20,0,UZB
+Uzbekistan,3/18/20,0,UZB
+Uzbekistan,3/19/20,0,UZB
+Uzbekistan,3/2/20,0,UZB
+Uzbekistan,3/20/20,0.5,UZB
+Uzbekistan,3/21/20,0.5,UZB
+Uzbekistan,3/22/20,0.5,UZB
+Uzbekistan,3/23/20,0.5,UZB
+Uzbekistan,3/24/20,0.5,UZB
+Uzbekistan,3/25/20,0.5,UZB
+Uzbekistan,3/26/20,0.5,UZB
+Uzbekistan,3/27/20,0.5,UZB
+Uzbekistan,3/28/20,0.5,UZB
+Uzbekistan,3/29/20,0.5,UZB
+Uzbekistan,3/30/20,0.5,UZB
+Uzbekistan,3/5/20,0.5,UZB
+Uzbekistan,3/6/20,0.5,UZB
+Uzbekistan,3/8/20,0.5,UZB
+Uzbekistan,3/9/20,0.5,UZB
+Uzbekistan,4/2/20,0.5,UZB
+Venezuela,1/23/20,0,VEN
+Venezuela,2/2/20,0,VEN
+Venezuela,2/23/20,0,VEN
+Venezuela,2/25/20,0,VEN
+Venezuela,2/27/20,0,VEN
+Venezuela,3/10/20,0,VEN
+Venezuela,3/11/20,0,VEN
+Venezuela,3/12/20,0,VEN
+Venezuela,3/13/20,0,VEN
+Venezuela,3/14/20,0,VEN
+Venezuela,3/15/20,0,VEN
+Venezuela,3/16/20,1,VEN
+Venezuela,3/17/20,1,VEN
+Venezuela,3/18/20,1,VEN
+Venezuela,3/19/20,1,VEN
+Venezuela,3/2/20,1,VEN
+Venezuela,3/20/20,1,VEN
+Venezuela,3/21/20,1,VEN
+Venezuela,3/22/20,1,VEN
+Venezuela,3/23/20,1,VEN
+Venezuela,3/24/20,1,VEN
+Venezuela,3/25/20,1,VEN
+Venezuela,3/26/20,1,VEN
+Venezuela,3/27/20,1,VEN
+Venezuela,3/28/20,1,VEN
+Venezuela,3/29/20,1,VEN
+Venezuela,3/30/20,1,VEN
+Venezuela,3/5/20,1,VEN
+Venezuela,3/6/20,1,VEN
+Venezuela,3/8/20,1,VEN
+Venezuela,3/9/20,1,VEN
+Venezuela,4/2/20,1,VEN
+Vietnam,1/23/20,0,VNM
+Vietnam,2/2/20,0,VNM
+Vietnam,2/23/20,0,VNM
+Vietnam,2/25/20,0,VNM
+Vietnam,2/27/20,0,VNM
+Vietnam,3/10/20,0,VNM
+Vietnam,3/11/20,0,VNM
+Vietnam,3/12/20,0,VNM
+Vietnam,3/13/20,0,VNM
+Vietnam,3/14/20,0,VNM
+Vietnam,3/15/20,0,VNM
+Vietnam,3/16/20,0,VNM
+Vietnam,3/17/20,0,VNM
+Vietnam,3/18/20,0,VNM
+Vietnam,3/19/20,1,VNM
+Vietnam,3/2/20,1,VNM
+Vietnam,3/20/20,1,VNM
+Vietnam,3/21/20,1,VNM
+Vietnam,3/22/20,1,VNM
+Vietnam,3/23/20,1,VNM
+Vietnam,3/24/20,1,VNM
+Vietnam,3/25/20,1,VNM
+Vietnam,3/26/20,1,VNM
+Vietnam,3/27/20,1,VNM
+Vietnam,3/28/20,1,VNM
+Vietnam,3/29/20,1,VNM
+Vietnam,3/30/20,1,VNM
+Vietnam,3/5/20,1,VNM
+Vietnam,3/6/20,1,VNM
+Vietnam,3/8/20,1,VNM
+Vietnam,3/9/20,1,VNM
+Vietnam,4/2/20,1,VNM
+Zimbabwe,1/23/20,0,ZWE
+Zimbabwe,2/2/20,0,ZWE
+Zimbabwe,2/23/20,0,ZWE
+Zimbabwe,2/25/20,0,ZWE
+Zimbabwe,2/27/20,0,ZWE
+Zimbabwe,3/10/20,0,ZWE
+Zimbabwe,3/11/20,0,ZWE
+Zimbabwe,3/12/20,0,ZWE
+Zimbabwe,3/13/20,0,ZWE
+Zimbabwe,3/14/20,0,ZWE
+Zimbabwe,3/15/20,0,ZWE
+Zimbabwe,3/16/20,0,ZWE
+Zimbabwe,3/17/20,0,ZWE
+Zimbabwe,3/18/20,0,ZWE
+Zimbabwe,3/19/20,0,ZWE
+Zimbabwe,3/2/20,0,ZWE
+Zimbabwe,3/20/20,0,ZWE
+Zimbabwe,3/21/20,0,ZWE
+Zimbabwe,3/22/20,0,ZWE
+Zimbabwe,3/23/20,0,ZWE
+Zimbabwe,3/24/20,0,ZWE
+Zimbabwe,3/25/20,0,ZWE
+Zimbabwe,3/26/20,0,ZWE
+Zimbabwe,3/27/20,1,ZWE
+Zimbabwe,3/28/20,1,ZWE
+Zimbabwe,3/29/20,1,ZWE
+Zimbabwe,3/30/20,1,ZWE
+Zimbabwe,3/5/20,1,ZWE
+Zimbabwe,3/6/20,1,ZWE
+Zimbabwe,3/8/20,1,ZWE
+Zimbabwe,3/9/20,1,ZWE
+Zimbabwe,4/2/20,1,ZWE
+Brazil,1/23/20,0,BRA
+Brazil,2/2/20,0,BRA
+Brazil,2/23/20,0,BRA
+Brazil,2/25/20,0,BRA
+Brazil,2/27/20,0,BRA
+Brazil,3/10/20,0,BRA
+Brazil,3/11/20,0,BRA
+Brazil,3/12/20,0,BRA
+Brazil,3/13/20,0,BRA
+Brazil,3/14/20,0,BRA
+Brazil,3/15/20,0,BRA
+Brazil,3/16/20,0,BRA
+Brazil,3/17/20,0,BRA
+Brazil,3/18/20,0,BRA
+Brazil,3/19/20,0,BRA
+Brazil,3/2/20,0,BRA
+Brazil,3/20/20,0,BRA
+Brazil,3/21/20,0,BRA
+Brazil,3/22/20,0,BRA
+Brazil,3/23/20,0,BRA
+Brazil,3/24/20,0,BRA
+Brazil,3/25/20,0,BRA
+Brazil,3/26/20,0,BRA
+Brazil,3/27/20,0,BRA
+Brazil,3/28/20,0,BRA
+Brazil,3/29/20,0,BRA
+Brazil,3/30/20,0,BRA
+Brazil,3/5/20,0,BRA
+Brazil,3/6/20,0,BRA
+Brazil,3/8/20,0,BRA
+Brazil,3/9/20,0,BRA
+Brazil,4/2/20,0,BRA
